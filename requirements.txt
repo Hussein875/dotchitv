@@ -1,0 +1,8 @@
+Pillow>=10.0
+numpy>=1.22
+# Liefert eine fertige FFmpeg-Datei mit
+imageio-ffmpeg>=0.4.9
+# Metricool-/Excel-Export
+openpyxl>=3.0
+# Sichere Verbindungen (ElevenLabs) mit dem python.org-Python auf dem Mac
+certifi>=2023.0

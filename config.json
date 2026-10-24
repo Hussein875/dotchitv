@@ -1,0 +1,47 @@
+{
+  "kanal": "Dotchi",
+  "handle": "@dotchitv",
+  "stimme": {
+    "voice_id": "muSxG4dqYjBCkbpXqbEl",
+    "modell": "eleven_multilingual_v2",
+    "einstellungen": {
+      "stability": 0.4,
+      "similarity_boost": 0.8,
+      "style": 0.35,
+      "use_speaker_boost": true
+    }
+  },
+  "audio": {
+    "musik_unter_stimme": 0.3,
+    "musik_ohne_stimme": 0.8,
+    "effekte": 1.0,
+    "lautheit_lufs": -14
+  },
+  "video": {
+    "fps": 30,
+    "loop": 0.3
+  },
+  "themen": {
+    "geld": {"farbe": "rot", "hashtags": ["#geld", "#sparen", "#finanzen"]},
+    "zeit": {"farbe": "blau", "hashtags": ["#zeit", "#alltag", "#produktivität"]},
+    "essen": {"farbe": "orange", "hashtags": ["#essen", "#foodfacts", "#ernährung"]},
+    "strom": {"farbe": "gold", "hashtags": ["#strom", "#energie", "#stromsparen"]},
+    "technik": {"farbe": "lila", "hashtags": ["#technik", "#handy", "#tech"]},
+    "alltag": {"farbe": "gruen", "hashtags": ["#alltag", "#lifehacks", "#wusstestdu"]}
+  },
+  "hashtags_allgemein": ["#dotchi", "#vergleich", "#fürdich"],
+  "hashtags_anzahl": 6,
+  "ausgabe": {
+    "ordner": "output",
+    "drive_ordner": "Dotchi Videos"
+  },
+  "plan": {
+    "uhrzeiten": ["17:30", "20:30"]
+  },
+  "metricool": {
+    "marke": "Dotchi",
+    "youtube_kategorie": "EDUCATION",
+    "youtube_tags": ["vergleich", "alltag", "geld", "sparen", "fakten", "shorts"],
+    "ki_stimme": true
+  }
+}
