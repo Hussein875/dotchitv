@@ -50,7 +50,7 @@ python3 generate.py --drive         # fertige Videos (noch einmal) nach Google D
 python3 generate.py --plan 7        # Posting-Plan + Metricool-CSV (lokal)
 python3 generate.py --plan 7 --nur-drive   # dasselbe in der Cloud: fertig ist, was in drive_links.json steht
 python3 generate.py --check         # Installation prüfen
-python3 tools/logo.py               # Marke, Profilbild und YouTube-Banner neu zeichnen (braucht japanische Schrift)
+python3 tools/logo.py               # Marke, Profilbilder (profilbild.png, profilbild_tiktok.png) und YouTube-Banner neu zeichnen
 ```
 
 Ausgabe pro Vergleich in `output/`: `001_kaffee-to-go-vs-zuhause.mp4`, Vorschaubild `.png` und `_caption.txt`.

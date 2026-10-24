@@ -83,6 +83,17 @@ def profilbild():
     bild.convert("RGB").save(os.path.join(ZIEL, "profilbild.png"))
 
 
+def profilbild_gross():
+    """Variante für kleine Anzeigen (TikTok-Kommentare usw.): große Waage + großer Schriftzug, ohne Japanisch."""
+    s = 1080
+    bild = hintergrund(s, s)
+    w = waage(640)
+    bild.alpha_composite(glow(w, GOLD, 22), (220, 70))
+    bild.alpha_composite(w, (220, 70))
+    ImageDraw.Draw(bild).text((s / 2, 790), "DOTCHI", font=ImageFont.truetype(FETT, 172), fill=GOLD, anchor="mm")
+    bild.convert("RGB").save(os.path.join(ZIEL, "profilbild_tiktok.png"))
+
+
 def banner():
     b, h = 2560, 1440  # sicherer Bereich in der Mitte: 1546 x 423
     bild = hintergrund(b, h)
@@ -105,5 +116,6 @@ if __name__ == "__main__":
     os.makedirs(ZIEL, exist_ok=True)
     marke()
     profilbild()
+    profilbild_gross()
     banner()
-    print("✓ assets/logo/marke.png, profilbild.png, youtube_banner.png")
+    print("✓ assets/logo/marke.png, profilbild.png, profilbild_tiktok.png, youtube_banner.png")
