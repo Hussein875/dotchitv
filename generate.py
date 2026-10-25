@@ -326,6 +326,55 @@ def plan_als_excel(pfad, posts, cfg):
     mappe.save(pfad)
 
 
+def uebersicht_excel(vergleiche, cfg, ausgabe):
+    """Alle Vergleiche mit Status plus offene Ideen aus IDEEN.md – verändert keine Repo-Dateien."""
+    import openpyxl
+    from openpyxl.styles import Alignment, Font, PatternFill
+    jetzt = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
+    mappe = openpyxl.Workbook()
+
+    def blatt_anlegen(blatt, spalten):
+        blatt.append([name for name, _ in spalten])
+        for i, (_, breite) in enumerate(spalten, start=1):
+            blatt.column_dimensions[openpyxl.utils.get_column_letter(i)].width = breite
+        for zelle in blatt[1]:
+            zelle.font = Font(bold=True, color="141418")
+            zelle.fill = PatternFill("solid", fgColor="FFC83D")
+        blatt.freeze_panes = "A2"
+
+    blatt = mappe.active
+    blatt.title = "Vergleiche"
+    blatt_anlegen(blatt, [("ID", 6), ("Titel", 44), ("Thema", 9), ("Status", 12), ("Termin", 17),
+                          ("Urteil", 26), ("Annahmen / Quelle", 50), ("Caption", 50)])
+    for v in vergleiche:
+        gerendert = os.path.exists(os.path.join(ausgabe, dateiname(v) + ".mp4"))
+        status = ("gepostet" if v["termin"] <= jetzt else "geplant") if v.get("termin") else \
+            ("gerendert" if gerendert else "neu")
+        urteil = next((sz for sz in v["szenen"] if sz["typ"] == "urteil"), None)
+        sieger = urteil[urteil["gewinner"]]["name"] if urteil else ""
+        blatt.append([v["id"], v["titel"], v["thema"], status, v.get("termin") or "", sieger, v.get("fuss", ""),
+                      v.get("caption", "")])
+    blatt.auto_filter.ref = blatt.dimensions
+
+    ideen = mappe.create_sheet("Ideen")
+    blatt_anlegen(ideen, [("Status", 12), ("Idee", 80)])
+    pfad_ideen = os.path.join(BASIS, "IDEEN.md")
+    if os.path.exists(pfad_ideen):
+        abschnitt = None
+        for zeile in open(pfad_ideen, encoding="utf-8"):
+            if zeile.startswith("## "):
+                abschnitt = zeile[3:].strip()
+            elif zeile.startswith("- ") and abschnitt in ("Offen", "Umgesetzt"):
+                ideen.append([abschnitt, zeile[2:].strip()])
+    for b in (blatt, ideen):
+        for zeile in b.iter_rows(min_row=2):
+            for zelle in zeile:
+                zelle.alignment = Alignment(vertical="top", wrap_text=True)
+    pfad = os.path.join(ausgabe, "uebersicht_dotchi.xlsx")
+    mappe.save(pfad)
+    print(f"✓ {os.path.relpath(pfad, BASIS)} – {len(vergleiche)} Vergleiche + Ideen")
+
+
 # Spalten exakt wie in Metricools Vorlage (Kalender → ⋮ → CSV importieren → Vorlage herunterladen)
 METRICOOL_SPALTEN = (
     "Text,Date,Time,Draft,Facebook,Twitter/X,LinkedIn,GBP,Instagram,Pinterest,TikTok,Youtube,Threads,Bluesky,"
@@ -397,6 +446,8 @@ def main():
     parser.add_argument("--ohne-stimme", action="store_true", help="Video ohne Stimme (nur Musik und Effekte)")
     parser.add_argument("--liste", action="store_true", help="alle Vergleiche mit Status anzeigen")
     parser.add_argument("--check", action="store_true", help="Installation prüfen")
+    parser.add_argument("--uebersicht", action="store_true",
+                        help="Excel mit allen Vergleichen (Status, Termin, Urteil) und Ideen → output/uebersicht_dotchi.xlsx")
     parser.add_argument("--drive", action="store_true", help="fertige Videos in den Google-Drive-Ordner kopieren")
     parser.add_argument("--plan", type=int, metavar="TAGE", help="Posting-Plan + Metricool-CSV für so viele Tage")
     parser.add_argument("--start", help="erster Tag für --plan (JJJJ-MM-TT); Standard: heute bzw. nach dem letzten Termin")
@@ -421,6 +472,11 @@ def main():
             status = ("gepostet" if v["termin"] <= jetzt else f"geplant {v['termin']}") if v.get("termin") else \
                 ("gerendert" if gerendert else "neu")
             print(f"{v['id']:>4}  {status:<24} {v['thema']:<8} {v['titel']}")
+        return
+
+    if args.uebersicht:
+        os.makedirs(ausgabe, exist_ok=True)
+        uebersicht_excel(vergleiche, cfg, ausgabe)
         return
 
     if args.drive:

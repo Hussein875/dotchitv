@@ -47,6 +47,7 @@ python3 generate.py --id 3 7        # nur diese (auch neu rendern)
 python3 generate.py --vorschau      # Kontaktbögen aller Szenen ohne Stimme (keine Credits) → output/*_vorschau.png
 python3 generate.py --ohne-stimme   # Video nur mit Musik und Effekten
 python3 generate.py --liste         # Status: neu / gerendert / geplant / gepostet
+python3 generate.py --uebersicht    # Excel mit allen Vergleichen + Ideen → output/uebersicht_dotchi.xlsx
 python3 generate.py --drive         # fertige Videos (noch einmal) nach Google Drive kopieren
 python3 generate.py --plan 7        # Posting-Plan + Metricool-CSV (lokal; 12:30, 17:30, 20:30 Uhr)
 python3 generate.py --plan 7 --nur-drive   # dasselbe in der Cloud: fertig ist, was in drive_links.json steht
