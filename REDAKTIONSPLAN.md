@@ -27,6 +27,23 @@ Geld und Zahlen ziehen am meisten – deshalb liegt der Schwerpunkt dort.
 25 % „Was kostet dich X im Jahr?“ (Döner-Muster mit Pointe), 15 % „Damals vs. heute“ oder „In Perspektive“
 („So lange arbeitest du dafür“). Gleiche Themen nie zwei Tage hintereinander.
 
+## Viral-Formate (bevorzugen – mindestens 7 von 21 pro Woche)
+
+Ziel: Themen, die **jeder auf sich bezieht** und zu denen **jeder eine Meinung hat**.
+
+| Format | Beispiele | Daten |
+|---|---|---|
+| 💼 Gehalts-Duelle | „Pflegekraft vs. Polizist – wer verdient mehr?“, „Azubi Bank vs. Azubi Handwerk“, „Lehrer vs. Ingenieur“ | Entgeltatlas der Bundesagentur für Arbeit (Median brutto, Stand angeben), Tarifverträge |
+| 🏙️ Städte-Duelle | „Miete München vs. Leipzig“, „Döner Berlin vs. Hamburg“, „Deutschlandticket vs. Monatskarte früher in Stadt X“ | Mietspiegel/Statistik mit Quelle, sonst Beispielrechnung |
+| 📆 Damals vs. heute | „Döner 2005 vs. heute“, „Kino, Benzin, Miete: 2000 vs. 2026“ | Destatis/Verbraucherpreise, seriöse Quellen – Jahr und Quelle in den Fuß |
+| 🌍 Deutschland vs. Ausland | „Gehalt Deutschland vs. Schweiz“, „Benzin Deutschland vs. Polen“, „Döner Berlin vs. Istanbul“ | offizielle Statistiken, Wechselkurs mit Datum |
+| ⏱️ Arbeitszeit-Rechner | „So lange arbeitest du mit Mindestlohn für ein iPhone / eine PS5 / eine Monatsmiete“ | Mindestlohn (aktueller Stand mit Quelle), Preise als Beispiel |
+
+Regeln dafür: Gehälter immer als **Median brutto** mit Quelle und Stand, keine Einzelpersonen, kein Berufs-Bashing.
+In der Urteils-Szene den Stempel anpassen: `"stempel": "VERDIENT MEHR"`, `"GÜNSTIGER"`, `"TEURER"` statt „BESSERE WAHL“. Nichts Politisches (Bürgergeld, Steuern-Debatten, Parteien).
+Kommentar-Frage passend zum Identitäts-Thema: „Was verdienst du in deinem Job?“, „Aus welcher Stadt kommst du?“,
+„Was hat dein erster Döner gekostet?“.
+
 ## Saison & Anlässe
 
 | Zeitraum | Themen |
