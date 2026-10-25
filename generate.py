@@ -284,15 +284,46 @@ def posting_plan(vergleiche, cfg, tage, uhrzeiten, start, nur_drive):
     speichere_json(GEPLANT_DATEI, {str(v["id"]): v["termin"] for v in sorted(vergleiche, key=lambda x: x["id"])
                                    if v.get("termin")})
     ende = start + datetime.timedelta(days=tage - 1)
+    for alt in glob.glob(os.path.join(ausgabe, "postingplan_dotchi*.xlsx")):
+        os.remove(alt)
+    excel = os.path.join(ausgabe, f"postingplan_dotchi_{start:%d.%m}-{ende:%d.%m}.xlsx")
+    plan_als_excel(excel, posts, cfg)
     dateien, ohne_link = metricool_csv(ausgabe, cfg, posts, start, ende)
     print(f"✓ {len(posts)} Videos auf {start:%d.%m.}–{ende:%d.%m.} verteilt ({', '.join(uhrzeiten)} Uhr) "
-          f"→ output/postingplan.txt")
+          f"→ output/postingplan.txt und {os.path.basename(excel)}")
     for d in dateien:
         print(f"✓ {os.path.relpath(d, BASIS)} – in Metricool: Kalender → ⋮ → CSV importieren")
     if ohne_link:
         print(f"⚠ Kein Drive-Link für {len(ohne_link)} Video(s), fehlen in der CSV: {', '.join(ohne_link)}")
     if len(posts) < tage * len(uhrzeiten):
         print(f"⚠ Nur {len(posts)} von {tage * len(uhrzeiten)} Plätzen belegt – es fehlen fertige Videos.")
+
+
+def plan_als_excel(pfad, posts, cfg):
+    """Übersicht zum Abhaken: Datum, Uhrzeit, Video, Thema, YouTube-Titel, Caption, Annahmen."""
+    import openpyxl
+    from openpyxl.styles import Alignment, Font, PatternFill
+    mappe = openpyxl.Workbook()
+    blatt = mappe.active
+    blatt.title = "Posting-Plan"
+    spalten = [("Datum", 12), ("Tag", 5), ("Uhrzeit", 8), ("Video", 34), ("Thema", 9), ("YouTube-Titel", 42),
+               ("Caption", 60), ("Annahmen / Quelle", 40), ("Eingeplant ✓", 13)]
+    blatt.append([name for name, _ in spalten])
+    for i, (_, breite) in enumerate(spalten, start=1):
+        blatt.column_dimensions[openpyxl.utils.get_column_letter(i)].width = breite
+    for zelle in blatt[1]:
+        zelle.font = Font(bold=True, color="141418")
+        zelle.fill = PatternFill("solid", fgColor="FFC83D")
+    for v, datum, uhrzeit in posts:
+        blatt.append([datum, WOCHENTAGE[datum.weekday()], uhrzeit, f"{dateiname(v)}.mp4", v["thema"], youtube_titel(v),
+                      caption_text(v, cfg), v.get("fuss", ""), ""])
+    for zeile in blatt.iter_rows(min_row=2):
+        zeile[0].number_format = "DD.MM.YYYY"
+        for zelle in zeile:
+            zelle.alignment = Alignment(vertical="top", wrap_text=True)
+    blatt.freeze_panes = "A2"
+    blatt.auto_filter.ref = blatt.dimensions
+    mappe.save(pfad)
 
 
 # Spalten exakt wie in Metricools Vorlage (Kalender → ⋮ → CSV importieren → Vorlage herunterladen)

@@ -36,7 +36,7 @@ python3 generate.py --check
 | jederzeit | du | Ideen in `IDEEN.md` eintragen (auf GitHub → Stift-Symbol) oder Claude schreiben |
 | Fr | Cloud | 21 neue Vergleiche (3 pro Tag): zuerst offene Ideen aus `IDEEN.md`, dann nach `REDAKTIONSPLAN.md` |
 | Fr–So früh | **du am Mac** | `~/Documents/dotchitv/woche.sh` – holt Inhalte und rendert **IQKnacker und Dotchi** |
-| So früh | Cloud | plant die nächste Woche, legt `metricool_dotchi_….csv` in den Drive-Ordner |
+| So früh | Cloud | plant die nächste Woche, legt `metricool_dotchi_….csv` und die Übersicht `postingplan_dotchi_….xlsx` in den Drive-Ordner |
 | So | **du** | Metricool → Kalender → ⋮ → CSV importieren |
 
 ## Befehle
