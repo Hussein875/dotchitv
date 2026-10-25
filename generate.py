@@ -262,11 +262,14 @@ def posting_plan(vergleiche, cfg, tage, uhrzeiten, start, nur_drive):
               and (dateiname(v) + ".mp4" in links if nur_drive
                    else os.path.exists(os.path.join(ausgabe, dateiname(v) + ".mp4")))]
     jetzt = datetime.datetime.now()
+    # Plätze bis zum letzten schon vergebenen Termin sind belegt – nahtlos danach weitermachen
+    belegt_bis = max((v["termin"] for v in vergleiche if v.get("termin")), default="")
     posts, zeilen, letztes_thema = [], [f"POSTING-PLAN Dotchi – {len(uhrzeiten)} Videos pro Tag", "=" * 44, ""], None
     for tag in range(tage):
         datum = start + datetime.timedelta(days=tag)
         for uhrzeit in uhrzeiten:
-            if f"{datum.isoformat()} {uhrzeit}" <= f"{jetzt:%Y-%m-%d %H:%M}" or not fertig:
+            platz = f"{datum.isoformat()} {uhrzeit}"
+            if platz <= f"{jetzt:%Y-%m-%d %H:%M}" or platz <= belegt_bis or not fertig:
                 continue
             # Reihenfolge wie in vergleiche.json (dort steht der Redaktionsplan); Geld darf öfter hintereinander
             # kommen, andere Themen möglichst nicht zweimal am Stück
@@ -500,9 +503,8 @@ def main():
         else:
             letzter = max((v["termin"][:10] for v in vergleiche if v.get("termin")), default=None)
             start = datetime.date.today()
-            if args.nur_drive and letzter:  # Cloud: nahtlos nach dem letzten verplanten Tag
-                start = max(start + datetime.timedelta(days=1),
-                            datetime.date.fromisoformat(letzter) + datetime.timedelta(days=1))
+            if args.nur_drive and letzter:  # Cloud: nahtlos ab dem letzten verplanten Tag (freie Plätze dort zuerst)
+                start = max(start, datetime.date.fromisoformat(letzter))
         posting_plan(vergleiche, cfg, args.plan, uhrzeiten, start, args.nur_drive)
         return
 
