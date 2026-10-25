@@ -33,7 +33,8 @@ python3 generate.py --check
 
 | Wann | Wer | Was |
 |---|---|---|
-| Fr | Cloud | schreibt neue Vergleiche in `vergleiche.json` (recherchiert, nachgerechnet) |
+| jederzeit | du | Ideen in `IDEEN.md` eintragen (auf GitHub → Stift-Symbol) oder Claude schreiben |
+| Fr | Cloud | setzt offene Ideen aus `IDEEN.md` um, füllt mit eigenen Vergleichen auf (recherchiert, nachgerechnet) |
 | Fr–So früh | **du am Mac** | `~/Documents/dotchitv/woche.sh` – holt Inhalte und rendert **IQKnacker und Dotchi** |
 | So früh | Cloud | plant die nächste Woche, legt `metricool_dotchi_….csv` in den Drive-Ordner |
 | So | **du** | Metricool → Kalender → ⋮ → CSV importieren |
@@ -61,6 +62,7 @@ nur geänderte Sätze werden neu gesprochen.
 
 | Datei | Inhalt | Wer ändert sie |
 |---|---|---|
+| `IDEEN.md` | deine Ideen für neue Vergleiche – werden freitags zuerst umgesetzt | du (auf GitHub) |
 | `vergleiche.json` | alle Videos (Szenen, Texte, Zahlen) | Cloud-Aufgabe / Hand |
 | `config.json` | Stimme, Lautstärken, Themen-Farben, Hashtags, Uhrzeiten, Metricool | Hand |
 | `geplant.json` | geplante Termine je ID – vergangene gelten als gepostet | `--plan` (Cloud) |
