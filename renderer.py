@@ -46,6 +46,7 @@ def zahl_text(wert, einheit="€", dezimalen=None):
 
 
 def text(t, groesse, f=WEISS, akzent=None, breite=900, setzer=fett):
+    t = t.replace(" €", NBSP + "€").replace(" %", NBSP + "%")  # Einheit nie allein in die nächste Zeile
     return setzer.block(t, groesse, breite, f, akzent or farbe("gold"), 1.15)
 
 
@@ -69,8 +70,11 @@ def zeichne_zahl(bild, t, sz):
     p = ease_out(clamp((t - 0.25) / 1.1))
     einheit, dez = sz.get("einheit", "€"), sz.get("dezimalen")
     wert = sz["wert"] * p if p < 1 else sz["wert"]
-    zahl = text(zahl_text(round(wert, dez or 0) if p < 1 else wert, einheit, dez), 190, farbe(sz.get("farbe"), "rot"),
-                breite=1000)
+    anzeige = zahl_text(round(wert, dez or 0) if p < 1 else wert, einheit, dez)
+    groesse = 190
+    while groesse > 90 and fett.wortbreite([(anzeige.replace(NBSP, " "), False)], groesse) > 960:
+        groesse -= 10  # lange Zahlen (z. B. 139.838.160) kleiner setzen statt abschneiden
+    zahl = text(anzeige, groesse, farbe(sz.get("farbe"), "rot"), breite=1000)
     puls = 1 + 0.08 * math.sin(clamp((t - 1.35) / 0.35) * math.pi)
     einfuegen(bild, zahl, (B / 2, 900), deckkraft=clamp((t - 0.2) / 0.2), skalierung=puls)
     y = 1080

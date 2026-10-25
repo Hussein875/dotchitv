@@ -4,27 +4,105 @@
     "titel": "Kaffee to go vs. Zuhause",
     "thema": "geld",
     "caption": "Kaffee to go oder Zuhause – was kostet dich wirklich mehr? ☕🏠",
-    "hashtags": ["#kaffee"],
+    "hashtags": [
+      "#kaffee"
+    ],
     "fuss": "Beispielrechnung · 3,50 € vs. 0,30 € · 220 Arbeitstage",
     "szenen": [
-      {"typ": "titel", "sprich": "Kaffee to go oder Kaffee zu Hause? Der Unterschied ist krasser, als du denkst.",
-       "zeilen": [["*Kaffee to go* ☕", 110], ["vs.", 80], ["*Zuhause* 🏠", 110], ["Was kostet dich mehr?", 64]]},
-      {"typ": "vs", "sprich": "Ein Kaffee to go kostet rund drei Euro fünfzig. Zu Hause sind es etwa dreißig Cent.",
-       "kopf": "Pro Kaffee",
-       "links": {"emoji": "☕", "name": "To go", "farbe": "rot", "wert": 3.5, "unter": "pro Becher"},
-       "rechts": {"emoji": "🏠", "name": "Zuhause", "farbe": "gruen", "wert": 0.3, "unter": "pro Tasse"}},
-      {"typ": "vs", "sprich": "Jeden Arbeitstag, ein Jahr lang: 770 Euro gegen 66 Euro.",
-       "kopf": "Pro Jahr · 220 Arbeitstage", "balken": true,
-       "links": {"emoji": "☕", "name": "To go", "farbe": "rot", "wert": 770},
-       "rechts": {"emoji": "🏠", "name": "Zuhause", "farbe": "gruen", "wert": 66}},
-      {"typ": "zahl", "sprich": "Das sind 704 Euro Unterschied im Jahr. In zehn Jahren über siebentausend.",
-       "oben": "Unterschied pro Jahr", "wert": 704, "unten": ["In 10 Jahren: *7.040 €* 😳"], "unten_ab": 2.2, "min": 4.0},
-      {"typ": "urteil", "sprich": "Also, dotchi? Ganz klar: Zuhause gewinnt.",
-       "links": {"emoji": "☕", "name": "To go"}, "rechts": {"emoji": "🏠", "name": "Zuhause"},
-       "gewinner": "rechts", "spruch": "*Zuhause* gewinnt 🏆"},
-      {"typ": "liste", "sprich": "Und was gönnst du dir jeden Tag? Schreib's in die Kommentare!",
-       "zeilen": ["Was gönnst du dir *jeden Tag*? ☕🥐🥤", "Schreib's in die Kommentare 👇", "Schick das deinem *Kaffee-Junkie* 😏"],
-       "abstand": 0.7}
+      {
+        "typ": "titel",
+        "sprich": "Kaffee to go oder Kaffee zu Hause? Der Unterschied ist krasser, als du denkst.",
+        "zeilen": [
+          [
+            "*Kaffee to go* ☕",
+            110
+          ],
+          [
+            "vs.",
+            80
+          ],
+          [
+            "*Zuhause* 🏠",
+            110
+          ],
+          [
+            "Was kostet dich mehr?",
+            64
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Ein Kaffee to go kostet rund drei Euro fünfzig. Zu Hause sind es etwa dreißig Cent.",
+        "kopf": "Pro Kaffee",
+        "links": {
+          "emoji": "☕",
+          "name": "To go",
+          "farbe": "rot",
+          "wert": 3.5,
+          "unter": "pro Becher"
+        },
+        "rechts": {
+          "emoji": "🏠",
+          "name": "Zuhause",
+          "farbe": "gruen",
+          "wert": 0.3,
+          "unter": "pro Tasse"
+        }
+      },
+      {
+        "typ": "vs",
+        "sprich": "Jeden Arbeitstag, ein Jahr lang: 770 Euro gegen 66 Euro.",
+        "kopf": "Pro Jahr · 220 Arbeitstage",
+        "balken": true,
+        "links": {
+          "emoji": "☕",
+          "name": "To go",
+          "farbe": "rot",
+          "wert": 770
+        },
+        "rechts": {
+          "emoji": "🏠",
+          "name": "Zuhause",
+          "farbe": "gruen",
+          "wert": 66
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 704 Euro Unterschied im Jahr. In zehn Jahren über siebentausend.",
+        "oben": "Unterschied pro Jahr",
+        "wert": 704,
+        "unten": [
+          "In 10 Jahren: *7.040 €* 😳"
+        ],
+        "unten_ab": 2.2,
+        "min": 4.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Also, dotchi? Ganz klar: Zuhause gewinnt.",
+        "links": {
+          "emoji": "☕",
+          "name": "To go"
+        },
+        "rechts": {
+          "emoji": "🏠",
+          "name": "Zuhause"
+        },
+        "gewinner": "rechts",
+        "spruch": "*Zuhause* gewinnt 🏆"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und was gönnst du dir jeden Tag? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Was gönnst du dir *jeden Tag*? ☕🥐🥤",
+          "Schreib's in die Kommentare 👇",
+          "Schick das deinem *Kaffee-Junkie* 😏"
+        ],
+        "abstand": 0.7
+      }
     ]
   },
   {
@@ -32,22 +110,76 @@
     "titel": "Dein Döner-Konto: 780 € im Jahr",
     "thema": "geld",
     "caption": "Was dich dein Döner wirklich kostet 🥙 Lohnt sich das?",
-    "hashtags": ["#döner"],
+    "hashtags": [
+      "#döner"
+    ],
     "fuss": "Beispielrechnung · 2 Döner pro Woche à 7,50 €",
     "szenen": [
-      {"typ": "zahl", "sprich": "Dein Döner kostet dich 780 Euro. Im Jahr.",
-       "oben": "Dein Döner 🥙 kostet dich", "wert": 780, "unten": ["… *im Jahr.* 😳"], "unten_ab": 1.5, "min": 3.0},
-      {"typ": "liste", "sprich": "Zwei Döner pro Woche, je sieben Euro fünfzig, mal 52 Wochen.",
-       "kopf": "So kommt's zustande", "abstand": 0.75, "letzte_gross": true,
-       "zeilen": ["2 Döner pro Woche 🥙🥙", "× 7,50 €", "× 52 Wochen", "= *780 €*"]},
-      {"typ": "liste", "sprich": "Das sind 65 Euro im Monat. In zehn Jahren 7.800 Euro. Oder 1.040 Döner.",
-       "kopf": "Das heißt:", "abstand": 1.6,
-       "zeilen": ["*65 €* im Monat", "*7.800 €* in 10 Jahren", "= *1.040 Döner* 🥙"]},
-      {"typ": "titel", "sprich": "Lohnt sich das? Ehrlich gesagt: absolut.",
-       "zeilen": [["Lohnt sich das? 🤔", 100], ["*Absolut.* 😋", 130]], "verzoegerung": [0, 1.3], "ching": 1.3, "y": 700},
-      {"typ": "liste", "sprich": "Und wie viele sind es bei dir pro Woche? Schreib's in die Kommentare!",
-       "zeilen": ["Wie viele Döner 🥙 isst *du* pro Woche?", "Schreib's in die Kommentare 👇", "Schick das deinem *Döner-Buddy* 😏"],
-       "abstand": 0.7}
+      {
+        "typ": "zahl",
+        "sprich": "Dein Döner kostet dich 780 Euro. Im Jahr.",
+        "oben": "Dein Döner 🥙 kostet dich",
+        "wert": 780,
+        "unten": [
+          "… *im Jahr.* 😳"
+        ],
+        "unten_ab": 1.5,
+        "min": 3.0
+      },
+      {
+        "typ": "liste",
+        "sprich": "Zwei Döner pro Woche, je sieben Euro fünfzig, mal 52 Wochen.",
+        "kopf": "So kommt's zustande",
+        "abstand": 0.75,
+        "letzte_gross": true,
+        "zeilen": [
+          "2 Döner pro Woche 🥙🥙",
+          "× 7,50 €",
+          "× 52 Wochen",
+          "= *780 €*"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Das sind 65 Euro im Monat. In zehn Jahren 7.800 Euro. Oder 1.040 Döner.",
+        "kopf": "Das heißt:",
+        "abstand": 1.6,
+        "zeilen": [
+          "*65 €* im Monat",
+          "*7.800 €* in 10 Jahren",
+          "= *1.040 Döner* 🥙"
+        ]
+      },
+      {
+        "typ": "titel",
+        "sprich": "Lohnt sich das? Ehrlich gesagt: absolut.",
+        "zeilen": [
+          [
+            "Lohnt sich das? 🤔",
+            100
+          ],
+          [
+            "*Absolut.* 😋",
+            130
+          ]
+        ],
+        "verzoegerung": [
+          0,
+          1.3
+        ],
+        "ching": 1.3,
+        "y": 700
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und wie viele sind es bei dir pro Woche? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Wie viele Döner 🥙 isst *du* pro Woche?",
+          "Schreib's in die Kommentare 👇",
+          "Schick das deinem *Döner-Buddy* 😏"
+        ],
+        "abstand": 0.7
+      }
     ]
   },
   {
@@ -55,25 +187,93 @@
     "titel": "Standby vs. Steckerleiste aus",
     "thema": "strom",
     "caption": "Standby kostet dich mehr, als du denkst 🔌 Machst du den Stecker aus?",
-    "hashtags": ["#standby"],
+    "hashtags": [
+      "#standby"
+    ],
     "fuss": "Beispielrechnung · 30 Watt Standby rund um die Uhr · 35 ct/kWh",
     "szenen": [
-      {"typ": "titel", "sprich": "Fernseher, Konsole, Router im Standby. Was kostet dich das eigentlich?",
-       "zeilen": [["📺🎮💡", 120], ["Alles im *Standby*", 100], ["Was kostet dich das?", 64]]},
-      {"typ": "liste", "sprich": "Nehmen wir 30 Watt, rund um die Uhr. Das sind 263 Kilowattstunden im Jahr.",
-       "kopf": "So rechnen wir", "abstand": 0.8, "letzte_gross": true,
-       "zeilen": ["30 Watt Standby ⚡", "× 24 Stunden × 365 Tage", "= *263 kWh* im Jahr"]},
-      {"typ": "vs", "sprich": "Bei 35 Cent pro Kilowattstunde: rund 92 Euro im Jahr. Mit Steckerleiste aus: null.",
-       "kopf": "Pro Jahr", "balken": true,
-       "links": {"emoji": "🔌", "name": "Standby", "farbe": "rot", "wert": 92},
-       "rechts": {"emoji": "💤", "name": "Leiste aus", "farbe": "gruen", "wert": 0}},
-      {"typ": "zahl", "sprich": "In zehn Jahren sind das 920 Euro. Für Strom, den du gar nicht nutzt.",
-       "oben": "In 10 Jahren", "wert": 920, "unten": ["für *nichts*. 🙃"], "unten_ab": 1.8, "min": 3.6},
-      {"typ": "urteil", "sprich": "Dotchi? Die Steckerleiste gewinnt. Klick und weg.",
-       "links": {"emoji": "🔌", "name": "Standby"}, "rechts": {"emoji": "💤", "name": "Leiste aus"},
-       "gewinner": "rechts", "spruch": "*Klick* und weg 💡"},
-      {"typ": "liste", "sprich": "Machst du deine Geräte nachts aus? Schreib's in die Kommentare!",
-       "zeilen": ["Machst du deine Geräte *nachts aus*? 🌙", "Schreib's in die Kommentare 👇"], "abstand": 0.7}
+      {
+        "typ": "titel",
+        "sprich": "Fernseher, Konsole, Router im Standby. Was kostet dich das eigentlich?",
+        "zeilen": [
+          [
+            "📺🎮💡",
+            120
+          ],
+          [
+            "Alles im *Standby*",
+            100
+          ],
+          [
+            "Was kostet dich das?",
+            64
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Nehmen wir 30 Watt, rund um die Uhr. Das sind 263 Kilowattstunden im Jahr.",
+        "kopf": "So rechnen wir",
+        "abstand": 0.8,
+        "letzte_gross": true,
+        "zeilen": [
+          "30 Watt Standby ⚡",
+          "× 24 Stunden × 365 Tage",
+          "= *263 kWh* im Jahr"
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Bei 35 Cent pro Kilowattstunde: rund 92 Euro im Jahr. Mit Steckerleiste aus: null.",
+        "kopf": "Pro Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "🔌",
+          "name": "Standby",
+          "farbe": "rot",
+          "wert": 92
+        },
+        "rechts": {
+          "emoji": "💤",
+          "name": "Leiste aus",
+          "farbe": "gruen",
+          "wert": 0
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In zehn Jahren sind das 920 Euro. Für Strom, den du gar nicht nutzt.",
+        "oben": "In 10 Jahren",
+        "wert": 920,
+        "unten": [
+          "für *nichts*. 🙃"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Die Steckerleiste gewinnt. Klick und weg.",
+        "links": {
+          "emoji": "🔌",
+          "name": "Standby"
+        },
+        "rechts": {
+          "emoji": "💤",
+          "name": "Leiste aus"
+        },
+        "gewinner": "rechts",
+        "spruch": "*Klick* und weg 💡"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Machst du deine Geräte nachts aus? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Machst du deine Geräte *nachts aus*? 🌙",
+          "Schreib's in die Kommentare 👇"
+        ],
+        "abstand": 0.7
+      }
     ]
   },
   {
@@ -81,25 +281,80 @@
     "titel": "3 Stunden Handy am Tag = 45 Tage im Jahr",
     "thema": "zeit",
     "caption": "So viel Lebenszeit steckt in deinem Handy 📱 Wie viel ist es bei dir?",
-    "hashtags": ["#bildschirmzeit", "#handy"],
+    "hashtags": [
+      "#bildschirmzeit",
+      "#handy"
+    ],
     "fuss": "Beispielrechnung · 3 Stunden Bildschirmzeit pro Tag",
     "szenen": [
-      {"typ": "zahl", "sprich": "Drei Stunden Handy am Tag. Weißt du, was das im Jahr ist? 45 Tage.",
-       "oben": "3 Std. Handy 📱 pro Tag =", "wert": 45, "einheit": "Tage", "unten": ["… *im Jahr.* 😳"], "unten_ab": 2.0,
-       "min": 3.6},
-      {"typ": "liste", "sprich": "Drei Stunden mal 365 Tage sind 1.095 Stunden. Durch 24: über 45 volle Tage.",
-       "kopf": "So kommt's zustande", "abstand": 0.8, "letzte_gross": true,
-       "zeilen": ["3 Std. × 365 Tage", "= 1.095 Stunden", "÷ 24 = *45 Tage*"]},
-      {"typ": "vs", "sprich": "Nur eine Stunde weniger am Tag – und du hast 15 Tage mehr im Jahr.",
-       "kopf": "Tage am Handy pro Jahr", "balken": true,
-       "links": {"emoji": "📱", "name": "3 Std.", "farbe": "rot", "wert": 45, "einheit": "Tage"},
-       "rechts": {"emoji": "⏰", "name": "2 Std.", "farbe": "gruen", "wert": 30, "einheit": "Tage"}},
-      {"typ": "urteil", "sprich": "Dotchi? Eine Stunde weniger. Zwei Wochen Urlaub geschenkt.",
-       "links": {"emoji": "📱", "name": "3 Std."}, "rechts": {"emoji": "⏰", "name": "2 Std."},
-       "gewinner": "rechts", "spruch": "*+15 Tage* im Jahr 🏝️"},
-      {"typ": "liste", "sprich": "Und wie hoch ist deine Bildschirmzeit? Schreib's in die Kommentare!",
-       "zeilen": ["Wie hoch ist *deine* Bildschirmzeit? 📱", "Schreib's in die Kommentare 👇", "(Einstellungen → Bildschirmzeit 😏)"],
-       "abstand": 0.7}
+      {
+        "typ": "zahl",
+        "sprich": "Drei Stunden Handy am Tag. Weißt du, was das im Jahr ist? 45 Tage.",
+        "oben": "3 Std. Handy 📱 pro Tag =",
+        "wert": 45,
+        "einheit": "Tage",
+        "unten": [
+          "… *im Jahr.* 😳"
+        ],
+        "unten_ab": 2.0,
+        "min": 3.6
+      },
+      {
+        "typ": "liste",
+        "sprich": "Drei Stunden mal 365 Tage sind 1.095 Stunden. Durch 24: über 45 volle Tage.",
+        "kopf": "So kommt's zustande",
+        "abstand": 0.8,
+        "letzte_gross": true,
+        "zeilen": [
+          "3 Std. × 365 Tage",
+          "= 1.095 Stunden",
+          "÷ 24 = *45 Tage*"
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Nur eine Stunde weniger am Tag – und du hast 15 Tage mehr im Jahr.",
+        "kopf": "Tage am Handy pro Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "📱",
+          "name": "3 Std.",
+          "farbe": "rot",
+          "wert": 45,
+          "einheit": "Tage"
+        },
+        "rechts": {
+          "emoji": "⏰",
+          "name": "2 Std.",
+          "farbe": "gruen",
+          "wert": 30,
+          "einheit": "Tage"
+        }
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Eine Stunde weniger. Zwei Wochen Urlaub geschenkt.",
+        "links": {
+          "emoji": "📱",
+          "name": "3 Std."
+        },
+        "rechts": {
+          "emoji": "⏰",
+          "name": "2 Std."
+        },
+        "gewinner": "rechts",
+        "spruch": "*+15 Tage* im Jahr 🏝️"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und wie hoch ist deine Bildschirmzeit? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Wie hoch ist *deine* Bildschirmzeit? 📱",
+          "Schreib's in die Kommentare 👇",
+          "(Einstellungen → Bildschirmzeit 😏)"
+        ],
+        "abstand": 0.7
+      }
     ]
   },
   {
@@ -107,26 +362,107 @@
     "titel": "Wasser aus der Flasche vs. aus dem Hahn",
     "thema": "geld",
     "caption": "Flasche oder Leitung – der Unterschied ist riesig 💧",
-    "hashtags": ["#wasser", "#leitungswasser"],
+    "hashtags": [
+      "#wasser",
+      "#leitungswasser"
+    ],
     "fuss": "Beispielrechnung · 1,5 l pro Tag · Flasche 0,50 € · Leitung 4 € pro m³",
     "szenen": [
-      {"typ": "titel", "sprich": "Wasser aus der Flasche oder aus dem Hahn? Das macht mehr aus, als du denkst.",
-       "zeilen": [["*Flasche* 🥤", 110], ["vs.", 80], ["*Leitung* 🚰", 110], ["Was kostet dich mehr?", 64]]},
-      {"typ": "vs", "sprich": "Eineinhalb Liter aus der Flasche: etwa 50 Cent. Aus dem Hahn: nicht mal ein Cent.",
-       "kopf": "Pro 1,5 Liter",
-       "links": {"emoji": "🥤", "name": "Flasche", "farbe": "rot", "wert": 0.5, "unter": "pro 1,5 l"},
-       "rechts": {"emoji": "🚰", "name": "Leitung", "farbe": "gruen", "wert": 0.006, "dezimalen": 3, "unter": "pro 1,5 l"}},
-      {"typ": "vs", "sprich": "Jeden Tag, ein Jahr lang: 182 Euro gegen gut zwei Euro.",
-       "kopf": "Pro Jahr", "balken": true,
-       "links": {"emoji": "🥤", "name": "Flasche", "farbe": "rot", "wert": 182.5},
-       "rechts": {"emoji": "🚰", "name": "Leitung", "farbe": "gruen", "wert": 2.19}},
-      {"typ": "zahl", "sprich": "Und du schleppst dabei 365 Flaschen nach Hause.",
-       "oben": "Geschleppt pro Jahr 🏋️", "wert": 365, "einheit": "Flaschen", "unten": ["à *1,5 kg* 😩"], "unten_ab": 1.8, "min": 3.4},
-      {"typ": "urteil", "sprich": "Dotchi? Der Wasserhahn. Günstiger und kein Schleppen.",
-       "links": {"emoji": "🥤", "name": "Flasche"}, "rechts": {"emoji": "🚰", "name": "Leitung"},
-       "gewinner": "rechts", "spruch": "*Leitung* gewinnt 💧"},
-      {"typ": "liste", "sprich": "Team Flasche oder Team Leitung? Schreib's in die Kommentare!",
-       "zeilen": ["Team *Flasche* 🥤 oder Team *Leitung* 🚰?", "Schreib's in die Kommentare 👇"], "abstand": 0.7}
+      {
+        "typ": "titel",
+        "sprich": "Wasser aus der Flasche oder aus dem Hahn? Das macht mehr aus, als du denkst.",
+        "zeilen": [
+          [
+            "*Flasche* 🥤",
+            110
+          ],
+          [
+            "vs.",
+            80
+          ],
+          [
+            "*Leitung* 🚰",
+            110
+          ],
+          [
+            "Was kostet dich mehr?",
+            64
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Eineinhalb Liter aus der Flasche: etwa 50 Cent. Aus dem Hahn: nicht mal ein Cent.",
+        "kopf": "Pro 1,5 Liter",
+        "links": {
+          "emoji": "🥤",
+          "name": "Flasche",
+          "farbe": "rot",
+          "wert": 0.5,
+          "unter": "pro 1,5 l"
+        },
+        "rechts": {
+          "emoji": "🚰",
+          "name": "Leitung",
+          "farbe": "gruen",
+          "wert": 0.006,
+          "dezimalen": 3,
+          "unter": "pro 1,5 l"
+        }
+      },
+      {
+        "typ": "vs",
+        "sprich": "Jeden Tag, ein Jahr lang: 182 Euro gegen gut zwei Euro.",
+        "kopf": "Pro Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "🥤",
+          "name": "Flasche",
+          "farbe": "rot",
+          "wert": 182.5
+        },
+        "rechts": {
+          "emoji": "🚰",
+          "name": "Leitung",
+          "farbe": "gruen",
+          "wert": 2.19
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und du schleppst dabei 365 Flaschen nach Hause.",
+        "oben": "Geschleppt pro Jahr 🏋️",
+        "wert": 365,
+        "einheit": "Flaschen",
+        "unten": [
+          "à *1,5 kg* 😩"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Der Wasserhahn. Günstiger und kein Schleppen.",
+        "links": {
+          "emoji": "🥤",
+          "name": "Flasche"
+        },
+        "rechts": {
+          "emoji": "🚰",
+          "name": "Leitung"
+        },
+        "gewinner": "rechts",
+        "spruch": "*Leitung* gewinnt 💧"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Team Flasche oder Team Leitung? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Team *Flasche* 🥤 oder Team *Leitung* 🚰?",
+          "Schreib's in die Kommentare 👇"
+        ],
+        "abstand": 0.7
+      }
     ]
   },
   {
@@ -134,26 +470,101 @@
     "titel": "Pizza liefern lassen vs. selbst machen",
     "thema": "essen",
     "caption": "Lieferdienst oder selbst backen? 🍕 Die Rechnung überrascht",
-    "hashtags": ["#pizza", "#lieferdienst"],
+    "hashtags": [
+      "#pizza",
+      "#lieferdienst"
+    ],
     "fuss": "Beispielrechnung · 1 Pizza pro Woche · Lieferung 14 € · selbst gemacht 4 €",
     "szenen": [
-      {"typ": "titel", "sprich": "Pizza liefern lassen oder selbst machen? Lass uns rechnen.",
-       "zeilen": [["*Lieferdienst* 🛵", 104], ["vs.", 80], ["*Selbst gemacht* 🍳", 104]]},
-      {"typ": "vs", "sprich": "Geliefert zahlst du schnell 14 Euro. Selbst gemacht etwa vier Euro.",
-       "kopf": "Pro Pizza",
-       "links": {"emoji": "🛵", "name": "Geliefert", "farbe": "rot", "wert": 14, "unter": "inkl. Lieferung"},
-       "rechts": {"emoji": "🍕", "name": "Selbst", "farbe": "gruen", "wert": 4, "unter": "Teig + Belag"}},
-      {"typ": "vs", "sprich": "Einmal pro Woche, ein Jahr lang: 728 Euro gegen 208 Euro.",
-       "kopf": "Pro Jahr · 1× pro Woche", "balken": true,
-       "links": {"emoji": "🛵", "name": "Geliefert", "farbe": "rot", "wert": 728},
-       "rechts": {"emoji": "🍕", "name": "Selbst", "farbe": "gruen", "wert": 208}},
-      {"typ": "zahl", "sprich": "520 Euro Unterschied. Dafür bekommst du locker einen richtigen Pizzaofen.",
-       "oben": "Unterschied pro Jahr", "wert": 520, "unten": ["= ein *Pizzaofen* 🔥"], "unten_ab": 2.0, "min": 3.8},
-      {"typ": "urteil", "sprich": "Dotchi? Selbst machen. Und es schmeckt sogar besser.",
-       "links": {"emoji": "🛵", "name": "Geliefert"}, "rechts": {"emoji": "🍕", "name": "Selbst"},
-       "gewinner": "rechts", "spruch": "*Selbst gemacht* gewinnt 🍕"},
-      {"typ": "liste", "sprich": "Und welche Pizza bestellst du immer? Schreib's in die Kommentare!",
-       "zeilen": ["Welche Pizza bestellst *du* immer? 🍕", "Schreib's in die Kommentare 👇"], "abstand": 0.7}
+      {
+        "typ": "titel",
+        "sprich": "Pizza liefern lassen oder selbst machen? Lass uns rechnen.",
+        "zeilen": [
+          [
+            "*Lieferdienst* 🛵",
+            104
+          ],
+          [
+            "vs.",
+            80
+          ],
+          [
+            "*Selbst gemacht* 🍳",
+            104
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Geliefert zahlst du schnell 14 Euro. Selbst gemacht etwa vier Euro.",
+        "kopf": "Pro Pizza",
+        "links": {
+          "emoji": "🛵",
+          "name": "Geliefert",
+          "farbe": "rot",
+          "wert": 14,
+          "unter": "inkl. Lieferung"
+        },
+        "rechts": {
+          "emoji": "🍕",
+          "name": "Selbst",
+          "farbe": "gruen",
+          "wert": 4,
+          "unter": "Teig + Belag"
+        }
+      },
+      {
+        "typ": "vs",
+        "sprich": "Einmal pro Woche, ein Jahr lang: 728 Euro gegen 208 Euro.",
+        "kopf": "Pro Jahr · 1× pro Woche",
+        "balken": true,
+        "links": {
+          "emoji": "🛵",
+          "name": "Geliefert",
+          "farbe": "rot",
+          "wert": 728
+        },
+        "rechts": {
+          "emoji": "🍕",
+          "name": "Selbst",
+          "farbe": "gruen",
+          "wert": 208
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "520 Euro Unterschied. Dafür bekommst du locker einen richtigen Pizzaofen.",
+        "oben": "Unterschied pro Jahr",
+        "wert": 520,
+        "unten": [
+          "= ein *Pizzaofen* 🔥"
+        ],
+        "unten_ab": 2.0,
+        "min": 3.8
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Selbst machen. Und es schmeckt sogar besser.",
+        "links": {
+          "emoji": "🛵",
+          "name": "Geliefert"
+        },
+        "rechts": {
+          "emoji": "🍕",
+          "name": "Selbst"
+        },
+        "gewinner": "rechts",
+        "spruch": "*Selbst gemacht* gewinnt 🍕"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und welche Pizza bestellst du immer? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Welche Pizza bestellst *du* immer? 🍕",
+          "Schreib's in die Kommentare 👇"
+        ],
+        "abstand": 0.7
+      }
     ]
   },
   {
@@ -161,25 +572,91 @@
     "titel": "Mit dem Auto oder Fahrrad zur Arbeit",
     "thema": "geld",
     "caption": "Auto oder Fahrrad zur Arbeit? 🚗🚲 Nur der Sprit – und trotzdem krass",
-    "hashtags": ["#pendeln", "#fahrrad"],
+    "hashtags": [
+      "#pendeln",
+      "#fahrrad"
+    ],
     "fuss": "Beispielrechnung · 10 km einfach · nur Sprit: 7 l/100 km, 1,80 €/l · 220 Tage",
     "szenen": [
-      {"typ": "titel", "sprich": "Zehn Kilometer zur Arbeit. Auto oder Fahrrad?",
-       "zeilen": [["10 km zur Arbeit", 90], ["*Auto* 🚗 vs. *Rad* 🚲", 104]]},
-      {"typ": "liste", "sprich": "Hin und zurück 20 Kilometer, an 220 Arbeitstagen. Das sind 4.400 Kilometer im Jahr.",
-       "kopf": "So rechnen wir", "abstand": 0.8, "letzte_gross": true,
-       "zeilen": ["20 km pro Tag", "× 220 Arbeitstage", "= *4.400 km* im Jahr"]},
-      {"typ": "vs", "sprich": "Nur der Sprit fürs Auto: rund 554 Euro. Das Fahrrad: vielleicht 50 Euro für Reparaturen.",
-       "kopf": "Pro Jahr", "balken": true,
-       "links": {"emoji": "🚗", "name": "Auto", "farbe": "rot", "wert": 554},
-       "rechts": {"emoji": "🚲", "name": "Fahrrad", "farbe": "gruen", "wert": 50}},
-      {"typ": "zahl", "sprich": "Über 500 Euro gespart. Und das Fitnessstudio gibt's gratis dazu.",
-       "oben": "Gespart pro Jahr", "wert": 504, "farbe": "gruen", "unten": ["+ *Fitness* gratis 💪"], "unten_ab": 1.8, "min": 3.6},
-      {"typ": "urteil", "sprich": "Dotchi? Bei zehn Kilometern: ganz klar das Fahrrad.",
-       "links": {"emoji": "🚗", "name": "Auto"}, "rechts": {"emoji": "🚲", "name": "Fahrrad"},
-       "gewinner": "rechts", "spruch": "*Fahrrad* gewinnt 🚲"},
-      {"typ": "liste", "sprich": "Wie kommst du zur Arbeit? Schreib's in die Kommentare!",
-       "zeilen": ["Wie kommst *du* zur Arbeit? 🚗🚲🚆", "Schreib's in die Kommentare 👇"], "abstand": 0.7}
+      {
+        "typ": "titel",
+        "sprich": "Zehn Kilometer zur Arbeit. Auto oder Fahrrad?",
+        "zeilen": [
+          [
+            "10 km zur Arbeit",
+            90
+          ],
+          [
+            "*Auto* 🚗 vs. *Rad* 🚲",
+            104
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hin und zurück 20 Kilometer, an 220 Arbeitstagen. Das sind 4.400 Kilometer im Jahr.",
+        "kopf": "So rechnen wir",
+        "abstand": 0.8,
+        "letzte_gross": true,
+        "zeilen": [
+          "20 km pro Tag",
+          "× 220 Arbeitstage",
+          "= *4.400 km* im Jahr"
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Nur der Sprit fürs Auto: rund 554 Euro. Das Fahrrad: vielleicht 50 Euro für Reparaturen.",
+        "kopf": "Pro Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "🚗",
+          "name": "Auto",
+          "farbe": "rot",
+          "wert": 554
+        },
+        "rechts": {
+          "emoji": "🚲",
+          "name": "Fahrrad",
+          "farbe": "gruen",
+          "wert": 50
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Über 500 Euro gespart. Und das Fitnessstudio gibt's gratis dazu.",
+        "oben": "Gespart pro Jahr",
+        "wert": 504,
+        "farbe": "gruen",
+        "unten": [
+          "+ *Fitness* gratis 💪"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Bei zehn Kilometern: ganz klar das Fahrrad.",
+        "links": {
+          "emoji": "🚗",
+          "name": "Auto"
+        },
+        "rechts": {
+          "emoji": "🚲",
+          "name": "Fahrrad"
+        },
+        "gewinner": "rechts",
+        "spruch": "*Fahrrad* gewinnt 🚲"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie kommst du zur Arbeit? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Wie kommst *du* zur Arbeit? 🚗🚲🚆",
+          "Schreib's in die Kommentare 👇"
+        ],
+        "abstand": 0.7
+      }
     ]
   },
   {
@@ -187,25 +664,94 @@
     "titel": "3 Abos à 12,99 € – was das wirklich kostet",
     "thema": "geld",
     "caption": "Kleine Abos, großer Betrag 😬 Wie viele Abos hast du?",
-    "hashtags": ["#abo", "#streaming"],
+    "hashtags": [
+      "#abo",
+      "#streaming"
+    ],
     "fuss": "Beispielrechnung · 3 Abos à 12,99 € im Monat",
     "szenen": [
-      {"typ": "titel", "sprich": "Drei Abos für je zwölf Euro neunundneunzig. Klingt nach wenig, oder?",
-       "zeilen": [["📺🎵🎮", 120], ["3 Abos à *12,99 €*", 100], ["Klingt nach wenig … 🤔", 64]]},
-      {"typ": "liste", "sprich": "Das sind fast 39 Euro im Monat. Und 467 Euro im Jahr.",
-       "kopf": "Pro Monat und Jahr", "abstand": 0.9, "letzte_gross": true,
-       "zeilen": ["3 × 12,99 € = *38,97 €* im Monat", "× 12 Monate", "= *467,64 €* im Jahr"]},
-      {"typ": "zahl", "sprich": "In zehn Jahren: 4.676 Euro.",
-       "oben": "In 10 Jahren", "wert": 4676, "unten": ["für *drei* kleine Abos 😳"], "unten_ab": 1.6, "min": 3.4},
-      {"typ": "vs", "sprich": "Drei Abos gegen eins: Mit nur einem Abo zahlst du im Jahr 312 Euro weniger.",
-       "kopf": "Pro Jahr", "balken": true,
-       "links": {"emoji": "📺", "name": "3 Abos", "farbe": "rot", "wert": 467.64},
-       "rechts": {"emoji": "✂️", "name": "1 Abo", "farbe": "gruen", "wert": 155.88}},
-      {"typ": "urteil", "sprich": "Dotchi? Ein Abo. Und nach Lust und Laune wechseln.",
-       "links": {"emoji": "📺", "name": "3 Abos"}, "rechts": {"emoji": "✂️", "name": "1 Abo"},
-       "gewinner": "rechts", "spruch": "*Wechseln* statt sammeln 🔁"},
-      {"typ": "liste", "sprich": "Wie viele Abos hast du gerade? Schreib's in die Kommentare!",
-       "zeilen": ["Wie viele Abos hast *du*? 📺🎵🎮", "Schreib's in die Kommentare 👇"], "abstand": 0.7}
+      {
+        "typ": "titel",
+        "sprich": "Drei Abos für je zwölf Euro neunundneunzig. Klingt nach wenig, oder?",
+        "zeilen": [
+          [
+            "📺🎵🎮",
+            120
+          ],
+          [
+            "3 Abos à *12,99 €*",
+            100
+          ],
+          [
+            "Klingt nach wenig … 🤔",
+            64
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Das sind fast 39 Euro im Monat. Und 467 Euro im Jahr.",
+        "kopf": "Pro Monat und Jahr",
+        "abstand": 0.9,
+        "letzte_gross": true,
+        "zeilen": [
+          "3 × 12,99 € = *38,97 €* im Monat",
+          "× 12 Monate",
+          "= *467,64 €* im Jahr"
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In zehn Jahren: 4.676 Euro.",
+        "oben": "In 10 Jahren",
+        "wert": 4676,
+        "unten": [
+          "für *drei* kleine Abos 😳"
+        ],
+        "unten_ab": 1.6,
+        "min": 3.4
+      },
+      {
+        "typ": "vs",
+        "sprich": "Drei Abos gegen eins: Mit nur einem Abo zahlst du im Jahr 312 Euro weniger.",
+        "kopf": "Pro Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "📺",
+          "name": "3 Abos",
+          "farbe": "rot",
+          "wert": 467.64
+        },
+        "rechts": {
+          "emoji": "✂️",
+          "name": "1 Abo",
+          "farbe": "gruen",
+          "wert": 155.88
+        }
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Ein Abo. Und nach Lust und Laune wechseln.",
+        "links": {
+          "emoji": "📺",
+          "name": "3 Abos"
+        },
+        "rechts": {
+          "emoji": "✂️",
+          "name": "1 Abo"
+        },
+        "gewinner": "rechts",
+        "spruch": "*Wechseln* statt sammeln 🔁"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viele Abos hast du gerade? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Wie viele Abos hast *du*? 📺🎵🎮",
+          "Schreib's in die Kommentare 👇"
+        ],
+        "abstand": 0.7
+      }
     ]
   },
   {
@@ -213,21 +759,73 @@
     "titel": "Wasser laufen lassen beim Zähneputzen",
     "thema": "alltag",
     "caption": "Wasserhahn beim Zähneputzen an oder aus? 🪥💧 Die Zahl ist heftig",
-    "hashtags": ["#wassersparen", "#zähneputzen"],
+    "hashtags": [
+      "#wassersparen",
+      "#zähneputzen"
+    ],
     "fuss": "Beispielrechnung · 6 l/Min. · 2× täglich 2 Min. · Badewanne 150 l",
     "szenen": [
-      {"typ": "titel", "sprich": "Lässt du beim Zähneputzen das Wasser laufen?",
-       "zeilen": [["🪥💧", 130], ["Wasser *an* oder *aus*?", 100]]},
-      {"typ": "liste", "sprich": "Sechs Liter pro Minute, zwei Minuten, zweimal am Tag. Das sind 24 Liter. Jeden Tag.",
-       "kopf": "So rechnen wir", "abstand": 0.8, "letzte_gross": true,
-       "zeilen": ["6 Liter pro Minute", "× 2 Min. × 2-mal täglich", "= *24 Liter* pro Tag"]},
-      {"typ": "zahl", "sprich": "Im Jahr sind das 8.760 Liter. Fast 60 volle Badewannen.",
-       "oben": "Pro Jahr 🛁", "wert": 8760, "einheit": "Liter", "unten": ["= *58 Badewannen* 😳"], "unten_ab": 1.8, "min": 3.6},
-      {"typ": "urteil", "sprich": "Dotchi? Hahn zu. Kostet null Aufwand.",
-       "links": {"emoji": "🚿", "name": "Läuft"}, "rechts": {"emoji": "🚰", "name": "Hahn zu"},
-       "gewinner": "rechts", "spruch": "*Hahn zu* gewinnt 💧"},
-      {"typ": "liste", "sprich": "Ehrlich: Hahn an oder aus beim Putzen? Schreib's in die Kommentare!",
-       "zeilen": ["Ehrlich: Hahn *an* oder *aus*? 🪥", "Schreib's in die Kommentare 👇"], "abstand": 0.7}
+      {
+        "typ": "titel",
+        "sprich": "Lässt du beim Zähneputzen das Wasser laufen?",
+        "zeilen": [
+          [
+            "🪥💧",
+            130
+          ],
+          [
+            "Wasser *an* oder *aus*?",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Sechs Liter pro Minute, zwei Minuten, zweimal am Tag. Das sind 24 Liter. Jeden Tag.",
+        "kopf": "So rechnen wir",
+        "abstand": 0.8,
+        "letzte_gross": true,
+        "zeilen": [
+          "6 Liter pro Minute",
+          "× 2 Min. × 2-mal täglich",
+          "= *24 Liter* pro Tag"
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Im Jahr sind das 8.760 Liter. Fast 60 volle Badewannen.",
+        "oben": "Pro Jahr 🛁",
+        "wert": 8760,
+        "einheit": "Liter",
+        "unten": [
+          "= *58 Badewannen* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Hahn zu. Kostet null Aufwand.",
+        "links": {
+          "emoji": "🚿",
+          "name": "Läuft"
+        },
+        "rechts": {
+          "emoji": "🚰",
+          "name": "Hahn zu"
+        },
+        "gewinner": "rechts",
+        "spruch": "*Hahn zu* gewinnt 💧"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Ehrlich: Hahn an oder aus beim Putzen? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Ehrlich: Hahn *an* oder *aus*? 🪥",
+          "Schreib's in die Kommentare 👇"
+        ],
+        "abstand": 0.7
+      }
     ]
   },
   {
@@ -235,26 +833,1084 @@
     "titel": "Mittagessen: Kantine vs. Meal Prep",
     "thema": "essen",
     "caption": "Jeden Tag Mittag kaufen oder vorkochen? 🍱 So viel macht's aus",
-    "hashtags": ["#mealprep", "#mittagessen"],
+    "hashtags": [
+      "#mealprep",
+      "#mittagessen"
+    ],
     "fuss": "Beispielrechnung · 9 € gekauft vs. 3 € vorgekocht · 220 Arbeitstage",
     "szenen": [
-      {"typ": "titel", "sprich": "Mittagessen jeden Tag kaufen oder vorkochen? Lass uns rechnen.",
-       "zeilen": [["*Mittag kaufen* 🍔", 104], ["vs.", 80], ["*Meal Prep* 🍱", 104]]},
-      {"typ": "vs", "sprich": "Gekauft zahlst du etwa neun Euro. Vorgekocht rund drei Euro.",
-       "kopf": "Pro Mittagessen",
-       "links": {"emoji": "🍔", "name": "Gekauft", "farbe": "rot", "wert": 9, "unter": "pro Tag"},
-       "rechts": {"emoji": "🍱", "name": "Meal Prep", "farbe": "gruen", "wert": 3, "unter": "pro Tag"}},
-      {"typ": "vs", "sprich": "An 220 Arbeitstagen: 1.980 Euro gegen 660 Euro.",
-       "kopf": "Pro Jahr · 220 Arbeitstage", "balken": true,
-       "links": {"emoji": "🍔", "name": "Gekauft", "farbe": "rot", "wert": 1980},
-       "rechts": {"emoji": "🍱", "name": "Meal Prep", "farbe": "gruen", "wert": 660}},
-      {"typ": "zahl", "sprich": "1.320 Euro Unterschied. Jedes Jahr.",
-       "oben": "Unterschied pro Jahr", "wert": 1320, "unten": ["= ein *Urlaub* 🏝️"], "unten_ab": 1.6, "min": 3.4},
-      {"typ": "urteil", "sprich": "Dotchi? Meal Prep. Sonntags eine Stunde kochen lohnt sich.",
-       "links": {"emoji": "🍔", "name": "Gekauft"}, "rechts": {"emoji": "🍱", "name": "Meal Prep"},
-       "gewinner": "rechts", "spruch": "*Meal Prep* gewinnt 🍱"},
-      {"typ": "liste", "sprich": "Was gibt's bei dir mittags? Schreib's in die Kommentare!",
-       "zeilen": ["Was gibt's bei *dir* mittags? 🍽️", "Schreib's in die Kommentare 👇"], "abstand": 0.7}
+      {
+        "typ": "titel",
+        "sprich": "Mittagessen jeden Tag kaufen oder vorkochen? Lass uns rechnen.",
+        "zeilen": [
+          [
+            "*Mittag kaufen* 🍔",
+            104
+          ],
+          [
+            "vs.",
+            80
+          ],
+          [
+            "*Meal Prep* 🍱",
+            104
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Gekauft zahlst du etwa neun Euro. Vorgekocht rund drei Euro.",
+        "kopf": "Pro Mittagessen",
+        "links": {
+          "emoji": "🍔",
+          "name": "Gekauft",
+          "farbe": "rot",
+          "wert": 9,
+          "unter": "pro Tag"
+        },
+        "rechts": {
+          "emoji": "🍱",
+          "name": "Meal Prep",
+          "farbe": "gruen",
+          "wert": 3,
+          "unter": "pro Tag"
+        }
+      },
+      {
+        "typ": "vs",
+        "sprich": "An 220 Arbeitstagen: 1.980 Euro gegen 660 Euro.",
+        "kopf": "Pro Jahr · 220 Arbeitstage",
+        "balken": true,
+        "links": {
+          "emoji": "🍔",
+          "name": "Gekauft",
+          "farbe": "rot",
+          "wert": 1980
+        },
+        "rechts": {
+          "emoji": "🍱",
+          "name": "Meal Prep",
+          "farbe": "gruen",
+          "wert": 660
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "1.320 Euro Unterschied. Jedes Jahr.",
+        "oben": "Unterschied pro Jahr",
+        "wert": 1320,
+        "unten": [
+          "= ein *Urlaub* 🏝️"
+        ],
+        "unten_ab": 1.6,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Meal Prep. Sonntags eine Stunde kochen lohnt sich.",
+        "links": {
+          "emoji": "🍔",
+          "name": "Gekauft"
+        },
+        "rechts": {
+          "emoji": "🍱",
+          "name": "Meal Prep"
+        },
+        "gewinner": "rechts",
+        "spruch": "*Meal Prep* gewinnt 🍱"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was gibt's bei dir mittags? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Was gibt's bei *dir* mittags? 🍽️",
+          "Schreib's in die Kommentare 👇"
+        ],
+        "abstand": 0.7
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "titel": "So lange arbeitest du mit Mindestlohn für ein iPhone",
+    "thema": "geld",
+    "caption": "Mit Mindestlohn für ein 1.000-€-Handy arbeiten – so lange dauert's ⏱️📱",
+    "hashtags": [
+      "#mindestlohn",
+      "#iphone"
+    ],
+    "fuss": "Mindestlohn 13,90 € brutto/Std. (seit 1.1.2026) · Handy-Preis als Beispiel: 1.000 €",
+    "quellen": [
+      "https://www.lohnsteuer-kompakt.de/steuerwissen/gesetzlicher-mindestlohn-2026-erhoehung-auf-1390-euro-beschlossen"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Wie lange musst du mit Mindestlohn für ein neues Handy arbeiten?",
+        "zeilen": [
+          [
+            "📱",
+            130
+          ],
+          [
+            "Wie lange arbeitest *du* dafür?",
+            96
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Der Mindestlohn liegt bei dreizehn Euro neunzig. Das Handy kostet 1.000 Euro.",
+        "kopf": "So rechnen wir",
+        "abstand": 0.9,
+        "letzte_gross": true,
+        "zeilen": [
+          "Mindestlohn: *13,90 €* pro Stunde",
+          "Handy: *1.000 €*",
+          "1.000 € ÷ 13,90 € = ?"
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 72 Stunden. Brutto. Also fast zwei volle Arbeitswochen.",
+        "oben": "Du arbeitest",
+        "wert": 72,
+        "einheit": "Stunden",
+        "unten": [
+          "= fast *2 Arbeitswochen* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viele Stunden hast du für dein Handy gearbeitet? Markier jemanden, der jedes Jahr ein neues kauft!",
+        "zeilen": [
+          "Wie lange hast *du* dafür gearbeitet? ⏱️",
+          "Markier jemanden, der *jedes Jahr* ein neues kauft 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "titel": "Azubi-Duell: Rohrleitungsbauer vs. Friseur",
+    "thema": "geld",
+    "caption": "Azubi-Gehalt: Rohrleitungsbauer vs. Friseur – der Unterschied ist krass 💸 Was verdienst du in der Ausbildung?",
+    "hashtags": [
+      "#ausbildung",
+      "#azubi"
+    ],
+    "fuss": "Tarifliche Ausbildungsvergütung 2024, Ø über alle Ausbildungsjahre · Quelle: BIBB",
+    "quellen": [
+      "https://www.bibb.de/de/pressemitteilung_204110.php",
+      "https://www.aubi-plus.de/blog/tarifliche-ausbildungsverguetungen-hoechster-anstieg-seit-1992-6408/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Azubi-Duell! Rohrleitungsbauer gegen Friseur. Wer verdient mehr?",
+        "zeilen": [
+          [
+            "Azubi-Duell 🥊",
+            90
+          ],
+          [
+            "*Rohrleitungsbauer* 🔧",
+            96
+          ],
+          [
+            "vs.",
+            70
+          ],
+          [
+            "*Friseur* ✂️",
+            96
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Rohrleitungsbauer bekommen im Schnitt 1.349 Euro im Monat. Friseure 719 Euro.",
+        "kopf": "Ausbildungsgehalt pro Monat",
+        "balken": true,
+        "links": {
+          "emoji": "🔧",
+          "name": "Rohrleitung",
+          "farbe": "gruen",
+          "wert": 1349
+        },
+        "rechts": {
+          "emoji": "✂️",
+          "name": "Friseur",
+          "farbe": "rot",
+          "wert": 719
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 630 Euro Unterschied. Jeden Monat. In drei Jahren Ausbildung über 22.000 Euro.",
+        "oben": "Unterschied pro Monat",
+        "wert": 630,
+        "unten": [
+          "in 3 Jahren: *22.680 €* 😳"
+        ],
+        "unten_ab": 2.0,
+        "min": 4.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Geld klar der Rohrleitungsbauer.",
+        "kopf": "Wer verdient mehr? 🤔",
+        "links": {
+          "emoji": "🔧",
+          "name": "Rohrleitung"
+        },
+        "rechts": {
+          "emoji": "✂️",
+          "name": "Friseur"
+        },
+        "gewinner": "links",
+        "stempel": "VERDIENT MEHR",
+        "spruch": "Aber Haare machen *glücklich* 💇"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was verdienst du in deiner Ausbildung? Markier deinen Azubi-Kumpel!",
+        "zeilen": [
+          "Was verdienst *du* in der Ausbildung? 💸",
+          "Markier deinen *Azubi-Kumpel* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "titel": "Jeden Tag ein Energy-Drink – was das im Jahr kostet",
+    "thema": "geld",
+    "caption": "Jeden Tag eine Dose – so viel kostet dich das ⚡ Markier deinen Energy-Junkie!",
+    "hashtags": [
+      "#energydrink"
+    ],
+    "fuss": "Beispielrechnung · 1,50 € pro Dose",
+    "szenen": [
+      {
+        "typ": "zahl",
+        "sprich": "Jeden Tag ein Energy-Drink? Das sind 547 Euro im Jahr.",
+        "oben": "Jeden Tag ⚡ eine Dose =",
+        "wert": 547.5,
+        "dezimalen": 2,
+        "unten": [
+          "… *im Jahr.* 😳"
+        ],
+        "unten_ab": 1.6,
+        "min": 3.4
+      },
+      {
+        "typ": "liste",
+        "sprich": "Eine Dose für einen Euro fünfzig, mal 365 Tage. In zehn Jahren sind das 5.475 Euro.",
+        "kopf": "So kommt's zustande",
+        "abstand": 0.8,
+        "letzte_gross": true,
+        "zeilen": [
+          "1,50 € × 365 Tage",
+          "= *547,50 €* im Jahr",
+          "10 Jahre: *5.475 €*"
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Nur einmal pro Woche statt jeden Tag: 78 Euro statt 547.",
+        "kopf": "Pro Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "⚡",
+          "name": "Jeden Tag",
+          "farbe": "rot",
+          "wert": 547.5,
+          "dezimalen": 0
+        },
+        "rechts": {
+          "emoji": "📅",
+          "name": "1× pro Woche",
+          "farbe": "gruen",
+          "wert": 78
+        }
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Einmal pro Woche. Dann schmeckt er auch besser.",
+        "links": {
+          "emoji": "⚡",
+          "name": "Jeden Tag"
+        },
+        "rechts": {
+          "emoji": "📅",
+          "name": "1× pro Woche"
+        },
+        "gewinner": "rechts",
+        "spruch": "*469,50 €* gespart 💸"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viele trinkst du pro Woche? Markier deinen Energy-Junkie!",
+        "zeilen": [
+          "Wie viele trinkst *du* pro Woche? ⚡",
+          "Markier deinen *Energy-Junkie* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "titel": "Kinoticket 2001 vs. heute",
+    "thema": "geld",
+    "caption": "Kino damals vs. heute 🎬 Fast 80 % teurer! Was hat dein letztes Ticket gekostet?",
+    "hashtags": [
+      "#kino",
+      "#früherwaralles"
+    ],
+    "fuss": "Ø Eintrittspreis · Quelle: FFA (2001: 5,55 €, 1. Halbjahr 2025: 9,92 €)",
+    "quellen": [
+      "https://www.gamestar.de/artikel/24-jahre-altes-kinoticket,3441498.html",
+      "https://www.pcgames.de/Kino-Thema-130800/News/wie-viel-kostet-ein-kinoticket-2025-1481146/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Was hat ein Kinoticket früher gekostet? Und was heute?",
+        "zeilen": [
+          [
+            "🎬🍿",
+            130
+          ],
+          [
+            "Kino *2001* vs. *heute*",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "2001 hast du im Schnitt fünf Euro fünfundfünfzig bezahlt. Heute: neun Euro zweiundneunzig.",
+        "kopf": "Ø Eintritt",
+        "balken": true,
+        "links": {
+          "emoji": "📼",
+          "name": "2001",
+          "farbe": "gruen",
+          "wert": 5.55,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🎬",
+          "name": "2025",
+          "farbe": "rot",
+          "wert": 9.92,
+          "dezimalen": 2
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das ist fast 80 Prozent teurer. Und das Popcorn ist da noch gar nicht drin.",
+        "oben": "Teurer geworden",
+        "wert": 79,
+        "einheit": "%",
+        "unten": [
+          "ohne *Popcorn* 🍿"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Klar: früher war's günstiger.",
+        "kopf": "Wann war's günstiger? 🤔",
+        "links": {
+          "emoji": "📼",
+          "name": "2001"
+        },
+        "rechts": {
+          "emoji": "🎬",
+          "name": "2025"
+        },
+        "gewinner": "links",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Früher war *alles* billiger 😅"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was hat dein letztes Kinoticket gekostet? Und mit wem gehst du ins Kino? Markier die Person!",
+        "zeilen": [
+          "Was hat *dein* letztes Ticket gekostet? 🎟️",
+          "Markier deine *Kino-Begleitung* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "titel": "Miete München vs. Leipzig",
+    "thema": "geld",
+    "caption": "München vs. Leipzig – so viel mehr Miete zahlst du 🏙️ Aus welcher Stadt kommst du?",
+    "hashtags": [
+      "#miete",
+      "#münchen",
+      "#leipzig"
+    ],
+    "fuss": "Angebotsmiete kalt, Bestand, Q4 2025 · Quelle: ImmoScout24 WohnBarometer · 60 m²",
+    "quellen": [
+      "https://www.scout24.com/fileadmin/user_upload/IS24_WohnBarometer-Q4_2025_Miete.pdf"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Städte-Duell! München gegen Leipzig. Wo wohnst du günstiger?",
+        "zeilen": [
+          [
+            "Städte-Duell 🥊",
+            90
+          ],
+          [
+            "*München* 🥨",
+            104
+          ],
+          [
+            "vs.",
+            70
+          ],
+          [
+            "*Leipzig* 🏛️",
+            104
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Pro Quadratmeter zahlst du in München fast 20 Euro. In Leipzig keine neun.",
+        "kopf": "Kaltmiete pro m²",
+        "links": {
+          "emoji": "🥨",
+          "name": "München",
+          "farbe": "rot",
+          "wert": 19.92,
+          "unter": "pro m²"
+        },
+        "rechts": {
+          "emoji": "🏛️",
+          "name": "Leipzig",
+          "farbe": "gruen",
+          "wert": 8.85,
+          "unter": "pro m²"
+        }
+      },
+      {
+        "typ": "vs",
+        "sprich": "Für 60 Quadratmeter: 1.195 Euro gegen 531 Euro. Jeden Monat.",
+        "kopf": "60 m² pro Monat",
+        "balken": true,
+        "links": {
+          "emoji": "🥨",
+          "name": "München",
+          "farbe": "rot",
+          "wert": 1195.2,
+          "dezimalen": 0
+        },
+        "rechts": {
+          "emoji": "🏛️",
+          "name": "Leipzig",
+          "farbe": "gruen",
+          "wert": 531
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind fast 8.000 Euro Unterschied im Jahr.",
+        "oben": "Unterschied pro Jahr",
+        "wert": 7970,
+        "unten": [
+          "= *kalt*. Ohne Nebenkosten 🥶"
+        ],
+        "unten_ab": 1.6,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Geld: ganz klar Leipzig.",
+        "links": {
+          "emoji": "🥨",
+          "name": "München"
+        },
+        "rechts": {
+          "emoji": "🏛️",
+          "name": "Leipzig"
+        },
+        "gewinner": "rechts",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Sorry, *München* 😬"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was zahlst du in deiner Stadt? Schreib's in die Kommentare und markier jemanden aus München!",
+        "zeilen": [
+          "Was zahlst *du* in deiner Stadt? 🏙️",
+          "Markier jemanden aus *München* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "titel": "Lotto jede Woche vs. Sparschwein",
+    "thema": "geld",
+    "caption": "10 € Lotto jede Woche – lohnt sich das? 🎰🐷 Team Lotto oder Team Sparschwein?",
+    "hashtags": [
+      "#lotto",
+      "#sparen"
+    ],
+    "fuss": "Beispielrechnung · 10 € pro Woche, ohne Zinsen · Jackpot-Chance 6aus49: lotto.de",
+    "quellen": [
+      "https://www.lotto.de/lotto-6aus49/info/gewinnwahrscheinlichkeit"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Jede Woche zehn Euro Lotto. Lohnt sich das?",
+        "zeilen": [
+          [
+            "🎰",
+            130
+          ],
+          [
+            "10 € Lotto *jede Woche*",
+            96
+          ],
+          [
+            "Lohnt sich das?",
+            72
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Zehn Euro mal 52 Wochen sind 520 Euro im Jahr. In 30 Jahren 15.600 Euro.",
+        "kopf": "So kommt's zustande",
+        "abstand": 0.8,
+        "letzte_gross": true,
+        "zeilen": [
+          "10 € × 52 Wochen",
+          "= *520 €* im Jahr",
+          "30 Jahre: *15.600 €*"
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und deine Chance auf den Jackpot? Eins zu fast 140 Millionen.",
+        "oben": "Jackpot-Chance: 1 zu",
+        "wert": 139838160,
+        "einheit": "",
+        "farbe": "gold",
+        "unten": [
+          "🍀 Viel Glück …"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Das Sparschwein. 15.600 Euro sind sicher.",
+        "links": {
+          "emoji": "🎰",
+          "name": "Lotto"
+        },
+        "rechts": {
+          "emoji": "🐷",
+          "name": "Sparschwein"
+        },
+        "gewinner": "rechts",
+        "spruch": "*15.600 €* sicher 🐷"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Team Lotto oder Team Sparschwein? Markier jemanden, der jede Woche spielt!",
+        "zeilen": [
+          "Team *Lotto* 🎰 oder Team *Sparschwein* 🐷?",
+          "Markier jemanden, der *jede Woche* spielt 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "titel": "30 Minuten Arbeitsweg = 9 Tage im Jahr",
+    "thema": "zeit",
+    "caption": "So viel Lebenszeit kostet dich dein Arbeitsweg 🚗⏱️ Wie lange pendelst du?",
+    "hashtags": [
+      "#pendeln",
+      "#arbeitsweg"
+    ],
+    "fuss": "Beispielrechnung · 30 bzw. 15 Min. pro Strecke · 220 Arbeitstage",
+    "szenen": [
+      {
+        "typ": "zahl",
+        "sprich": "30 Minuten zur Arbeit. Weißt du, was das im Jahr ist? 220 Stunden.",
+        "oben": "30 Min. Arbeitsweg 🚗 =",
+        "wert": 220,
+        "einheit": "Stunden",
+        "unten": [
+          "… *im Jahr.* 😳"
+        ],
+        "unten_ab": 2.0,
+        "min": 3.6
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hin und zurück eine Stunde, an 220 Arbeitstagen. Das sind über neun volle Tage. Nonstop.",
+        "kopf": "So kommt's zustande",
+        "abstand": 0.8,
+        "letzte_gross": true,
+        "zeilen": [
+          "1 Std. pro Tag (hin + zurück)",
+          "× 220 Arbeitstage",
+          "= *9 volle Tage* nonstop"
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Mit nur 15 Minuten Weg: 110 Stunden. Die Hälfte.",
+        "kopf": "Stunden pro Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "🚗",
+          "name": "30 Min.",
+          "farbe": "rot",
+          "wert": 220,
+          "einheit": "Std."
+        },
+        "rechts": {
+          "emoji": "🚲",
+          "name": "15 Min.",
+          "farbe": "gruen",
+          "wert": 110,
+          "einheit": "Std."
+        }
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Der kurze Weg. 110 Stunden mehr Freizeit.",
+        "links": {
+          "emoji": "🚗",
+          "name": "30 Min."
+        },
+        "rechts": {
+          "emoji": "🚲",
+          "name": "15 Min."
+        },
+        "gewinner": "rechts",
+        "spruch": "*+110 Stunden* Freizeit 🎉"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie lange ist dein Arbeitsweg? Markier den mit dem längsten Weg!",
+        "zeilen": [
+          "Wie lange ist *dein* Arbeitsweg? ⏱️",
+          "Markier den mit dem *längsten* Weg 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "titel": "Altenpflege verdient schlecht? Der Mythos-Check",
+    "thema": "geld",
+    "caption": "Altenpflege-Fachkraft vs. Durchschnitt aller Berufe – das hätte keiner gedacht 👀 Was verdienst du?",
+    "hashtags": [
+      "#pflege",
+      "#gehalt"
+    ],
+    "fuss": "Median brutto, Vollzeit, 2024 · Quelle: Entgeltatlas der Bundesagentur für Arbeit",
+    "quellen": [
+      "https://www.aerzteblatt.de/news/einkommen-der-altenpflegefachkrafte-liegt-uber-medianverdienst-0da3cbaf-4dea-48b9-a184-c6f9631f95fb"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Altenpflege verdient schlecht? Lass uns das mal checken.",
+        "zeilen": [
+          [
+            "Mythos-Check 🔍",
+            90
+          ],
+          [
+            "*Altenpflege* 👵",
+            100
+          ],
+          [
+            "vs.",
+            70
+          ],
+          [
+            "*alle Berufe* 💼",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Altenpflege-Fachkräfte verdienen im Mittel 4.153 Euro brutto. Der Mittelwert aller Berufe: rund 4.013 Euro.",
+        "kopf": "Median brutto / Monat",
+        "balken": true,
+        "links": {
+          "emoji": "👵",
+          "name": "Altenpflege",
+          "farbe": "gruen",
+          "wert": 4153
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "Alle Berufe",
+          "farbe": "rot",
+          "wert": 4013
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind rund 140 Euro mehr als der Durchschnittsjob.",
+        "oben": "Altenpflege verdient",
+        "wert": 140,
+        "farbe": "gruen",
+        "unten": [
+          "*mehr* als der Median 😮"
+        ],
+        "unten_ab": 1.6,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Überraschung: Die Altenpflege liegt vorne.",
+        "kopf": "Wer verdient mehr? 🤔",
+        "links": {
+          "emoji": "👵",
+          "name": "Altenpflege"
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "Alle Berufe"
+        },
+        "gewinner": "links",
+        "stempel": "VERDIENT MEHR",
+        "spruch": "Und *verdient* hat sie's 💚"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hättest du das gedacht? Markier jemanden aus der Pflege!",
+        "zeilen": [
+          "Hättest *du* das gedacht? 🤔",
+          "Markier jemanden aus der *Pflege* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "titel": "Duschen vs. Baden",
+    "thema": "alltag",
+    "caption": "Duschen oder Baden? 🚿🛁 Der Unterschied ist größer, als du denkst",
+    "hashtags": [
+      "#duschen",
+      "#wassersparen"
+    ],
+    "fuss": "Beispielrechnung · Dusche 60 l, Wanne 150 l, täglich · Wasser 4 €/m³, ohne Heizkosten",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Duschen oder Baden? Was verbraucht mehr?",
+        "zeilen": [
+          [
+            "*Duschen* 🚿",
+            110
+          ],
+          [
+            "vs.",
+            80
+          ],
+          [
+            "*Baden* 🛁",
+            110
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Eine Dusche braucht etwa 60 Liter. Eine Badewanne 150.",
+        "kopf": "Wasser pro Mal",
+        "links": {
+          "emoji": "🚿",
+          "name": "Dusche",
+          "farbe": "gruen",
+          "wert": 60,
+          "einheit": "Liter",
+          "unter": "ca. 7 Min."
+        },
+        "rechts": {
+          "emoji": "🛁",
+          "name": "Wanne",
+          "farbe": "rot",
+          "wert": 150,
+          "einheit": "Liter",
+          "unter": "volle Wanne"
+        }
+      },
+      {
+        "typ": "vs",
+        "sprich": "Jeden Tag, ein Jahr lang: rund 22.000 gegen fast 55.000 Liter.",
+        "kopf": "Liter pro Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "🚿",
+          "name": "Dusche",
+          "farbe": "gruen",
+          "wert": 21900,
+          "einheit": "l"
+        },
+        "rechts": {
+          "emoji": "🛁",
+          "name": "Wanne",
+          "farbe": "rot",
+          "wert": 54750,
+          "einheit": "l"
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Allein fürs Wasser: über 130 Euro mehr im Jahr. Fürs Aufheizen kommt noch was drauf.",
+        "oben": "Mehrkosten Wasser / Jahr",
+        "wert": 131.4,
+        "dezimalen": 2,
+        "unten": [
+          "+ *Heizkosten* 🔥"
+        ],
+        "unten_ab": 2.0,
+        "min": 3.8
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Unter der Woche duschen. Baden für den Sonntag.",
+        "links": {
+          "emoji": "🚿",
+          "name": "Dusche"
+        },
+        "rechts": {
+          "emoji": "🛁",
+          "name": "Wanne"
+        },
+        "gewinner": "links",
+        "spruch": "Baden nur am *Sonntag* 🛁"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Team Dusche oder Team Badewanne? Markier jemanden, der stundenlang badet!",
+        "zeilen": [
+          "Team *Dusche* 🚿 oder Team *Wanne* 🛁?",
+          "Markier jemanden, der *stundenlang* badet 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "titel": "Döner 2021 vs. heute",
+    "thema": "essen",
+    "caption": "Dönerpreis 2021 vs. 2025 – fast 50 % teurer 🥙📈 Was zahlst du in deiner Stadt?",
+    "hashtags": [
+      "#döner",
+      "#dönerpreis"
+    ],
+    "fuss": "Ø Preis Döner mit Fleisch · Quelle: YouGov (2021: 4,85 €, 2025: 7,11 €)",
+    "quellen": [
+      "https://www.tageskarte.io/gastronomie/detail/doener-bleibt-trotz-hoher-preise-gefragt.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Was hat ein Döner 2021 gekostet? Und was heute?",
+        "zeilen": [
+          [
+            "🥙📈",
+            130
+          ],
+          [
+            "Döner *2021* vs. *heute*",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "2021 hast du im Schnitt vier Euro fünfundachtzig bezahlt. 2025: sieben Euro elf.",
+        "kopf": "Ø Dönerpreis",
+        "balken": true,
+        "links": {
+          "emoji": "🥙",
+          "name": "2021",
+          "farbe": "gruen",
+          "wert": 4.85,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🥙",
+          "name": "2025",
+          "farbe": "rot",
+          "wert": 7.11,
+          "dezimalen": 2
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das ist fast 50 Prozent teurer. In nur vier Jahren.",
+        "oben": "Teurer in 4 Jahren",
+        "wert": 47,
+        "einheit": "%",
+        "unten": [
+          "und *trotzdem* geliebt 🥙"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Klar: 2021 war günstiger. Aber wir essen ihn trotzdem.",
+        "kopf": "Wann war's günstiger? 🤔",
+        "links": {
+          "emoji": "🥙",
+          "name": "2021"
+        },
+        "rechts": {
+          "emoji": "🥙",
+          "name": "2025"
+        },
+        "gewinner": "links",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Döner bleibt *Liebe* ❤️"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was kostet der Döner bei dir? Schreib deine Stadt und den Preis in die Kommentare!",
+        "zeilen": [
+          "Was kostet der Döner *bei dir*? 🥙",
+          "Stadt + Preis in die Kommentare 👇",
+          "Wer hat den *günstigsten*? 🏆"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "titel": "Neues Handy jedes Jahr vs. alle 3 Jahre",
+    "thema": "technik",
+    "caption": "Jedes Jahr ein neues Handy? 📱 So viel kostet dich das in 9 Jahren",
+    "hashtags": [
+      "#handy",
+      "#smartphone"
+    ],
+    "fuss": "Beispielrechnung · 1.000 € pro Handy · Zeitraum 9 Jahre",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Jedes Jahr ein neues Handy oder nur alle drei Jahre?",
+        "zeilen": [
+          [
+            "📱✨",
+            130
+          ],
+          [
+            "*Jedes Jahr* neu",
+            100
+          ],
+          [
+            "vs.",
+            70
+          ],
+          [
+            "*Alle 3 Jahre*",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "In neun Jahren sind das neun Handys oder drei. Bei je 1.000 Euro.",
+        "kopf": "In 9 Jahren",
+        "abstand": 0.9,
+        "letzte_gross": true,
+        "zeilen": [
+          "Jedes Jahr: *9 Handys* 📱",
+          "Alle 3 Jahre: *3 Handys* 📱",
+          "je *1.000 €*"
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "9.000 Euro gegen 3.000 Euro.",
+        "kopf": "Kosten in 9 Jahren",
+        "balken": true,
+        "links": {
+          "emoji": "📱",
+          "name": "Jedes Jahr",
+          "farbe": "rot",
+          "wert": 9000
+        },
+        "rechts": {
+          "emoji": "🔋",
+          "name": "Alle 3 Jahre",
+          "farbe": "gruen",
+          "wert": 3000
+        }
+      },
+      {
+        "typ": "zahl",
+        "sprich": "6.000 Euro Unterschied. Dafür gibt's einen richtig guten Urlaub.",
+        "oben": "Unterschied",
+        "wert": 6000,
+        "unten": [
+          "= *Traumurlaub* 🏝️"
+        ],
+        "unten_ab": 1.6,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Alle drei Jahre. Dein Handy kann mehr, als du denkst.",
+        "links": {
+          "emoji": "📱",
+          "name": "Jedes Jahr"
+        },
+        "rechts": {
+          "emoji": "🔋",
+          "name": "Alle 3 Jahre"
+        },
+        "gewinner": "rechts",
+        "spruch": "*6.000 €* gespart 💸"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Team jedes Jahr neu oder Team bis es kaputt ist? Markier jemanden, der immer das Neueste hat!",
+        "zeilen": [
+          "Team *jedes Jahr neu* 📱 oder Team *bis es kaputt ist* 🔨?",
+          "Markier jemanden mit dem *neuesten* Handy 👇"
+        ],
+        "abstand": 0.8
+      }
     ]
   }
 ]
