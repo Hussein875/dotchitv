@@ -26,8 +26,9 @@ python3 generate.py --check
   `pbpaste > ~/.elevenlabs && chmod 600 ~/.elevenlabs`. Der Schlüssel liegt nur auf dem Mac, nie im Repo.
 - **Google Drive:** Ordner **„Dotchi Videos“** in „Meine Ablage“ anlegen und per Link freigeben
   („Jeder mit dem Link“, Betrachter). Mit Google Drive für Desktop kopiert der Generator jedes Video automatisch dorthin.
-- **Metricool:** eine Marke **„Dotchi“** anlegen und TikTok, Instagram und YouTube von `@dotchitv` verbinden.
-  Der Name muss genau so heißen (Spalte „Brand name“ im CSV-Import, einstellbar unter `metricool.marke`).
+- **Metricool:** Marke **„Dotchi TV“** mit TikTok, Instagram und YouTube von `@dotchitv`. Die CSV importierst du,
+  während oben rechts **Dotchi TV** ausgewählt ist – die Spalte „Brand name“ bleibt leer (`metricool.marke`),
+  ein abweichender Name würde die Beiträge nur als Entwurf importieren.
 
 ## Wochen-Routine
 
