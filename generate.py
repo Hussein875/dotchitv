@@ -268,8 +268,9 @@ def posting_plan(vergleiche, cfg, tage, uhrzeiten, start, nur_drive):
         for uhrzeit in uhrzeiten:
             if f"{datum.isoformat()} {uhrzeit}" <= f"{jetzt:%Y-%m-%d %H:%M}" or not fertig:
                 continue
-            # Abwechslung: möglichst nicht zweimal hintereinander dasselbe Thema
-            v = next((x for x in fertig if x["thema"] != letztes_thema), fertig[0])
+            # Reihenfolge wie in vergleiche.json (dort steht der Redaktionsplan); Geld darf öfter hintereinander
+            # kommen, andere Themen möglichst nicht zweimal am Stück
+            v = next((x for x in fertig if x["thema"] == "geld" or x["thema"] != letztes_thema), fertig[0])
             fertig.remove(v)
             letztes_thema = v["thema"]
             v["termin"] = f"{datum.isoformat()} {uhrzeit}"

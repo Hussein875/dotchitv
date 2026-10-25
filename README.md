@@ -34,7 +34,7 @@ python3 generate.py --check
 | Wann | Wer | Was |
 |---|---|---|
 | jederzeit | du | Ideen in `IDEEN.md` eintragen (auf GitHub → Stift-Symbol) oder Claude schreiben |
-| Fr | Cloud | setzt offene Ideen aus `IDEEN.md` um, füllt mit eigenen Vergleichen auf (recherchiert, nachgerechnet) |
+| Fr | Cloud | 21 neue Vergleiche (3 pro Tag): zuerst offene Ideen aus `IDEEN.md`, dann nach `REDAKTIONSPLAN.md` |
 | Fr–So früh | **du am Mac** | `~/Documents/dotchitv/woche.sh` – holt Inhalte und rendert **IQKnacker und Dotchi** |
 | So früh | Cloud | plant die nächste Woche, legt `metricool_dotchi_….csv` in den Drive-Ordner |
 | So | **du** | Metricool → Kalender → ⋮ → CSV importieren |
@@ -48,7 +48,7 @@ python3 generate.py --vorschau      # Kontaktbögen aller Szenen ohne Stimme (ke
 python3 generate.py --ohne-stimme   # Video nur mit Musik und Effekten
 python3 generate.py --liste         # Status: neu / gerendert / geplant / gepostet
 python3 generate.py --drive         # fertige Videos (noch einmal) nach Google Drive kopieren
-python3 generate.py --plan 7        # Posting-Plan + Metricool-CSV (lokal)
+python3 generate.py --plan 7        # Posting-Plan + Metricool-CSV (lokal; 12:30, 17:30, 20:30 Uhr)
 python3 generate.py --plan 7 --nur-drive   # dasselbe in der Cloud: fertig ist, was in drive_links.json steht
 python3 generate.py --check         # Installation prüfen
 python3 tools/logo.py               # Marke, Profilbilder (profilbild.png, profilbild_tiktok.png) und YouTube-Banner neu zeichnen
@@ -63,6 +63,7 @@ nur geänderte Sätze werden neu gesprochen.
 | Datei | Inhalt | Wer ändert sie |
 |---|---|---|
 | `IDEEN.md` | deine Ideen für neue Vergleiche – werden freitags zuerst umgesetzt | du (auf GitHub) |
+| `REDAKTIONSPLAN.md` | welches Thema wann: Mischung (70 % Geld), Tagesablauf, Saison | du / Claude |
 | `vergleiche.json` | alle Videos (Szenen, Texte, Zahlen) | Cloud-Aufgabe / Hand |
 | `config.json` | Stimme, Lautstärken, Themen-Farben, Hashtags, Uhrzeiten, Metricool | Hand |
 | `geplant.json` | geplante Termine je ID – vergangene gelten als gepostet | `--plan` (Cloud) |
