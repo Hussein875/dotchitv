@@ -4,6 +4,7 @@
     python generate.py                 # alle Vergleiche rendern, die noch kein Video haben
     python generate.py --id 3 7        # nur diese (auch neu rendern)
     python generate.py --vorschau      # Kontaktbögen ohne Stimme (kostet keine Credits)
+    python generate.py --doppelte      # ähnliche Vergleiche finden (gleiches Konzept, fast gleicher Titel)
     python generate.py --plan 7        # Posting-Plan + Metricool-CSV
     python generate.py --check         # Installation prüfen
 
@@ -441,6 +442,33 @@ def metricool_csv(ausgabe, cfg, posts, von, bis):
 
 # ---------------------------------------------------------------- Kommandozeile
 
+FUELLWOERTER = {"vs", "oder", "und", "der", "die", "das", "dem", "den", "ein", "eine", "einen", "im", "in", "am", "an",
+                "mit", "für", "von", "zur", "zum", "so", "was", "wie", "viel", "dein", "deine", "du", "es", "ist",
+                "kostet", "kosten", "wirklich", "heute", "jahr", "jahre", "jeden", "jedes", "tag", "mehr", "lange"}
+
+
+def doppelte_finden(vergleiche):
+    """Ähnliche Vergleiche: gleiches `konzept` (Thema + Blickwinkel, z. B. „doener-jahreskosten“) oder Titel mit
+    fast denselben Kernwörtern. Gemeldet wird nur, wo noch etwas zu ändern ist – mindestens einer ist noch nicht
+    verplant (hat keinen Termin)."""
+    def kern(v):
+        return {w for w in re.findall(r"[a-zäöüß0-9]+", v["titel"].lower()) if w not in FUELLWOERTER}
+
+    treffer, gruppen = [], {}
+    for v in vergleiche:
+        if v.get("konzept"):
+            gruppen.setdefault(v["konzept"], []).append(v)
+    for konzept, liste in gruppen.items():
+        if len(liste) > 1 and any(not v.get("termin") for v in liste):
+            treffer.append((f"gleiches Konzept „{konzept}“", [v["id"] for v in liste]))
+    for i, a in enumerate(vergleiche):
+        for b in vergleiche[i + 1:]:
+            ka, kb = kern(a), kern(b)
+            if (not a.get("termin") or not b.get("termin")) and ka and kb and len(ka & kb) / len(ka | kb) >= 0.6:
+                treffer.append(("fast gleicher Titel", [a["id"], b["id"]]))
+    return treffer
+
+
 def main():
     parser = argparse.ArgumentParser(description="Dotchi: erzeugt Vergleichs-Shorts aus vergleiche.json")
     parser.add_argument("--id", type=int, nargs="+", help="nur diese Vergleiche (auch wenn schon gerendert)")
@@ -448,6 +476,7 @@ def main():
     parser.add_argument("--vorschau", action="store_true", help="nur Kontaktbögen ohne Stimme (keine Credits)")
     parser.add_argument("--ohne-stimme", action="store_true", help="Video ohne Stimme (nur Musik und Effekte)")
     parser.add_argument("--liste", action="store_true", help="alle Vergleiche mit Status anzeigen")
+    parser.add_argument("--doppelte", action="store_true", help="ähnliche Vergleiche anzeigen (Konzept, Titel)")
     parser.add_argument("--check", action="store_true", help="Installation prüfen")
     parser.add_argument("--uebersicht", action="store_true",
                         help="Excel mit allen Vergleichen (Status, Termin, Urteil) und Ideen → output/uebersicht_dotchi.xlsx")
@@ -468,6 +497,16 @@ def main():
     termine_laden(vergleiche)
     ausgabe = os.path.join(BASIS, cfg["ausgabe"]["ordner"])
     jetzt = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
+    doppelte = doppelte_finden(vergleiche)
+    if args.doppelte:
+        for grund, ids in doppelte:
+            print(f"⚠ doppelt ({grund}): Vergleich {', '.join(map(str, ids))}")
+        if doppelte:
+            sys.exit(1)
+        print("✓ Keine doppelten Vergleiche")
+        return
+    if doppelte:
+        print(f"⚠ {len(doppelte)} mögliche Doppelte – Details: python3 generate.py --doppelte")
 
     if args.liste:
         for v in vergleiche:

@@ -11,8 +11,14 @@ Oder einfach Claude im Chat schreiben.
 Format: eine Zeile pro Idee, gern mit Stichworten oder einer Zahl, die du kennst – z. B.
 `- Fitnessstudio-Abo vs. Training zu Hause (ich zahle 35 € im Monat)`
 
+Steht ein Zeitpunkt dabei („erst ab …“), wartet die Idee bis zu dieser Woche. Anstehende Trends und Anlässe für
+beide Kanäle stehen in `TRENDS.md`.
+
 ## Offen
 
+- iPhone Duo (faltbar, ab 2.299 €) vs. iPhone 17e (849 €) – was bekommst du für den Unterschied? (gleich posten, ist gerade neu)
+- Heizung 1 Grad runter – was spart das im Winter? (November)
+- GTA 6: Preis pro Spielstunde vs. Kino und Streaming (erst in der Woche 15.–21.11. posten, Release 19.11.)
 - E-Auto vs. Benziner – Kosten pro 100 km
 - Mieten vs. kaufen – was zahlst du in 30 Jahren?
 

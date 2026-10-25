@@ -27,6 +27,29 @@ Geld und Zahlen ziehen am meisten – deshalb liegt der Schwerpunkt dort.
 25 % „Was kostet dich X im Jahr?“ (Döner-Muster mit Pointe), 15 % „Damals vs. heute“ oder „In Perspektive“
 („So lange arbeitest du dafür“). Gleiche Themen nie zwei Tage hintereinander.
 
+## Qualität: Videos, die wir selbst schauen wollen
+
+Jedes Video muss mindestens eins davon liefern – sonst wird es nicht gemacht:
+
+- **Überraschende Zahl:** Am Ende weiß man etwas, das man vorher falsch geschätzt hätte („780 € im Jahr für Döner?!“).
+- **Mehrwert:** ein Tipp oder eine Erkenntnis, die man direkt nutzen kann (Spartipp, bessere Wahl, Rechentrick).
+- **Gesprächsstoff:** Man will es jemandem zeigen, markieren oder widersprechen.
+
+**Nicht mehr:** Vergleiche, deren Ergebnis jeder schon kennt, ohne neue Zahl („Wasser ist billiger als Cola“),
+reine Aufzählungen ohne Urteil, Themen, die wir schon hatten – auch nicht mit leicht anderem Titel.
+Jeder Vergleich hat ein `konzept` (Thema + Blickwinkel, z. B. `doener-jahreskosten` vs. `doener-preis-damals-heute`);
+`python3 generate.py --doppelte` meldet gleiche Konzepte und fast gleiche Titel.
+
+## Trends: mit der Zeit gehen (mindestens 5 von 21 pro Woche)
+
+Was gerade passiert, bringt Abwechslung und Reichweite. Vor jeder Woche `TRENDS.md` lesen und per Websuche
+prüfen, was in der Zielwoche ansteht oder gerade alle bespricht: neue Handys und Konsolen, große Game- und
+Kino-Releases, Preiserhöhungen, Shopping-Tage, Feiertage, Wetter. Neue Trends in `TRENDS.md` eintragen.
+
+- **Timing:** Trend-Videos in die Woche *vor* bzw. *um* den Anlass legen, das stärkste auf den Tag selbst um 20:30.
+- **Mindestens 5 Trend-Videos pro Woche**, der Rest nach der Mischung oben. Trends zählen zur Geld-Quote, wenn es um Preise geht.
+- **Echte Zahlen** (Preise, Termine) immer mit Quelle und Stand im `fuss` – bei Trends ändern sich Zahlen schnell.
+
 ## Viral-Formate (bevorzugen – mindestens 7 von 21 pro Woche)
 
 Ziel: Themen, die **jeder auf sich bezieht** und zu denen **jeder eine Meinung hat**.

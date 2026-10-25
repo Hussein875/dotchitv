@@ -48,6 +48,7 @@ python3 generate.py --id 3 7        # nur diese (auch neu rendern)
 python3 generate.py --vorschau      # Kontaktbögen aller Szenen ohne Stimme (keine Credits) → output/*_vorschau.png
 python3 generate.py --ohne-stimme   # Video nur mit Musik und Effekten
 python3 generate.py --liste         # Status: neu / gerendert / geplant / gepostet
+python3 generate.py --doppelte      # ähnliche Vergleiche finden (gleiches Konzept, fast gleicher Titel)
 python3 generate.py --uebersicht    # Excel mit allen Vergleichen + Ideen → output/uebersicht_dotchi.xlsx
 python3 generate.py --drive         # fertige Videos (noch einmal) nach Google Drive kopieren
 python3 generate.py --plan 7        # Posting-Plan + Metricool-CSV (lokal; 12:30, 17:30, 20:30 Uhr)
@@ -65,7 +66,8 @@ nur geänderte Sätze werden neu gesprochen.
 | Datei | Inhalt | Wer ändert sie |
 |---|---|---|
 | `IDEEN.md` | deine Ideen für neue Vergleiche – werden freitags zuerst umgesetzt | du (auf GitHub) |
-| `REDAKTIONSPLAN.md` | welches Thema wann: Mischung (70 % Geld), Tagesablauf, Saison | du / Claude |
+| `REDAKTIONSPLAN.md` | welches Thema wann: Mischung (70 % Geld), Tagesablauf, Trends, Saison, Qualitätsregeln | du / Claude |
+| `TRENDS.md` | anstehende Trends und Anlässe – gemeinsam für Dotchi und IQKnacker | du / Cloud-Aufgaben |
 | `vergleiche.json` | alle Videos (Szenen, Texte, Zahlen) | Cloud-Aufgabe / Hand |
 | `config.json` | Stimme, Lautstärken, Themen-Farben, Hashtags, Uhrzeiten, Metricool | Hand |
 | `geplant.json` | geplante Termine je ID – vergangene gelten als gepostet | `--plan` (Cloud) |
@@ -80,6 +82,7 @@ Der Mac verändert beim Rendern keine dieser Dateien – `git pull` klappt desha
   "id": 11,
   "titel": "Kaffee to go vs. Zuhause",          // auch YouTube-Titel (+ #shorts), max. ~90 Zeichen
   "thema": "geld",                               // geld | zeit | essen | strom | technik | alltag
+  "konzept": "kaffee-to-go-vs-zuhause",          // Thema + Blickwinkel – zweimal dasselbe gilt als doppelt
   "caption": "Kaffee to go oder Zuhause – was kostet dich wirklich mehr? ☕🏠",
   "hashtags": ["#kaffee"],                       // 1–2 eigene; Themen- und Kanal-Hashtags kommen dazu
   "fuss": "Beispielrechnung · 3,50 € vs. 0,30 € · 220 Arbeitstage",   // Annahmen bzw. Quelle, immer sichtbar

@@ -3,6 +3,7 @@
     "id": 1,
     "titel": "Kaffee to go vs. Zuhause",
     "thema": "geld",
+    "konzept": "kaffee-to-go-vs-zuhause",
     "caption": "Kaffee to go oder Zuhause – was kostet dich wirklich mehr? ☕🏠",
     "hashtags": [
       "#kaffee"
@@ -109,6 +110,7 @@
     "id": 2,
     "titel": "Dein Döner-Konto: 780 € im Jahr",
     "thema": "geld",
+    "konzept": "doener-jahreskosten",
     "caption": "Was dich dein Döner wirklich kostet 🥙 Lohnt sich das?",
     "hashtags": [
       "#döner"
@@ -186,6 +188,7 @@
     "id": 3,
     "titel": "Standby vs. Steckerleiste aus",
     "thema": "strom",
+    "konzept": "standby-stromkosten",
     "caption": "Standby kostet dich mehr, als du denkst 🔌 Machst du den Stecker aus?",
     "hashtags": [
       "#standby"
@@ -280,6 +283,7 @@
     "id": 4,
     "titel": "3 Stunden Handy am Tag = 45 Tage im Jahr",
     "thema": "zeit",
+    "konzept": "handy-bildschirmzeit",
     "caption": "So viel Lebenszeit steckt in deinem Handy 📱 Wie viel ist es bei dir?",
     "hashtags": [
       "#bildschirmzeit",
@@ -361,6 +365,7 @@
     "id": 5,
     "titel": "Wasser aus der Flasche vs. aus dem Hahn",
     "thema": "geld",
+    "konzept": "wasser-flasche-vs-leitung",
     "caption": "Flasche oder Leitung – der Unterschied ist riesig 💧",
     "hashtags": [
       "#wasser",
@@ -469,6 +474,7 @@
     "id": 6,
     "titel": "Pizza liefern lassen vs. selbst machen",
     "thema": "essen",
+    "konzept": "pizza-liefern-vs-selbst",
     "caption": "Lieferdienst oder selbst backen? 🍕 Die Rechnung überrascht",
     "hashtags": [
       "#pizza",
@@ -571,6 +577,7 @@
     "id": 7,
     "titel": "Mit dem Auto oder Fahrrad zur Arbeit",
     "thema": "geld",
+    "konzept": "auto-vs-fahrrad-arbeitsweg",
     "caption": "Auto oder Fahrrad zur Arbeit? 🚗🚲 Nur der Sprit – und trotzdem krass",
     "hashtags": [
       "#pendeln",
@@ -663,6 +670,7 @@
     "id": 8,
     "titel": "3 Abos à 12,99 € – was das wirklich kostet",
     "thema": "geld",
+    "konzept": "abo-kosten",
     "caption": "Kleine Abos, großer Betrag 😬 Wie viele Abos hast du?",
     "hashtags": [
       "#abo",
@@ -758,6 +766,7 @@
     "id": 9,
     "titel": "Wasser laufen lassen beim Zähneputzen",
     "thema": "alltag",
+    "konzept": "wasser-zaehneputzen",
     "caption": "Wasserhahn beim Zähneputzen an oder aus? 🪥💧 Die Zahl ist heftig",
     "hashtags": [
       "#wassersparen",
@@ -832,6 +841,7 @@
     "id": 10,
     "titel": "Mittagessen: Kantine vs. Meal Prep",
     "thema": "essen",
+    "konzept": "mittag-kaufen-vs-mealprep",
     "caption": "Jeden Tag Mittag kaufen oder vorkochen? 🍱 So viel macht's aus",
     "hashtags": [
       "#mealprep",
@@ -934,6 +944,7 @@
     "id": 11,
     "titel": "So lange arbeitest du mit Mindestlohn für ein iPhone",
     "thema": "geld",
+    "konzept": "mindestlohn-arbeitszeit-handy",
     "caption": "Mit Mindestlohn für ein 1.000-€-Handy arbeiten – so lange dauert's ⏱️📱",
     "hashtags": [
       "#mindestlohn",
@@ -997,6 +1008,7 @@
     "id": 12,
     "titel": "Azubi-Duell: Rohrleitungsbauer vs. Friseur",
     "thema": "geld",
+    "konzept": "azubi-gehalt-handwerk-vs-friseur",
     "caption": "Azubi-Gehalt: Rohrleitungsbauer vs. Friseur – der Unterschied ist krass 💸 Was verdienst du in der Ausbildung?",
     "hashtags": [
       "#ausbildung",
@@ -1090,6 +1102,7 @@
     "id": 13,
     "titel": "Jeden Tag ein Energy-Drink – was das im Jahr kostet",
     "thema": "geld",
+    "konzept": "energydrink-jahreskosten",
     "caption": "Jeden Tag eine Dose – so viel kostet dich das ⚡ Markier deinen Energy-Junkie!",
     "hashtags": [
       "#energydrink"
@@ -1168,6 +1181,7 @@
     "id": 14,
     "titel": "Kinoticket 2001 vs. heute",
     "thema": "geld",
+    "konzept": "kino-preis-damals-heute",
     "caption": "Kino damals vs. heute 🎬 Fast 80 % teurer! Was hat dein letztes Ticket gekostet?",
     "hashtags": [
       "#kino",
@@ -1256,6 +1270,7 @@
     "id": 15,
     "titel": "Miete München vs. Leipzig",
     "thema": "geld",
+    "konzept": "miete-muenchen-vs-leipzig",
     "caption": "München vs. Leipzig – so viel mehr Miete zahlst du 🏙️ Aus welcher Stadt kommst du?",
     "hashtags": [
       "#miete",
@@ -1368,6 +1383,7 @@
     "id": 16,
     "titel": "Lotto jede Woche vs. Sparschwein",
     "thema": "geld",
+    "konzept": "lotto-vs-sparen",
     "caption": "10 € Lotto jede Woche – lohnt sich das? 🎰🐷 Team Lotto oder Team Sparschwein?",
     "hashtags": [
       "#lotto",
@@ -1450,6 +1466,7 @@
     "id": 17,
     "titel": "30 Minuten Arbeitsweg = 9 Tage im Jahr",
     "thema": "zeit",
+    "konzept": "pendelzeit-pro-jahr",
     "caption": "So viel Lebenszeit kostet dich dein Arbeitsweg 🚗⏱️ Wie lange pendelst du?",
     "hashtags": [
       "#pendeln",
@@ -1530,6 +1547,7 @@
     "id": 18,
     "titel": "Altenpflege verdient schlecht? Der Mythos-Check",
     "thema": "geld",
+    "konzept": "gehalt-altenpflege-mythos",
     "caption": "Altenpflege-Fachkraft vs. Durchschnitt aller Berufe – das hätte keiner gedacht 👀 Was verdienst du?",
     "hashtags": [
       "#pflege",
@@ -1623,6 +1641,7 @@
     "id": 19,
     "titel": "Duschen vs. Baden",
     "thema": "alltag",
+    "konzept": "duschen-vs-baden",
     "caption": "Duschen oder Baden? 🚿🛁 Der Unterschied ist größer, als du denkst",
     "hashtags": [
       "#duschen",
@@ -1730,6 +1749,7 @@
     "id": 20,
     "titel": "Döner 2021 vs. heute",
     "thema": "essen",
+    "konzept": "doener-preis-damals-heute",
     "caption": "Dönerpreis 2021 vs. 2025 – fast 50 % teurer 🥙📈 Was zahlst du in deiner Stadt?",
     "hashtags": [
       "#döner",
@@ -1818,6 +1838,7 @@
     "id": 21,
     "titel": "Neues Handy jedes Jahr vs. alle 3 Jahre",
     "thema": "technik",
+    "konzept": "handy-neukauf-rhythmus",
     "caption": "Jedes Jahr ein neues Handy? 📱 So viel kostet dich das in 9 Jahren",
     "hashtags": [
       "#handy",
