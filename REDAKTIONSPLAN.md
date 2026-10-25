@@ -50,6 +50,24 @@ Kino-Releases, Preiserhöhungen, Shopping-Tage, Feiertage, Wetter. Neue Trends i
 - **Mindestens 5 Trend-Videos pro Woche**, der Rest nach der Mischung oben. Trends zählen zur Geld-Quote, wenn es um Preise geht.
 - **Echte Zahlen** (Preise, Termine) immer mit Quelle und Stand im `fuss` – bei Trends ändern sich Zahlen schnell.
 
+## Serien (1 Serie pro Woche, 2–4 Teile)
+
+Serien bringen Follower: Wer Teil 1 sieht, folgt, um Teil 2 nicht zu verpassen. Pro Woche **eine** Serie mit
+2–4 Teilen, an **aufeinanderfolgenden Tagen um 20:30** (in vergleiche.json einfach an die passenden Stellen legen –
+die Reihenfolge dort ist die Posting-Reihenfolge).
+
+- Titel und Hook mit Teil-Nummer: `"titel": "Lebenskosten Teil 1/3: Kaffee"`, erste Szene z. B. `["*TEIL 1/3*", 60]`.
+- Letzte Szene: Cliffhanger statt nur Frage – „Teil 2 morgen: das Handy. Folgen, sonst verpasst du's 👀“.
+- Caption beginnt mit „Teil 1/3 –“. Jeder Teil hat ein eigenes `konzept` (z. B. `lebenskosten-kaffee`).
+
+| Serie | Teile (Beispiele) |
+|---|---|
+| 💸 **Was dich ein Leben lang kostet** | Kaffee, Handy, Auto, Streaming – jeweils „ab 18 bis 67“ hochgerechnet (Beispielrechnung) |
+| 🏙️ **Städte-Turnier** | München vs. Leipzig ✅ → Sieger gegen Hamburg → gegen Berlin … Kommentar-Frage: „Welche Stadt als Nächstes?“ |
+| 💼 **Gehaltscheck** | Pflege ✅, Handwerk, Büro, Lehramt – immer Median brutto mit Quelle |
+| 📆 **Damals vs. heute** | Döner ✅, Kino ✅, dann Benzin, Pizza, Miete – mit Jahr und Quelle |
+| 🎯 **30-Tage-Spar-Challenge** | Woche 1–4: was ein kleiner Verzicht pro Woche bringt |
+
 ## Viral-Formate (bevorzugen – mindestens 7 von 21 pro Woche)
 
 Ziel: Themen, die **jeder auf sich bezieht** und zu denen **jeder eine Meinung hat**.
