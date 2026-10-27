@@ -54,6 +54,7 @@ python3 generate.py --drive         # fertige Videos (noch einmal) nach Google D
 python3 generate.py --plan 7        # Posting-Plan + Metricool-CSV (lokal; 12:30, 17:30, 20:30 Uhr)
 python3 generate.py --plan 7 --nur-drive   # dasselbe in der Cloud: fertig ist, was in drive_links.json steht
 python3 generate.py --check         # Installation prüfen
+python3 generate.py --datei test_geschichte.json --id 900   # Test-Geschichte „Max vs. Tim“ rendern (nicht im Plan)
 python3 tools/logo.py               # Marke, Profilbilder (profilbild.png, profilbild_tiktok.png) und YouTube-Banner neu zeichnen
 ```
 
@@ -101,6 +102,7 @@ Im Bildtext markiert `*so*` die Akzentfarbe. Szenentypen:
 | `zahl` | `oben`, `wert`, optional `einheit`, `dezimalen`, `farbe`, `unten` (Zeilen), `unten_ab` | große hochzählende Zahl mit „Ching“ |
 | `liste` | `zeilen`, optional `kopf`, `abstand`, `letzte_gross` | Rechenweg, Perspektiven, Kommentar-Frage |
 | `urteil` | `links`/`rechts` (`emoji`, `name`), `gewinner`: `links`/`rechts`, optional `spruch`, `kopf`, `stempel` | „Dotchi? 🤔“ – Gewinner bekommt den Stempel **BESSERE WAHL**, Verlierer ❌ |
+| `bild` | `ort` (`strasse`, `cafe`, `zimmer`, `abend`, `kueche`), `text`, `figuren`: Liste aus `wer`, `x` (0–1), `stimmung` (`normal`, `freut`, `traurig`, `staunt`), `pose` (`steht`, `haelt`, `winkt`, `jubelt`), optional `haelt` (Emoji), `blase` (Emoji), `spiegeln` | gezeichnete Geschichten-Szene (`figuren.py`); das Aussehen der Figuren steht einmal im Eintrag unter `figuren` |
 
 Für alle: `min` (Mindestdauer in s), `ching` (Zeitpunkt des Kassen-Sounds in s). Farben: `rot`, `gruen`, `gold`,
 `blau`, `lila`, `orange`, `grau` oder Hex. Bewährter Ablauf: **Hook → Preis pro Stück (vs) → pro Jahr (vs mit

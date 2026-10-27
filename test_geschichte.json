@@ -1,0 +1,208 @@
+[
+  {
+    "id": 900,
+    "titel": "Max vs. Tim – Teil 1: gleiches Gehalt, anderes Leben",
+    "thema": "geld",
+    "konzept": "story-max-vs-tim-teil-1",
+    "caption": "Teil 1 – Max und Tim verdienen gleich viel. Nach einem Jahr trennen sie 3.020 € 😳 Team Max oder Team Tim?",
+    "hashtags": [
+      "#sparen",
+      "#geschichte"
+    ],
+    "fuss": "Beispielrechnung · erfundene Personen · Handy 900 € · Essen 3× pro Woche: 15 € vs. 4 €",
+    "figuren": {
+      "max": {
+        "haut": "#F2C9A0",
+        "haare": "#5A3A22",
+        "frisur": "kurz",
+        "shirt": "#FF6B6B",
+        "hose": "#3B4252"
+      },
+      "tim": {
+        "haut": "#E8B88A",
+        "haare": "#E6C068",
+        "frisur": "seite",
+        "shirt": "#2EC27E",
+        "hose": "#2E3440",
+        "brille": true
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Max und Tim: *beste Freunde*",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "winkt"
+          },
+          {
+            "wer": "tim",
+            "x": 0.7,
+            "stimmung": "freut",
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Das sind Max und Tim. Beste Freunde, gleicher Job, gleiches Gehalt."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Beide verdienen",
+        "wert": 2200,
+        "unten": [
+          "netto im Monat"
+        ],
+        "sprich": "Beide bekommen 2200 Euro netto im Monat."
+      },
+      {
+        "typ": "bild",
+        "ort": "cafe",
+        "text": "Max: jeden Morgen *Kaffee to go* – 3,50 €",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "☕"
+          }
+        ],
+        "sprich": "Max holt sich jeden Morgen einen Kaffee to go. Drei Euro fünfzig."
+      },
+      {
+        "typ": "bild",
+        "ort": "kueche",
+        "text": "Tim: Kaffee *von zu Hause* – 0,30 €",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.5,
+            "pose": "haelt",
+            "haelt": "☕"
+          }
+        ],
+        "sprich": "Tim macht seinen Kaffee zu Hause. Dreißig Cent."
+      },
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Max: jedes Jahr ein *neues Handy*",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "staunt",
+            "pose": "haelt",
+            "haelt": "📱",
+            "blase": "🤩"
+          }
+        ],
+        "sprich": "Jedes Jahr ein neues Handy? Für Max ganz normal."
+      },
+      {
+        "typ": "bild",
+        "ort": "zimmer",
+        "text": "Tim: ein Handy für *3 Jahre*",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.5,
+            "pose": "haelt",
+            "haelt": "📱"
+          }
+        ],
+        "sprich": "Tim nutzt sein Handy drei Jahre lang."
+      },
+      {
+        "typ": "bild",
+        "ort": "abend",
+        "text": "Max: *3× pro Woche* Lieferdienst",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🍕"
+          }
+        ],
+        "sprich": "Abends bestellt Max dreimal pro Woche Essen."
+      },
+      {
+        "typ": "bild",
+        "ort": "kueche",
+        "text": "Tim: kocht *selbst*",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🍳"
+          }
+        ],
+        "sprich": "Tim kocht selbst."
+      },
+      {
+        "typ": "vs",
+        "kopf": "Ausgegeben in *1 Jahr*",
+        "balken": true,
+        "links": {
+          "emoji": "💸",
+          "name": "Max",
+          "farbe": "rot",
+          "wert": 4010
+        },
+        "rechts": {
+          "emoji": "🐷",
+          "name": "Tim",
+          "farbe": "gruen",
+          "wert": 990
+        },
+        "sprich": "Nach einem Jahr hat Max 4010 Euro ausgegeben. Tim nur 990."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Unterschied nach *1 Jahr*",
+        "wert": 3020,
+        "farbe": "gruen",
+        "unten": [
+          "nur für Kaffee, Handy und Essen"
+        ],
+        "sprich": "Das sind 3020 Euro Unterschied. In nur einem Jahr."
+      },
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Und nach *10 Jahren*? 👀",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.3,
+            "stimmung": "staunt"
+          },
+          {
+            "wer": "tim",
+            "x": 0.7,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🐷",
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Und nach zehn Jahren? Das siehst du in Teil zwei. Folg uns, sonst verpasst du's!"
+      },
+      {
+        "typ": "liste",
+        "zeilen": [
+          "*Team Max* 🍕 oder *Team Tim* 🐷?",
+          "Schreib's in die Kommentare 👇"
+        ],
+        "sprich": "Bist du Team Max oder Team Tim? Schreib's in die Kommentare."
+      }
+    ]
+  }
+]

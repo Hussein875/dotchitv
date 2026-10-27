@@ -31,7 +31,7 @@ GEPLANT_DATEI = os.path.join(BASIS, "geplant.json")
 LINKS_DATEI = os.path.join(BASIS, "drive_links.json")
 CACHE = os.path.join(BASIS, ".stimmen-cache")
 SZENEN_TYPEN = {"titel": ["zeilen"], "vs": ["links", "rechts"], "zahl": ["oben", "wert"], "liste": ["zeilen"],
-                "urteil": ["links", "rechts", "gewinner"]}
+                "urteil": ["links", "rechts", "gewinner"], "bild": ["ort"]}
 WOCHENTAGE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
 
 
@@ -478,6 +478,7 @@ def main():
     parser.add_argument("--liste", action="store_true", help="alle Vergleiche mit Status anzeigen")
     parser.add_argument("--doppelte", action="store_true", help="ähnliche Vergleiche anzeigen (Konzept, Titel)")
     parser.add_argument("--check", action="store_true", help="Installation prüfen")
+    parser.add_argument("--datei", help="andere Inhalts-Datei statt vergleiche.json, z. B. test_geschichte.json")
     parser.add_argument("--uebersicht", action="store_true",
                         help="Excel mit allen Vergleichen (Status, Termin, Urteil) und Ideen → output/uebersicht_dotchi.xlsx")
     parser.add_argument("--drive", action="store_true", help="fertige Videos in den Google-Drive-Ordner kopieren")
@@ -492,7 +493,7 @@ def main():
     if args.check:
         check(cfg)
         return
-    vergleiche = lade_json(VERGLEICHE_DATEI)
+    vergleiche = lade_json(os.path.join(BASIS, args.datei) if args.datei else VERGLEICHE_DATEI)
     pruefe(vergleiche, cfg)
     termine_laden(vergleiche)
     ausgabe = os.path.join(BASIS, cfg["ausgabe"]["ordner"])

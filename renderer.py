@@ -6,6 +6,7 @@ Ein Video besteht aus Szenen – eine pro gesprochenem Satz. Typen:
   zahl    Überschrift, große hochzählende Zahl, Unterzeilen
   liste   Zeilen erscheinen nacheinander (Rechenweg, Perspektiven, Kommentar-Frage)
   urteil  „Dotchi?“ – die Gewinnerseite bekommt den Stempel, die andere wird ausgegraut
+  bild    gezeichnete Geschichten-Szene: Ort, Figuren mit Gegenständen, Untertitel (siehe figuren.py)
 """
 
 import math
@@ -175,8 +176,14 @@ def zeichne_urteil(bild, t, sz):
         einfuegen(bild, text(sz["spruch"], 76), (B / 2, 1180 + (1 - ease_out(q)) * 30), deckkraft=q)
 
 
+def zeichne_bild(bild, t, sz):
+    import figuren
+    figuren.zeichne_bild(bild, t, sz, fett._emoji_bild,
+                         lambda satz: text(satz, sz.get("groesse", 64), WEISS, breite=940))
+
+
 ZEICHNER = {"titel": zeichne_titel, "zahl": zeichne_zahl, "vs": zeichne_vs, "liste": zeichne_liste,
-            "urteil": zeichne_urteil}
+            "urteil": zeichne_urteil, "bild": zeichne_bild}
 EFFEKTE = {"zahl": {"ching": 1.35}, "urteil": {"stempel": 1.0}}  # Standard-Zeitpunkte der Soundeffekte
 
 
@@ -194,7 +201,9 @@ class Szene:
 class Video:
     def __init__(self, eintrag, cfg):
         self.eintrag = eintrag
-        self.szenen = [Szene(s) for s in eintrag["szenen"]]
+        # Geschichten-Szenen brauchen die Figuren des Eintrags (Aussehen einmal pro Video festgelegt)
+        self.szenen = [Szene(dict(s, _figuren=eintrag.get("figuren", {})) if s["typ"] == "bild" else s)
+                       for s in eintrag["szenen"]]
         thema = cfg["themen"].get(eintrag.get("thema"), {})
         hintergrund = farbe(eintrag.get("farbe") or thema.get("farbe"), "gold")
         self.hintergrund = Image.new("RGBA", (B, H), (12, 13, 18, 255))
