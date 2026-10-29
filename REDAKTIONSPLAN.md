@@ -40,6 +40,14 @@ reine Aufzählungen ohne Urteil, Themen, die wir schon hatten – auch nicht mit
 Jeder Vergleich hat ein `konzept` (Thema + Blickwinkel, z. B. `doener-jahreskosten` vs. `doener-preis-damals-heute`);
 `python3 generate.py --doppelte` meldet gleiche Konzepte und fast gleiche Titel.
 
+## Wow-Faktor: Neues statt Alltags-Spartipps (mindestens 5 von 21 pro Woche)
+
+Die Spar-Klassiker (Kaffee, Abos, Döner, Standby …) haben wir. Jede Woche brauchen wir **mindestens 5 Vergleiche mit einem
+Fakt, den die meisten noch nicht kennen** – Typ „Wusstest du?“, belegt mit Quelle. Beispiele: Kino-Popcorn bezahlt das Kino,
+eine Tasse Kaffee verbraucht mehr Wasser als zwei Duschen, eine KI-Frage braucht weniger Strom als 9 Sekunden Fernsehen.
+Gute Quellen: Studien von Unis und Instituten, Statistikämter, Verbraucherzentralen, Geschäftsberichte, technische Berichte
+von Firmen. **Höchstens 4 klassische Spar-Videos pro Woche.**
+
 ## Trends: mit der Zeit gehen (mindestens 5 von 21 pro Woche)
 
 Was gerade passiert, bringt Abwechslung und Reichweite. Vor jeder Woche `TRENDS.md` lesen und per Websuche
