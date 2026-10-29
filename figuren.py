@@ -99,6 +99,68 @@ def zeichne_ort(ort):
         d.rectangle((0, boden - 300, B, boden - 270), fill=(90, 96, 110))
         d.rectangle((0, boden - 270, B, boden), fill=(240, 240, 244))
         d.rectangle((0, boden, B, h), fill=(150, 160, 170))
+    elif ort == "buero":
+        _verlauf(d, (0, 0, B, boden), "#DDE6EE", "#C5D3E0")
+        _fenster(d, (660, 300, 960, 620))
+        d.ellipse((150, 330, 310, 490), fill=(255, 255, 255), outline=(70, 80, 100), width=10)  # Uhr
+        d.line((230, 410, 230, 350), fill=(40, 40, 50), width=8)
+        d.line((230, 410, 275, 425), fill=(40, 40, 50), width=8)
+        d.rectangle((90, boden - 520, 420, boden - 300), fill=(40, 44, 56))            # Monitor
+        d.rectangle((110, boden - 500, 400, boden - 320), fill=(79, 195, 247))
+        for y in range(boden - 470, boden - 340, 36):
+            d.rectangle((135, y, 375, y + 14), fill=(230, 245, 255))
+        d.rectangle((235, boden - 300, 275, boden - 250), fill=(40, 44, 56))
+        d.rectangle((0, boden - 250, B, boden - 220), fill=(150, 105, 70))              # Schreibtisch
+        d.rectangle((0, boden - 220, B, boden), fill=(176, 186, 200))
+        d.rectangle((0, boden, B, h), fill=(120, 130, 148))
+    elif ort == "eiszeit":
+        _verlauf(d, (0, 0, B, boden), "#9FD2EE", "#E6F5FF")
+        for x0, spitze, x1, f in [(-120, (180, 330), 480, (210, 228, 242)), (300, (620, 260), 960, (196, 216, 234)),
+                                  (700, (980, 380), 1260, (214, 230, 244))]:
+            d.polygon([(x0, boden), spitze, (x1, boden)], fill=f)
+            d.polygon([(spitze[0] - 70, spitze[1] + 90), spitze, (spitze[0] + 70, spitze[1] + 90)], fill=(255, 255, 255))
+        for x, hh in [(90, 300), (230, 220), (930, 260)]:                             # verschneite Tannen
+            d.rectangle((x - 12, boden - 60, x + 12, boden), fill=(90, 60, 40))
+            for k in range(3):
+                y = boden - 60 - k * hh // 3
+                d.polygon([(x - 90 + k * 20, y), (x, y - hh // 2), (x + 90 - k * 20, y)], fill=(46, 110, 80))
+                d.polygon([(x - 30 + k * 6, y - hh // 2 + 40), (x, y - hh // 2), (x + 30 - k * 6, y - hh // 2 + 40)],
+                          fill=(250, 252, 255))
+        d.rectangle((0, boden - 30, B, h), fill=(244, 249, 253))
+        d.ellipse((-200, boden - 80, 700, boden + 40), fill=(232, 241, 250))
+    elif ort == "hoehle":
+        _verlauf(d, (0, 0, B, boden), "#4A3426", "#2E2018")
+        ocker, rot = (196, 112, 52), (160, 64, 40)
+        for x, y in [(170, 420), (260, 380), (880, 450)]:                              # Hand-Abdrücke
+            d.ellipse((x - 34, y - 30, x + 34, y + 36), fill=rot)
+            for k, w in enumerate((-60, -30, 0, 30, 60)):
+                fx = x + 30 * math.sin(math.radians(w)) * 1.4
+                fy = y - 30 - 34 * math.cos(math.radians(w)) * (0.7 if k in (0, 4) else 1)
+                d.line((x, y - 10, fx, fy), fill=rot, width=16)
+        d.ellipse((430, 330, 720, 480), fill=ocker)                                    # Bison-Malerei
+        d.ellipse((400, 300, 520, 400), fill=ocker)
+        for lx in (470, 520, 640, 690):
+            d.line((lx, 450, lx - 6, 560), fill=ocker, width=18)
+        d.line((720, 390, 780, 360), fill=ocker, width=10)
+        d.rectangle((0, boden, B, h), fill=(40, 28, 20))
+        d.ellipse((-150, boden - 40, B + 150, boden + 60), fill=(52, 37, 27))
+    elif ort == "strand":
+        _verlauf(d, (0, 0, B, boden - 260), "#4FC0EE", "#BFEAFF")
+        d.ellipse((800, 330, 960, 490), fill=(255, 214, 90))
+        _verlauf(d, (0, boden - 260, B, boden - 110), "#14A8C4", "#3FD0D8")
+        for y in (boden - 220, boden - 160):
+            for x in range(0, B, 160):
+                d.arc((x, y, x + 120, y + 40), 200, 340, fill=(255, 255, 255), width=6)
+        d.rectangle((0, boden - 110, B, h), fill=(243, 217, 164))
+        stamm = [(150 + 18 * math.sin(k / 3), boden - 30 - k * 26) for k in range(20)]
+        d.line(stamm, fill=(140, 92, 54), width=34, joint="curve")
+        kx, ky = stamm[-1]
+        for richtung, weite, haengen in [(-1, 230, 150), (-1, 150, 60), (1, 240, 140), (1, 160, 50), (0.3, 60, -70)]:
+            blatt = [(kx + richtung * weite * k / 6, ky - 60 * math.sin(math.pi * k / 6 * 0.6) + haengen * (k / 6) ** 2)
+                     for k in range(7)]
+            d.line(blatt, fill=(46, 160, 90), width=34, joint="curve")
+        d.ellipse((kx - 26, ky - 10, kx + 6, ky + 22), fill=(120, 80, 40))
+        d.ellipse((kx - 2, ky - 4, kx + 30, ky + 28), fill=(120, 80, 40))
     else:  # neutral
         _verlauf(d, (0, 0, B, boden), "#2A2C38", "#1C1D26")
         d.rectangle((0, boden, B, h), fill=(40, 42, 54))
@@ -232,7 +294,7 @@ def zeichne_bild(ebene, t, sz, emoji_bild, untertitel):
     ebene.alpha_composite(ort, (0, OBEN))
     figuren = sz.get("_figuren", {})
     for i, fz in enumerate(sz.get("figuren", [])):
-        f = figuren.get(fz["wer"], {})
+        f = dict(figuren.get(fz["wer"], {}), **fz.get("aussehen", {}))
         p = ease_out(clamp((t - 0.1 * i) / 0.45))
         blinzeln = (t + i * 1.3) % 3.4 < 0.12
         figur, hand = zeichne_figur(f, fz.get("stimmung", "normal"), fz.get("pose", "steht"), t, blinzeln)
@@ -260,6 +322,8 @@ def zeichne_bild(ebene, t, sz, emoji_bild, untertitel):
             einfuegen(ebene, kreis, mitte, q, 0.6 + 0.4 * q)
             if blase is not None:
                 einfuegen(ebene, blase, mitte, q, 0.6 + 0.4 * q)
+    if sz.get("schnee", sz.get("ort") == "eiszeit"):
+        _schnee(ebene, t)
     for gz in sz.get("gegenstaende", []):  # frei stehende Emojis, z. B. Geldscheine, die herunterfallen
         q = ease_out(clamp((t - gz.get("ab", 0.3)) / 0.4))
         bild = emoji_bild(gz["emoji"], gz.get("groesse", 120))
@@ -268,6 +332,16 @@ def zeichne_bild(ebene, t, sz, emoji_bild, untertitel):
     if sz.get("text"):
         q = ease_out(clamp(t / 0.3))
         einfuegen(ebene, untertitel(sz["text"]), (B / 2, OBEN + 150), q, 0.94 + 0.06 * q)
+
+
+def _schnee(ebene, t):
+    d = ImageDraw.Draw(ebene)
+    hoehe = UNTEN - OBEN - 30
+    for k in range(70):
+        x = (k * 137.5) % (B - 80) + 40 + 18 * math.sin(t * 0.9 + k)
+        y = OBEN + 20 + (k * 97 + t * (55 + (k % 5) * 14)) % hoehe
+        r = 3 + k % 4
+        d.ellipse((x - r, y - r, x + r, y + r), fill=(255, 255, 255, 210))
 
 
 def _deckkraft(bild, p):

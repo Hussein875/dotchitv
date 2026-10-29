@@ -51,6 +51,14 @@ def text(t, groesse, f=WEISS, akzent=None, breite=900, setzer=fett):
     return setzer.block(t, groesse, breite, f, akzent or farbe("gold"), 1.15)
 
 
+def text_passend(t, groesse, breite, f=WEISS, setzer=fett, kleinste=28):
+    """Wie text(), aber so viel kleiner, bis auch das längste Wort in die Breite passt (z. B. „Mindestlohn-Job“)."""
+    geschuetzt = t.replace(" €", NBSP + "€").replace(" %", NBSP + "%")
+    while groesse > kleinste and not setzer.umbrechen(geschuetzt, groesse, breite)[1]:
+        groesse -= 4
+    return text(t, groesse, f, breite=breite, setzer=setzer)
+
+
 # ---------------------------------------------------------------- Szenen
 
 def zeichne_titel(bild, t, sz):
@@ -92,7 +100,7 @@ def karte(seite, breite=390, hoehe=330, umrandung=None):
                                             outline=(umrandung or farbe(seite.get("farbe"))) + (255,), width=5)
     e = text(seite["emoji"], 140)
     ebene.alpha_composite(e, ((breite - e.width) // 2, 30))
-    n = text(seite["name"], 52, breite=breite - 40)
+    n = text_passend(seite["name"], 52, breite - 40)
     ebene.alpha_composite(n, ((breite - n.width) // 2, min(200, hoehe - n.height - 20)))
     return ebene
 
@@ -118,10 +126,10 @@ def zeichne_vs(bild, t, sz):
             hoehe = max(8, round(430 * wert / maximal))
             einfuegen(bild, Image.new("RGBA", (220, hoehe), f + (255,)), (x, 1300 - hoehe / 2))
             anzeige = zahl_text(round(wert, dez or 0), einheit, dez) if p < 1 else zahl_text(seite["wert"], einheit, dez)
-            einfuegen(bild, text(anzeige, 76, f, breite=500), (x, 1300 - hoehe - 60), deckkraft=clamp(p * 4))
+            einfuegen(bild, text_passend(anzeige, 76, 400, f), (x, 1300 - hoehe - 60), deckkraft=clamp(p * 4))
         else:
             q = clamp((t - 0.5 - 0.2 * i) / 0.4)
-            einfuegen(bild, text(zahl_text(seite["wert"], einheit, dez), 96, f, breite=500), (x, 900),
+            einfuegen(bild, text_passend(zahl_text(seite["wert"], einheit, dez), 96, 440, f), (x, 900),
                       deckkraft=clamp(q * 1.4), skalierung=ease_out_back(q))
             if seite.get("unter"):
                 einfuegen(bild, text(seite["unter"], 46, GRAU, breite=480), (x, 990),
