@@ -1935,6 +1935,227 @@
     ]
   },
   {
+    "id": 28,
+    "titel": "1 Grad weniger heizen: Was spart das wirklich?",
+    "thema": "geld",
+    "konzept": "heizung-1-grad-weniger-sparen",
+    "caption": "Heizperiode ist da 🌡️ 3 Grad weniger = 216 € gespart? Auf wie viel Grad heizt du? Markier deinen Heizungs-Aufdreher 😏",
+    "hashtags": [
+      "#heizen",
+      "#heizkosten"
+    ],
+    "fuss": "Beispielrechnung · 1.200 € Heizkosten/Jahr · 6 % je Grad (Verbraucherzentralen, Faustregel) · Stand 10/2026",
+    "quellen": [
+      "https://www.verbraucherzentrale-niedersachsen.de/wissen/energie/preise-tarife-anbieterwechsel/12-tipps-zum-energiesparen-im-haushalt-120054",
+      "https://www.vzhh.de/themen/bauen-wohnen-energie/strom-gasrechnung/gut-geheizt-weniger-gas"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Ein Grad weniger heizen. Was bringt dir das wirklich?",
+        "zeilen": [
+          [
+            "*1 Grad* weniger",
+            120
+          ],
+          [
+            "Was spart das? 🌡️",
+            80
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Faustregel der Verbraucherzentralen: Jedes Grad weniger spart etwa sechs Prozent Heizenergie.",
+        "zeilen": [
+          "*1 Grad* weniger heizen",
+          "= etwa *6 %* weniger Energie",
+          "Faustregel der Verbraucherzentralen"
+        ],
+        "abstand": 0.9,
+        "kopf": "Die Faustregel"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Bei 1200 Euro Heizkosten im Jahr: 23 Grad kosten 1200 Euro. 20 Grad nur 984.",
+        "kopf": "Heizkosten pro Jahr",
+        "links": {
+          "emoji": "🥵",
+          "name": "23 Grad",
+          "farbe": "rot",
+          "wert": 1200
+        },
+        "rechts": {
+          "emoji": "🧦",
+          "name": "20 Grad",
+          "farbe": "gruen",
+          "wert": 984
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 216 Euro gespart. Jedes Jahr. Für drei Grad.",
+        "oben": "Gespart pro Jahr",
+        "wert": 216,
+        "unten_ab": 1.8,
+        "min": 3.6,
+        "unten": [
+          "in 10 Jahren: *2.160 €* 😳"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und wer von 24 auf 20 Grad runtergeht, spart laut Verbraucherzentrale Hamburg rund ein Viertel.",
+        "zeilen": [
+          "24 → 20 Grad",
+          "= rund *25 %* weniger",
+          "bei 1.200 €: *300 €* 🔥"
+        ],
+        "abstand": 0.9,
+        "letzte_gross": true,
+        "kopf": "Noch mehr?"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? 20 Grad und ein Pulli schlagen 23 Grad im T-Shirt.",
+        "links": {
+          "emoji": "🥵",
+          "name": "23 Grad"
+        },
+        "rechts": {
+          "emoji": "🧦",
+          "name": "20 Grad"
+        },
+        "gewinner": "rechts",
+        "spruch": "Im Schlafzimmer reichen *18 Grad* 😴",
+        "stempel": "BESSERE WAHL"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Auf wie viel Grad heizt du? Schreib's in die Kommentare und markier deinen Heizungs-Aufdreher!",
+        "zeilen": [
+          "Auf wie viel Grad heizt *du*? 🌡️",
+          "Markier deinen *Heizungs-Aufdreher* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "titel": "Ein Jahr Handy laden kostet 2,74 € – das iPhone Duo 2.299 €",
+    "thema": "technik",
+    "konzept": "handy-laden-stromkosten-vs-duo",
+    "caption": "Strom fürs Handy: 2,74 € im Jahr 🔌 Das iPhone Duo: 2.299 € 📱 Wo sparst du wirklich? Markier jemanden, der Powerbanks sammelt 😅",
+    "hashtags": [
+      "#iphone",
+      "#strom"
+    ],
+    "fuss": "Beispielrechnung · 15-Wh-Akku, 1×/Tag, 30 % Ladeverlust, 0,35 €/kWh · Duo-Preis Stand 10/2026",
+    "quellen": [
+      "https://www.macwelt.de/article/3261106/apple-iphone-duo-vorbestellen-alle-haendler-lieferzeiten.html",
+      "https://www.vodafone.de/featured/article/apple-iphone-18-preis-244085"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Ein Jahr Handy laden kostet dich fast nichts. Wie viel genau?",
+        "zeilen": [
+          [
+            "Handy laden",
+            100
+          ],
+          [
+            "ein ganzes Jahr:",
+            80
+          ],
+          [
+            "*2,74 €* 🔌",
+            140
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Ein Handy-Akku fasst etwa 15 Wattstunden. Einmal am Tag leer und wieder voll.",
+        "zeilen": [
+          "Akku: *15 Wh*",
+          "1× pro Tag laden",
+          "+ 30 % Ladeverlust"
+        ],
+        "abstand": 0.9,
+        "kopf": "Die Annahmen"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind rund 7,8 Kilowattstunden im Jahr. Bei 35 Cent: 2 Euro 74.",
+        "oben": "Strom für dein Handy pro Jahr",
+        "wert": 2.74,
+        "dezimalen": 2,
+        "unten_ab": 1.8,
+        "min": 4.0,
+        "unten": [
+          "für *365 Ladungen* 🔌"
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Das iPhone Duo kostet ab 2299 Euro. Der Strom dafür im ganzen Jahr: 2 Euro 74.",
+        "kopf": "Kosten im Jahr 1",
+        "links": {
+          "emoji": "🔌",
+          "name": "Strom laden",
+          "farbe": "gruen",
+          "wert": 2.74,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "📱",
+          "name": "iPhone Duo",
+          "farbe": "rot",
+          "wert": 2299
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Du müsstest rund 840 Jahre laden, bis der Strom so viel kostet wie das Handy.",
+        "oben": "So lange laden",
+        "wert": 840,
+        "einheit": "Jahre",
+        "unten_ab": 1.8,
+        "min": 4.0,
+        "unten": [
+          "bis der Strom *2.299 €* kostet 😳"
+        ]
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Laden sparen lohnt nicht. Spar lieber beim Kaufpreis.",
+        "links": {
+          "emoji": "🔌",
+          "name": "Laden sparen"
+        },
+        "rechts": {
+          "emoji": "💶",
+          "name": "Kaufpreis sparen"
+        },
+        "gewinner": "rechts",
+        "spruch": "Das Ladekabel ist *nicht* dein Problem 😏"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wo sparst du bei deinem Handy am meisten? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Wo sparst *du* beim Handy? 📱",
+          "Markier jemanden, der *Powerbanks* sammelt 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
     "id": 22,
     "titel": "Wie lange arbeitest du für 1 Milliarde?",
     "thema": "geld",
@@ -2103,6 +2324,278 @@
           "1 Milliarde ÷ dein Jahresgehalt 👇"
         ],
         "sprich": "Und wie viele Jahre wären es bei dir? Rechne nach und schreib's in die Kommentare!"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "titel": "1 € für jeden Blick aufs Handy – wie reich wärst du?",
+    "thema": "technik",
+    "konzept": "handy-blicke-geld",
+    "caption": "Für jeden Handy-Blick 1 € 📱💶 Gemessen sind's 88 am Tag – das wären 32.120 € im Jahr! Wie oft war's bei dir?",
+    "hashtags": [
+      "#handy",
+      "#bildschirmzeit"
+    ],
+    "fuss": "Studie Uni Bonn (2015): Ø 88× am Tag · YouGov-Umfrage: Schätzung Ø 35× · 1 € pro Blick = Beispiel",
+    "quellen": [
+      "https://www.uni-bonn.de/de/universitaet/presse-kommunikation/presseservice/archiv-pressemitteilungen/2015/195-2015",
+      "https://yougov.com/de-de/artikel/19739-fast-die-halfte-der-smartphone-nutzer-verwendet-au"
+    ],
+    "figuren": {
+      "max": {
+        "haut": "#F2C9A0",
+        "haare": "#5A3A22",
+        "frisur": "kurz",
+        "shirt": "#FF6B6B",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "ort": "zimmer",
+        "text": "1 € pro Handy-Blick – *wie reich wärst du?*",
+        "groesse": 74,
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "staunt",
+            "pose": "haelt",
+            "haelt": "📱",
+            "blase": "💶"
+          }
+        ],
+        "sprich": "Stell dir vor, du bekommst für jeden Blick aufs Handy einen Euro. Wie reich wärst du?"
+      },
+      {
+        "typ": "zahl",
+        "oben": "So oft schauen wir *laut Schätzung*",
+        "wert": 35,
+        "einheit": "×",
+        "unten": [
+          "am Tag (Umfrage)"
+        ],
+        "sprich": "Wir selbst schätzen: etwa 35-mal am Tag."
+      },
+      {
+        "typ": "zahl",
+        "oben": "*Gemessen* wurden aber",
+        "wert": 88,
+        "einheit": "×",
+        "farbe": "rot",
+        "unten": [
+          "am Tag (Studie Uni Bonn)"
+        ],
+        "sprich": "Gemessen hat eine Studie der Uni Bonn aber 88-mal am Tag."
+      },
+      {
+        "typ": "bild",
+        "ort": "abend",
+        "text": "Bei *1 €* pro Blick …",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "📱"
+          }
+        ],
+        "gegenstaende": [
+          {
+            "emoji": "💶",
+            "x": 0.22,
+            "y": 900,
+            "groesse": 110,
+            "ab": 0.3
+          },
+          {
+            "emoji": "🪙",
+            "x": 0.8,
+            "y": 960,
+            "groesse": 100,
+            "ab": 0.6
+          },
+          {
+            "emoji": "💶",
+            "x": 0.75,
+            "y": 760,
+            "groesse": 100,
+            "ab": 0.9
+          }
+        ],
+        "sprich": "Bei einem Euro pro Blick …"
+      },
+      {
+        "typ": "zahl",
+        "oben": "… wären das pro Jahr",
+        "wert": 32120,
+        "farbe": "gruen",
+        "unten": [
+          "88 € × 365 Tage"
+        ],
+        "sprich": "wären das 32120 Euro im Jahr."
+      },
+      {
+        "typ": "vs",
+        "kopf": "Im Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "📱",
+          "name": "Handy-Blicke",
+          "farbe": "gruen",
+          "wert": 32120
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "Mindestlohn-Job",
+          "farbe": "gold",
+          "wert": 28912
+        },
+        "sprich": "Mehr als ein Vollzeitjob zum Mindestlohn: 28912 Euro brutto."
+      },
+      {
+        "typ": "zahl",
+        "oben": "In *40 Jahren*",
+        "wert": 1284800,
+        "farbe": "gruen",
+        "unten": [
+          "Handy-Millionär 🤑"
+        ],
+        "sprich": "In 40 Jahren wärst du Millionär. Eins Komma zwei acht Millionen Euro."
+      },
+      {
+        "typ": "bild",
+        "ort": "zimmer",
+        "text": "Schau nach: *Bildschirmzeit → Aktivierungen*",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "📱"
+          }
+        ],
+        "sprich": "Schau jetzt in deine Bildschirmzeit, unter Aktivierungen."
+      },
+      {
+        "typ": "liste",
+        "zeilen": [
+          "Wie oft war's *bei dir* gestern? 📱",
+          "Schreib deine Zahl 👇"
+        ],
+        "sprich": "Wie oft war's bei dir gestern? Schreib deine Zahl in die Kommentare!"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "titel": "So viel verdienst du pro Minute – und das kostet dein Kaffee",
+    "thema": "geld",
+    "konzept": "gehalt-pro-minute-median",
+    "caption": "Jede Minute Arbeit bringt im Schnitt 43 Cent brutto ⏱️ Ein Kaffee to go = 8 Minuten. Wie viele Minuten arbeitest du für deinen? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#arbeit"
+    ],
+    "fuss": "Beispielrechnung · Median 54.066 € brutto/Jahr (Destatis 2025) ÷ 2.080 Std. (40 Std. × 52 Wochen) · brutto",
+    "quellen": [
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Was verdienst du eigentlich pro Minute?",
+        "zeilen": [
+          [
+            "Jede Minute Arbeit:",
+            90
+          ],
+          [
+            "*43 Cent* ⏱️",
+            150
+          ]
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das mittlere Gehalt in Deutschland: 54066 Euro brutto im Jahr, Vollzeit.",
+        "oben": "Mittleres Gehalt pro Jahr",
+        "wert": 54066,
+        "min": 3.2,
+        "unten": [
+          "brutto, Vollzeit (Destatis 2025)"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Geteilt durch 2080 Arbeitsstunden sind das 25 Euro 99 pro Stunde. Also 43 Cent pro Minute.",
+        "zeilen": [
+          "54.066 € ÷ 2.080 Std.",
+          "= *25,99 €* pro Stunde",
+          "= *43 Cent* pro Minute"
+        ],
+        "abstand": 0.9,
+        "letzte_gross": true,
+        "kopf": "So rechnen wir"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Dein Kaffee to go: acht Minuten Arbeit. Ein Döner: 17 Minuten. Ein iPhone Duo: 88 Stunden.",
+        "zeilen": [
+          "☕ Kaffee 3,50 € = *8 Min.*",
+          "🥙 Döner 7,50 € = *17 Min.*",
+          "📱 iPhone Duo = *88 Std.*"
+        ],
+        "abstand": 1.1,
+        "kopf": "So lange arbeitest du dafür"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Kaffee to go kostet dich acht Minuten Arbeit. Kaffee von zu Hause nicht mal eine.",
+        "kopf": "Arbeitszeit pro Tasse",
+        "links": {
+          "emoji": "☕",
+          "name": "to go",
+          "farbe": "rot",
+          "wert": 8,
+          "einheit": "Min."
+        },
+        "rechts": {
+          "emoji": "🏠",
+          "name": "Zuhause",
+          "farbe": "gruen",
+          "wert": 0.7,
+          "einheit": "Min.",
+          "dezimalen": 1
+        },
+        "balken": true
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Zuhause. Jede gesparte Minute ist 43 Cent.",
+        "links": {
+          "emoji": "☕",
+          "name": "to go"
+        },
+        "rechts": {
+          "emoji": "🏠",
+          "name": "Zuhause"
+        },
+        "gewinner": "rechts",
+        "spruch": "Brutto, wohlgemerkt – *netto* ist es weniger 😬"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viele Minuten arbeitest du für deinen Kaffee? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Wie viele Minuten *arbeitest du* für deinen Kaffee? ☕",
+          "Markier deinen *Kaffee-Kollegen* 👇"
+        ],
+        "abstand": 0.8
       }
     ]
   },
@@ -2313,6 +2806,203 @@
     ]
   },
   {
+    "id": 31,
+    "titel": "Eine Tasse Kaffee = 2 Duschen? Das unsichtbare Wasser",
+    "thema": "alltag",
+    "konzept": "kaffee-virtuelles-wasser-vs-dusche",
+    "caption": "Wusstest du? ☕ Eine Tasse Kaffee braucht 132 Liter Wasser – mehr als 2 Duschen 🚿 Und eine Jeans 8.000 Liter. Markier einen Kaffee-Junkie 👇",
+    "hashtags": [
+      "#wusstestdu",
+      "#wasser"
+    ],
+    "fuss": "Virtuelles Wasser: 132 l/Tasse, Jeans ≈ 8.000 l (Bayer. Landesamt) · Dusche 60 l, 2 l Trinkwasser/Tag",
+    "quellen": [
+      "https://www.wwa-wen.bayern.de/doc/publikationen/virtuelles_wasser.pdf"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Eine Tasse Kaffee schluckt mehr Wasser als zwei Duschen. Kaum zu glauben, oder?",
+        "zeilen": [
+          [
+            "Eine Tasse Kaffee ☕",
+            90
+          ],
+          [
+            "= *2 Duschen* 🚿",
+            120
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "In einer Tasse stecken 132 Liter Wasser. Vom Anbau bis zum Pulver. Eine Dusche braucht 60.",
+        "kopf": "Wasser pro Mal",
+        "links": {
+          "emoji": "☕",
+          "name": "Tasse Kaffee",
+          "farbe": "rot",
+          "wert": 132,
+          "einheit": "Liter",
+          "unter": "virtuelles Wasser"
+        },
+        "rechts": {
+          "emoji": "🚿",
+          "name": "Dusche",
+          "farbe": "gruen",
+          "wert": 60,
+          "einheit": "Liter"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 2,2 Duschen. Für einen einzigen Kaffee.",
+        "oben": "Duschen pro Tasse",
+        "wert": 2.2,
+        "einheit": "Duschen",
+        "dezimalen": 1,
+        "unten_ab": 1.6,
+        "min": 3.4,
+        "unten": [
+          "fast eine *volle Badewanne* 🛁"
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und eine Jeans? 8000 Liter. Damit könntest du 11 Jahre lang jeden Tag zwei Liter trinken.",
+        "oben": "Eine Jeans braucht",
+        "wert": 8000,
+        "einheit": "Liter",
+        "unten_ab": 2.0,
+        "min": 4.4,
+        "unten": [
+          "= *11 Jahre* Trinkwasser 👖"
+        ]
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Duschen ist der kleinere Wasserfresser. Aber verzichten musst du nicht.",
+        "links": {
+          "emoji": "☕",
+          "name": "Kaffee"
+        },
+        "rechts": {
+          "emoji": "🚿",
+          "name": "Dusche"
+        },
+        "gewinner": "rechts",
+        "spruch": "Wissen schadet *nie* 😉",
+        "stempel": "WENIGER WASSER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hättest du das gedacht? Schick das jemandem, der morgens drei Tassen trinkt!",
+        "zeilen": [
+          "Hättest *du* das gedacht? 🤯",
+          "Schick das deinem *Kaffee-Junkie* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "titel": "Azubi-Duell: Öffentlicher Dienst vs. Handwerk",
+    "thema": "geld",
+    "konzept": "azubi-gehalt-oeffentlicher-dienst-vs-handwerk",
+    "caption": "Azubi-Gehalt: Öffentlicher Dienst vs. Handwerk – 236 € Unterschied im Monat 💸 Was verdienst du in der Ausbildung? Markier deinen Azubi-Kumpel 👇",
+    "hashtags": [
+      "#ausbildung",
+      "#azubi"
+    ],
+    "fuss": "Tarifliche Ausbildungsvergütung 2025, Ø alle Ausbildungsjahre, nach Bereichen · Quelle: BIBB",
+    "quellen": [
+      "https://www.bibb.de/de/pressemitteilung_218108.php"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Welcher Azubi verdient mehr? Öffentlicher Dienst oder Handwerk?",
+        "zeilen": [
+          [
+            "Azubi-Duell 🥊",
+            90
+          ],
+          [
+            "*236 €* mehr im Monat – wo?",
+            84
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Im öffentlichen Dienst bekommen Azubis im Schnitt 1329 Euro im Monat. Im Handwerk 1093.",
+        "kopf": "Ausbildungsgehalt pro Monat",
+        "links": {
+          "emoji": "🏛️",
+          "name": "Öff. Dienst",
+          "farbe": "gruen",
+          "wert": 1329
+        },
+        "rechts": {
+          "emoji": "🔧",
+          "name": "Handwerk",
+          "farbe": "rot",
+          "wert": 1093
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 236 Euro Unterschied. Jeden Monat. In drei Jahren über 8000 Euro.",
+        "oben": "Unterschied pro Monat",
+        "wert": 236,
+        "unten_ab": 2.0,
+        "min": 4.0,
+        "unten": [
+          "in 3 Jahren: *8.496 €* 😳"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und jeder siebte Azubi bekommt nach Tarif nur 1000 Euro oder weniger.",
+        "zeilen": [
+          "Durchschnitt aller Azubis: *1.209 €*",
+          "Etwa *15 %* bekommen höchstens *1.000 €*",
+          "Stand 2025, nach Tarif"
+        ],
+        "abstand": 1.0,
+        "kopf": "Wusstest du?"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Geld klar der öffentliche Dienst.",
+        "links": {
+          "emoji": "🏛️",
+          "name": "Öff. Dienst"
+        },
+        "rechts": {
+          "emoji": "🔧",
+          "name": "Handwerk"
+        },
+        "gewinner": "links",
+        "spruch": "Dafür gibt's im Handwerk oft *mehr Praxis* 🔧",
+        "stempel": "VERDIENT MEHR",
+        "kopf": "Wer verdient mehr? 🤔"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was verdienst du in deiner Ausbildung? Markier deinen Azubi-Kumpel!",
+        "zeilen": [
+          "Was verdienst *du* in der Ausbildung? 💸",
+          "Markier deinen *Azubi-Kumpel* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
     "id": 24,
     "titel": "Max vs. Tim – Teil 2/3: 10 Jahre später",
     "thema": "geld",
@@ -2477,6 +3167,198 @@
           "Was würdest du mit *30.200 €* machen? 👇"
         ],
         "sprich": "Was würdest du mit 30200 Euro machen? Schreib's in die Kommentare."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "titel": "Heizlüfter vs. Heizung: Fast 3-mal so teuer",
+    "thema": "strom",
+    "konzept": "heizluefter-vs-heizung-kosten",
+    "caption": "Heizlüfter 🔥 oder Heizung? Für dieselbe Wärme zahlst du mit dem Lüfter fast das Dreifache 😳 Wer bei dir heizt mit Lüfter? Markier ihn 👇",
+    "hashtags": [
+      "#heizluefter",
+      "#stromkosten"
+    ],
+    "fuss": "Beispielrechnung · 6 kWh Wärme/Tag · Strom 0,35 €/kWh · Gas 0,11 €/kWh, Kessel 90 %",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Heizlüfter oder Heizung? Was kostet dieselbe Wärme?",
+        "zeilen": [
+          [
+            "Heizlüfter 🔥",
+            100
+          ],
+          [
+            "*3× so teuer*?",
+            120
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Ein Heizlüfter mit zwei Kilowatt, drei Stunden am Tag. Das sind sechs Kilowattstunden Wärme.",
+        "zeilen": [
+          "Heizlüfter: *2 kW*",
+          "× 3 Stunden",
+          "= *6 kWh* Wärme am Tag"
+        ],
+        "abstand": 0.9,
+        "letzte_gross": true,
+        "kopf": "Gleiche Wärme"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Mit dem Lüfter zahlst du 2 Euro 10 am Tag. Mit der Gasheizung nur 73 Cent.",
+        "kopf": "Kosten pro Tag",
+        "links": {
+          "emoji": "🔌",
+          "name": "Heizlüfter",
+          "farbe": "rot",
+          "wert": 2.1,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🔥",
+          "name": "Heizung",
+          "farbe": "gruen",
+          "wert": 0.73,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In 30 Tagen sind das 63 Euro gegen 22. Ein Unterschied von 41 Euro. Pro Monat.",
+        "oben": "Mehrkosten pro Monat",
+        "wert": 41,
+        "unten_ab": 2.0,
+        "min": 4.2,
+        "unten": [
+          "Lüfter *63 €* vs. Heizung *22 €* 😳"
+        ]
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Heizung. Der Lüfter nur kurz für kleine Räume.",
+        "links": {
+          "emoji": "🔌",
+          "name": "Heizlüfter"
+        },
+        "rechts": {
+          "emoji": "🔥",
+          "name": "Heizung"
+        },
+        "gewinner": "rechts",
+        "spruch": "Strom ist teurer als *Gas* ⚡",
+        "stempel": "GÜNSTIGER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wer heizt bei dir mit Heizlüfter? Markier ihn und schreib's in die Kommentare!",
+        "zeilen": [
+          "Heizt *du* mit Heizlüfter? 🔌",
+          "Markier den *Frostbeulen-Freund* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "titel": "IT-Gehalt vs. alle Berufe: 1.894 € Unterschied",
+    "thema": "geld",
+    "konzept": "gehalt-informatik-vs-alle-berufe",
+    "caption": "IT-Berufe verdienen im Median 5.907 € brutto – 1.894 € mehr als der Schnitt 💻 Was verdienst du in deinem Job? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#it"
+    ],
+    "fuss": "Median brutto/Monat, Vollzeit, Stand 31.12.2024 · Quelle: Bundesagentur für Arbeit (Entgeltatlas)",
+    "quellen": [
+      "https://www.arbeitsagentur.de/presse/2025-32-entgelte-der-vollzeitbeschaeftigten-sind-im-jahr-2024-deutlich-gestiegen",
+      "https://heise.de/-10495340"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "5.907 Euro im Monat. Verdienst du mehr?",
+        "zeilen": [
+          [
+            "*5.907 €* im Monat",
+            110
+          ],
+          [
+            "Verdienst du mehr? 💻",
+            80
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "In IT-Berufen liegt der mittlere Verdienst bei 5907 Euro brutto. Über alle Berufe: 4013.",
+        "kopf": "Median brutto pro Monat",
+        "links": {
+          "emoji": "💻",
+          "name": "IT-Berufe",
+          "farbe": "gruen",
+          "wert": 5907
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "alle Berufe",
+          "farbe": "blau",
+          "wert": 4013
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 1894 Euro mehr. Jeden Monat. Fast 47 Prozent obendrauf.",
+        "oben": "IT verdient mehr",
+        "wert": 1894,
+        "unten_ab": 1.8,
+        "min": 3.8,
+        "unten": [
+          "pro Monat · *+47 %* 😳"
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Im Jahr macht das über 22000 Euro Unterschied.",
+        "oben": "Unterschied pro Jahr",
+        "wert": 22728,
+        "unten_ab": 1.6,
+        "min": 3.2,
+        "unten": [
+          "brutto, bei Vollzeit"
+        ]
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Gehalt klar die IT.",
+        "links": {
+          "emoji": "💻",
+          "name": "IT-Berufe"
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "alle Berufe"
+        },
+        "gewinner": "links",
+        "spruch": "Aber nicht jeder will *acht Stunden* vorm Bildschirm sitzen 😅",
+        "stempel": "VERDIENT MEHR",
+        "kopf": "Wer verdient mehr? 🤔"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was verdienst du in deinem Job? Und welchen Beruf sollen wir als Nächstes vergleichen?",
+        "zeilen": [
+          "Was verdienst *du* in deinem Job? 💼",
+          "Welchen Beruf als *Nächstes*? 👇"
+        ],
+        "abstand": 0.8
       }
     ]
   },
@@ -2661,6 +3543,118 @@
           "Markier deinen Max 😏"
         ],
         "sprich": "Bist du eher Max oder Tim? Markier deinen Max in den Kommentaren!"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "titel": "KI-Frage vs. Wasserkocher: 400 Fragen = 1 Liter Tee",
+    "thema": "technik",
+    "konzept": "ki-frage-strom-vs-wasserkocher",
+    "caption": "Wusstest du? 🤖 Eine KI-Frage braucht weniger Strom als 9 Sekunden Fernsehen – 1 Liter Wasser kochen so viel wie über 400 Fragen ⚡ Schick das einem KI-Skeptiker 👇",
+    "hashtags": [
+      "#ki",
+      "#wusstestdu"
+    ],
+    "fuss": "Google 08/2025: Median Textfrage 0,24 Wh · 1 l kochen ≈ 100 Wh (Annahme inkl. Verlust) · TV 100 W",
+    "quellen": [
+      "https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/",
+      "https://arxiv.org/html/2508.15734v1"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Wie viel Strom frisst eine KI-Frage wirklich?",
+        "zeilen": [
+          [
+            "*400 KI-Fragen*",
+            110
+          ],
+          [
+            "= 1 Liter Tee kochen 🫖",
+            76
+          ]
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Google hat es gemessen: Eine Textfrage braucht 0,24 Wattstunden.",
+        "oben": "Eine KI-Frage",
+        "wert": 0.24,
+        "dezimalen": 2,
+        "einheit": "Wh",
+        "min": 3.2,
+        "unten": [
+          "Wattstunden Strom (Median) 🤖"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Das ist weniger, als dein Fernseher in neun Sekunden verbraucht.",
+        "zeilen": [
+          "KI-Frage: *0,24 Wh*",
+          "Fernseher 9 Sekunden: *0,25 Wh*",
+          "Fernseher mit 100 Watt"
+        ],
+        "abstand": 0.9,
+        "kopf": "Zum Vergleich"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Einen Liter Wasser kochen braucht etwa 100 Wattstunden. Das sind über 400 KI-Fragen.",
+        "kopf": "Strom in Wattstunden",
+        "links": {
+          "emoji": "🤖",
+          "name": "1 KI-Frage",
+          "farbe": "gruen",
+          "wert": 0.24,
+          "dezimalen": 2,
+          "einheit": "Wh"
+        },
+        "rechts": {
+          "emoji": "🫖",
+          "name": "1 Liter kochen",
+          "farbe": "rot",
+          "wert": 100,
+          "einheit": "Wh"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Genau gesagt: 416 Fragen für einen Liter Tee.",
+        "oben": "Fragen pro Liter Wasser",
+        "wert": 416,
+        "einheit": "Fragen",
+        "unten_ab": 1.6,
+        "min": 3.2,
+        "unten": [
+          "Wasserkocher schlägt *KI* 🫖"
+        ]
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Die einzelne Frage ist harmlos. Auf die Menge kommt's an.",
+        "links": {
+          "emoji": "🤖",
+          "name": "1 KI-Frage"
+        },
+        "rechts": {
+          "emoji": "🫖",
+          "name": "Wasserkocher"
+        },
+        "gewinner": "links",
+        "spruch": "Dein *Tee* ist der größere Stromfresser",
+        "stempel": "WENIGER STROM"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie oft fragst du am Tag eine KI? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Wie oft fragst *du* die KI? 🤖",
+          "Schick das einem *KI-Skeptiker* 👇"
+        ],
+        "abstand": 0.8
       }
     ]
   },
@@ -2855,166 +3849,730 @@
     ]
   },
   {
-    "id": 27,
-    "titel": "1 € für jeden Blick aufs Handy – wie reich wärst du?",
-    "thema": "technik",
-    "konzept": "handy-blicke-geld",
-    "caption": "Für jeden Handy-Blick 1 € 📱💶 Gemessen sind's 88 am Tag – das wären 32.120 € im Jahr! Wie oft war's bei dir?",
+    "id": 36,
+    "titel": "Ab 100.719 € brutto gehörst du zu den Top 10 %",
+    "thema": "geld",
+    "konzept": "gehalt-obere-10-prozent-vollzeit",
+    "caption": "Ab 100.719 € brutto im Jahr gehörst du zu den bestverdienenden 10 % 🏆 Die untersten 10 % kommen auf höchstens 33.828 € Wo stehst du? 👇",
     "hashtags": [
-      "#handy",
-      "#bildschirmzeit"
+      "#gehalt",
+      "#top10"
     ],
-    "fuss": "Studie Uni Bonn (2015): Ø 88× am Tag · YouGov-Umfrage: Schätzung Ø 35× · 1 € pro Blick = Beispiel",
+    "fuss": "Bruttojahresverdienst Vollzeit 2025 inkl. Sonderzahlungen, Perzentile · Quelle: Destatis (PD26_113)",
     "quellen": [
-      "https://www.uni-bonn.de/de/universitaet/presse-kommunikation/presseservice/archiv-pressemitteilungen/2015/195-2015",
-      "https://yougov.com/de-de/artikel/19739-fast-die-halfte-der-smartphone-nutzer-verwendet-au"
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html"
     ],
-    "figuren": {
-      "max": {
-        "haut": "#F2C9A0",
-        "haare": "#5A3A22",
-        "frisur": "kurz",
-        "shirt": "#FF6B6B",
-        "hose": "#3B4252"
-      }
-    },
     "szenen": [
       {
-        "typ": "bild",
-        "ort": "zimmer",
-        "text": "1 € pro Handy-Blick – *wie reich wärst du?*",
-        "groesse": 74,
-        "figuren": [
-          {
-            "wer": "max",
-            "x": 0.5,
-            "stimmung": "staunt",
-            "pose": "haelt",
-            "haelt": "📱",
-            "blase": "💶"
-          }
-        ],
-        "sprich": "Stell dir vor, du bekommst für jeden Blick aufs Handy einen Euro. Wie reich wärst du?"
+        "typ": "titel",
+        "sprich": "Ab wann gehörst du zu den Top 10 Prozent?",
+        "zeilen": [
+          [
+            "Top 10 % ab",
+            90
+          ],
+          [
+            "*100.719 €* brutto 🏆",
+            100
+          ]
+        ]
       },
       {
         "typ": "zahl",
-        "oben": "So oft schauen wir *laut Schätzung*",
-        "wert": 35,
-        "einheit": "×",
+        "sprich": "Die obersten zehn Prozent der Vollzeitbeschäftigten verdienen mindestens 100719 Euro brutto im Jahr.",
+        "oben": "Top 10 % ab",
+        "wert": 100719,
+        "unten_ab": 2.0,
+        "min": 4.0,
         "unten": [
-          "am Tag (Umfrage)"
-        ],
-        "sprich": "Wir selbst schätzen: etwa 35-mal am Tag."
+          "brutto pro Jahr · rund *8.390 €* im Monat"
+        ]
       },
       {
         "typ": "zahl",
-        "oben": "*Gemessen* wurden aber",
-        "wert": 88,
-        "einheit": "×",
-        "farbe": "rot",
+        "sprich": "Die untersten zehn Prozent kommen auf höchstens 33828 Euro.",
+        "oben": "Untere 10 % bis",
+        "wert": 33828,
+        "farbe": "blau",
+        "unten_ab": 1.8,
+        "min": 3.4,
         "unten": [
-          "am Tag (Studie Uni Bonn)"
-        ],
-        "sprich": "Gemessen hat eine Studie der Uni Bonn aber 88-mal am Tag."
-      },
-      {
-        "typ": "bild",
-        "ort": "abend",
-        "text": "Bei *1 €* pro Blick …",
-        "figuren": [
-          {
-            "wer": "max",
-            "x": 0.5,
-            "stimmung": "freut",
-            "pose": "haelt",
-            "haelt": "📱"
-          }
-        ],
-        "gegenstaende": [
-          {
-            "emoji": "💶",
-            "x": 0.22,
-            "y": 900,
-            "groesse": 110,
-            "ab": 0.3
-          },
-          {
-            "emoji": "🪙",
-            "x": 0.8,
-            "y": 960,
-            "groesse": 100,
-            "ab": 0.6
-          },
-          {
-            "emoji": "💶",
-            "x": 0.75,
-            "y": 760,
-            "groesse": 100,
-            "ab": 0.9
-          }
-        ],
-        "sprich": "Bei einem Euro pro Blick …"
-      },
-      {
-        "typ": "zahl",
-        "oben": "… wären das pro Jahr",
-        "wert": 32120,
-        "farbe": "gruen",
-        "unten": [
-          "88 € × 365 Tage"
-        ],
-        "sprich": "wären das 32120 Euro im Jahr."
+          "brutto pro Jahr · rund *2.820 €* im Monat"
+        ]
       },
       {
         "typ": "vs",
-        "kopf": "Im Jahr",
-        "balken": true,
+        "sprich": "In der Mitte liegt der Median bei 54066 Euro. Oben fast das Doppelte. Unten knapp zwei Drittel davon.",
+        "kopf": "Brutto pro Jahr, Vollzeit",
         "links": {
-          "emoji": "📱",
-          "name": "Handy-Blicke",
-          "farbe": "gruen",
-          "wert": 32120
+          "emoji": "📉",
+          "name": "unterste 10 %",
+          "farbe": "blau",
+          "wert": 33828
         },
         "rechts": {
-          "emoji": "💼",
-          "name": "Mindestlohn-Job",
+          "emoji": "🏆",
+          "name": "oberste 10 %",
           "farbe": "gold",
-          "wert": 28912
+          "wert": 100719
         },
-        "sprich": "Mehr als ein Vollzeitjob zum Mindestlohn: 28912 Euro brutto."
-      },
-      {
-        "typ": "zahl",
-        "oben": "In *40 Jahren*",
-        "wert": 1284800,
-        "farbe": "gruen",
-        "unten": [
-          "Handy-Millionär 🤑"
-        ],
-        "sprich": "In 40 Jahren wärst du Millionär. Eins Komma zwei acht Millionen Euro."
-      },
-      {
-        "typ": "bild",
-        "ort": "zimmer",
-        "text": "Schau nach: *Bildschirmzeit → Aktivierungen*",
-        "figuren": [
-          {
-            "wer": "max",
-            "x": 0.5,
-            "stimmung": "freut",
-            "pose": "haelt",
-            "haelt": "📱"
-          }
-        ],
-        "sprich": "Schau jetzt in deine Bildschirmzeit, unter Aktivierungen."
+        "balken": true
       },
       {
         "typ": "liste",
+        "sprich": "Oben verdient man fast dreimal so viel wie unten. Und die Mitte liegt bei 54066 Euro.",
         "zeilen": [
-          "Wie oft war's *bei dir* gestern? 📱",
-          "Schreib deine Zahl 👇"
+          "Oben ÷ unten = *3,0×*",
+          "Mitte (Median): *54.066 €*",
+          "alles brutto, mit Sonderzahlungen"
         ],
-        "sprich": "Wie oft war's bei dir gestern? Schreib deine Zahl in die Kommentare!"
+        "abstand": 1.0,
+        "kopf": "Das heißt"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Zehn Prozent sind weiter weg von der Mitte, als man denkt.",
+        "links": {
+          "emoji": "📉",
+          "name": "untere 10 %"
+        },
+        "rechts": {
+          "emoji": "🏆",
+          "name": "obere 10 %"
+        },
+        "gewinner": "rechts",
+        "spruch": "Wo *stehst* du?",
+        "stempel": "VERDIENT MEHR",
+        "kopf": "Wer verdient mehr? 🤔"
+      },
+      {
+        "typ": "liste",
+        "sprich": "In welcher Gruppe bist du? Schreib's in die Kommentare und markier jemanden, der schätzen soll!",
+        "zeilen": [
+          "In welcher Gruppe bist *du*? 🏆",
+          "Markier jemanden, der *schätzen* soll 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "titel": "iPhone Duo: So lange arbeitest du dafür",
+    "thema": "technik",
+    "konzept": "iphone-duo-arbeitszeit-mindestlohn-vs-median",
+    "caption": "iPhone Duo ab 2.299 €: Mit Mindestlohn 165 Stunden Arbeit, mit mittlerem Gehalt 88 📱⏱️ Wie lange wärst du dran? Markier einen Apple-Fan 👇",
+    "hashtags": [
+      "#iphone",
+      "#iphoneduo"
+    ],
+    "fuss": "Brutto · Duo 256 GB 2.299 € (Stand 10/2026) · Mindestlohn 13,90 €/Std. · Median 25,99 €/Std. (54.066 € ÷ 2.080 Std.)",
+    "quellen": [
+      "https://www.macwelt.de/article/3261106/apple-iphone-duo-vorbestellen-alle-haendler-lieferzeiten.html",
+      "https://www.lohnsteuer-kompakt.de/steuerwissen/gesetzlicher-mindestlohn-2026-erhoehung-auf-1390-euro-beschlossen",
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Wie lange arbeitest du für das iPhone Duo?",
+        "zeilen": [
+          [
+            "iPhone Duo 📱",
+            100
+          ],
+          [
+            "*165 Stunden* Arbeit?",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das faltbare iPhone Duo kostet ab 2299 Euro. Seit dem 23. Oktober im Handel.",
+        "oben": "iPhone Duo ab",
+        "wert": 2299,
+        "min": 3.2,
+        "unten": [
+          "256 GB · seit 23.10.2026 im Handel"
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Mit Mindestlohn arbeitest du 165 Stunden dafür. Mit mittlerem Gehalt 88.",
+        "kopf": "Arbeitszeit fürs Duo",
+        "links": {
+          "emoji": "💶",
+          "name": "Mindestlohn",
+          "farbe": "rot",
+          "wert": 165,
+          "einheit": "Std."
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "mittleres Gehalt",
+          "farbe": "gruen",
+          "wert": 88,
+          "einheit": "Std."
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Mit Mindestlohn sind das über vier volle Arbeitswochen. Nur für ein Handy.",
+        "oben": "Mit Mindestlohn",
+        "wert": 4.1,
+        "einheit": "Wochen",
+        "dezimalen": 1,
+        "unten_ab": 1.8,
+        "min": 3.6,
+        "unten": [
+          "Arbeitswochen à 40 Stunden 😳"
+        ]
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Gehalt ist das Duo eine Ansage. Überleg dir, ob du Falten brauchst.",
+        "links": {
+          "emoji": "💶",
+          "name": "Mindestlohn"
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "Median"
+        },
+        "gewinner": "rechts",
+        "spruch": "Brutto gerechnet – *netto* dauert's länger",
+        "stempel": "KÜRZER",
+        "kopf": "Wer arbeitet kürzer? 🤔"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viele Stunden würdest du für das Duo arbeiten? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Wie lange arbeitest *du* fürs Duo? ⏱️",
+          "Markier einen *Apple-Fan* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "titel": "Wo verdient man am wenigsten? Bundesland-Check",
+    "thema": "geld",
+    "konzept": "gehalt-bundesland-schlusslicht",
+    "caption": "Mecklenburg-Vorpommern: 3.294 € Median – 719 € weniger als der Bundesschnitt 🗺️ Aus welchem Bundesland kommst du? Was verdienst du? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#bundesland"
+    ],
+    "fuss": "Median brutto/Monat, Vollzeit, Stand 31.12.2024 · Quelle: Bundesagentur für Arbeit (Entgeltatlas)",
+    "quellen": [
+      "https://www.arbeitsagentur.de/presse/2025-32-entgelte-der-vollzeitbeschaeftigten-sind-im-jahr-2024-deutlich-gestiegen",
+      "https://www.arbeitsagentur.de/datei/grafik-laedervergleich_ba053806.pdf"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "In welchem Bundesland verdienst du am wenigsten?",
+        "zeilen": [
+          [
+            "Wo verdient man",
+            90
+          ],
+          [
+            "*am wenigsten*? 🗺️",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Schlusslicht ist Mecklenburg-Vorpommern mit 3294 Euro. Deutschland insgesamt: 4013.",
+        "kopf": "Median brutto pro Monat",
+        "links": {
+          "emoji": "🌊",
+          "name": "Meck-Pomm",
+          "farbe": "rot",
+          "wert": 3294
+        },
+        "rechts": {
+          "emoji": "📊",
+          "name": "Deutschland",
+          "farbe": "blau",
+          "wert": 4013
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 719 Euro weniger. Im Monat. Im Jahr 8628.",
+        "oben": "Unterschied pro Monat",
+        "wert": 719,
+        "unten_ab": 1.8,
+        "min": 3.6,
+        "unten": [
+          "im Jahr: *8.628 €* 😳"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Danach kommen Thüringen mit 3307 Euro und Sachsen-Anhalt mit 3353.",
+        "zeilen": [
+          "*3.294 €* Meck-Pomm",
+          "*3.307 €* Thüringen",
+          "*3.353 €* Sachsen-Anhalt"
+        ],
+        "abstand": 1.0,
+        "kopf": "Die Letzten drei"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Gehalt vorn: der Bundesschnitt. Aber Miete und Preise sind auch anders.",
+        "links": {
+          "emoji": "🌊",
+          "name": "Meck-Pomm"
+        },
+        "rechts": {
+          "emoji": "📊",
+          "name": "Deutschland"
+        },
+        "gewinner": "rechts",
+        "spruch": "Gehalt ist nicht alles – *Miete* zählt mit 🏠",
+        "stempel": "VERDIENT MEHR",
+        "kopf": "Wer verdient mehr? 🤔"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Aus welchem Bundesland kommst du? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Aus welchem Bundesland *kommst du*? 🗺️",
+          "Was verdienst *du* dort? 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "titel": "Median vs. Durchschnitt: Warum du weniger verdienst als der Schnitt",
+    "thema": "geld",
+    "konzept": "gehalt-median-vs-durchschnitt",
+    "caption": "Durchschnitt 64.441 €, Median 54.066 € – mindestens die Hälfte verdient weniger als der Schnitt 🤯 Welche Zahl nimmst du? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#median"
+    ],
+    "fuss": "Bruttojahresverdienst Vollzeit 2025 inkl. Sonderzahlungen · Quelle: Destatis (PD26_113)",
+    "quellen": [
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Du verdienst weniger als der Durchschnitt?",
+        "zeilen": [
+          [
+            "Weniger als der",
+            90
+          ],
+          [
+            "*Durchschnitt*? 🤔",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Der Durchschnitt liegt bei 64441 Euro im Jahr. Der Median, die Mitte, nur bei 54066.",
+        "kopf": "Brutto pro Jahr, Vollzeit",
+        "links": {
+          "emoji": "📊",
+          "name": "Durchschnitt",
+          "farbe": "orange",
+          "wert": 64441
+        },
+        "rechts": {
+          "emoji": "🎯",
+          "name": "Median",
+          "farbe": "blau",
+          "wert": 54066
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 10375 Euro Unterschied. Der Durchschnitt liegt fast 20 Prozent höher.",
+        "oben": "Durchschnitt höher um",
+        "wert": 10375,
+        "unten_ab": 1.8,
+        "min": 3.6,
+        "unten": [
+          "Euro · rund *19 %* 😳"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Ein paar sehr hohe Gehälter ziehen den Durchschnitt nach oben. Mindestens die Hälfte liegt darunter.",
+        "zeilen": [
+          "Ø: ein paar *Top-Gehälter* ziehen hoch",
+          "Median: genau die *Mitte*",
+          "Mindestens *50 %* liegen unter dem Ø"
+        ],
+        "abstand": 1.0,
+        "kopf": "Warum?"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Im Monat sind das 5370 Euro im Durchschnitt und 4506 in der Mitte. Brutto.",
+        "zeilen": [
+          "Ø: *5.370 €* im Monat",
+          "Median: *4.506 €* im Monat",
+          "brutto, mit Sonderzahlungen"
+        ],
+        "abstand": 1.0,
+        "kopf": "Pro Monat"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Der Median ist die ehrlichere Zahl.",
+        "links": {
+          "emoji": "📊",
+          "name": "Durchschnitt"
+        },
+        "rechts": {
+          "emoji": "🎯",
+          "name": "Median"
+        },
+        "gewinner": "rechts",
+        "spruch": "Der Schnitt macht *reicher*, als wir sind 😏",
+        "stempel": "EHRLICHER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wo liegst du: über oder unter 54066 Euro? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Über oder unter *54.066 €*? 🎯",
+          "Markier jemanden, der *schätzen* soll 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "titel": "Bitcoin vs. Österreich: Wer braucht mehr Strom?",
+    "thema": "strom",
+    "konzept": "bitcoin-strom-vs-oesterreich",
+    "caption": "Wusstest du? ⚡ Das Bitcoin-Netz braucht pro Jahr mehr Strom als ganz Österreich 🏔️ Was sagst du dazu? Markier einen Krypto-Fan 👇",
+    "hashtags": [
+      "#bitcoin",
+      "#wusstestdu"
+    ],
+    "fuss": "Nur Strom, keine Anlage-Aussage · Bitcoin ab ca. 100 TWh (Cambridge-Index, Schätzspanne) · Österreich ca. 73 TWh (2020)",
+    "quellen": [
+      "https://futurezone.at/digital-life/bitcoin-hat-hoeheren-stromverbrauch-als-ganz-argentinien/401194973",
+      "https://www.btc-echo.de/news/bitcoin-stromverbrauch-uni-cambridge-bringt-neuen-index-74741/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Wer braucht mehr Strom? Bitcoin oder ganz Österreich?",
+        "zeilen": [
+          [
+            "Bitcoin 🪙",
+            100
+          ],
+          [
+            "vs.",
+            70
+          ],
+          [
+            "ganz *Österreich* 🏔️",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Das Bitcoin-Netz braucht laut Cambridge-Schätzung mindestens 100 Terawattstunden im Jahr. Österreich rund 73.",
+        "kopf": "Strom pro Jahr",
+        "links": {
+          "emoji": "🪙",
+          "name": "Bitcoin",
+          "farbe": "orange",
+          "wert": 100,
+          "einheit": "TWh",
+          "unter": "Schätzung, mindestens"
+        },
+        "rechts": {
+          "emoji": "🏔️",
+          "name": "Österreich",
+          "farbe": "rot",
+          "wert": 73,
+          "einheit": "TWh",
+          "unter": "ganzes Land"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Selbst die niedrige Schätzung liegt über dem ganzen Land. Je nach Jahr noch deutlich höher.",
+        "oben": "Bitcoin braucht mehr als",
+        "wert": 73,
+        "einheit": "TWh",
+        "unten_ab": 1.8,
+        "min": 4.0,
+        "unten": [
+          "TWh · mehr als *ganz Österreich* 🤯"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hier geht es nur um Strom, nicht ums Geldanlegen. Die Zahlen sind Schätzungen und schwanken.",
+        "zeilen": [
+          "🪙 Bitcoin: *100 TWh+* (Schätzung)",
+          "🏔️ Österreich: *rund 73 TWh*",
+          "Nur Strom, *keine* Anlage-Tipps"
+        ],
+        "abstand": 1.0,
+        "kopf": "Fairerweise"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Stromhunger gewinnt Bitcoin. Und das ist kein Kompliment.",
+        "links": {
+          "emoji": "🪙",
+          "name": "Bitcoin"
+        },
+        "rechts": {
+          "emoji": "🏔️",
+          "name": "Österreich"
+        },
+        "gewinner": "links",
+        "spruch": "Ein *ganzes Land* verliert 😮",
+        "stempel": "MEHR STROM"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hättest du das gedacht? Schreib's in die Kommentare und markier einen Krypto-Fan!",
+        "zeilen": [
+          "Hättest *du* das gedacht? ⚡",
+          "Markier einen *Krypto-Fan* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "titel": "E-Auto vs. Benziner: Was kosten 100 km?",
+    "thema": "geld",
+    "konzept": "eauto-vs-benziner-kosten-100km",
+    "caption": "100 km: 6,30 € zu Hause laden 🔌 – 10,62 € an der Schnellladesäule – 12,25 € Benzin ⛽ Wo lädst du? Markier einen Autofahrer 👇",
+    "hashtags": [
+      "#eauto",
+      "#benzin"
+    ],
+    "fuss": "Beispielrechnung · 18 kWh/7 l je 100 km · Strom 0,35/0,59 €/kWh · Super 1,75 €/l · 15.000 km",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Was kosten 100 Kilometer wirklich?",
+        "zeilen": [
+          [
+            "100 km fahren:",
+            90
+          ],
+          [
+            "*6,30 €* oder *12,25 €*?",
+            76
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Ein E-Auto braucht rund 18 Kilowattstunden auf 100 Kilometer. Ein Benziner rund 7 Liter.",
+        "zeilen": [
+          "E-Auto: *18 kWh* / 100 km",
+          "Benziner: *7 Liter* / 100 km",
+          "Strom 0,35 € · Super 1,75 €"
+        ],
+        "abstand": 0.9,
+        "kopf": "Die Annahmen"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Zu Hause laden kostet 6 Euro 30. Benzin 12 Euro 25. Fast die Hälfte gespart.",
+        "kopf": "Kosten auf 100 km",
+        "links": {
+          "emoji": "🔌",
+          "name": "E-Auto daheim",
+          "farbe": "gruen",
+          "wert": 6.3,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "⛽",
+          "name": "Benziner",
+          "farbe": "rot",
+          "wert": 12.25,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Bei 15000 Kilometern im Jahr sind das 892 Euro weniger.",
+        "oben": "Ersparnis pro Jahr",
+        "wert": 892,
+        "unten_ab": 1.8,
+        "min": 3.6,
+        "unten": [
+          "wenn du *zu Hause* lädst 🔌"
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Aber an der Schnellladesäule kostet der Strom 59 Cent. Dann sind es 10 Euro 62. Die Ersparnis schrumpft auf 245 Euro.",
+        "kopf": "Kosten auf 100 km",
+        "links": {
+          "emoji": "⚡",
+          "name": "Schnelllader",
+          "farbe": "orange",
+          "wert": 10.62,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "⛽",
+          "name": "Benziner",
+          "farbe": "rot",
+          "wert": 12.25,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Das E-Auto gewinnt – aber nur, wenn du zu Hause lädst.",
+        "links": {
+          "emoji": "🔌",
+          "name": "E-Auto"
+        },
+        "rechts": {
+          "emoji": "⛽",
+          "name": "Benziner"
+        },
+        "gewinner": "links",
+        "spruch": "Die Steckdose daheim ist der *Trumpf* 🏠",
+        "stempel": "GÜNSTIGER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wo lädst oder tankst du? Schreib's in die Kommentare und markier einen Autofahrer!",
+        "zeilen": [
+          "Wo lädst oder tankst *du*? ⛽",
+          "Markier einen *Autofahrer* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "titel": "iPhone Duo oder iPhone 18 Pro + Urlaub?",
+    "thema": "technik",
+    "konzept": "iphone-duo-vs-18-pro-aufpreis",
+    "caption": "850 € Aufpreis fürs Falten 📱 Duo 2.299 € vs. 18 Pro 1.449 € – plus 850 € für den Urlaub 🏖️ Team Faltbar oder Team Strand? 👇",
+    "hashtags": [
+      "#iphone",
+      "#iphoneduo"
+    ],
+    "fuss": "Preise Deutschland ab 256 GB, Stand 10/2026 · iPhone Duo 2.299 € · iPhone 18 Pro 1.449 €",
+    "quellen": [
+      "https://www.macwelt.de/article/3261106/apple-iphone-duo-vorbestellen-alle-haendler-lieferzeiten.html",
+      "https://www.vodafone.de/featured/article/apple-iphone-18-preis-244085"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "850 Euro Aufpreis fürs Falten. Lohnt sich das?",
+        "zeilen": [
+          [
+            "*850 €* Aufpreis",
+            110
+          ],
+          [
+            "fürs Falten? 📱",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Das iPhone Duo kostet 2299 Euro. Das iPhone 18 Pro 1449.",
+        "kopf": "Preis ab 256 GB",
+        "links": {
+          "emoji": "📱",
+          "name": "iPhone Duo",
+          "farbe": "rot",
+          "wert": 2299
+        },
+        "rechts": {
+          "emoji": "📱",
+          "name": "18 Pro",
+          "farbe": "gruen",
+          "wert": 1449
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Der Unterschied: 850 Euro. Das ist ein Wochenendtrip.",
+        "oben": "Aufpreis fürs Falten",
+        "wert": 850,
+        "unten_ab": 1.6,
+        "min": 3.2,
+        "unten": [
+          "= *ein Städtetrip* 🏖️"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Das Duo kostet 1,6-mal so viel wie das 18 Pro. Du bekommst ein zweites Display.",
+        "zeilen": [
+          "Duo: *2.299 €*",
+          "18 Pro: *1.449 €*",
+          "= *1,6×* der Preis"
+        ],
+        "abstand": 0.9,
+        "letzte_gross": true,
+        "kopf": "Der Faktor"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? 18 Pro und mit dem Rest in den Urlaub.",
+        "links": {
+          "emoji": "📱",
+          "name": "Duo"
+        },
+        "rechts": {
+          "emoji": "🏖️",
+          "name": "18 Pro + Urlaub"
+        },
+        "gewinner": "rechts",
+        "spruch": "Falten ist cool – *Strand* ist cooler 😎",
+        "stempel": "BESSERE WAHL"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Team Faltbar oder Team Strand? Schreib's in die Kommentare und markier deinen Apple-Fan!",
+        "zeilen": [
+          "Team *Faltbar* 📱 oder Team *Strand* 🏖️?",
+          "Markier deinen *Apple-Fan* 👇"
+        ],
+        "abstand": 0.8
       }
     ]
   }

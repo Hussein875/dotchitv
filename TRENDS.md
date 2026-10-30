@@ -21,7 +21,7 @@ Recherche finden. Du kannst jederzeit selbst eine Zeile ergänzen – auf GitHub
 
 | Thema | Fakten (Stand) | Dotchi-Idee | IQKnacker-Idee |
 |---|---|---|---|
-| 📱 **iPhone Duo** – Apples erstes faltbares iPhone | im Handel seit 23.10.2026, ab 2.299 € (256 GB) bis 3.799 € (2 TB); iPhone 18 Pro ab 1.449 €, iPhone 17e ab 849 € (Stand 10/2026) | „So lange arbeitest du mit Mindestlohn fürs iPhone Duo“, „iPhone Duo vs. iPhone 17e + Urlaub“, „iPhone 2007 vs. iPhone Duo – Preis damals und heute“, „Faltbar: 1 Duo oder 2,7 iPhone 17e?“ | Rätsel „ein Handy, zwei Displays“ (Falt-/Flächenlogik), Prozent-Rätsel ohne echte Preise |
+| 📱 **iPhone Duo** – Apples erstes faltbares iPhone | im Handel seit 23.10.2026, ab 2.299 € (256 GB) bis 3.799 € (2 TB); iPhone 18 Pro ab 1.449 €, iPhone 17e ab 849 € (Stand 10/2026) | ✅ #37 (Arbeitszeit), #42 (Duo vs. 18 Pro + Urlaub), #29 (Handy laden) · weiter offen: „So lange arbeitest du mit Mindestlohn fürs iPhone Duo“, „iPhone Duo vs. iPhone 17e + Urlaub“, „iPhone 2007 vs. iPhone Duo – Preis damals und heute“, „Faltbar: 1 Duo oder 2,7 iPhone 17e?“ | Rätsel „ein Handy, zwei Displays“ (Falt-/Flächenlogik), Prozent-Rätsel ohne echte Preise |
 | 🎮 **GTA 6** | erscheint 19.11.2026 für PS5 und Xbox Series X/S, Standard-Edition 79,99 €; GTA V kam 2013 | „GTA 6: Preis pro Spielstunde vs. Kino/Streaming“, „So lange arbeitest du für GTA 6 + Konsole“, „GTA V 2013 vs. GTA 6 2026 – was kostet mehr?“ | ✅ 3 Rätsel fertig (#1013–1015, laufen 12.–22.11.) |
 | 🎫 **Deutschlandticket wird teurer** | ab 1.1.2027 66,80 € statt 63 € (Koordinierungsrat, 30.9.2026); 2022 gab es das 9-Euro-Ticket | „Vom 9-€-Ticket zu 66,80 €: +642 %“, „Lohnt es sich noch? Ab so vielen Fahrten“ (im Dezember posten) | Preis-Rätsel mit fiktiven Tickets |
 | 🤖 **KI-Strom** | Google (08/2025): Median einer Gemini-Textfrage 0,24 Wh – weniger als 9 Sekunden Fernsehen | „KI vs. Wasserkocher: 1 Liter kochen = über 400 KI-Fragen“ | – |
@@ -31,7 +31,7 @@ Recherche finden. Du kannst jederzeit selbst eine Zeile ergänzen – auf GitHub
 
 | Datum | Anlass | Dotchi-Idee | IQKnacker-Idee |
 |---|---|---|---|
-| ab 1.11. | Heizperiode, früh dunkel | „Heizung 1 Grad runter – was spart das?“, „Heizlüfter vs. Heizung“ | ✅ Socken-Rätsel im Dunkeln (#1008) |
+| ab 1.11. | Heizperiode, früh dunkel | ✅ #28 „Heizung 1 Grad runter“, #33 „Heizlüfter vs. Heizung“ | ✅ Socken-Rätsel im Dunkeln (#1008) |
 | 11.11. | St. Martin, Karnevalsbeginn um 11:11, Singles Day | „Karnevalskostüm kaufen vs. selbst machen“, „Singles Day vs. Black Friday – wo ist mehr drin?“ | Rätsel rund um 11:11 (Uhr, Ziffern), Laternen-Logik |
 | 12.11. | GTA 6 vorab herunterladen (Preload, laut Händlern) | „Download-Größe: so lange lädt dein WLAN“ (Beispielrechnung) | ✅ siehe GTA 6 |
 | 19.11. | **GTA 6** erscheint · Kino: „Die Tribute von Panem: Sunrise on the Reaping“ | stärkstes GTA-Video des Monats an diesem Tag, 20:30 · „Dein Ticket bezahlt den Film, dein Popcorn das Kino“ (Snack-Marge über 80 %) | ✅ GTA-Rätsel laufen |
@@ -66,6 +66,9 @@ Recherche finden. Du kannst jederzeit selbst eine Zeile ergänzen – auf GitHub
 | Neue Konsole / neues Handy | Release | Arbeitszeit-Rechner, „damals vs. heute“ |
 
 ## Quellen (Stand 25.10.2026)
+
+- Gehälter (Stand 30.10.2026): [Destatis PD26_113 (Median 54.066 €, Ø 64.441 €, Perzentile 2025)](https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html), [BIBB Ausbildungsvergütungen 2025](https://www.bibb.de/de/pressemitteilung_218108.php), [BA Entgelte 2024](https://www.arbeitsagentur.de/presse/2025-32-entgelte-der-vollzeitbeschaeftigten-sind-im-jahr-2024-deutlich-gestiegen)
+- Heizen: [Verbraucherzentrale Niedersachsen](https://www.verbraucherzentrale-niedersachsen.de/wissen/energie/preise-tarife-anbieterwechsel/12-tipps-zum-energiesparen-im-haushalt-120054) (6 % je Grad), [VZ Hamburg](https://www.vzhh.de/themen/bauen-wohnen-energie/strom-gasrechnung/gut-geheizt-weniger-gas)
 
 - iPhone Duo und Preise: [vodafone.de](https://www.vodafone.de/featured/article/apple-iphone-18-preis-244085), [netz-trends.de](https://www.netz-trends.de/iphone-duo-marktstart-deutschland-ab-2299-euro-esim-siri-ai-eu/), [dastechno.com](https://dastechno.com/de/apple/iphone/)
 - GTA 6 Termin und Preis: [nw.de](https://www.nw.de/lifestyle/netzwelt/24444206_GTA-6-Release-Preis-und-Plattformen-alle-Infos-zum-neuen-Rockstar-Spiel.html), [tech-insider.org](https://tech-insider.org/gta-6-release-date-november-2026/)

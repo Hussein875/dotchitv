@@ -19,26 +19,17 @@ beide Kanäle stehen in `TRENDS.md`.
 **🔥 Trend & Wow – zuerst umsetzen (Zeitpunkt beachten):**
 - Black Friday: „beworben 38 %, echt 7 %“ – Idealo: Black Friday 2024 im Schnitt nur 7 % günstiger als im Oktober; Verbraucherzentrale Niedersachsen: Kühlschrank mit „38 %“ war gegenüber dem üblichen Preis nur 7 % billiger; 62 % der Produkte im Dezember wieder teurer (guenstiger.de). Posten 23.–27.11., das stärkste am 27.11. um 20:30
 - Kino-Popcorn: „Dein Ticket bezahlt den Film, dein Popcorn bezahlt das Kino“ – rund die Hälfte der Ticketeinnahmen geht an den Filmverleih (HDF Kino), Snacks behält das Kino komplett; Cinemark 2018: 1,1 Mrd. $ Snack-Umsatz bei 181 Mio. $ Kosten = 84 % Marge. Posten um den 19.11. (Panem) oder 16./17.12. (Avengers, Dune)
-- Kaffee vs. Dusche: 1 Tasse Kaffee = 132 Liter virtuelles Wasser (Bayer. Landesamt für Umwelt) = mehr als zwei Duschen à 60 l, fast eine volle Badewanne (150 l, wie in #19); 1 Jeans ≈ 8.000 Liter = 11 Jahre Trinkwasser (2 l am Tag)
-- KI vs. Wasserkocher: eine KI-Frage braucht 0,24 Wh (Google-Studie 08/2025, Median einer Gemini-Textfrage) – weniger als 9 Sekunden Fernsehen; 1 Liter Wasser kochen ≈ 100 Wh = über 400 KI-Fragen
 - Deutschlandticket: vom 9-Euro-Ticket (2022) zu 66,80 € ab 1.1.2027 (beschlossen am 30.9.2026) = +642 %; Preisgeschichte 9 → 49 → 58 → 63 → 66,80 €; lohnt es sich noch gegen Einzeltickets? Posten im Dezember
-- Bitcoin vs. Österreich: das Bitcoin-Netz verbraucht je nach Schätzung 100–175 TWh Strom im Jahr (Cambridge-Index), ganz Österreich rund 65–70 TWh – nur Strom vergleichen, keine Anlage-Aussagen
 
 **💼 Gehalt (jede Woche mehrere, siehe REDAKTIONSPLAN):**
 - Gehalts-Battle: Erzieherin vs. Informatiker – Median brutto (Entgeltatlas)
 - Gehalts-Battle: Busfahrer vs. Lokführer
-- „Die meisten verdienen weniger als der Durchschnitt“ – Median vs. Durchschnitt erklärt (Destatis)
-- „Ab welchem Gehalt gehörst du zu den oberen 10 %?“
 - Gehalt mit 25 vs. mit 45 – wie viel mehr bringt Erfahrung?
-- Bundesland-Battle: Wo verdient man am meisten, wo am wenigsten?
 - Von 4.000 € brutto bleiben … netto (Beispielrechnung Steuerklasse I)
 - Azubi-Gehälter: Top 3 vs. Flop 3 (BIBB)
 
 **Weitere:**
-- iPhone Duo (faltbar, ab 2.299 €) vs. iPhone 17e (849 €) – was bekommst du für den Unterschied? (gleich posten, ist gerade neu)
-- Heizung 1 Grad runter – was spart das im Winter? (November)
 - GTA 6: Preis pro Spielstunde vs. Kino und Streaming (erst in der Woche 15.–21.11. posten, Release 19.11.)
-- E-Auto vs. Benziner – Kosten pro 100 km
 - Mieten vs. kaufen – was zahlst du in 30 Jahren?
 
 ## Umgesetzt
@@ -68,3 +59,17 @@ beide Kanäle stehen in `TRENDS.md`.
 - Max vs. Tim – Serie Teil 1–3 (#23–#25)
 - Ein Jahr Weltreise vs. ein Jahr München (#26)
 - 1 € für jeden Blick aufs Handy (#27)
+- Kaffee vs. Dusche – virtuelles Wasser (#31)
+- KI vs. Wasserkocher (#35)
+- Bitcoin vs. Österreich – nur Strom (#40)
+- Median vs. Durchschnitt (#39)
+- Ab welchem Gehalt zu den oberen 10 % (#36)
+- Bundesland-Battle: Wo verdient man am wenigsten? (#38)
+- iPhone Duo vs. iPhone 18 Pro + Urlaub (#42), Duo-Arbeitszeit (#37)
+- Heizung 1 Grad runter (#28)
+- E-Auto vs. Benziner – Kosten pro 100 km (#41)
+- Handy laden: 2,74 € im Jahr vs. iPhone Duo (#29)
+- Wie viel verdienst du pro Minute? (#30)
+- Heizlüfter vs. Heizung (#33)
+- IT-Gehalt vs. alle Berufe (#34)
+- Azubi-Duell: Öffentlicher Dienst vs. Handwerk (#32)
