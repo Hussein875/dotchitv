@@ -192,6 +192,7 @@ def zeichne_bild(bild, t, sz):
 
 ZEICHNER = {"titel": zeichne_titel, "zahl": zeichne_zahl, "vs": zeichne_vs, "liste": zeichne_liste,
             "urteil": zeichne_urteil, "bild": zeichne_bild}
+HOOK_VORLAUF = 1.5  # Sekunden: so weit sind die Einblend-Animationen der ersten Szene schon „gelaufen“
 EFFEKTE = {"zahl": {"ching": 1.35}, "urteil": {"stempel": 1.0}}  # Standard-Zeitpunkte der Soundeffekte
 
 
@@ -243,7 +244,9 @@ class Video:
             if s.start <= t < s.start + s.dauer or (s is self.szenen[-1] and t >= s.start):
                 lokal = t - s.start
                 ebene = Image.new("RGBA", (B, H), (0, 0, 0, 0))
-                ZEICHNER[s.daten["typ"]](ebene, lokal, s.daten)
+                # Der Hook steht ab dem allerersten Bild komplett da: Wer in der ersten Sekunde nichts sieht,
+                # wischt weiter – und der erste Frame ist auch das Vorschaubild im Profil
+                ZEICHNER[s.daten["typ"]](ebene, lokal + (HOOK_VORLAUF if s is self.szenen[0] else 0), s.daten)
                 raus = clamp((lokal - (s.dauer - 0.22)) / 0.22) if s is not self.szenen[-1] else 0
                 if raus > 0:
                     ebene.putalpha(ebene.getchannel("A").point(lambda a: int(a * (1 - raus))))

@@ -40,6 +40,16 @@ reine Aufzählungen ohne Urteil, Themen, die wir schon hatten – auch nicht mit
 Jeder Vergleich hat ein `konzept` (Thema + Blickwinkel, z. B. `doener-jahreskosten` vs. `doener-preis-damals-heute`);
 `python3 generate.py --doppelte` meldet gleiche Konzepte und fast gleiche Titel.
 
+## 🎯 Hook-Regeln: die ersten 2 Sekunden entscheiden
+
+Die meisten wischen in der ersten Sekunde weiter. Die erste Szene ist außerdem das Vorschaubild im Profil.
+- **Höchstens 8 Wörter**, groß, sofort lesbar – eine **Zahl**, eine **Frage an „dich“** oder ein **Widerspruch**.
+  Gut: „Wie lange arbeitest du für *1 Milliarde €*?“, „*4.013 €* – verdienst du mehr?“, „Popcorn bezahlt das *Kino*“.
+  Schlecht: „Heute vergleichen wir …“, „Kaffee to go vs. Zuhause“ (kein Reiz, keine Zahl).
+- Der **erste gesprochene Satz** wiederholt nicht den Titel, sondern stellt die Frage, die man beantwortet haben will.
+- Die Auflösung kommt **nicht** in den ersten 3 Sekunden – Spannung bis zur Zahl.
+- Eine gezeichnete Figur mit Sprechblase (Szene `bild`) als erste Szene fällt im Feed besonders auf – gern 2–3× pro Woche.
+
 ## 💼 Gehalt & Geld: unser stärkstes Thema (mindestens 7 von 21 pro Woche)
 
 Gehälter gehen am meisten viral: Jeder vergleicht sich, jeder hat eine Meinung, jeder will wissen, ob er „gut“ verdient.

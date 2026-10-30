@@ -40,6 +40,17 @@ python3 generate.py --check
 | So früh | Cloud | plant die nächste Woche, legt `metricool_dotchi_….csv` und die Übersicht `postingplan_dotchi_….xlsx` in den Drive-Ordner |
 | So | **du** | Metricool → Kalender → ⋮ → CSV importieren |
 
+## Automatik am Mac (einmal einrichten, dann nie wieder vergessen)
+
+```bash
+~/Documents/dotchitv/tools/automatik_einrichten.sh
+```
+
+Danach startet `woche.sh` **jeden Freitag um 21 Uhr von selbst** (Samstag 21 Uhr als Nachholtermin), hält den Mac
+dabei wach und meldet sich mit einer Mitteilung („✅ Fertig“ oder „❌ Fehler“). Wer will, lässt den Mac zusätzlich
+um 20:55 aufwachen (fragt einmal nach dem Passwort). War der Mac aus, holt er es beim nächsten Aufwachen nach.
+Protokoll: `~/Library/Logs/dotchi_woche.log`. Abschalten: `launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/de.dotchitv.woche.plist`.
+
 ## Befehle
 
 ```bash
