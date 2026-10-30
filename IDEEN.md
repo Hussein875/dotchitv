@@ -24,6 +24,16 @@ beide Kanäle stehen in `TRENDS.md`.
 - Deutschlandticket: vom 9-Euro-Ticket (2022) zu 66,80 € ab 1.1.2027 (beschlossen am 30.9.2026) = +642 %; Preisgeschichte 9 → 49 → 58 → 63 → 66,80 €; lohnt es sich noch gegen Einzeltickets? Posten im Dezember
 - Bitcoin vs. Österreich: das Bitcoin-Netz verbraucht je nach Schätzung 100–175 TWh Strom im Jahr (Cambridge-Index), ganz Österreich rund 65–70 TWh – nur Strom vergleichen, keine Anlage-Aussagen
 
+**💼 Gehalt (jede Woche mehrere, siehe REDAKTIONSPLAN):**
+- Gehalts-Battle: Erzieherin vs. Informatiker – Median brutto (Entgeltatlas)
+- Gehalts-Battle: Busfahrer vs. Lokführer
+- „Die meisten verdienen weniger als der Durchschnitt“ – Median vs. Durchschnitt erklärt (Destatis)
+- „Ab welchem Gehalt gehörst du zu den oberen 10 %?“
+- Gehalt mit 25 vs. mit 45 – wie viel mehr bringt Erfahrung?
+- Bundesland-Battle: Wo verdient man am meisten, wo am wenigsten?
+- Von 4.000 € brutto bleiben … netto (Beispielrechnung Steuerklasse I)
+- Azubi-Gehälter: Top 3 vs. Flop 3 (BIBB)
+
 **Weitere:**
 - iPhone Duo (faltbar, ab 2.299 €) vs. iPhone 17e (849 €) – was bekommst du für den Unterschied? (gleich posten, ist gerade neu)
 - Heizung 1 Grad runter – was spart das im Winter? (November)

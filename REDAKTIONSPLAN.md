@@ -40,6 +40,27 @@ reine Aufzählungen ohne Urteil, Themen, die wir schon hatten – auch nicht mit
 Jeder Vergleich hat ein `konzept` (Thema + Blickwinkel, z. B. `doener-jahreskosten` vs. `doener-preis-damals-heute`);
 `python3 generate.py --doppelte` meldet gleiche Konzepte und fast gleiche Titel.
 
+## 💼 Gehalt & Geld: unser stärkstes Thema (mindestens 7 von 21 pro Woche)
+
+Gehälter gehen am meisten viral: Jeder vergleicht sich, jeder hat eine Meinung, jeder will wissen, ob er „gut“ verdient.
+Darum jede Woche **mindestens 7 Gehalts- bzw. Geld-Videos**, davon **mindestens 4 echte Gehaltsvergleiche**, davon eins täglich um 20:30
+möglich. Formate:
+
+| Format | Beispiele |
+|---|---|
+| ⚔️ Gehalts-Battle | Pflege vs. Polizei, Erzieherin vs. Informatiker, Busfahrer vs. Lokführer, Friseur vs. Kfz-Mechatroniker |
+| 📊 „Was verdient Deutschland wirklich?“ | Median vs. Durchschnitt (die meisten verdienen weniger als der Durchschnitt), Gehalt mit 25 vs. 45, Bundesland gegen Bundesland |
+| 🏆 „Ab wann gehörst du zu den oberen 10 %?“ | Einkommensgrenzen für obere 50/10/1 % (z. B. IW-Einkommensrechner, Destatis) |
+| 💶 Brutto vs. Netto | „Von 4.000 € brutto bleiben dir …“ (Beispielrechnung, Steuerklasse I, ohne Wertung) |
+| ⏱️ Gehalt pro Minute | „So viel verdienst du pro Minute – und so lange arbeitest du für …“ |
+| 🌍 DACH-Gehälter | gleicher Job in Deutschland, Österreich und der Schweiz, nach Miete gerechnet |
+| 🎓 Azubi-Gehälter | Top und Flop der Ausbildungsvergütungen (BIBB) |
+
+Regeln: immer **Median brutto, Vollzeit**, mit Quelle und Stand (Entgeltatlas der BA, Destatis Verdiensterhebung, BIBB,
+Lohnspiegel/WSI, IW). **Keine Einzelpersonen, kein Berufs-Bashing, keine Politik** (kein Bürgergeld, keine Steuer- oder
+Gender-Pay-Gap-Debatte). Stempel passend: „VERDIENT MEHR“. Kommentar-Frage zum Mitmachen: „Was verdienst du in deinem Job?“,
+„Welchen Beruf sollen wir als Nächstes vergleichen?“ – die Antworten liefern neue Ideen.
+
 ## Wow-Faktor: Neues statt Alltags-Spartipps (mindestens 5 von 21 pro Woche)
 
 Die Spar-Klassiker (Kaffee, Abos, Döner, Standby …) haben wir. Jede Woche brauchen wir **mindestens 5 Vergleiche mit einem
