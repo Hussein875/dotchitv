@@ -64,3 +64,7 @@ beide Kanäle stehen in `TRENDS.md`.
 - Duschen vs. Baden (#19)
 - Döner 2021 vs. heute (#20)
 - Neues Handy jedes Jahr vs. alle 3 Jahre (#21)
+- Wie lange arbeitest du für 1 Milliarde? – Eiszeit, Mammut (#22)
+- Max vs. Tim – Serie Teil 1–3 (#23–#25)
+- Ein Jahr Weltreise vs. ein Jahr München (#26)
+- 1 € für jeden Blick aufs Handy (#27)

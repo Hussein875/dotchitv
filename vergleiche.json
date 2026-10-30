@@ -1933,5 +1933,1089 @@
         "abstand": 0.8
       }
     ]
+  },
+  {
+    "id": 22,
+    "titel": "Wie lange arbeitest du für 1 Milliarde?",
+    "thema": "geld",
+    "konzept": "arbeitszeit-milliarde-eiszeit",
+    "caption": "1 Million: 21 Jahre. 1 Milliarde: 20.766 Jahre 🦣 Wie viele Jahre wären es bei dir?",
+    "hashtags": [
+      "#milliarde",
+      "#gehalt"
+    ],
+    "fuss": "Beispielrechnung · Median 4.013 € brutto/Monat (Entgeltatlas BA, 2024) · Mindestlohn 13,90 € · nichts ausgegeben",
+    "quellen": [
+      "https://www.aerzteblatt.de/news/einkommen-der-altenpflegefachkrafte-liegt-uber-medianverdienst-0da3cbaf-4dea-48b9-a184-c6f9631f95fb",
+      "https://www.lohnsteuer-kompakt.de/steuerwissen/gesetzlicher-mindestlohn-2026-erhoehung-auf-1390-euro-beschlossen"
+    ],
+    "figuren": {
+      "max": {
+        "haut": "#F2C9A0",
+        "haare": "#5A3A22",
+        "frisur": "kurz",
+        "shirt": "#FF6B6B",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "ort": "buero",
+        "text": "Wie lange arbeitest du für *1 Milliarde €*?",
+        "groesse": 80,
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.64,
+            "stimmung": "staunt",
+            "blase": "🤑"
+          }
+        ],
+        "sprich": "Wie lange musst du arbeiten, um eine Milliarde Euro zu verdienen?"
+      },
+      {
+        "typ": "zahl",
+        "oben": "Mittleres Gehalt in Deutschland",
+        "wert": 4013,
+        "unten": [
+          "brutto im Monat, Vollzeit"
+        ],
+        "sprich": "Nehmen wir das mittlere Gehalt in Deutschland: 4013 Euro brutto im Monat."
+      },
+      {
+        "typ": "bild",
+        "ort": "buero",
+        "text": "Und du gibst *keinen Cent* aus",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.64,
+            "stimmung": "traurig",
+            "pose": "haelt",
+            "haelt": "💶"
+          }
+        ],
+        "sprich": "Und du gibst davon keinen einzigen Cent aus."
+      },
+      {
+        "typ": "vs",
+        "kopf": "So lange arbeitest du",
+        "balken": true,
+        "links": {
+          "emoji": "💰",
+          "name": "1 Million",
+          "farbe": "gruen",
+          "wert": 21,
+          "einheit": "Jahre"
+        },
+        "rechts": {
+          "emoji": "🏦",
+          "name": "1 Milliarde",
+          "farbe": "rot",
+          "wert": 20766,
+          "einheit": "Jahre"
+        },
+        "sprich": "Für eine Million brauchst du knapp 21 Jahre. Für eine Milliarde: 20766 Jahre."
+      },
+      {
+        "typ": "bild",
+        "ort": "eiszeit",
+        "text": "Du hättest in der *Eiszeit* anfangen müssen",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.36,
+            "stimmung": "staunt",
+            "aussehen": {
+              "shirt": "#8B5A2B",
+              "hose": "#6B4423"
+            }
+          }
+        ],
+        "gegenstaende": [
+          {
+            "emoji": "🦣",
+            "x": 0.73,
+            "y": 1170,
+            "groesse": 300,
+            "ab": 0.4
+          }
+        ],
+        "sprich": "Du hättest in der letzten Eiszeit anfangen müssen. Neben Mammuts."
+      },
+      {
+        "typ": "bild",
+        "ort": "hoehle",
+        "text": "Mit *Mindestlohn*: 34.588 Jahre",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.6,
+            "stimmung": "staunt",
+            "aussehen": {
+              "shirt": "#8B5A2B",
+              "hose": "#6B4423"
+            }
+          }
+        ],
+        "gegenstaende": [
+          {
+            "emoji": "🔥",
+            "x": 0.24,
+            "y": 1260,
+            "groesse": 150,
+            "ab": 0.2
+          }
+        ],
+        "sprich": "Mit Mindestlohn sind es sogar 34588 Jahre. Da hat man noch Höhlen bemalt."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Selbst mit *10.000 €* im Monat",
+        "wert": 8333,
+        "einheit": "Jahre",
+        "farbe": "rot",
+        "unten": [
+          "länger, als es die Pyramiden gibt"
+        ],
+        "sprich": "Und selbst mit 10000 Euro im Monat: 8333 Jahre. Länger, als es die Pyramiden gibt."
+      },
+      {
+        "typ": "urteil",
+        "links": {
+          "emoji": "💰",
+          "name": "1 Million"
+        },
+        "rechts": {
+          "emoji": "🦣",
+          "name": "1 Milliarde"
+        },
+        "gewinner": "links",
+        "stempel": "MACHBAR",
+        "spruch": "Mit Gehalt allein: *unmöglich*",
+        "sprich": "Dotchis Urteil: Eine Million ist machbar. Eine Milliarde mit Gehalt allein: unmöglich."
+      },
+      {
+        "typ": "liste",
+        "zeilen": [
+          "Wie viele Jahre wären es *bei dir*? 🤔",
+          "1 Milliarde ÷ dein Jahresgehalt 👇"
+        ],
+        "sprich": "Und wie viele Jahre wären es bei dir? Rechne nach und schreib's in die Kommentare!"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "titel": "Max vs. Tim – Teil 1/3: gleiches Gehalt, anderes Leben",
+    "thema": "geld",
+    "konzept": "story-max-vs-tim-teil-1",
+    "caption": "Teil 1/3 – Max und Tim verdienen gleich viel. Nach einem Jahr trennen sie 3.020 € 😳 Team Max oder Team Tim?",
+    "hashtags": [
+      "#sparen",
+      "#geschichte"
+    ],
+    "fuss": "Beispielrechnung · erfundene Personen · Handy 900 € · Essen 3× pro Woche: 15 € vs. 4 €",
+    "figuren": {
+      "max": {
+        "haut": "#F2C9A0",
+        "haare": "#5A3A22",
+        "frisur": "kurz",
+        "shirt": "#FF6B6B",
+        "hose": "#3B4252"
+      },
+      "tim": {
+        "haut": "#E8B88A",
+        "haare": "#E6C068",
+        "frisur": "seite",
+        "shirt": "#2EC27E",
+        "hose": "#2E3440",
+        "brille": true
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Max und Tim: *beste Freunde*",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "winkt"
+          },
+          {
+            "wer": "tim",
+            "x": 0.7,
+            "stimmung": "freut",
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Das sind Max und Tim. Beste Freunde, gleicher Job, gleiches Gehalt."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Beide verdienen",
+        "wert": 2200,
+        "unten": [
+          "netto im Monat"
+        ],
+        "sprich": "Beide bekommen 2200 Euro netto im Monat."
+      },
+      {
+        "typ": "bild",
+        "ort": "cafe",
+        "text": "Max: jeden Morgen *Kaffee to go* – 3,50 €",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "☕"
+          }
+        ],
+        "sprich": "Max holt sich jeden Morgen einen Kaffee to go. Drei Euro fünfzig."
+      },
+      {
+        "typ": "bild",
+        "ort": "kueche",
+        "text": "Tim: Kaffee *von zu Hause* – 0,30 €",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.5,
+            "pose": "haelt",
+            "haelt": "☕"
+          }
+        ],
+        "sprich": "Tim macht seinen Kaffee zu Hause. Dreißig Cent."
+      },
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Max: jedes Jahr ein *neues Handy*",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "staunt",
+            "pose": "haelt",
+            "haelt": "📱",
+            "blase": "🤩"
+          }
+        ],
+        "sprich": "Jedes Jahr ein neues Handy? Für Max ganz normal."
+      },
+      {
+        "typ": "bild",
+        "ort": "zimmer",
+        "text": "Tim: ein Handy für *3 Jahre*",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.5,
+            "pose": "haelt",
+            "haelt": "📱"
+          }
+        ],
+        "sprich": "Tim nutzt sein Handy drei Jahre lang."
+      },
+      {
+        "typ": "bild",
+        "ort": "abend",
+        "text": "Max: *3× pro Woche* Lieferdienst",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🍕"
+          }
+        ],
+        "sprich": "Abends bestellt Max dreimal pro Woche Essen."
+      },
+      {
+        "typ": "bild",
+        "ort": "kueche",
+        "text": "Tim: kocht *selbst*",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🍳"
+          }
+        ],
+        "sprich": "Tim kocht selbst."
+      },
+      {
+        "typ": "vs",
+        "kopf": "Ausgegeben in *1 Jahr*",
+        "balken": true,
+        "links": {
+          "emoji": "💸",
+          "name": "Max",
+          "farbe": "rot",
+          "wert": 4010
+        },
+        "rechts": {
+          "emoji": "🐷",
+          "name": "Tim",
+          "farbe": "gruen",
+          "wert": 990
+        },
+        "sprich": "Nach einem Jahr hat Max 4010 Euro ausgegeben. Tim nur 990."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Unterschied nach *1 Jahr*",
+        "wert": 3020,
+        "farbe": "gruen",
+        "unten": [
+          "nur für Kaffee, Handy und Essen"
+        ],
+        "sprich": "Das sind 3020 Euro Unterschied. In nur einem Jahr."
+      },
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Und nach *10 Jahren*? 👀",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.3,
+            "stimmung": "staunt"
+          },
+          {
+            "wer": "tim",
+            "x": 0.7,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🐷",
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Und nach zehn Jahren? Das siehst du in Teil zwei. Folg uns, sonst verpasst du's!"
+      },
+      {
+        "typ": "liste",
+        "zeilen": [
+          "*Team Max* 🍕 oder *Team Tim* 🐷?",
+          "Schreib's in die Kommentare 👇"
+        ],
+        "sprich": "Bist du Team Max oder Team Tim? Schreib's in die Kommentare."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "titel": "Max vs. Tim – Teil 2/3: 10 Jahre später",
+    "thema": "geld",
+    "konzept": "story-max-vs-tim-teil-2",
+    "caption": "Teil 2/3 – Zehn Jahre später: Tim hat 30.200 €, Max hat … 😬 Was würdest du damit machen?",
+    "hashtags": [
+      "#sparen",
+      "#geschichte"
+    ],
+    "fuss": "Beispielrechnung · erfundene Personen · Ersparnis aus Teil 1, ohne Zinsen und Preissteigerung",
+    "figuren": {
+      "max": {
+        "haut": "#F2C9A0",
+        "haare": "#5A3A22",
+        "frisur": "kurz",
+        "shirt": "#FF6B6B",
+        "hose": "#3B4252"
+      },
+      "tim": {
+        "haut": "#E8B88A",
+        "haare": "#E6C068",
+        "frisur": "seite",
+        "shirt": "#2EC27E",
+        "hose": "#2E3440",
+        "brille": true
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "*10 Jahre* später …",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.3,
+            "stimmung": "normal"
+          },
+          {
+            "wer": "tim",
+            "x": 0.7,
+            "stimmung": "freut",
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Zehn Jahre später. Max und Tim verdienen immer noch gleich viel."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Tim legt jedes Jahr zur Seite",
+        "wert": 3020,
+        "farbe": "gruen",
+        "unten": [
+          "den Unterschied aus Teil 1"
+        ],
+        "sprich": "Tim hat den Unterschied jedes Jahr zur Seite gelegt. 3020 Euro."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Nach *10 Jahren*",
+        "wert": 30200,
+        "farbe": "gruen",
+        "unten": [
+          "ganz ohne Zinsen"
+        ],
+        "sprich": "Nach zehn Jahren sind das 30200 Euro. Ganz ohne Zinsen."
+      },
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Tim: Auto *bar bezahlt*",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.32,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🔑"
+          }
+        ],
+        "gegenstaende": [
+          {
+            "emoji": "🚗",
+            "x": 0.72,
+            "y": 1230,
+            "groesse": 260
+          }
+        ],
+        "sprich": "Was macht Tim damit? Er kauft sich ein Auto. Bar bezahlt."
+      },
+      {
+        "typ": "bild",
+        "ort": "zimmer",
+        "text": "… und fliegt nach *Japan*",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "jubelt",
+            "blase": "🗾"
+          }
+        ],
+        "sprich": "Und vom Rest fliegt er nach Japan."
+      },
+      {
+        "typ": "bild",
+        "ort": "abend",
+        "text": "Max: neues Handy – *leeres Konto*",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "traurig",
+            "pose": "haelt",
+            "haelt": "📱",
+            "blase": "💸"
+          }
+        ],
+        "sprich": "Und Max? Neues Handy, volles Leben. Aber ein leeres Konto."
+      },
+      {
+        "typ": "vs",
+        "kopf": "Erspart nach *10 Jahren*",
+        "balken": true,
+        "links": {
+          "emoji": "💸",
+          "name": "Max",
+          "farbe": "rot",
+          "wert": 0
+        },
+        "rechts": {
+          "emoji": "🐷",
+          "name": "Tim",
+          "farbe": "gruen",
+          "wert": 30200
+        },
+        "sprich": "Max: null Euro. Tim: 30200 Euro."
+      },
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Aber hatte Max *mehr Spaß*? 🤔",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.3,
+            "stimmung": "staunt"
+          },
+          {
+            "wer": "tim",
+            "x": 0.7,
+            "stimmung": "normal",
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Aber hatte Max vielleicht das schönere Leben? Das klären wir in Teil drei. Folg uns!"
+      },
+      {
+        "typ": "liste",
+        "zeilen": [
+          "Was würdest du mit *30.200 €* machen? 👇"
+        ],
+        "sprich": "Was würdest du mit 30200 Euro machen? Schreib's in die Kommentare."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "titel": "Max vs. Tim – Teil 3/3: Wer lebt besser?",
+    "thema": "geld",
+    "konzept": "story-max-vs-tim-teil-3",
+    "caption": "Teil 3/3 – Genießen oder sparen? Das Finale von Max vs. Tim ⚖️ Markier deinen Max 😏",
+    "hashtags": [
+      "#sparen",
+      "#geschichte"
+    ],
+    "fuss": "Beispielrechnung · erfundene Personen · Kaffee 3,50 € an 220 Tagen pro Jahr · Waschmaschine 800 €",
+    "figuren": {
+      "max": {
+        "haut": "#F2C9A0",
+        "haare": "#5A3A22",
+        "frisur": "kurz",
+        "shirt": "#FF6B6B",
+        "hose": "#3B4252"
+      },
+      "tim": {
+        "haut": "#E8B88A",
+        "haare": "#E6C068",
+        "frisur": "seite",
+        "shirt": "#2EC27E",
+        "hose": "#2E3440",
+        "brille": true
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Das Finale: Wer lebt *besser*?",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.3,
+            "stimmung": "freut"
+          },
+          {
+            "wer": "tim",
+            "x": 0.7,
+            "stimmung": "freut",
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Teil drei. Die große Frage: Wer von beiden lebt besser?"
+      },
+      {
+        "typ": "bild",
+        "ort": "cafe",
+        "text": "Max: „Ich gönn mir *jeden Tag* was!“",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "☕",
+            "blase": "😋"
+          }
+        ],
+        "sprich": "Max sagt: Ich gönn mir jeden Tag was. Das Leben ist kurz."
+      },
+      {
+        "typ": "bild",
+        "ort": "kueche",
+        "text": "Tim: „Ich hab *keinen Geldstress*.“",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🍳",
+            "blase": "😌"
+          }
+        ],
+        "sprich": "Tim sagt: Ich hab keinen Geldstress. Und Rücklagen für Notfälle."
+      },
+      {
+        "typ": "bild",
+        "ort": "abend",
+        "text": "Dann: Waschmaschine kaputt – *800 €*",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.3,
+            "stimmung": "staunt",
+            "blase": "💥"
+          },
+          {
+            "wer": "tim",
+            "x": 0.7,
+            "stimmung": "staunt",
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Dann geht bei beiden die Waschmaschine kaputt. 800 Euro."
+      },
+      {
+        "typ": "bild",
+        "ort": "abend",
+        "text": "Max: muss *auf Raten* kaufen",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "traurig",
+            "pose": "haelt",
+            "haelt": "📱"
+          }
+        ],
+        "sprich": "Max muss die neue auf Raten kaufen."
+      },
+      {
+        "typ": "bild",
+        "ort": "zimmer",
+        "text": "Tim: zahlt *sofort*",
+        "figuren": [
+          {
+            "wer": "tim",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "winkt"
+          }
+        ],
+        "sprich": "Tim bezahlt sie einfach."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Nur Max' Kaffee in *10 Jahren*",
+        "wert": 7700,
+        "farbe": "rot",
+        "unten": [
+          "3,50 € × 220 Tage × 10 Jahre"
+        ],
+        "sprich": "Übrigens: Allein der Kaffee to go hat Max in zehn Jahren 7700 Euro gekostet."
+      },
+      {
+        "typ": "urteil",
+        "links": {
+          "emoji": "💸",
+          "name": "Max"
+        },
+        "rechts": {
+          "emoji": "🐷",
+          "name": "Tim"
+        },
+        "gewinner": "rechts",
+        "spruch": "Genießen ja – aber mit *Plan*",
+        "sprich": "Dotchis Urteil: Tim. Genießen ist okay, aber mit Plan."
+      },
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Am besten: ein bisschen *von beiden* 😉",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "winkt"
+          },
+          {
+            "wer": "tim",
+            "x": 0.7,
+            "stimmung": "freut",
+            "pose": "winkt",
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Der beste Weg? Ein bisschen Max, ein bisschen Tim."
+      },
+      {
+        "typ": "liste",
+        "zeilen": [
+          "*Team Max* 🍕 oder *Team Tim* 🐷?",
+          "Markier deinen Max 😏"
+        ],
+        "sprich": "Bist du eher Max oder Tim? Markier deinen Max in den Kommentaren!"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "titel": "Ein Jahr Weltreise vs. ein Jahr München",
+    "thema": "geld",
+    "konzept": "weltreise-vs-muenchen-jahr",
+    "caption": "Ein Jahr Weltreise ist günstiger als ein Jahr München? 🌴🏢 Würdest du gehen? Markier, mit wem du reist 🛫",
+    "hashtags": [
+      "#weltreise",
+      "#muenchen"
+    ],
+    "fuss": "Beispielrechnung · Miete IS24 (Q4 2025) + Nebenkosten DMB · Lebenshaltung EVS 2023 · Reisekosten: Annahmen",
+    "quellen": [
+      "https://www.scout24.com/fileadmin/user_upload/IS24_WohnBarometer-Q4_2025_Miete.pdf",
+      "https://mieterbund.de/aktuelles/meldungen/mieterbund-veroeffentlicht-aktuellen-betriebskostenspiegel-fuer-deutschland/",
+      "https://www.sparkasse.de/pk/ratgeber/finanzplanung/finanzen-und-haushalt/lebenshaltungskosten.html",
+      "https://faszination-suedostasien.de/weltreise-finanzierung-planen/"
+    ],
+    "figuren": {
+      "lena": {
+        "haut": "#E8B88A",
+        "haare": "#3A2618",
+        "frisur": "zopf",
+        "shirt": "#FF9F43",
+        "hose": "#3B4252"
+      },
+      "jonas": {
+        "haut": "#F2C9A0",
+        "haare": "#1E1E24",
+        "frisur": "kurz",
+        "shirt": "#4FC3F7",
+        "hose": "#2E3440"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "ort": "strasse",
+        "text": "Ein Jahr *Weltreise* oder ein Jahr *München*?",
+        "groesse": 76,
+        "figuren": [
+          {
+            "wer": "lena",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "winkt"
+          },
+          {
+            "wer": "jonas",
+            "x": 0.7,
+            "spiegeln": true
+          }
+        ],
+        "sprich": "Ein Jahr Weltreise oder ein Jahr in München wohnen. Was kostet mehr?"
+      },
+      {
+        "typ": "bild",
+        "ort": "zimmer",
+        "text": "Jonas: 45 m² in *München*",
+        "figuren": [
+          {
+            "wer": "jonas",
+            "x": 0.5,
+            "pose": "haelt",
+            "haelt": "🔑"
+          }
+        ],
+        "sprich": "Jonas wohnt in München. 45 Quadratmeter, ganz normal."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Miete warm",
+        "wert": 1017,
+        "unten": [
+          "19,92 € pro m² + Nebenkosten"
+        ],
+        "sprich": "Miete mit Nebenkosten: 1017 Euro im Monat."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Essen, Handy, Freizeit …",
+        "wert": 1101,
+        "unten": [
+          "Durchschnitt für Alleinlebende"
+        ],
+        "sprich": "Dazu kommt alles andere zum Leben: im Schnitt 1101 Euro."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Ein Jahr *München*",
+        "wert": 25416,
+        "farbe": "rot",
+        "unten": [
+          "2.118 € × 12 Monate"
+        ],
+        "sprich": "Macht 25416 Euro im Jahr."
+      },
+      {
+        "typ": "bild",
+        "ort": "strand",
+        "text": "Lena: ein Jahr *Südostasien*",
+        "figuren": [
+          {
+            "wer": "lena",
+            "x": 0.58,
+            "stimmung": "freut",
+            "pose": "jubelt"
+          }
+        ],
+        "gegenstaende": [
+          {
+            "emoji": "🛫",
+            "x": 0.8,
+            "y": 720,
+            "groesse": 120,
+            "ab": 0.5
+          }
+        ],
+        "sprich": "Lena kündigt ihre Wohnung und reist ein Jahr durch Südostasien."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Backpacker-Budget",
+        "wert": 1200,
+        "unten": [
+          "im Monat: Unterkunft, Essen, Busse"
+        ],
+        "sprich": "Typisches Backpacker-Budget: 1200 Euro im Monat."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Plus Flüge und Versicherung",
+        "wert": 3000,
+        "unten": [
+          "für das ganze Jahr (Annahme)"
+        ],
+        "sprich": "Plus Flüge und Versicherung: rund 3000 Euro."
+      },
+      {
+        "typ": "vs",
+        "kopf": "Ein Jahr kostet",
+        "balken": true,
+        "links": {
+          "emoji": "🏢",
+          "name": "München",
+          "farbe": "rot",
+          "wert": 25416
+        },
+        "rechts": {
+          "emoji": "🌴",
+          "name": "Weltreise",
+          "farbe": "gruen",
+          "wert": 17400
+        },
+        "sprich": "München: 25416 Euro. Weltreise: 17400 Euro."
+      },
+      {
+        "typ": "zahl",
+        "oben": "Die Weltreise ist günstiger um",
+        "wert": 8016,
+        "farbe": "gruen",
+        "unten": [
+          "in nur einem Jahr 😳"
+        ],
+        "sprich": "Die Weltreise ist 8016 Euro günstiger."
+      },
+      {
+        "typ": "urteil",
+        "links": {
+          "emoji": "🏢",
+          "name": "München"
+        },
+        "rechts": {
+          "emoji": "🌴",
+          "name": "Weltreise"
+        },
+        "gewinner": "rechts",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Aber: ein Jahr *ohne Gehalt* 😅",
+        "sprich": "Dotchis Urteil: Die Weltreise ist günstiger. Aber du verdienst ein Jahr lang nichts."
+      },
+      {
+        "typ": "liste",
+        "zeilen": [
+          "Würdest du *gehen*? 🛫",
+          "Markier, mit wem du reist 👇"
+        ],
+        "sprich": "Würdest du gehen? Markier die Person, mit der du losziehen würdest!"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "titel": "1 € für jeden Blick aufs Handy – wie reich wärst du?",
+    "thema": "technik",
+    "konzept": "handy-blicke-geld",
+    "caption": "Für jeden Handy-Blick 1 € 📱💶 Gemessen sind's 88 am Tag – das wären 32.120 € im Jahr! Wie oft war's bei dir?",
+    "hashtags": [
+      "#handy",
+      "#bildschirmzeit"
+    ],
+    "fuss": "Studie Uni Bonn (2015): Ø 88× am Tag · YouGov-Umfrage: Schätzung Ø 35× · 1 € pro Blick = Beispiel",
+    "quellen": [
+      "https://www.uni-bonn.de/de/universitaet/presse-kommunikation/presseservice/archiv-pressemitteilungen/2015/195-2015",
+      "https://yougov.com/de-de/artikel/19739-fast-die-halfte-der-smartphone-nutzer-verwendet-au"
+    ],
+    "figuren": {
+      "max": {
+        "haut": "#F2C9A0",
+        "haare": "#5A3A22",
+        "frisur": "kurz",
+        "shirt": "#FF6B6B",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "ort": "zimmer",
+        "text": "1 € pro Handy-Blick – *wie reich wärst du?*",
+        "groesse": 74,
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "staunt",
+            "pose": "haelt",
+            "haelt": "📱",
+            "blase": "💶"
+          }
+        ],
+        "sprich": "Stell dir vor, du bekommst für jeden Blick aufs Handy einen Euro. Wie reich wärst du?"
+      },
+      {
+        "typ": "zahl",
+        "oben": "So oft schauen wir *laut Schätzung*",
+        "wert": 35,
+        "einheit": "×",
+        "unten": [
+          "am Tag (Umfrage)"
+        ],
+        "sprich": "Wir selbst schätzen: etwa 35-mal am Tag."
+      },
+      {
+        "typ": "zahl",
+        "oben": "*Gemessen* wurden aber",
+        "wert": 88,
+        "einheit": "×",
+        "farbe": "rot",
+        "unten": [
+          "am Tag (Studie Uni Bonn)"
+        ],
+        "sprich": "Gemessen hat eine Studie der Uni Bonn aber 88-mal am Tag."
+      },
+      {
+        "typ": "bild",
+        "ort": "abend",
+        "text": "Bei *1 €* pro Blick …",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "📱"
+          }
+        ],
+        "gegenstaende": [
+          {
+            "emoji": "💶",
+            "x": 0.22,
+            "y": 900,
+            "groesse": 110,
+            "ab": 0.3
+          },
+          {
+            "emoji": "🪙",
+            "x": 0.8,
+            "y": 960,
+            "groesse": 100,
+            "ab": 0.6
+          },
+          {
+            "emoji": "💶",
+            "x": 0.75,
+            "y": 760,
+            "groesse": 100,
+            "ab": 0.9
+          }
+        ],
+        "sprich": "Bei einem Euro pro Blick …"
+      },
+      {
+        "typ": "zahl",
+        "oben": "… wären das pro Jahr",
+        "wert": 32120,
+        "farbe": "gruen",
+        "unten": [
+          "88 € × 365 Tage"
+        ],
+        "sprich": "wären das 32120 Euro im Jahr."
+      },
+      {
+        "typ": "vs",
+        "kopf": "Im Jahr",
+        "balken": true,
+        "links": {
+          "emoji": "📱",
+          "name": "Handy-Blicke",
+          "farbe": "gruen",
+          "wert": 32120
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "Mindestlohn-Job",
+          "farbe": "gold",
+          "wert": 28912
+        },
+        "sprich": "Mehr als ein Vollzeitjob zum Mindestlohn: 28912 Euro brutto."
+      },
+      {
+        "typ": "zahl",
+        "oben": "In *40 Jahren*",
+        "wert": 1284800,
+        "farbe": "gruen",
+        "unten": [
+          "Handy-Millionär 🤑"
+        ],
+        "sprich": "In 40 Jahren wärst du Millionär. Eins Komma zwei acht Millionen Euro."
+      },
+      {
+        "typ": "bild",
+        "ort": "zimmer",
+        "text": "Schau nach: *Bildschirmzeit → Aktivierungen*",
+        "figuren": [
+          {
+            "wer": "max",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "📱"
+          }
+        ],
+        "sprich": "Schau jetzt in deine Bildschirmzeit, unter Aktivierungen."
+      },
+      {
+        "typ": "liste",
+        "zeilen": [
+          "Wie oft war's *bei dir* gestern? 📱",
+          "Schreib deine Zahl 👇"
+        ],
+        "sprich": "Wie oft war's bei dir gestern? Schreib deine Zahl in die Kommentare!"
+      }
+    ]
   }
 ]
