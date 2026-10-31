@@ -4672,101 +4672,93 @@
   },
   {
     "id": 44,
-    "titel": "Halloween-Beute: So lange musst du dafür joggen",
-    "thema": "essen",
-    "konzept": "halloween-suessigkeiten-joggen-kalorien",
-    "caption": "500 g Halloween-Beute = 31 km joggen 🍬🏃 Ein Schokoriegel allein = 24 Minuten. Wie viel hast du gestern gesammelt? 👇",
+    "titel": "Purge-Schaden: Ab 7 zahlst DU – nicht deine Eltern",
+    "thema": "geld",
+    "konzept": "purge-haftung-ab-7-taschengeld",
+    "caption": "Purge-Schaden? Ab 7 Jahren kannst DU haften – nicht automatisch deine Eltern 😳 2.400 € Schaden = 4 Jahre Taschengeld. Wusstest du das? 👇",
     "hashtags": [
-      "#halloween",
-      "#suessesodersaures"
+      "#purge",
+      "#halloween"
     ],
-    "fuss": "Beispielrechnung: Ø 450 kcal/100 g · Joggen 8 km/h, 70 kg ≈ 580 kcal/Std. (MET 8,3)",
+    "fuss": "Beispielrechnung: Schaden 2.400 €, Taschengeld 50 €/Monat · § 828, § 832 BGB · § 19 StGB",
     "quellen": [
-      "https://pacompendium.com/running/"
+      "https://www.gesetze-im-internet.de/bgb/__828.html",
+      "https://www.gesetze-im-internet.de/bgb/__832.html",
+      "https://www.gesetze-im-internet.de/stgb/__19.html"
     ],
     "szenen": [
       {
         "typ": "titel",
-        "sprich": "Deine Halloween-Beute? Dafür joggst du 31 Kilometer.",
+        "sprich": "Purge-Schaden? Ab sieben Jahren kannst du selbst dafür zahlen. Nicht deine Eltern.",
         "zeilen": [
           [
-            "Halloween 🍬",
-            100
+            "Purge-Schaden? 😈",
+            88
           ],
           [
-            "Deine Beute =",
+            "Ab *7 Jahren*",
             90
           ],
           [
-            "*31 km* joggen?",
+            "zahlst *du* selbst",
             90
           ]
         ]
       },
       {
+        "typ": "liste",
+        "sprich": "Ab sieben haftest du für Schäden. Ab vierzehn bist du strafmündig. Deine Eltern zahlen nur, wenn sie ihre Aufsichtspflicht verletzt haben.",
+        "kopf": "Was kaum einer weiß ⚖️",
+        "zeilen": [
+          "Ab *7*: du haftest 💸",
+          "Ab *14*: strafmündig ⚖️",
+          "Eltern? Nur bei *Aufsichtsfehler*"
+        ]
+      },
+      {
         "typ": "zahl",
-        "sprich": "Ein halbes Kilo Süßes hat rund 2250 Kalorien.",
-        "oben": "500 g Süßigkeiten 🎃",
-        "wert": 2250,
-        "einheit": "kcal",
-        "min": 3.0,
+        "sprich": "Beispiel: 2400 Euro Schaden an einem Auto.",
+        "oben": "Schaden am Auto 🚗",
+        "wert": 2400,
+        "farbe": "rot",
+        "min": 2.8,
         "unten": [
           "Beispielrechnung"
         ]
       },
       {
-        "typ": "vs",
-        "sprich": "Ein Schokoriegel allein: 24 Minuten joggen. Die ganze Beute: fast vier Stunden.",
-        "kopf": "So lange joggen 🏃",
-        "links": {
-          "emoji": "🍫",
-          "name": "Schokoriegel",
-          "farbe": "gold",
-          "wert": 24,
-          "einheit": "Min."
-        },
-        "rechts": {
-          "emoji": "🎃",
-          "name": "ganze Beute",
-          "farbe": "orange",
-          "wert": 232,
-          "einheit": "Min."
-        },
-        "balken": true
-      },
-      {
         "typ": "zahl",
-        "sprich": "Das sind 31 Kilometer. Drei Viertel eines Marathons.",
-        "oben": "Strecke bei 8 km/h",
-        "wert": 31,
-        "einheit": "km",
+        "sprich": "Mit 50 Euro Taschengeld im Monat zahlst du 48 Monate ab. Vier Jahre lang.",
+        "oben": "Mit 50 € Taschengeld",
+        "wert": 48,
+        "einheit": "Monate",
         "farbe": "lila",
-        "unten_ab": 1.6,
+        "unten_ab": 1.8,
         "min": 3.4,
         "unten": [
-          "fast *¾ Marathon* 😅"
+          "*4 Jahre* ohne Taschengeld 😳"
         ]
       },
       {
         "typ": "urteil",
-        "sprich": "Dotchi? Einmal im Jahr: genießen. Und teilen.",
+        "sprich": "Dotchi? Vier Jahre Taschengeld für fünf Sekunden Purge? Nein danke.",
         "links": {
-          "emoji": "🏃",
-          "name": "Joggen"
+          "emoji": "😈",
+          "name": "Purge"
         },
         "rechts": {
-          "emoji": "🍫",
-          "name": "Genießen"
+          "emoji": "🎃",
+          "name": "Party"
         },
         "gewinner": "rechts",
-        "spruch": "Einmal im Jahr? *Genießen* – und teilen 😋"
+        "spruch": "4 Jahre Taschengeld für *5 Sekunden*?"
       },
       {
         "typ": "liste",
-        "sprich": "Wie viel hast du gesammelt? Schreib's in die Kommentare und markier deinen Süßigkeiten-Dieb!",
+        "sprich": "Wusstest du das mit sieben Jahren? Schick das an alle mit kleinen Geschwistern!",
         "zeilen": [
-          "Wie viel hast *du* gesammelt? 🍬",
-          "Markier deinen *Süßigkeiten-Dieb* 👇"
+          "Wusstest du das mit *7 Jahren*? 🤯",
+          "Schick's an alle mit *kleinen Geschwistern* 👇"
         ],
         "abstand": 0.8
       }
