@@ -17,7 +17,8 @@ melde "Rendern startet – Mac bitte anlassen 🎬"
 echo "=== $(date) ===" >> "$LOG"
 if caffeinate -dimsu "$HOME/Documents/dotchitv/woche.sh" >> "$LOG" 2>&1; then
   date +"%Y-%m-%d %H:%M" > "$MERKER"
-  melde "✅ Fertig! Mac anlassen, bis Google Drive hochgeladen hat."
+  melde "✅ Fertig! Google Drive lädt jetzt hoch – der Mac bleibt dafür noch 30 Minuten wach."
+  caffeinate -ims -t 1800  # sonst schläft der Mac ein, bevor Google Drive die Videos hochgeladen hat
 else
   melde "❌ Rendern fehlgeschlagen – Log: ~/Library/Logs/dotchi_woche.log (Screenshot an Claude)"
 fi
