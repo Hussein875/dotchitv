@@ -4763,5 +4763,2130 @@
         "abstand": 0.8
       }
     ]
+  },
+  {
+    "id": 45,
+    "titel": "1 Cent 30 Tage lang verdoppeln – was kommt raus?",
+    "thema": "geld",
+    "konzept": "cent-verdopplung-30-tage",
+    "caption": "1 Cent, jeden Tag verdoppelt: Am Tag 30 sind es über 5 Millionen € 🤯 Hättest du das geschätzt? Schreib deine Schätzung vorher! 👇",
+    "hashtags": [
+      "#geld",
+      "#mathe"
+    ],
+    "fuss": "Rechnung: Tag n = 2^(n−1) Cent · Tag 30 = 536.870.912 Cent = 5.368.709,12 €",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Ein Cent, 30 Tage lang jeden Tag verdoppelt. Was kommt am Ende raus?",
+        "zeilen": [
+          [
+            "1 Cent",
+            150
+          ],
+          [
+            "30 Tage lang",
+            84
+          ],
+          [
+            "jeden Tag *verdoppelt* 🤔",
+            84
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Tag 10 sind es erst fünf Euro zwölf. Tag 20 schon über 5000 Euro.",
+        "zeilen": [
+          "Tag 10: *5,12 €*",
+          "Tag 20: *5.242,88 €*",
+          "Tag 30: ???"
+        ],
+        "abstand": 1.0,
+        "kopf": "So wächst es"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Tag 30: über fünf Millionen Euro. Aus einem einzigen Cent.",
+        "oben": "Am Tag 30",
+        "wert": 5368709,
+        "unten": [
+          "*5.368.709 €* aus 1 Cent 🤯"
+        ],
+        "unten_ab": 2.0,
+        "min": 4.0,
+        "einheit": "€"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Der letzte Tag bringt mehr als alle 29 Tage davor zusammen. Das ist das Gemeine an Verdopplung.",
+        "zeilen": [
+          "Tag 30: *536.870.912 Cent*",
+          "Tage 1 bis 29 zusammen: *536.870.911 Cent*",
+          "Der letzte Tag *schlägt alles* 😳"
+        ],
+        "abstand": 1.0,
+        "kopf": "Das Gemeine daran"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Zum Vergleich: Jeden Tag nur einen Cent mehr bringt dir am Tag 30 gerade mal 30 Cent.",
+        "kopf": "Betrag am Tag 30",
+        "links": {
+          "emoji": "➕",
+          "name": "+1 Cent pro Tag",
+          "farbe": "rot",
+          "wert": 0.3,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "✖️",
+          "name": "Verdoppeln",
+          "farbe": "gruen",
+          "wert": 5368709.12,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Verdopplung schlägt jedes Bauchgefühl.",
+        "links": {
+          "emoji": "➕",
+          "name": "Immer +1"
+        },
+        "rechts": {
+          "emoji": "✖️",
+          "name": "Verdoppeln"
+        },
+        "gewinner": "rechts",
+        "spruch": "Dein Bauchgefühl *unterschätzt* das 🧠",
+        "stempel": "UNTERSCHÄTZT"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was hättest du vorher geschätzt? Schreib's in die Kommentare und markier jemanden, der Mathe hasst!",
+        "zeilen": [
+          "Was hättest du *vorher* geschätzt? 🤔",
+          "Markier jemanden, der *Mathe hasst* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "titel": "Dein Kühlschrank ist zu kalt: 15,75 € im Jahr",
+    "thema": "strom",
+    "konzept": "kuehlschrank-temperatur-stromkosten",
+    "caption": "Jedes Grad kälter = rund 6 % mehr Strom 🧊 Auf wie viel Grad steht deiner? Schau nach und schreib's in die Kommentare 👇",
+    "hashtags": [
+      "#strom",
+      "#kuehlschrank"
+    ],
+    "fuss": "Beispielrechnung · 250 kWh/Jahr · 0,35 €/kWh · +6 % je Grad kälter (Verbraucherzentrale)",
+    "quellen": [
+      "https://www.homeandsmart.de/kuehlschrank-stromfresser-temperatur-dichtung-eis-40192a-0011-581809"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Dein Kühlschrank ist wahrscheinlich kälter als nötig. Und das kostet.",
+        "zeilen": [
+          [
+            "Dein Kühlschrank",
+            90
+          ],
+          [
+            "ist *zu kalt* 🧊",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Bei sieben Grad zahlst du etwa 87 Euro fünfzig Strom im Jahr. Bei vier Grad über 103.",
+        "kopf": "Stromkosten pro Jahr (Beispiel)",
+        "links": {
+          "emoji": "🥶",
+          "name": "4 °C",
+          "farbe": "rot",
+          "wert": 103.25,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🌡️",
+          "name": "7 °C",
+          "farbe": "gruen",
+          "wert": 87.5,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 15 Euro 75 Unterschied. Jedes Jahr. Nur durch einen Dreh am Regler.",
+        "oben": "Mehr Kosten pro Jahr",
+        "wert": 15.75,
+        "unten": [
+          "In 10 Jahren: *157,50 €* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8,
+        "dezimalen": 2
+      },
+      {
+        "typ": "liste",
+        "sprich": "Jedes Grad kälter bedeutet etwa sechs Prozent mehr Strom. Sieben Grad reichen laut Verbraucherzentrale.",
+        "zeilen": [
+          "Jedes Grad kälter: *+6 % Strom*",
+          "3 Grad kälter: *+18 %*",
+          "Fleisch & Fisch: *kältestes Fach*"
+        ],
+        "abstand": 1.0,
+        "kopf": "Warum?"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Sieben Grad.",
+        "links": {
+          "emoji": "🥶",
+          "name": "4 °C"
+        },
+        "rechts": {
+          "emoji": "🌡️",
+          "name": "7 °C"
+        },
+        "gewinner": "rechts",
+        "spruch": "Wärmer ist hier *günstiger* 😏",
+        "stempel": "GÜNSTIGER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Auf wie viel Grad steht dein Kühlschrank? Schreib's in die Kommentare und markier jemanden, der immer auf Anschlag dreht!",
+        "zeilen": [
+          "Auf wie viel Grad steht *deiner*? 🧊",
+          "Markier jemanden, der *auf Anschlag* dreht 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "titel": "Gehaltscheck Teil 1/3: Erzieher/in vs. IT",
+    "thema": "geld",
+    "konzept": "gehaltscheck-erzieher-vs-it",
+    "caption": "Teil 1/3 – Erzieher/in 4.091 € oder IT 5.907 €? Median brutto pro Monat, Vollzeit 💼 Was verdienst du? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#gehaltscheck"
+    ],
+    "fuss": "Median brutto/Monat, Vollzeit, Entgeltatlas der BA (Stand 2024) · Erzieher/in 4.091 €, IT 5.907 €",
+    "quellen": [
+      "https://heise.de/-10495340",
+      "https://www.arbeitsagentur.de/presse/2025-32-entgelte-der-vollzeitbeschaeftigten-sind-im-jahr-2024-deutlich-gestiegen",
+      "https://utopia.de/ratgeber/ist-dein-gehalt-zu-niedrig-der-entgeltatlas-verraet-es-dir_609367/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Gehaltscheck, Teil eins von drei: Erzieher oder IT? Wer verdient mehr?",
+        "zeilen": [
+          [
+            "*TEIL 1/3*",
+            60
+          ],
+          [
+            "4.091 € oder 5.907 €?",
+            96
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Erzieher verdienen im mittleren Wert 4091 Euro brutto im Monat. IT-Berufe 5907.",
+        "kopf": "Median brutto pro Monat, Vollzeit",
+        "links": {
+          "emoji": "🧸",
+          "name": "Erzieher/in",
+          "farbe": "blau",
+          "wert": 4091
+        },
+        "rechts": {
+          "emoji": "💻",
+          "name": "IT-Berufe",
+          "farbe": "orange",
+          "wert": 5907
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 1816 Euro Unterschied im Monat. Im Jahr fast 22000.",
+        "oben": "Unterschied pro Monat",
+        "wert": 1816,
+        "unten": [
+          "Im Jahr: *21.792 €* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "liste",
+        "sprich": "Alle Berufe zusammen liegen bei 4013. Erzieher darüber um 78 Euro, IT um 1894.",
+        "zeilen": [
+          "Alle Berufe: *4.013 €*",
+          "Erzieher/in: *+78 €* darüber",
+          "IT: *+1.894 €* darüber"
+        ],
+        "abstand": 1.0,
+        "kopf": "Zur Einordnung"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Gehalt liegt die IT vorn.",
+        "links": {
+          "emoji": "🧸",
+          "name": "Erzieher/in"
+        },
+        "rechts": {
+          "emoji": "💻",
+          "name": "IT"
+        },
+        "gewinner": "rechts",
+        "spruch": "Beim Gehalt vorn: IT. Beim Job entscheidest *du* 😉",
+        "stempel": "VERDIENT MEHR"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Teil zwei morgen: Busfahrer gegen Lokführer. Folg uns, sonst verpasst du es! Und was verdienst du?",
+        "zeilen": [
+          "Teil 2 morgen: *Busfahrer vs. Lokführer* 🚌🚆",
+          "Folgen, sonst verpasst du's 👀",
+          "Was verdienst *du*? 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "titel": "1 Million € in 1-Euro-Münzen wiegt 7,5 Tonnen",
+    "thema": "geld",
+    "konzept": "million-in-muenzen-gewicht",
+    "caption": "Eine Million in 1-Euro-Münzen = 7,5 Tonnen 🪙 So schwer wie 94 Erwachsene! Und dein Monatsgehalt? Rechne mal 👇",
+    "hashtags": [
+      "#geld",
+      "#wusstest_du"
+    ],
+    "fuss": "1-Euro-Münze 7,50 g (EZB) · 1.000.000 × 7,5 g = 7.500 kg · Erwachsener mit 80 kg (Beispiel)",
+    "quellen": [
+      "https://ecb.europa.eu/euro/coins/common/html/index.de.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Eine Million Euro in Münzen. Wie schwer ist das?",
+        "zeilen": [
+          [
+            "1 Million €",
+            110
+          ],
+          [
+            "in 1-Euro-Münzen:",
+            70
+          ],
+          [
+            "*wie schwer?* 🪙",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Eine Ein-Euro-Münze wiegt genau sieben Komma fünf Gramm. Eine Million davon: 7500 Kilo.",
+        "zeilen": [
+          "1 Münze: *7,5 g*",
+          "1.000.000 × 7,5 g",
+          "= *7.500 kg*"
+        ],
+        "abstand": 0.9,
+        "kopf": "So rechnen wir",
+        "letzte_gross": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind siebeneinhalb Tonnen. So schwer wie 94 Erwachsene.",
+        "oben": "Eine Million in Münzen wiegt",
+        "wert": 7.5,
+        "unten": [
+          "= *94 Erwachsene* à 80 kg 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8,
+        "einheit": "Tonnen",
+        "dezimalen": 1
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und dein Monatsgehalt? Der mittlere Verdienst von 4013 Euro wiegt als Münzen etwa 30 Kilo.",
+        "zeilen": [
+          "Mittleres Monatsgehalt: *4.013 €*",
+          "als 1-Euro-Münzen: *rund 30 kg*",
+          "Viel Spaß beim Tragen 😅"
+        ],
+        "abstand": 1.0,
+        "kopf": "Dein Gehalt in Münzen"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Eine Million überweist man besser.",
+        "links": {
+          "emoji": "🪙",
+          "name": "Münzen"
+        },
+        "rechts": {
+          "emoji": "📲",
+          "name": "Überweisung"
+        },
+        "gewinner": "rechts",
+        "spruch": "Eine Million trägt man *nicht* 😅",
+        "stempel": "LEICHTER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was würdest du mit einer Million machen? Schreib's in die Kommentare und markier jemanden, der sie tragen soll!",
+        "zeilen": [
+          "Was machst du mit *1 Million*? 💭",
+          "Markier den, der *tragen* soll 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "titel": "Karneval: Kostüm kaufen oder selbst machen?",
+    "thema": "geld",
+    "konzept": "karneval-kostuem-kaufen-vs-selbst",
+    "caption": "Übermorgen 11.11., 11:11 – Karnevalsstart! 🎭 Kostüm kaufen (35 €) oder selbst machen (12 €)? Was wirst du? 👇",
+    "hashtags": [
+      "#karneval",
+      "#kostuem"
+    ],
+    "fuss": "Beispielrechnung · Kaufkostüm 35 € vs. selbst gemacht 12 € (Material) · 1 Einsatz pro Jahr · 3 Jahre",
+    "figuren": {
+      "mia": {
+        "haut": "#F2C9A0",
+        "haare": "#8B3A2E",
+        "frisur": "zopf",
+        "shirt": "#A78BFA",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Übermorgen um elf Uhr elf startet die Karnevalssession. Und dein Kostüm?",
+        "ort": "zimmer",
+        "text": "Übermorgen *11:11*: Kostüm schon da?",
+        "figuren": [
+          {
+            "wer": "mia",
+            "x": 0.5,
+            "stimmung": "staunt",
+            "pose": "haelt",
+            "haelt": "🎭",
+            "blase": "❓"
+          }
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Ein gekauftes Kostüm kostet etwa 35 Euro. Selbst gemacht sind es rund 12 Euro Material.",
+        "kopf": "Pro Kostüm (Beispiel)",
+        "links": {
+          "emoji": "🛍️",
+          "name": "Gekauft",
+          "farbe": "rot",
+          "wert": 35
+        },
+        "rechts": {
+          "emoji": "🧵",
+          "name": "Selbst gemacht",
+          "farbe": "gruen",
+          "wert": 12
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In drei Jahren sparst du so 69 Euro.",
+        "oben": "Gespart in 3 Jahren",
+        "wert": 69,
+        "unten": [
+          "105 € vs. 36 € – und es ist *dein Unikat* 🎭"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Selbst machen.",
+        "links": {
+          "emoji": "🛍️",
+          "name": "Gekauft"
+        },
+        "rechts": {
+          "emoji": "🧵",
+          "name": "Selbst gemacht"
+        },
+        "gewinner": "rechts",
+        "spruch": "Kreativ schlägt *Kassenzettel* ✂️",
+        "stempel": "GÜNSTIGER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was wirst du dieses Jahr? Schreib dein Kostüm in die Kommentare und markier deinen Karnevals-Kumpel!",
+        "zeilen": [
+          "Welches Kostüm *trägst du*? 🎭",
+          "Markier deinen *Karnevals-Kumpel* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "titel": "Gehaltscheck Teil 2/3: Busfahrer vs. Lokführer",
+    "thema": "geld",
+    "konzept": "gehaltscheck-busfahrer-vs-lokfuehrer",
+    "caption": "Teil 2/3 – Bus 3.522 € oder Bahn 3.735 €? Median brutto pro Monat, Vollzeit 🚌🚆 Wer lenkt mehr Verantwortung – und wer verdient mehr? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#gehaltscheck"
+    ],
+    "fuss": "Median brutto/Monat, Vollzeit, Entgeltatlas der Bundesagentur für Arbeit (laut Medienberichten, Stand 2026)",
+    "quellen": [
+      "https://de.statista.com/infografik/amp/35985/einkommen-von-busfahrerinnen-und-stassenbahnfahrerinnen-in-deutschland",
+      "https://www.basicthinking.de/blog/2024/01/19/gehaelter-in-der-verkehrsbranche"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Gehaltscheck, Teil zwei: Wer verdient mehr, Bus oder Bahn?",
+        "zeilen": [
+          [
+            "*TEIL 2/3*",
+            60
+          ],
+          [
+            "Bus oder Bahn:",
+            90
+          ],
+          [
+            "wer verdient mehr?",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Bus- und Straßenbahnfahrer: 3522 Euro brutto im Monat. Lokführer: 3735.",
+        "kopf": "Median brutto pro Monat, Vollzeit",
+        "links": {
+          "emoji": "🚌",
+          "name": "Bus & Tram",
+          "farbe": "gold",
+          "wert": 3522
+        },
+        "rechts": {
+          "emoji": "🚆",
+          "name": "Lokführer/in",
+          "farbe": "blau",
+          "wert": 3735
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 213 Euro Unterschied im Monat. Im Jahr über 2500.",
+        "oben": "Unterschied pro Monat",
+        "wert": 213,
+        "unten": [
+          "Im Jahr: *2.556 €* 🚆"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "liste",
+        "sprich": "Das ist ein Plus von rund sechs Prozent für die Bahn.",
+        "zeilen": [
+          "Differenz: *213 €* im Monat",
+          "= *2.556 €* im Jahr",
+          "= rund *6 %* mehr"
+        ],
+        "abstand": 1.0,
+        "kopf": "Auf einen Blick",
+        "letzte_gross": true
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Gehalt liegt der Lokführer vorn.",
+        "links": {
+          "emoji": "🚌",
+          "name": "Bus & Tram"
+        },
+        "rechts": {
+          "emoji": "🚆",
+          "name": "Lokführer"
+        },
+        "gewinner": "rechts",
+        "spruch": "Beide halten das Land *in Bewegung* 💪",
+        "stempel": "VERDIENT MEHR"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Teil drei morgen: Was bleibt von 4000 Euro brutto? Folg uns, sonst verpasst du es! Fährst du Bus oder Bahn?",
+        "zeilen": [
+          "Teil 3 morgen: *Was bleibt netto?* 💸",
+          "Folgen, sonst verpasst du's 👀",
+          "Bus oder Bahn – *du?* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "titel": "30 % + 20 % Rabatt sind nicht 50 %",
+    "thema": "geld",
+    "konzept": "rabatt-auf-rabatt-30-plus-20",
+    "caption": "Morgen ist Singles Day! 30 % + 20 % extra = nur 44 % Rabatt, nicht 50 % 🧮 Hättest du das gewusst? 👇",
+    "hashtags": [
+      "#singlesday",
+      "#rabatt"
+    ],
+    "fuss": "Rechnung: 100 € × 0,7 × 0,8 = 56 € · Singles Day am 11.11.2026",
+    "quellen": [
+      "https://www.monsterdealz.de/magazin/singles-day-2026"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Dreißig Prozent plus zwanzig Prozent Rabatt. Das sind doch fünfzig, oder?",
+        "zeilen": [
+          [
+            "30 % + 20 %",
+            120
+          ],
+          [
+            "*nicht* 50 %",
+            120
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Erst werden dreißig Prozent abgezogen. Dann zwanzig Prozent vom neuen Preis.",
+        "zeilen": [
+          "100 € − 30 % = *70 €*",
+          "70 € − 20 % = *56 €*",
+          "Gespart: *44 €*, nicht 50 €"
+        ],
+        "abstand": 1.0,
+        "kopf": "Der Rechenweg",
+        "letzte_gross": true
+      },
+      {
+        "typ": "vs",
+        "sprich": "Du erwartest 50 Euro Preis. Du zahlst 56.",
+        "kopf": "Preis für einen 100-€-Artikel",
+        "links": {
+          "emoji": "🧠",
+          "name": "Im Kopf",
+          "farbe": "gruen",
+          "wert": 50
+        },
+        "rechts": {
+          "emoji": "🧮",
+          "name": "Wirklich",
+          "farbe": "rot",
+          "wert": 56
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Sechs Euro fehlen dir. Pro hundert Euro.",
+        "oben": "Weniger Rabatt als gedacht",
+        "wert": 6,
+        "unten": [
+          "bei 500 € Einkauf: *30 € weniger* 😬"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4,
+        "einheit": "€"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Der Taschenrechner hat recht.",
+        "links": {
+          "emoji": "🧠",
+          "name": "Kopfrechnen"
+        },
+        "rechts": {
+          "emoji": "🧮",
+          "name": "Taschenrechner"
+        },
+        "gewinner": "rechts",
+        "spruch": "Rabatte werden *nacheinander* abgezogen 🧮",
+        "stempel": "RICHTIG"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Morgen ist Singles Day. Was war dein bester Deal? Schreib's in die Kommentare und markier jemanden, der alles kauft, was rot ist!",
+        "zeilen": [
+          "Dein bester *Singles-Day-Deal*? 🛍️",
+          "Markier den *Schnäppchenjäger* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "titel": "Mindestlohn 2027: 14,60 € – das bringt dir das",
+    "thema": "geld",
+    "konzept": "mindestlohn-2026-vs-2027",
+    "caption": "Ab Januar 14,60 € statt 13,90 € Mindestlohn 💶 Das sind 1.456 € brutto mehr im Jahr (Vollzeit). Wie viel verdienst du pro Stunde? 👇",
+    "hashtags": [
+      "#mindestlohn",
+      "#gehalt"
+    ],
+    "fuss": "Mindestlohn brutto/Std.: 13,90 € (2026) → 14,60 € (ab 1.1.2027) · Vollzeit 2.080 Std./Jahr",
+    "quellen": [
+      "https://www.zdfheute.de/politik/deutschland/mindestlohn-komission-deutschland-beschluss-100.html",
+      "https://www.finanz.de/news/mindestlohn-erhoehung-tabelle-2027-10875/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Der Mindestlohn steigt. Was bringt dir das im Jahr?",
+        "zeilen": [
+          [
+            "Mindestlohn:",
+            90
+          ],
+          [
+            "*+1.456 €* im Jahr",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Der Mindestlohn steigt von dreizehn Euro neunzig auf vierzehn Euro sechzig pro Stunde.",
+        "kopf": "Mindestlohn pro Stunde, brutto",
+        "links": {
+          "emoji": "🔙",
+          "name": "2026",
+          "farbe": "grau",
+          "wert": 13.9,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🚀",
+          "name": "2027",
+          "farbe": "gruen",
+          "wert": 14.6,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 70 Cent mehr pro Stunde. Bei Vollzeit 1456 Euro brutto im Jahr.",
+        "oben": "Mehr pro Jahr (Vollzeit)",
+        "wert": 1456,
+        "unten": [
+          "= *121 €* mehr im Monat (brutto) 💶"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8,
+        "einheit": "€"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Dein 1000-Euro-Handy kostet dann nur noch 68 statt 72 Arbeitsstunden.",
+        "zeilen": [
+          "1.000 € Handy mit Mindestlohn",
+          "2026: *72 Stunden*",
+          "2027: *68 Stunden*"
+        ],
+        "abstand": 1.0,
+        "kopf": "Callback: das Handy"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Plus für alle am unteren Ende.",
+        "links": {
+          "emoji": "🔙",
+          "name": "2026"
+        },
+        "rechts": {
+          "emoji": "🚀",
+          "name": "2027"
+        },
+        "gewinner": "rechts",
+        "spruch": "Mehr Lohn, gleiche Arbeitsstunde 💪",
+        "stempel": "VERDIENT MEHR"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viel verdienst du pro Stunde? Schreib's in die Kommentare und markier jemanden mit Nebenjob!",
+        "zeilen": [
+          "Dein *Stundenlohn*? ⏱️",
+          "Markier jemanden mit *Nebenjob* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "titel": "Gehaltscheck Teil 3/3: Von 4.000 € brutto bleiben …",
+    "thema": "geld",
+    "konzept": "gehaltscheck-brutto-netto-4000",
+    "caption": "Teil 3/3 – Von 4.000 € brutto bleiben rund 2.600 € netto 💸 Das ist ein Drittel weniger! Was bleibt bei dir? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#nettogehalt"
+    ],
+    "fuss": "Beispielrechnung · Steuerklasse I, kinderlos, gesetzlich versichert, ohne Kirchensteuer · gerundet",
+    "quellen": [
+      "https://www.test.de/Brutto-Netto-Rechner-So-viel-Netto-bleibt-uebrig-5557780-0/",
+      "https://www.finanz.de/steuern/brutto-netto-rechner/4000-euro/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Letzter Teil: Von viertausend Euro brutto, was bleibt wirklich?",
+        "zeilen": [
+          [
+            "*TEIL 3/3*",
+            60
+          ],
+          [
+            "4.000 € brutto –",
+            96
+          ],
+          [
+            "was bleibt? 💸",
+            96
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Von 4000 Euro brutto bleiben in Steuerklasse eins rund 2600 Euro netto.",
+        "kopf": "Pro Monat (Beispielrechnung)",
+        "links": {
+          "emoji": "📄",
+          "name": "Brutto",
+          "farbe": "orange",
+          "wert": 4000
+        },
+        "rechts": {
+          "emoji": "💶",
+          "name": "Netto",
+          "farbe": "gruen",
+          "wert": 2600
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "1400 Euro gehen weg. Das ist mehr als ein Drittel.",
+        "oben": "Weg an Steuern & Abgaben",
+        "wert": 1400,
+        "unten": [
+          "= *35 %* vom Brutto 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4,
+        "einheit": "€"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Das mittlere Vollzeitgehalt liegt bei etwa 4000 Euro brutto. Netto bleiben im Jahr rund 31200.",
+        "zeilen": [
+          "Mittleres Gehalt: *~4.000 €* brutto",
+          "Netto: *~2.600 €* im Monat",
+          "Im Jahr: *~31.200 €* netto"
+        ],
+        "abstand": 1.0,
+        "kopf": "Der Normalfall"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Netto zählt, das kannst du ausgeben.",
+        "links": {
+          "emoji": "📄",
+          "name": "Brutto"
+        },
+        "rechts": {
+          "emoji": "💶",
+          "name": "Netto"
+        },
+        "gewinner": "rechts",
+        "spruch": "Brutto klingt *gut*, netto ist *echt* 💸",
+        "stempel": "EHRLICHER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Serie fertig! Welchen Beruf sollen wir als Nächstes vergleichen? Und was bleibt bei dir netto? Schreib's in die Kommentare!",
+        "zeilen": [
+          "Welchen *Beruf* als Nächstes? 💼",
+          "Was bleibt bei *dir* netto? 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "titel": "Unter 25: 3.202 € brutto – und du?",
+    "thema": "geld",
+    "konzept": "gehalt-unter-25-vs-alle",
+    "caption": "Unter 25 liegt der Median bei 3.202 € brutto, alle Vollzeit-Beschäftigten bei 4.217 € 💼 Mit den Jahren geht's hoch 📈 Wie alt bist du, was verdienst du? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#berufseinstieg"
+    ],
+    "fuss": "Median brutto/Monat, Vollzeit, BA-Entgeltstatistik, Stand 31.12.2025 · 2022: 2.752 € (<25) bis 3.824 € (55+)",
+    "quellen": [
+      "https://www.arbeitsagentur.de/presse/2026-27-entgelte-der-vollzeitbeschaeftigten-sind-im-jahr-2025-deutlich-gestiegen",
+      "https://ms-aktuell.de/?p=153384"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Unter 25. Und was verdienst du?",
+        "zeilen": [
+          [
+            "Unter 25:",
+            100
+          ],
+          [
+            "*3.202 €* brutto",
+            110
+          ],
+          [
+            "verdienst du mehr?",
+            70
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Unter 25 verdienen Vollzeit-Beschäftigte im mittleren Wert 3202 Euro brutto im Monat. Alle zusammen: 4217.",
+        "kopf": "Median brutto pro Monat, Vollzeit (Ende 2025)",
+        "links": {
+          "emoji": "🎒",
+          "name": "Unter 25",
+          "farbe": "gold",
+          "wert": 3202
+        },
+        "rechts": {
+          "emoji": "👥",
+          "name": "Alle",
+          "farbe": "blau",
+          "wert": 4217
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 1015 Euro weniger. Rund 24 Prozent.",
+        "oben": "Unter 25 verdienen weniger",
+        "wert": 1015,
+        "unten": [
+          "= *24 %* unter dem Median aller 📉"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4,
+        "einheit": "€"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Aber es geht bergauf. 2022 lag der Mittelwert ab 55 Jahren fast 40 Prozent über dem der unter 25-Jährigen.",
+        "zeilen": [
+          "2022 unter 25: *2.752 €*",
+          "2022 ab 55: *3.824 €*",
+          "= *+39 %* mit Erfahrung 📈"
+        ],
+        "abstand": 1.0,
+        "kopf": "Die gute Nachricht",
+        "letzte_gross": true
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Alle liegen vorn, aber dein Gehalt wächst mit.",
+        "links": {
+          "emoji": "🎒",
+          "name": "Unter 25"
+        },
+        "rechts": {
+          "emoji": "👥",
+          "name": "Alle"
+        },
+        "gewinner": "rechts",
+        "spruch": "Einsteigen ist *der schwerste Teil* 📈",
+        "stempel": "VERDIENT MEHR"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie alt bist du und was verdienst du? Schreib's in die Kommentare und markier jemanden, der gerade eingestiegen ist!",
+        "zeilen": [
+          "Wie alt bist du, was *verdienst* du? 💼",
+          "Markier einen *Berufseinsteiger* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "titel": "Martinsgans: frisch oder tiefgekühlt? 22,50 € Unterschied",
+    "thema": "essen",
+    "konzept": "martinsgans-frisch-vs-tiefgekuehlt",
+    "caption": "Heute ist St. Martin 🪿 Frisch rund 20 €/kg, tiefgekühlt rund 15 €/kg – bei 4,5 kg sind das 22,50 € Unterschied. Frisch oder TK? 👇",
+    "hashtags": [
+      "#martinsgans",
+      "#stmartin"
+    ],
+    "fuss": "Richtwerte 2026: frisch ~20 €/kg, tiefgekühlt ~15 €/kg (Sächs. Geflügelwirtschaftsverband) · Gans 4,5 kg · Beispiel",
+    "quellen": [
+      "https://ms-aktuell.de/welt/martinsgans-preise-17-10-2026/",
+      "https://ostdeutscheallgemeine.com/article/gaensebraten-zum-martinstag-was-verbraucher-2026-zahlen-10504452"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Heute ist St. Martin. Was kostet die Gans wirklich?",
+        "zeilen": [
+          [
+            "Martinsgans:",
+            100
+          ],
+          [
+            "*22,50 €* Unterschied",
+            90
+          ],
+          [
+            "frisch vs. TK 🪿",
+            80
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Eine frische Gans mit 4 Komma 5 Kilo kostet etwa 90 Euro. Tiefgekühlt rund 67 Euro 50.",
+        "kopf": "Gans, 4,5 kg (Richtwert 2026)",
+        "links": {
+          "emoji": "🪿",
+          "name": "Frisch",
+          "farbe": "rot",
+          "wert": 90,
+          "unter": "~20 €/kg"
+        },
+        "rechts": {
+          "emoji": "🧊",
+          "name": "Tiefgekühlt",
+          "farbe": "gruen",
+          "wert": 67.5,
+          "dezimalen": 2,
+          "unter": "~15 €/kg"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 22 Euro 50 Unterschied. Ein Viertel weniger.",
+        "oben": "Tiefgekühlt spart",
+        "wert": 22.5,
+        "unten": [
+          "= *25 %* günstiger 🪿"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4,
+        "dezimalen": 2,
+        "einheit": "€"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Bei sechs Portionen sind das 15 Euro gegen 11 Euro 25 pro Person. Ohne Beilagen.",
+        "zeilen": [
+          "Frisch: *15 €* pro Portion",
+          "Tiefgekühlt: *11,25 €* pro Portion",
+          "bei 6 Portionen, ohne Beilagen"
+        ],
+        "abstand": 1.0,
+        "kopf": "Pro Person"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Preis gewinnt die Tiefkühl-Gans.",
+        "links": {
+          "emoji": "🪿",
+          "name": "Frisch"
+        },
+        "rechts": {
+          "emoji": "🧊",
+          "name": "Tiefgekühlt"
+        },
+        "gewinner": "rechts",
+        "spruch": "Beim Geld klar vorn: *TK* 🧊",
+        "stempel": "GÜNSTIGER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Frisch oder tiefgekühlt, wo stehst du? Schreib's in die Kommentare und markier jemanden, der die Gans macht!",
+        "zeilen": [
+          "Team *Frisch* oder Team *TK*? 🪿",
+          "Markier den, der *die Gans macht* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "titel": "Singles Day: Das 30-Tage-Gesetz, das keiner kennt",
+    "thema": "geld",
+    "konzept": "singles-day-30-tage-tiefpreis",
+    "caption": "Singles Day! 🛍️ Seit 2022 muss der Shop bei Rabatten den niedrigsten Preis der letzten 30 Tage nennen. Hast du das gewusst? 👇",
+    "hashtags": [
+      "#singlesday",
+      "#wusstest_du"
+    ],
+    "fuss": "§ 11 PAngV (seit 2022) · VZ Bayern 2022: am Black Friday teils teurer als zuvor · Stand 11/2026",
+    "quellen": [
+      "https://www.haufe.de/recht/bgh-rabattwerbung-muss-30-tage-bestpreis-nennen_226_663186.html",
+      "https://www.regensburger-nachrichten.de/politik-und-wirtschaft/92223-black-friday-ohne-fake-schnaeppchen",
+      "https://www.monsterdealz.de/magazin/preisangabenverordnung-streichpreis"
+    ],
+    "figuren": {
+      "ben": {
+        "haut": "#E8B88A",
+        "haare": "#2B2B2B",
+        "frisur": "locken",
+        "shirt": "#2EC27E",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Minus fünfzig Prozent am Singles Day. Ist das ein echter Deal?",
+        "ort": "zimmer",
+        "text": "*−50 %* heute. Echt?",
+        "figuren": [
+          {
+            "wer": "ben",
+            "x": 0.5,
+            "stimmung": "staunt",
+            "pose": "haelt",
+            "haelt": "📱",
+            "blase": "🤩"
+          }
+        ]
+      },
+      {
+        "typ": "titel",
+        "sprich": "Seit 2022 gilt: Wer mit Rabatt wirbt, muss den niedrigsten Preis der letzten 30 Tage nennen.",
+        "zeilen": [
+          [
+            "Seit 2022 Pflicht:",
+            80
+          ],
+          [
+            "*30-Tage-Tiefpreis*",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Der Rabatt muss sich auf diesen Preis beziehen. Und der Händler muss ihn nennen.",
+        "zeilen": [
+          "Rabatt zählt vom *30-Tage-Tiefpreis*",
+          "Händler muss ihn *nennen*",
+          "Schau auf den *Preisverlauf* 🔍"
+        ],
+        "abstand": 1.0,
+        "kopf": "Der Check"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Aber Vorsicht: Die Verbraucherzentrale Bayern fand 2022 am Black Friday Produkte, die teurer waren als vorher.",
+        "zeilen": [
+          "Stichprobe *VZ Bayern 2022*",
+          "Produkte teils *teurer als vorher*",
+          "Darum: *Preisverlauf prüfen* 📉"
+        ],
+        "abstand": 1.0,
+        "kopf": "Die Lücke"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Erst den Preisverlauf prüfen, dann klicken.",
+        "links": {
+          "emoji": "🏷️",
+          "name": "Prozent-Schild"
+        },
+        "rechts": {
+          "emoji": "📉",
+          "name": "Preisverlauf"
+        },
+        "gewinner": "rechts",
+        "spruch": "Erst *prüfen*, dann klicken 🔍",
+        "stempel": "BESSERE WAHL"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Prüfst du den Preisverlauf vor dem Kauf? Schreib's in die Kommentare und markier deinen Schnäppchenjäger!",
+        "zeilen": [
+          "Prüfst *du* den Preisverlauf? 🔍",
+          "Markier deinen *Schnäppchenjäger* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "titel": "2 Std. 8 Min. Fernsehen am Tag = 32 Tage im Jahr",
+    "thema": "zeit",
+    "konzept": "tv-streaming-zeit-pro-jahr",
+    "caption": "2 Stunden 8 Minuten Fernsehen/Streaming pro Tag = 32 volle Tage im Jahr 📺 Wie viel schaust du? Schreib's in die Kommentare 👇",
+    "hashtags": [
+      "#zeit",
+      "#streaming"
+    ],
+    "fuss": "Ø 2 Std. 8 Min./Tag Fernsehen & Streaming (Destatis Zeitverwendung 2022) × 365 Tage",
+    "quellen": [
+      "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Zeitverwendung/Ergebnisse/_inhalt.html",
+      "https://web.de/magazine/wissen/psychologie/deutsche-verbringen-zeit-fernseher-sport-39680770"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Zwei Stunden Fernsehen am Tag. Wie viele Tage sind das im Jahr?",
+        "zeilen": [
+          [
+            "2 Std. 8 Min.",
+            110
+          ],
+          [
+            "*pro Tag* 📺",
+            100
+          ],
+          [
+            "= ? Tage im Jahr",
+            70
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Im Schnitt schauen wir zwei Stunden acht Minuten Fernsehen oder Streaming. Jeden Tag.",
+        "zeilen": [
+          "128 Min. × 365 Tage",
+          "= *46.720 Minuten*",
+          "= *779 Stunden*"
+        ],
+        "abstand": 0.9,
+        "kopf": "So rechnen wir",
+        "letzte_gross": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 32 volle Tage. Ein ganzer Monat, nur Bildschirm.",
+        "oben": "Pro Jahr vor dem Bildschirm",
+        "wert": 32,
+        "unten": [
+          "= fast *100 Arbeitstage* à 8 Std. 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8,
+        "einheit": "Tage"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Eine Stunde weniger am Tag bringt dir 15 Tage zurück.",
+        "kopf": "Tage pro Jahr",
+        "links": {
+          "emoji": "📺",
+          "name": "2 Std. 8 Min.",
+          "farbe": "rot",
+          "wert": 32,
+          "einheit": "Tage"
+        },
+        "rechts": {
+          "emoji": "⏱️",
+          "name": "1 Std. 8 Min.",
+          "farbe": "gruen",
+          "wert": 17,
+          "einheit": "Tage"
+        },
+        "balken": true
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Eine Stunde weniger schenkt dir 15 Tage.",
+        "links": {
+          "emoji": "📺",
+          "name": "Wie bisher"
+        },
+        "rechts": {
+          "emoji": "⏱️",
+          "name": "Eine Stunde weniger"
+        },
+        "gewinner": "rechts",
+        "spruch": "15 Tage zurück, *geschenkt* 🎁",
+        "stempel": "BESSERE WAHL"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viele Stunden schaust du am Tag? Schreib's in die Kommentare und markier deinen Serienjunkie!",
+        "zeilen": [
+          "Wie viele *Stunden* schaust du? 📺",
+          "Markier deinen *Serienjunkie* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "titel": "75 kg Essen im Müll – pro Kopf, pro Jahr",
+    "thema": "essen",
+    "konzept": "lebensmittelabfall-pro-kopf",
+    "caption": "Jeder von uns wirft im Jahr rund 75 kg Essen weg 🗑️ Das sind 1,4 kg pro Woche! Was fliegt bei dir am häufigsten raus? 👇",
+    "hashtags": [
+      "#foodwaste",
+      "#sparen"
+    ],
+    "fuss": "Haushalte ~74,5 kg/Kopf (2022, UBA/Destatis) · GfK: ~53 kg vermeidbar = 137 €/Haushalt",
+    "quellen": [
+      "https://www.umweltbundesamt.de/daten/private-haushalte-konsum/wohnen/abfaelle-privater-haushalte",
+      "https://www.abfallratgeber.bayern.de/publikationen/entsorgung_einzelner_abfallarten/doc/lebensmittelabfaelle.pdf"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Wie viel Essen wirfst du im Jahr weg?",
+        "zeilen": [
+          [
+            "Wie viel Essen",
+            90
+          ],
+          [
+            "wirfst *du* weg? 🗑️",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Im Schnitt 75 Kilo pro Person und Jahr. In privaten Haushalten.",
+        "oben": "Essen im Müll pro Person",
+        "wert": 74.5,
+        "unten": [
+          "= *1,4 kg* pro Woche 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8,
+        "einheit": "kg",
+        "dezimalen": 1
+      },
+      {
+        "typ": "liste",
+        "sprich": "Das sind pro Woche knapp drei Brote, die du kaufst und wegwirfst.",
+        "zeilen": [
+          "75 kg ÷ 52 Wochen",
+          "= *1,4 kg* pro Woche",
+          "≈ *3 Brote* à 500 g 🍞"
+        ],
+        "abstand": 1.0,
+        "kopf": "Pro Woche"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Eine Studie schätzt: 53 Kilo davon wären vermeidbar. Das spart rund 137 Euro pro Haushalt.",
+        "zeilen": [
+          "Vermeidbar: *53 kg*",
+          "Spart: *137 €* pro Haushalt",
+          "Pro Jahr, ohne Verzicht 💶"
+        ],
+        "abstand": 1.0,
+        "kopf": "Das Gute"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Einkaufszettel schlägt Wegwerfen.",
+        "links": {
+          "emoji": "🗑️",
+          "name": "Wegwerfen"
+        },
+        "rechts": {
+          "emoji": "📝",
+          "name": "Einkaufszettel"
+        },
+        "gewinner": "rechts",
+        "spruch": "Planen spart *Geld und Müll* 📝",
+        "stempel": "BESSERE WAHL"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was wirfst du am häufigsten weg? Schreib's in die Kommentare und markier jemanden, der zu viel einkauft!",
+        "zeilen": [
+          "Was fliegt bei dir *raus*? 🍞🥛🥬",
+          "Markier den, der *zu viel kauft* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "titel": "PS5: 150 € teurer als beim Start – aber weniger Arbeit?",
+    "thema": "technik",
+    "konzept": "ps5-preis-2020-vs-2026-arbeitszeit",
+    "caption": "PS5 Disc: 499,99 € (2020) → 649,99 € (2026) = +30 % 🎮 Aber mit Mindestlohn arbeitest du heute weniger dafür! 🤯 Verrückt? 👇",
+    "hashtags": [
+      "#ps5",
+      "#gaming"
+    ],
+    "fuss": "PS5 Disc 499,99 € (Launch 2020) → 649,99 € (seit 2.4.2026) · Mindestlohn 9,35 € (2020), 13,90 € (2026) brutto",
+    "quellen": [
+      "https://www.dealdoktor.de/magazin/ps5-wird-teurer/",
+      "https://www.tvmovie.de/technik/ps5-wird-deutlich-teurer-sony-erhoeht-preise-fuer-konsole-pro-modell-und-zubehoer-157277",
+      "https://www.zdfheute.de/politik/deutschland/mindestlohn-komission-deutschland-beschluss-100.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Die PS5 ist 150 Euro teurer als beim Start. Aber lohnt sie sich weniger?",
+        "zeilen": [
+          [
+            "PS5: *+150 €*",
+            110
+          ],
+          [
+            "seit dem Start 🎮",
+            80
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Die PS5 kostete 2020 499 Euro 99. Seit April 2026 sind es 649 Euro 99.",
+        "kopf": "PS5 mit Laufwerk",
+        "links": {
+          "emoji": "🎮",
+          "name": "2020",
+          "farbe": "gruen",
+          "wert": 499.99,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🎮",
+          "name": "2026",
+          "farbe": "rot",
+          "wert": 649.99,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das ist ein Plus von 30 Prozent.",
+        "oben": "Preissprung seit dem Start",
+        "wert": 30,
+        "unten": [
+          "= *+150 €* 😬"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.2,
+        "einheit": "%"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Aber: 2020 waren es 9 Euro 35 Mindestlohn. Heute 13 Euro 90. Du arbeitest heute weniger für die PS5.",
+        "zeilen": [
+          "2020: 499,99 € ÷ 9,35 € = *53,5 Std.*",
+          "2026: 649,99 € ÷ 13,90 € = *46,8 Std.*",
+          "= *13 % weniger* Arbeit 🤯"
+        ],
+        "abstand": 1.0,
+        "kopf": "Arbeitszeit mit Mindestlohn"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Teurer ja, aber für Mindestlohn-Gamer weniger Arbeit.",
+        "links": {
+          "emoji": "🎮",
+          "name": "2020"
+        },
+        "rechts": {
+          "emoji": "🎮",
+          "name": "2026"
+        },
+        "gewinner": "rechts",
+        "spruch": "Preis *hoch*, Arbeitszeit *runter* 🤯",
+        "stempel": "WENIGER ARBEIT"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hast du deine PS5 noch vor der Erhöhung gekauft? Schreib's in die Kommentare und markier deinen Zock-Kumpel!",
+        "zeilen": [
+          "Kaufst du *noch eine* PS5? 🎮",
+          "Markier deinen *Zock-Kumpel* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "titel": "1.000 € heute = 673 € in 20 Jahren?",
+    "thema": "geld",
+    "konzept": "inflation-kaufkraft-20-jahre",
+    "caption": "Bei 2 % Inflation sind 1.000 € in 20 Jahren nur noch 673 € wert 📉 Hättest du das gedacht? Beispielrechnung 👇",
+    "hashtags": [
+      "#geld",
+      "#inflation"
+    ],
+    "fuss": "Beispielrechnung · 2 % Inflation pro Jahr (Ziel der EZB) · 1.000 € ÷ 1,02^Jahre",
+    "quellen": [
+      "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.de.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Tausend Euro heute. Was sind sie in 20 Jahren noch wert?",
+        "zeilen": [
+          [
+            "1.000 € heute",
+            110
+          ],
+          [
+            "in 20 Jahren: *?* 📉",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Bei zwei Prozent Inflation pro Jahr sinkt die Kaufkraft immer weiter.",
+        "zeilen": [
+          "Nach 10 Jahren: *820 €*",
+          "Nach 20 Jahren: *673 €*",
+          "bei *2 %* pro Jahr"
+        ],
+        "abstand": 1.0,
+        "kopf": "Was sie noch kaufen"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Nach 20 Jahren kaufst du mit tausend Euro nur noch so viel wie heute mit 673.",
+        "oben": "Kaufkraft von 1.000 € in 20 Jahren",
+        "wert": 673,
+        "unten": [
+          "= *327 €* weniger Wert 📉"
+        ],
+        "unten_ab": 1.8,
+        "min": 4.0,
+        "einheit": "€"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Der Geldschein bleibt gleich. Die Kaufkraft schrumpft.",
+        "kopf": "Kaufkraft von 1.000 €",
+        "links": {
+          "emoji": "💶",
+          "name": "Heute",
+          "farbe": "gruen",
+          "wert": 1000
+        },
+        "rechts": {
+          "emoji": "⏳",
+          "name": "In 20 Jahren",
+          "farbe": "rot",
+          "wert": 673
+        },
+        "balken": true
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Geld heute ist mehr wert als später.",
+        "links": {
+          "emoji": "💶",
+          "name": "Heute"
+        },
+        "rechts": {
+          "emoji": "⏳",
+          "name": "In 20 Jahren"
+        },
+        "gewinner": "links",
+        "spruch": "Zeit ist *auch beim Geld* ein Faktor ⏳",
+        "stempel": "MEHR WERT"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hättest du das gedacht? Schreib's in die Kommentare und markier jemanden, der sein Geld einfach liegen lässt!",
+        "zeilen": [
+          "Hättest du das *gedacht*? 🤔",
+          "Markier den, der *Geld liegen lässt* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "titel": "Wäschetrockner vs. Wäscheleine: 1,40 € pro Ladung",
+    "thema": "strom",
+    "konzept": "trockner-vs-waescheleine-kosten",
+    "caption": "Ein Trockner-Gang kostet ca. 1,40 € Strom 🧺 Bei 2 Ladungen pro Woche sind das 145,60 € im Jahr! Leine oder Trockner? 👇",
+    "hashtags": [
+      "#strom",
+      "#waesche"
+    ],
+    "fuss": "Beispielrechnung · 4 kWh pro Ladung (Kondenstrockner) · 0,35 €/kWh · 2 Ladungen/Woche · 52 Wochen",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Was kostet ein Trockner-Gang wirklich?",
+        "zeilen": [
+          [
+            "Trockner:",
+            100
+          ],
+          [
+            "*1,40 €* pro Ladung 🧺",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Ein Trockner-Gang braucht etwa vier Kilowattstunden. Das sind 1 Euro 40. Die Leine kostet nichts.",
+        "kopf": "Strom pro Ladung (Beispiel)",
+        "links": {
+          "emoji": "🌀",
+          "name": "Trockner",
+          "farbe": "rot",
+          "wert": 1.4,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🧺",
+          "name": "Wäscheleine",
+          "farbe": "gruen",
+          "wert": 0,
+          "dezimalen": 2
+        }
+      },
+      {
+        "typ": "vs",
+        "sprich": "Zwei Ladungen pro Woche, ein Jahr lang: 145 Euro 60 gegen null.",
+        "kopf": "Pro Jahr · 2 Ladungen/Woche",
+        "links": {
+          "emoji": "🌀",
+          "name": "Trockner",
+          "farbe": "rot",
+          "wert": 145.6,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🧺",
+          "name": "Leine",
+          "farbe": "gruen",
+          "wert": 0,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In zehn Jahren sind das 1456 Euro. Fürs Trocknen von Socken.",
+        "oben": "Trockner in 10 Jahren",
+        "wert": 1456,
+        "unten": [
+          "= *ein Urlaub* ✈️ nur für Wäsche"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8,
+        "einheit": "€"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Leine, wenn du Platz hast.",
+        "links": {
+          "emoji": "🌀",
+          "name": "Trockner"
+        },
+        "rechts": {
+          "emoji": "🧺",
+          "name": "Wäscheleine"
+        },
+        "gewinner": "rechts",
+        "spruch": "Im Winter gut *lüften*, sonst Schimmel 🌬️",
+        "stempel": "GÜNSTIGER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Trockner oder Leine, was nutzt du? Schreib's in die Kommentare und markier jemanden, dessen Wohnung voller Wäscheständer steht!",
+        "zeilen": [
+          "Trockner oder *Leine*? 🧺",
+          "Markier den mit dem *Wäscheständer-Wald* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "titel": "GTA 6 + PS5: So lange arbeitest du dafür",
+    "thema": "technik",
+    "konzept": "gta6-ps5-arbeitszeit-mindestlohn",
+    "caption": "GTA 6 kommt am 19.11. 🎮 Spiel + PS5 = 52,5 Stunden Arbeit mit Mindestlohn – nur das Spiel: 5,8 Stunden. Kaufst du am Release? 👇",
+    "hashtags": [
+      "#gta6",
+      "#ps5"
+    ],
+    "fuss": "GTA 6 Standard 79,99 € (Release 19.11.2026) · PS5 Disc 649,99 € · Mindestlohn 13,90 € brutto/Std.",
+    "quellen": [
+      "https://www.nw.de/lifestyle/netzwelt/24444206_GTA-6-Release-Preis-und-Plattformen-alle-Infos-zum-neuen-Rockstar-Spiel.html",
+      "https://tech-insider.org/gta-6-release-date-november-2026/",
+      "https://www.dealdoktor.de/magazin/ps5-wird-teurer/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "GTA 6 kommt nächste Woche. Wie lange arbeitest du dafür?",
+        "zeilen": [
+          [
+            "GTA 6 + PS5:",
+            100
+          ],
+          [
+            "*52,5 Std.* Arbeit 🎮",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "GTA 6 kostet knapp 80 Euro. Die PS5 649 Euro 99.",
+        "kopf": "Preise Deutschland",
+        "links": {
+          "emoji": "🎮",
+          "name": "GTA 6",
+          "farbe": "orange",
+          "wert": 79.99,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🕹️",
+          "name": "PS5",
+          "farbe": "blau",
+          "wert": 649.99,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Mit Mindestlohn sind das 52 Stunden Arbeit. Mehr als eine volle Arbeitswoche.",
+        "oben": "Spiel + Konsole",
+        "wert": 52.5,
+        "unten": [
+          "= *1,3 Arbeitswochen* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8,
+        "einheit": "Stunden",
+        "dezimalen": 1
+      },
+      {
+        "typ": "liste",
+        "sprich": "Nur das Spiel, wenn die Konsole schon steht: knapp sechs Stunden.",
+        "zeilen": [
+          "GTA 6: 79,99 € ÷ 13,90 € = *5,8 Std.*",
+          "PS5: 649,99 € ÷ 13,90 € = *46,8 Std.*",
+          "Zusammen: *52,5 Std.*"
+        ],
+        "abstand": 1.0,
+        "kopf": "So rechnen wir"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Das Spiel lohnt sich, die neue Konsole überleg dir zweimal.",
+        "links": {
+          "emoji": "🎮",
+          "name": "GTA 6"
+        },
+        "rechts": {
+          "emoji": "🕹️",
+          "name": "Neue PS5"
+        },
+        "gewinner": "links",
+        "spruch": "Sechs Stunden Arbeit für *hunderte Spielstunden* 😏",
+        "stempel": "LOHNT SICH"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Kaufst du GTA 6 am ersten Tag? Schreib's in die Kommentare und markier deinen Zock-Kumpel!",
+        "zeilen": [
+          "Kaufst du *am ersten Tag*? 🎮",
+          "Markier deinen *Zock-Kumpel* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "titel": "Streaming-Trick: 104 € im Jahr sparen",
+    "thema": "geld",
+    "konzept": "streaming-abo-rotation",
+    "caption": "Ein Streaming-Abo das ganze Jahr: 155,88 €. Nur 4 Monate pro Jahr: 51,96 € 🎬 Das sind 103,92 € gespart! Machst du das schon? 👇",
+    "hashtags": [
+      "#abos",
+      "#sparen"
+    ],
+    "fuss": "Beispielrechnung · Streaming-Abo 12,99 €/Monat · 12 Monate vs. 4 Monate (monatlich kündbar)",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Du zahlst für Serien, die du gar nicht schaust?",
+        "zeilen": [
+          [
+            "104 € sparen",
+            120
+          ],
+          [
+            "mit *einem Trick* 🎬",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Ein Streaming-Abo für 12 Euro 99 über das ganze Jahr kostet 155 Euro 88. Nur vier Monate: 51 Euro 96.",
+        "kopf": "Pro Jahr (Beispiel)",
+        "links": {
+          "emoji": "📺",
+          "name": "Ganzjährig",
+          "farbe": "rot",
+          "wert": 155.88,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🔁",
+          "name": "4 Monate",
+          "farbe": "gruen",
+          "wert": 51.96,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 103 Euro 92 gespart. Mit einem Klick auf Kündigen.",
+        "oben": "Gespart pro Jahr",
+        "wert": 103.92,
+        "unten": [
+          "Gleiche Serien, nur *später geschaut* 😏"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6,
+        "dezimalen": 2,
+        "einheit": "€"
+      },
+      {
+        "typ": "liste",
+        "sprich": "So geht's: Abo kündigen, Serie in einem Rutsch schauen, später wieder abonnieren.",
+        "zeilen": [
+          "1. Monatlich *kündbares* Abo wählen",
+          "2. Staffel in *einem Rutsch* schauen",
+          "3. Kündigen, *später* wieder holen"
+        ],
+        "abstand": 1.0,
+        "kopf": "Der Trick"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Rotieren schlägt Dauerabo.",
+        "links": {
+          "emoji": "📺",
+          "name": "Dauerabo"
+        },
+        "rechts": {
+          "emoji": "🔁",
+          "name": "Rotieren"
+        },
+        "gewinner": "rechts",
+        "spruch": "Du zahlst nur, wenn du *schaust* 🎬",
+        "stempel": "GÜNSTIGER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viele Abos hast du gerade? Schreib's in die Kommentare und markier jemanden, der Abos vergisst!",
+        "zeilen": [
+          "Wie viele Abos *hast du*? 🎬",
+          "Markier den, der *Abos vergisst* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "titel": "3× Snooze am Morgen = 164 Stunden im Jahr",
+    "thema": "zeit",
+    "konzept": "snooze-zeit-pro-jahr",
+    "caption": "Dreimal Snooze à 9 Minuten = 27 Minuten am Tag ⏰ Das sind 164 Stunden im Jahr – fast 7 Tage! Wie oft drückst du? 👇",
+    "hashtags": [
+      "#zeit",
+      "#morgenroutine"
+    ],
+    "fuss": "Beispielrechnung · 3× Snooze à 9 Minuten · 365 Tage",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Wie oft drückst du auf Snooze? Das kostet mehr Zeit, als du denkst.",
+        "zeilen": [
+          [
+            "3× Snooze",
+            130
+          ],
+          [
+            "pro Morgen ⏰",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Dreimal neun Minuten. Das sind 27 Minuten. Jeden Morgen.",
+        "zeilen": [
+          "3 × 9 Min. = *27 Min.*",
+          "× 365 Tage",
+          "= *9.855 Minuten*"
+        ],
+        "abstand": 0.9,
+        "kopf": "So rechnen wir",
+        "letzte_gross": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 164 Stunden im Jahr. Fast sieben Tage.",
+        "oben": "Snooze pro Jahr",
+        "wert": 164,
+        "unten": [
+          "= *6,8 Tage* 😴"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6,
+        "einheit": "Stunden"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Das sind über 20 Arbeitstage. Ein ganzer Monat nur Wecker drücken.",
+        "kopf": "Zum Vergleich",
+        "links": {
+          "emoji": "⏰",
+          "name": "Snooze",
+          "farbe": "rot",
+          "wert": 164,
+          "einheit": "Std."
+        },
+        "rechts": {
+          "emoji": "🏖️",
+          "name": "30 Urlaubstage",
+          "farbe": "gruen",
+          "wert": 240,
+          "einheit": "Std."
+        },
+        "balken": true
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Einmal aufstehen, Zeit zurück.",
+        "links": {
+          "emoji": "⏰",
+          "name": "3× Snooze"
+        },
+        "rechts": {
+          "emoji": "🌅",
+          "name": "Sofort auf"
+        },
+        "gewinner": "rechts",
+        "spruch": "Schlaf wird *nicht besser*, er wird nur *unterbrochen* 😴",
+        "stempel": "BESSERE WAHL"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie oft drückst du auf Snooze? Schreib's in die Kommentare und markier jemanden, der nie rechtzeitig kommt!",
+        "zeilen": [
+          "Wie oft *snoozt* du? ⏰",
+          "Markier den, der *nie pünktlich* ist 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "titel": "Nina vs. Jonas: 200 € mehr Gehalt – wer hat mehr davon?",
+    "thema": "geld",
+    "konzept": "story-gehaltserhoehung-nina-vs-jonas",
+    "caption": "Beide bekommen 200 € mehr im Monat. Nina gibt alles aus, Jonas spart die Hälfte 💰 Nach 10 Jahren: 0 € vs. 12.000 € 😳 Team Nina oder Team Jonas? 👇",
+    "hashtags": [
+      "#sparen",
+      "#geschichte"
+    ],
+    "fuss": "Beispielrechnung · erfundene Personen · 200 € netto mehr · Jonas spart 100 €/Monat · 10 Jahre, ohne Zinsen",
+    "figuren": {
+      "nina": {
+        "haut": "#E8B88A",
+        "haare": "#2B2B2B",
+        "frisur": "zopf",
+        "shirt": "#FF6B6B",
+        "hose": "#3B4252"
+      },
+      "jonas": {
+        "haut": "#F2C9A0",
+        "haare": "#B5651D",
+        "frisur": "locken",
+        "shirt": "#2EC27E",
+        "hose": "#2E3440"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Nina und Jonas bekommen beide 200 Euro mehr netto im Monat.",
+        "ort": "strasse",
+        "text": "Beide bekommen *+200 €* im Monat",
+        "figuren": [
+          {
+            "wer": "nina",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "jubelt",
+            "blase": "💰"
+          },
+          {
+            "wer": "jonas",
+            "x": 0.7,
+            "stimmung": "freut",
+            "pose": "winkt",
+            "spiegeln": true
+          }
+        ]
+      },
+      {
+        "typ": "bild",
+        "sprich": "Nina gönnt sich dafür neue Sachen. Nach einem Monat ist alles aufgebraucht.",
+        "ort": "abend",
+        "text": "Nina: *alles ausgegeben*",
+        "figuren": [
+          {
+            "wer": "nina",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🛍️"
+          }
+        ]
+      },
+      {
+        "typ": "bild",
+        "sprich": "Jonas legt 100 Euro zur Seite. Die anderen 100 gönnt er sich.",
+        "ort": "kueche",
+        "text": "Jonas: *100 € weggelegt*, 100 € Spaß",
+        "figuren": [
+          {
+            "wer": "jonas",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🐷"
+          }
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Nach zehn Jahren hat Nina nichts zur Seite. Jonas 12000 Euro, ohne Zinsen.",
+        "kopf": "Zurückgelegt nach 10 Jahren",
+        "links": {
+          "emoji": "🛍️",
+          "name": "Nina",
+          "farbe": "rot",
+          "wert": 0
+        },
+        "rechts": {
+          "emoji": "🐷",
+          "name": "Jonas",
+          "farbe": "gruen",
+          "wert": 12000
+        },
+        "balken": true
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hundert Euro mal zwölf Monate mal zehn Jahre. Und Jonas hatte trotzdem seinen Spaß.",
+        "zeilen": [
+          "100 € × 12 Monate = 1.200 €",
+          "× 10 Jahre = *12.000 €*",
+          "Jonas hatte trotzdem *Spaß* 😏"
+        ],
+        "abstand": 1.0,
+        "kopf": "So rechnen wir"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Halb sparen, halb genießen.",
+        "links": {
+          "emoji": "🛍️",
+          "name": "Nina"
+        },
+        "rechts": {
+          "emoji": "🐷",
+          "name": "Jonas"
+        },
+        "gewinner": "rechts",
+        "spruch": "Mehr Gehalt ist kein Freifahrtschein ⚖️",
+        "stempel": "BESSERE WAHL"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Team Nina oder Team Jonas? Wie viel von einer Gehaltserhöhung sparst du? Schreib's in die Kommentare und markier deinen Kollegen!",
+        "zeilen": [
+          "Team *Nina* oder Team *Jonas*? ⚖️",
+          "Markier deinen *Kollegen* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
   }
 ]

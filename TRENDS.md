@@ -22,7 +22,7 @@ Recherche finden. Du kannst jederzeit selbst eine Zeile ergänzen – auf GitHub
 | Thema | Fakten (Stand) | Dotchi-Idee | IQKnacker-Idee |
 |---|---|---|---|
 | 📱 **iPhone Duo** – Apples erstes faltbares iPhone | im Handel seit 23.10.2026, ab 2.299 € (256 GB) bis 3.799 € (2 TB); iPhone 18 Pro ab 1.449 €, iPhone 17e ab 849 € (Stand 10/2026) | ✅ #37 (Arbeitszeit), #42 (Duo vs. 18 Pro + Urlaub), #29 (Handy laden) · weiter offen: „So lange arbeitest du mit Mindestlohn fürs iPhone Duo“, „iPhone Duo vs. iPhone 17e + Urlaub“, „iPhone 2007 vs. iPhone Duo – Preis damals und heute“, „Faltbar: 1 Duo oder 2,7 iPhone 17e?“ | Rätsel „ein Handy, zwei Displays“ (Falt-/Flächenlogik), Prozent-Rätsel ohne echte Preise |
-| 🎮 **GTA 6** | erscheint 19.11.2026 für PS5 und Xbox Series X/S, Standard-Edition 79,99 €; GTA V kam 2013 | „GTA 6: Preis pro Spielstunde vs. Kino/Streaming“, „So lange arbeitest du für GTA 6 + Konsole“, „GTA V 2013 vs. GTA 6 2026 – was kostet mehr?“ | ✅ 3 Rätsel fertig (#1013–1015, laufen 12.–22.11.) |
+| 🎮 **GTA 6** | erscheint 19.11.2026 für PS5 und Xbox Series X/S, Standard-Edition 79,99 €; GTA V kam 2013; PS5 Disc seit 2.4.2026 649,99 € (Start 2020: 499,99 €), Switch 2 seit 1.9.2026 499,99 € (mydealz) | ✅ #62 (Arbeitszeit GTA + PS5), #59 (PS5-Preis) · weiter offen: „GTA 6: Preis pro Spielstunde vs. Kino/Streaming“, „So lange arbeitest du für GTA 6 + Konsole“, „GTA V 2013 vs. GTA 6 2026 – was kostet mehr?“ | ✅ 3 Rätsel fertig (#1013–1015, laufen 12.–22.11.) |
 | 🎫 **Deutschlandticket wird teurer** | ab 1.1.2027 66,80 € statt 63 € (Koordinierungsrat, 30.9.2026); 2022 gab es das 9-Euro-Ticket | „Vom 9-€-Ticket zu 66,80 €: +642 %“, „Lohnt es sich noch? Ab so vielen Fahrten“ (im Dezember posten) | Preis-Rätsel mit fiktiven Tickets |
 | 🤖 **KI-Strom** | Google (08/2025): Median einer Gemini-Textfrage 0,24 Wh – weniger als 9 Sekunden Fernsehen | „KI vs. Wasserkocher: 1 Liter kochen = über 400 KI-Fragen“ | – |
 | 🕐 **Zeitumstellung** | 25.10.2026, nächste: 28.03.2027 | „Eine Stunde mehr Schlaf – was ist sie wert?“ (nur Ende Oktober oder Ende März) | ✅ #86 (Herbst) |
@@ -32,10 +32,11 @@ Recherche finden. Du kannst jederzeit selbst eine Zeile ergänzen – auf GitHub
 | Datum | Anlass | Dotchi-Idee | IQKnacker-Idee |
 |---|---|---|---|
 | ab 1.11. | Heizperiode, früh dunkel | ✅ #28 „Heizung 1 Grad runter“, #33 „Heizlüfter vs. Heizung“ | ✅ Socken-Rätsel im Dunkeln (#1008) |
-| 11.11. | St. Martin, Karnevalsbeginn um 11:11, Singles Day | „Karnevalskostüm kaufen vs. selbst machen“, „Singles Day vs. Black Friday – wo ist mehr drin?“ | Rätsel rund um 11:11 (Uhr, Ziffern), Laternen-Logik |
+| 11.11. | St. Martin, Karnevalsbeginn um 11:11, Singles Day | ✅ #49 (Kostüm), #51 + #56 (Singles Day), #55 (Martinsgans, ~20 €/kg frisch, ~15 €/kg TK) · weiter offen: „Karnevalskostüm kaufen vs. selbst machen“, „Singles Day vs. Black Friday – wo ist mehr drin?“ | Rätsel rund um 11:11 (Uhr, Ziffern), Laternen-Logik |
 | 12.11. | GTA 6 vorab herunterladen (Preload, laut Händlern) | „Download-Größe: so lange lädt dein WLAN“ (Beispielrechnung) | ✅ siehe GTA 6 |
 | 19.11. | **GTA 6** erscheint · Kino: „Die Tribute von Panem: Sunrise on the Reaping“ | stärkstes GTA-Video des Monats an diesem Tag, 20:30 · „Dein Ticket bezahlt den Film, dein Popcorn das Kino“ (Snack-Marge über 80 %) | ✅ GTA-Rätsel laufen |
 | 22.11. | Totensonntag | – (ruhiger Tag, keine frechen Witze) | – |
+| 13.11. | Freitag der 13. (harmlos, nur mit Quelle nutzen) | z. B. „Aberglaube kostet …“ – nur mit belegter Zahl | – |
 | ab ca. 23.11. | Weihnachtsmärkte öffnen (Nürnberg 27.11.) | „Glühwein/Punsch auf dem Markt vs. selbst gemacht“, „Was kostet ein Abend Weihnachtsmarkt zu zweit?“ | ✅ Punsch-Pfand-Rätsel (#1011) |
 | 27.11. | **Black Friday** (Black Week ab ca. 23.11.), 30.11. Cyber Monday | „Beworben 38 %, echt 7 %“ (Idealo: 2024 im Schnitt nur 7 % günstiger als im Oktober; 62 % im Dezember wieder teurer), „30 % auf 100 € vs. 25-€-Gutschein“ | Prozent-Fallen mit **neuer** Idee (Rabatt auf Rabatt, Gutschein vs. Prozent) |
 | 29.11. | 1. Advent, Adventskalender | „Adventskalender: Preis pro Türchen vs. Inhalt einzeln kaufen“ | ✅ Lichterkette (#1009), Plätzchen (#1010) |
@@ -53,7 +54,7 @@ Recherche finden. Du kannst jederzeit selbst eine Zeile ergänzen – auf GitHub
 
 | Datum | Anlass | Dotchi-Idee | IQKnacker-Idee |
 |---|---|---|---|
-| 1.1. | **Mindestlohn steigt auf 14,60 €** (vorher 13,90 €) | „Mindestlohn 2026 vs. 2027 – so viel mehr im Monat (brutto)“, „So lange arbeitest du 2027 für …“ (Neuauflage #11 mit neuem Lohn) | – |
+| 1.1. | **Mindestlohn steigt auf 14,60 €** (vorher 13,90 €) | ✅ #52 (Vorab-Video) · „Mindestlohn 2026 vs. 2027 – so viel mehr im Monat (brutto)“, „So lange arbeitest du 2027 für …“ (Neuauflage #11 mit neuem Lohn) | – |
 | Januar | Vorsätze: Fitness, Sparen, Dry January | „Fitnessstudio vs. zu Hause“, „Was Verzicht im Januar spart“ | Rätsel zu Vorsätzen (Wochen, Prozente) |
 
 ## Immer wieder
@@ -66,6 +67,8 @@ Recherche finden. Du kannst jederzeit selbst eine Zeile ergänzen – auf GitHub
 | Neue Konsole / neues Handy | Release | Arbeitszeit-Rechner, „damals vs. heute“ |
 
 ## Quellen (Stand 25.10.2026)
+
+- Neu 07.11.2026: [BA Entgelte 2025 (Median 4.217 €, unter 25: 3.202 €)](https://www.arbeitsagentur.de/presse/2026-27-entgelte-der-vollzeitbeschaeftigten-sind-im-jahr-2025-deutlich-gestiegen), [Martinsgans-Preise](https://ms-aktuell.de/welt/martinsgans-preise-17-10-2026/), [PS5-Preiserhöhung](https://www.dealdoktor.de/magazin/ps5-wird-teurer/), [30-Tage-Regel PAngV](https://www.haufe.de/recht/bgh-rabattwerbung-muss-30-tage-bestpreis-nennen_226_663186.html), [Singles Day 2026](https://www.monsterdealz.de/magazin/singles-day-2026), [Lebensmittelabfälle UBA](https://www.umweltbundesamt.de/daten/private-haushalte-konsum/wohnen/abfaelle-privater-haushalte)
 
 - Gehälter (Stand 30.10.2026): [Destatis PD26_113 (Median 54.066 €, Ø 64.441 €, Perzentile 2025)](https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html), [BIBB Ausbildungsvergütungen 2025](https://www.bibb.de/de/pressemitteilung_218108.php), [BA Entgelte 2024](https://www.arbeitsagentur.de/presse/2025-32-entgelte-der-vollzeitbeschaeftigten-sind-im-jahr-2024-deutlich-gestiegen)
 - Heizen: [Verbraucherzentrale Niedersachsen](https://www.verbraucherzentrale-niedersachsen.de/wissen/energie/preise-tarife-anbieterwechsel/12-tipps-zum-energiesparen-im-haushalt-120054) (6 % je Grad), [VZ Hamburg](https://www.vzhh.de/themen/bauen-wohnen-energie/strom-gasrechnung/gut-geheizt-weniger-gas)

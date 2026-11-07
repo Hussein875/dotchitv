@@ -22,10 +22,6 @@ beide Kanäle stehen in `TRENDS.md`.
 - Deutschlandticket: vom 9-Euro-Ticket (2022) zu 66,80 € ab 1.1.2027 (beschlossen am 30.9.2026) = +642 %; Preisgeschichte 9 → 49 → 58 → 63 → 66,80 €; lohnt es sich noch gegen Einzeltickets? Posten im Dezember
 
 **💼 Gehalt (jede Woche mehrere, siehe REDAKTIONSPLAN):**
-- Gehalts-Battle: Erzieherin vs. Informatiker – Median brutto (Entgeltatlas)
-- Gehalts-Battle: Busfahrer vs. Lokführer
-- Gehalt mit 25 vs. mit 45 – wie viel mehr bringt Erfahrung?
-- Von 4.000 € brutto bleiben … netto (Beispielrechnung Steuerklasse I)
 - Azubi-Gehälter: Top 3 vs. Flop 3 (BIBB)
 
 **Weitere:**
@@ -73,3 +69,11 @@ beide Kanäle stehen in `TRENDS.md`.
 - Heizlüfter vs. Heizung (#33)
 - IT-Gehalt vs. alle Berufe (#34)
 - Azubi-Duell: Öffentlicher Dienst vs. Handwerk (#32)
+- Gehalts-Battle: Erzieher/in vs. IT – Gehaltscheck Teil 1/3 (#47)
+- Gehalts-Battle: Busfahrer vs. Lokführer – Gehaltscheck Teil 2/3 (#50)
+- Von 4.000 € brutto bleiben … netto – Gehaltscheck Teil 3/3 (#53)
+- Gehalt unter 25 vs. alle, mit Blick auf Erfahrung (Variante von „25 vs. 45“, #54)
+- 1 Cent verdoppeln (#45), Kühlschrank-Temperatur (#46), 1 Mio. in Münzen (#48)
+- Karneval-Kostüm (#49), 30 % + 20 % Rabatt (#51), Singles Day 30-Tage-Tiefpreis (#56), Martinsgans (#55)
+- Mindestlohn 2026 vs. 2027 (#52), TV-Zeit (#57), Lebensmittelabfall (#58), PS5-Preis (#59), Inflation (#60)
+- Trockner vs. Leine (#61), GTA 6 + PS5 Arbeitszeit (#62), Streaming-Rotation (#63), Snooze (#64), Nina vs. Jonas (#65)
