@@ -27,6 +27,19 @@ Geld und Zahlen ziehen am meisten – deshalb liegt der Schwerpunkt dort.
 25 % „Was kostet dich X im Jahr?“ (Döner-Muster mit Pointe), 15 % „Damals vs. heute“ oder „In Perspektive“
 („So lange arbeitest du dafür“). Gleiche Themen nie zwei Tage hintereinander.
 
+## 📊 Erkenntnisse aus den Zahlen (TikTok, Stand 8.11.2026 – bei jeder Auswertung aktualisieren)
+
+- **Alle Videos bleiben bei ca. 250 Aufrufen hängen** (Median 260, 35 Videos ab 28.10.): TikTok zeigt sie der ersten
+  Testgruppe, schiebt aber keins weiter. Ziel ist, dass mehr Leute **bis zum Ende schauen und reagieren**.
+- **Die meisten Likes** (3–5 % statt 1,7 %) holten **Geschichten und riesige Zahlen**: Max vs. Tim, „1 Milliarde =
+  20.766 Jahre“, „Weltreise günstiger als München“, „1 € pro Handy-Blick“. → Pro Woche mindestens 4 Videos mit
+  gezeichneter Geschichte (`bild`) oder einer „Wie-bitte?!“-Größenordnung.
+- **Gehalt** liegt leicht über dem Schnitt (278 statt 236 Aufrufe) – Schwerpunkt bleibt.
+- **Kommentare fast null** (15 bei 44 Videos): Offene Fragen („Was verdienst du?“) beantwortet keiner. → Die letzte
+  Szene fragt **A oder B** mit Emoji, z. B. „🅰️ Team Max oder 🅱️ Team Tim? Schreib A oder B“ – ein Zeichen reicht.
+- **Lotto-Video: 2 Aufrufe** – Glücksspiel wird eingeschränkt. → Keine Videos zu Lotto, Wetten, Casino, Krypto-Kurs.
+- **Uhrzeit und Länge** machen bisher keinen Unterschied (12:30/17:30/20:30 und ≤30 s/>30 s alle ähnlich).
+
 ## Qualität: Videos, die wir selbst schauen wollen
 
 Jedes Video muss mindestens eins davon liefern – sonst wird es nicht gemacht:
