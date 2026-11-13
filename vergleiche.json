@@ -4875,104 +4875,6 @@
     ]
   },
   {
-    "id": 46,
-    "titel": "Dein Kühlschrank ist zu kalt: 15,75 € im Jahr",
-    "thema": "strom",
-    "konzept": "kuehlschrank-temperatur-stromkosten",
-    "caption": "Jedes Grad kälter = rund 6 % mehr Strom 🧊 Auf wie viel Grad steht deiner? Schau nach und schreib's in die Kommentare 👇",
-    "hashtags": [
-      "#strom",
-      "#kuehlschrank"
-    ],
-    "fuss": "Beispielrechnung · 250 kWh/Jahr · 0,35 €/kWh · +6 % je Grad kälter (Verbraucherzentrale)",
-    "quellen": [
-      "https://www.homeandsmart.de/kuehlschrank-stromfresser-temperatur-dichtung-eis-40192a-0011-581809"
-    ],
-    "szenen": [
-      {
-        "typ": "titel",
-        "sprich": "Dein Kühlschrank ist wahrscheinlich kälter als nötig. Und das kostet.",
-        "zeilen": [
-          [
-            "Dein Kühlschrank",
-            90
-          ],
-          [
-            "ist *zu kalt* 🧊",
-            100
-          ]
-        ]
-      },
-      {
-        "typ": "vs",
-        "sprich": "Bei sieben Grad zahlst du etwa 87 Euro fünfzig Strom im Jahr. Bei vier Grad über 103.",
-        "kopf": "Stromkosten pro Jahr (Beispiel)",
-        "links": {
-          "emoji": "🥶",
-          "name": "4 °C",
-          "farbe": "rot",
-          "wert": 103.25,
-          "dezimalen": 2
-        },
-        "rechts": {
-          "emoji": "🌡️",
-          "name": "7 °C",
-          "farbe": "gruen",
-          "wert": 87.5,
-          "dezimalen": 2
-        },
-        "balken": true
-      },
-      {
-        "typ": "zahl",
-        "sprich": "Das sind 15 Euro 75 Unterschied. Jedes Jahr. Nur durch einen Dreh am Regler.",
-        "oben": "Mehr Kosten pro Jahr",
-        "wert": 15.75,
-        "unten": [
-          "In 10 Jahren: *157,50 €* 😳"
-        ],
-        "unten_ab": 1.8,
-        "min": 3.8,
-        "dezimalen": 2
-      },
-      {
-        "typ": "liste",
-        "sprich": "Jedes Grad kälter bedeutet etwa sechs Prozent mehr Strom. Sieben Grad reichen laut Verbraucherzentrale.",
-        "zeilen": [
-          "Jedes Grad kälter: *+6 % Strom*",
-          "3 Grad kälter: *+18 %*",
-          "Fleisch & Fisch: *kältestes Fach*"
-        ],
-        "abstand": 1.0,
-        "kopf": "Warum?"
-      },
-      {
-        "typ": "urteil",
-        "sprich": "Dotchi? Sieben Grad.",
-        "links": {
-          "emoji": "🥶",
-          "name": "4 °C"
-        },
-        "rechts": {
-          "emoji": "🌡️",
-          "name": "7 °C"
-        },
-        "gewinner": "rechts",
-        "spruch": "Wärmer ist hier *günstiger* 😏",
-        "stempel": "GÜNSTIGER"
-      },
-      {
-        "typ": "liste",
-        "sprich": "Auf wie viel Grad steht dein Kühlschrank? Schreib's in die Kommentare und markier jemanden, der immer auf Anschlag dreht!",
-        "zeilen": [
-          "Auf wie viel Grad steht *deiner*? 🧊",
-          "Markier jemanden, der *auf Anschlag* dreht 👇"
-        ],
-        "abstand": 0.8
-      }
-    ]
-  },
-  {
     "id": 47,
     "titel": "Gehaltscheck Teil 1/3: Erzieher/in vs. IT",
     "thema": "geld",
@@ -6884,6 +6786,2288 @@
         "zeilen": [
           "Team *Nina* oder Team *Jonas*? ⚖️",
           "Markier deinen *Kollegen* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "titel": "1 Cent herstellen kostet 1,65 Cent",
+    "thema": "geld",
+    "konzept": "cent-muenze-herstellungskosten",
+    "caption": "Eine 1-Cent-Münze kostet in der Herstellung rund 1,65 Cent 🪙🤯 Hortest du Kupfergeld oder bist du es sofort los? 👇",
+    "hashtags": [
+      "#kleingeld",
+      "#wusstestdu"
+    ],
+    "fuss": "Herstellung 1-Cent-Münze ≈ 1,65 Cent (Material, Prägung, Transport) · Quelle: Statista",
+    "quellen": [
+      "https://de.statista.com/infografik/20656/anzahl-der-1--und-2-cent-muenzen-im-europaeischen-bargeldumlauf",
+      "https://utopia.de/ein-zwei-cent-muenze-abschaffen-eu_173655/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Was kostet es eigentlich, einen Cent herzustellen? Mehr als einen Cent.",
+        "zeilen": [
+          [
+            "Was kostet",
+            90
+          ],
+          [
+            "*1 Cent*? 🪙",
+            120
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Eine Ein-Cent-Münze ist einen Cent wert. Herstellen kostet rund ein Komma fünfundsechzig Cent.",
+        "kopf": "Eine 1-Cent-Münze",
+        "links": {
+          "emoji": "🪙",
+          "name": "Wert",
+          "farbe": "gruen",
+          "wert": 1,
+          "einheit": "Cent"
+        },
+        "rechts": {
+          "emoji": "🏭",
+          "name": "Herstellung",
+          "farbe": "rot",
+          "wert": 1.65,
+          "einheit": "Cent",
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Ein Euro in Ein-Cent-Münzen kostet also einen Euro fünfundsechzig.",
+        "oben": "1 € in 1-Cent-Münzen kostet",
+        "wert": 1.65,
+        "dezimalen": 2,
+        "unten": [
+          "= *65 % drauf* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "liste",
+        "sprich": "Darum runden die Niederlande und Belgien an der Kasse schon auf fünf Cent. Aber nur beim Endbetrag.",
+        "kopf": "Andere machen's schon",
+        "zeilen": [
+          "Niederlande & Belgien: *auf 5 Cent runden*",
+          "nur der *Endbetrag* beim Bar-Zahlen",
+          "Karte zahlt weiter *cent-genau*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Die Münze kostet mehr, als sie wert ist.",
+        "links": {
+          "emoji": "🪙",
+          "name": "Wert"
+        },
+        "rechts": {
+          "emoji": "🏭",
+          "name": "Herstellung"
+        },
+        "gewinner": "rechts",
+        "stempel": "TEURER",
+        "spruch": "Geld machen lohnt sich *nicht* 😏"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und du? A: Du sammelst Kupfergeld im Glas. B: Du bist es sofort wieder los. Schreib A oder B!",
+        "zeilen": [
+          "🅰️ Kupfergeld im *Glas* sammeln",
+          "🅱️ sofort *wieder los*",
+          "Schreib *A oder B* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "titel": "Hamburg vs. München: Wer hat im Winter mehr Licht?",
+    "thema": "zeit",
+    "konzept": "tageslicht-winter-hamburg-vs-muenchen",
+    "caption": "Am kürzesten Tag hat München 54 Minuten mehr Tageslicht als Hamburg ☀️ Im Sommer dreht sich das um! Aus welcher Ecke kommst du? 👇",
+    "hashtags": [
+      "#winter",
+      "#wusstestdu"
+    ],
+    "fuss": "Tageslänge 21.12.: Hamburg 7:27 h, München 8:21 h · 21.6.: 17:03 h vs. 16:04 h (berechnet)",
+    "quellen": [
+      "https://www.zdfheute.de/panorama/winter-sonnenwende-kuerzester-tag-winteranfang-100.html",
+      "https://www.muenchenwiki.de/wiki/Sonnenauf-_und_-unterg%C3%A4nge"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Wo ist es im Winter länger hell? In Hamburg oder in München?",
+        "zeilen": [
+          [
+            "Wer hat mehr *Licht*?",
+            90
+          ],
+          [
+            "Hamburg ⚓ vs. München 🥨",
+            70
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Am kürzesten Tag hat Hamburg nur sieben Stunden 27 Tageslicht. München acht Stunden 21.",
+        "kopf": "Tageslicht am 21. Dezember",
+        "links": {
+          "emoji": "⚓",
+          "name": "Hamburg",
+          "farbe": "blau",
+          "wert": 447,
+          "einheit": "Min.",
+          "unter": "7:27 h"
+        },
+        "rechts": {
+          "emoji": "🥨",
+          "name": "München",
+          "farbe": "gold",
+          "wert": 501,
+          "einheit": "Min.",
+          "unter": "8:21 h"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 54 Minuten mehr Licht im Süden. Jeden Tag im tiefsten Winter.",
+        "oben": "München hat mehr Licht",
+        "wert": 54,
+        "einheit": "Minuten",
+        "unten": [
+          "am kürzesten Tag ☀️"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "liste",
+        "sprich": "Aber im Sommer dreht sich alles um. Dann hat Hamburg fast eine Stunde mehr. Übers Jahr gleicht es sich aus.",
+        "kopf": "Der Haken 👀",
+        "zeilen": [
+          "21. Juni: Hamburg *17:03 h*",
+          "München nur *16:04 h*",
+          "übers Jahr: *fast gleich viel*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Im Winter gewinnt München.",
+        "kopf": "Mehr Winter-Licht? 🤔",
+        "links": {
+          "emoji": "⚓",
+          "name": "Hamburg"
+        },
+        "rechts": {
+          "emoji": "🥨",
+          "name": "München"
+        },
+        "gewinner": "rechts",
+        "stempel": "MEHR LICHT",
+        "spruch": "Hamburg holt's sich *im Sommer* zurück 😏"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wo wohnst du? A: im Norden. B: im Süden. Schreib A oder B und markier jemanden vom anderen Ende!",
+        "zeilen": [
+          "🅰️ Norden ⚓ oder 🅱️ Süden 🥨?",
+          "Markier jemanden vom *anderen Ende* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "titel": "Ausbildung vs. Studium Teil 1/3: Mit 19 fängt's an",
+    "thema": "geld",
+    "konzept": "story-ausbildung-vs-studium-teil-1-start",
+    "caption": "Teil 1/3 – Lena macht eine Ausbildung, Ben studiert. Nach 3 Jahren: 43.524 € vs. 0 € 😳 Team Lena oder Team Ben? 👇",
+    "hashtags": [
+      "#ausbildung",
+      "#studium"
+    ],
+    "fuss": "Beispiel · erfundene Personen · Ø tarifl. Azubi-Vergütung 1.209 € brutto/Monat (BIBB 2025) · ohne Nebenjob",
+    "quellen": [
+      "https://www.bibb.de/dienst/nlt/de/newsletter/newsletter_bibbaktuell_2026_02.php",
+      "https://idw-online.de/de/news865531"
+    ],
+    "figuren": {
+      "lena": {
+        "haut": "#F2C9A0",
+        "haare": "#8B4513",
+        "frisur": "zopf",
+        "shirt": "#4DA3FF",
+        "hose": "#3B4252"
+      },
+      "ben": {
+        "haut": "#C99A6E",
+        "haare": "#2B2B2B",
+        "frisur": "kurz",
+        "shirt": "#FFB020",
+        "hose": "#2E3440",
+        "brille": true
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Lena und Ben sind 19. Lena macht eine Ausbildung, Ben studiert. Wer hat am Ende mehr Geld?",
+        "ort": "strasse",
+        "text": "*TEIL 1/3* · Ausbildung oder Studium: wer hat *mehr*? 🤔",
+        "figuren": [
+          {
+            "wer": "lena",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "winkt"
+          },
+          {
+            "wer": "ben",
+            "x": 0.72,
+            "stimmung": "freut",
+            "spiegeln": true,
+            "blase": "🎓"
+          }
+        ]
+      },
+      {
+        "typ": "bild",
+        "sprich": "Lena verdient vom ersten Monat an. Im Schnitt 1209 Euro brutto.",
+        "ort": "buero",
+        "text": "Lena: *1.209 €* Azubi-Gehalt im Monat",
+        "figuren": [
+          {
+            "wer": "lena",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "💶"
+          }
+        ]
+      },
+      {
+        "typ": "bild",
+        "sprich": "Ben sitzt im Hörsaal. Sein Gehalt: null Euro.",
+        "ort": "zimmer",
+        "text": "Ben: Hörsaal statt Gehalt – *0 €*",
+        "figuren": [
+          {
+            "wer": "ben",
+            "x": 0.5,
+            "stimmung": "normal",
+            "pose": "haelt",
+            "haelt": "📚"
+          }
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Nach drei Jahren hat Lena 43524 Euro verdient. Ben noch keinen Cent.",
+        "kopf": "Verdient nach *3 Jahren* (brutto)",
+        "links": {
+          "emoji": "🔧",
+          "name": "Lena",
+          "farbe": "gruen",
+          "wert": 43524
+        },
+        "rechts": {
+          "emoji": "📚",
+          "name": "Ben",
+          "farbe": "rot",
+          "wert": 0
+        },
+        "balken": true
+      },
+      {
+        "typ": "liste",
+        "sprich": "1209 Euro mal 36 Monate. Und Ben ist mit dem Master noch nicht mal fertig.",
+        "kopf": "So rechnen wir",
+        "zeilen": [
+          "1.209 € × 36 Monate",
+          "= *43.524 €* Vorsprung",
+          "Ben braucht noch *2 Jahre* Master 👀"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Nach drei Jahren liegt Lena klar vorne.",
+        "kopf": "Wer liegt vorne? 🤔",
+        "links": {
+          "emoji": "🔧",
+          "name": "Lena"
+        },
+        "rechts": {
+          "emoji": "📚",
+          "name": "Ben"
+        },
+        "gewinner": "links",
+        "stempel": "VORNE",
+        "spruch": "Noch… 👀"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Teil zwei morgen: Wer verdient im ganzen Leben mehr? Folg uns, sonst verpasst du's! Team Lena oder Team Ben? Schreib A oder B!",
+        "zeilen": [
+          "Teil 2 morgen: *das ganze Leben* 💰",
+          "🅰️ Team Lena oder 🅱️ Team Ben?",
+          "*Folgen*, sonst verpasst du's 👀"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "titel": "Spülmaschine vs. Abwasch per Hand: Wer braucht mehr Wasser?",
+    "thema": "alltag",
+    "konzept": "spuelmaschine-vs-handabwasch-wasser-energie",
+    "caption": "Spülen per Hand braucht im Schnitt doppelt so viel Wasser wie die volle Spülmaschine 🍽️💧 Spülst du noch von Hand? 👇",
+    "hashtags": [
+      "#haushalt",
+      "#wassersparen"
+    ],
+    "fuss": "Uni Bonn (Vergleichsstudie, 200 Haushalte): Maschine voll beladen −50 % Wasser, −28 % Energie",
+    "quellen": [
+      "https://www.uni-bonn.de/de/universitaet/presse-kommunikation/presseservice/archiv-pressemitteilungen/2011/058-2011",
+      "https://utopia.de/news/geschirrspulen-per-hand-oder-spulmaschine-was-spart-mehr-energie/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Du spülst von Hand, weil das Wasser spart? Dann aufgepasst.",
+        "zeilen": [
+          [
+            "Von Hand spülen",
+            90
+          ],
+          [
+            "spart Wasser? *Falsch* 🍽️",
+            84
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Eine Studie der Uni Bonn zeigt: Per Hand brauchst du für das gleiche Geschirr doppelt so viel Wasser.",
+        "kopf": "Wasser für gleich viel Geschirr",
+        "links": {
+          "emoji": "🧽",
+          "name": "Per Hand",
+          "farbe": "rot",
+          "wert": 100,
+          "einheit": "%"
+        },
+        "rechts": {
+          "emoji": "🍽️",
+          "name": "Maschine",
+          "farbe": "gruen",
+          "wert": 50,
+          "einheit": "%"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und die volle Maschine braucht auch 28 Prozent weniger Energie.",
+        "oben": "Weniger Energie mit der Maschine",
+        "wert": 28,
+        "einheit": "%",
+        "unten": [
+          "weil sie das Wasser *clever* nutzt ⚡"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "liste",
+        "sprich": "Aber nur, wenn die Maschine voll ist. Und Vorspülen kannst du dir sparen.",
+        "kopf": "Damit es klappt",
+        "zeilen": [
+          "Maschine *ganz voll* machen",
+          "*nicht vorspülen* – nur abkratzen",
+          "Eco-Programm: dauert länger, *spart mehr*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Die volle Spülmaschine.",
+        "links": {
+          "emoji": "🧽",
+          "name": "Per Hand"
+        },
+        "rechts": {
+          "emoji": "🍽️",
+          "name": "Maschine"
+        },
+        "gewinner": "rechts",
+        "stempel": "BESSERE WAHL",
+        "spruch": "Faul sein *spart* hier wirklich 😏"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und bei dir? A: Spülmaschine. B: per Hand. Schreib A oder B und markier jemanden, der immer vorspült!",
+        "zeilen": [
+          "🅰️ Maschine oder 🅱️ per Hand?",
+          "Markier jemanden, der *immer vorspült* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "titel": "Tanken nach 12 Uhr: So viel zahlst du drauf",
+    "thema": "geld",
+    "konzept": "tanken-12-uhr-regel-uhrzeit",
+    "caption": "Seit April dürfen Tankstellen nur um 12 Uhr erhöhen – im Schnitt um 14,6 Cent pro Liter ⛽ Wer kurz davor tankt, spart bis zu 175 € im Jahr. Wann tankst du? 👇",
+    "hashtags": [
+      "#tanken",
+      "#spritpreise"
+    ],
+    "fuss": "ADAC (2026): Super E10 um 12 Uhr im Schnitt +14,6 ct/l · Beispiel: 50 l, 2× im Monat",
+    "quellen": [
+      "https://www.adac.de/der-adac/verein/aktuelles/spritpreise-schwankungen/",
+      "https://www.monsterdealz.de/magazin/guenstig-tanken-uhrzeit"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Tankst du gern in der Mittagspause? Das kann teuer werden.",
+        "zeilen": [
+          [
+            "Tankst du",
+            90
+          ],
+          [
+            "*nach 12 Uhr*? ⛽",
+            110
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Seit April dürfen Tankstellen die Preise nur noch einmal am Tag erhöhen. Um zwölf Uhr.",
+        "kopf": "Die 12-Uhr-Regel",
+        "zeilen": [
+          "Preise *rauf*: nur um 12 Uhr",
+          "Preise *runter*: jederzeit",
+          "kurz vor 12: *am günstigsten*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "vs",
+        "sprich": "Super E10 springt laut ADAC um zwölf im Schnitt um 14 Komma sechs Cent. Bei 50 Litern sind das sieben Euro dreißig.",
+        "kopf": "50 Liter Super E10 – Aufschlag",
+        "links": {
+          "emoji": "🕚",
+          "name": "kurz vor 12",
+          "farbe": "gruen",
+          "wert": 0,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🕛",
+          "name": "kurz nach 12",
+          "farbe": "rot",
+          "wert": 7.3,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Tankst du zweimal im Monat zur falschen Zeit, sind das 175 Euro im Jahr.",
+        "oben": "Drauf gezahlt pro Jahr",
+        "wert": 175.2,
+        "dezimalen": 2,
+        "unten": [
+          "= *ein Tank geschenkt* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Tank kurz vor zwölf.",
+        "links": {
+          "emoji": "🕚",
+          "name": "vor 12"
+        },
+        "rechts": {
+          "emoji": "🕛",
+          "name": "nach 12"
+        },
+        "gewinner": "links",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Ein Blick auf die Uhr *spart* ⏰"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wann tankst du meistens? A: vormittags. B: nachmittags oder abends. Schreib A oder B!",
+        "zeilen": [
+          "🅰️ vormittags oder 🅱️ später?",
+          "Markier jemanden, der *mittags* tankt 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "titel": "Ausbildung vs. Studium Teil 2/3: Das ganze Leben",
+    "thema": "geld",
+    "konzept": "story-ausbildung-vs-studium-teil-2-lebensverdienst",
+    "caption": "Teil 2/3 – Lebensverdienst: Fachkraft 1,7 Mio. €, Studium 2,7 Mio. € 💰 Ben holt Lenas Vorsprung 23-mal rein. Aber Lena hat einen Plan… 👀",
+    "hashtags": [
+      "#gehalt",
+      "#studium"
+    ],
+    "fuss": "IAB-Kurzbericht 18/2022: Ø Brutto-Lebensentgelt Fachkraft 1,7 Mio. €, Experte (Studium) 2,7 Mio. €",
+    "quellen": [
+      "https://iab.de/presseinfo/ein-studium-garantiert-nicht-immer-das-hoechste-lebensentgelt/",
+      "https://doku.iab.de/kurzber/2022/kb2022-18.pdf"
+    ],
+    "figuren": {
+      "lena": {
+        "haut": "#F2C9A0",
+        "haare": "#8B4513",
+        "frisur": "zopf",
+        "shirt": "#4DA3FF",
+        "hose": "#3B4252"
+      },
+      "ben": {
+        "haut": "#C99A6E",
+        "haare": "#2B2B2B",
+        "frisur": "kurz",
+        "shirt": "#FFB020",
+        "hose": "#2E3440",
+        "brille": true
+      }
+    },
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Teil zwei. Lena hatte 43000 Euro Vorsprung. Holt Ben das jemals auf?",
+        "zeilen": [
+          [
+            "*TEIL 2/3*",
+            60
+          ],
+          [
+            "Holt Ben",
+            96
+          ],
+          [
+            "*43.524 €* auf? 📚",
+            96
+          ]
+        ]
+      },
+      {
+        "typ": "bild",
+        "sprich": "Mit 24 ist Ben fertig. Und steigt mit einem Akademiker-Gehalt ein.",
+        "ort": "buero",
+        "text": "Ben: endlich *fertig* 🎓",
+        "figuren": [
+          {
+            "wer": "ben",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "jubelt",
+            "blase": "🎓"
+          }
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Über das ganze Arbeitsleben verdienen Fachkräfte im Schnitt eins Komma sieben Millionen brutto. Mit Studium zwei Komma sieben.",
+        "kopf": "Lebensverdienst brutto (Ø)",
+        "links": {
+          "emoji": "🔧",
+          "name": "Lena",
+          "farbe": "orange",
+          "wert": 1.7,
+          "einheit": "Mio. €",
+          "dezimalen": 1,
+          "unter": "Fachkraft"
+        },
+        "rechts": {
+          "emoji": "🎓",
+          "name": "Ben",
+          "farbe": "gruen",
+          "wert": 2.7,
+          "einheit": "Mio. €",
+          "dezimalen": 1,
+          "unter": "Studium"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Eine Million Euro Unterschied. Damit holt Ben Lenas Vorsprung 23-mal wieder rein.",
+        "oben": "Unterschied im Leben",
+        "wert": 1000000,
+        "unten": [
+          "= Lenas Vorsprung *23-mal* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8
+      },
+      {
+        "typ": "bild",
+        "sprich": "Aber Lena hat einen Plan.",
+        "ort": "kueche",
+        "text": "Lena hat einen *Plan* … 👀",
+        "figuren": [
+          {
+            "wer": "lena",
+            "x": 0.5,
+            "stimmung": "staunt",
+            "blase": "💡"
+          }
+        ]
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Im Schnitt verdient Ben im Leben mehr.",
+        "kopf": "Wer verdient mehr? 🤔",
+        "links": {
+          "emoji": "🔧",
+          "name": "Lena"
+        },
+        "rechts": {
+          "emoji": "🎓",
+          "name": "Ben"
+        },
+        "gewinner": "rechts",
+        "stempel": "VERDIENT MEHR",
+        "spruch": "Aber das Spiel ist *nicht vorbei* 👀"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Teil drei morgen: Lena macht den Meister. Holt sie Ben ein? Folg uns, sonst verpasst du's! Was schätzt du: A ja, B nein?",
+        "zeilen": [
+          "Teil 3 morgen: Lena macht den *Meister* 🔧",
+          "Holt sie Ben ein? 🅰️ Ja 🅱️ Nein",
+          "*Folgen*, sonst verpasst du's 👀"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "titel": "Dein Kühlschrank ist zu kalt: 15,75 € im Jahr",
+    "thema": "strom",
+    "konzept": "kuehlschrank-temperatur-stromkosten",
+    "caption": "Jedes Grad kälter = rund 6 % mehr Strom 🧊 Auf wie viel Grad steht deiner? Schau nach und schreib's in die Kommentare 👇",
+    "hashtags": [
+      "#strom",
+      "#kuehlschrank"
+    ],
+    "fuss": "Beispielrechnung · 250 kWh/Jahr · 0,35 €/kWh · +6 % je Grad kälter (Verbraucherzentrale)",
+    "quellen": [
+      "https://www.homeandsmart.de/kuehlschrank-stromfresser-temperatur-dichtung-eis-40192a-0011-581809"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Dein Kühlschrank ist wahrscheinlich kälter als nötig. Und das kostet.",
+        "zeilen": [
+          [
+            "Dein Kühlschrank",
+            90
+          ],
+          [
+            "ist *zu kalt* 🧊",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Bei sieben Grad zahlst du etwa 87 Euro fünfzig Strom im Jahr. Bei vier Grad über 103.",
+        "kopf": "Stromkosten pro Jahr (Beispiel)",
+        "links": {
+          "emoji": "🥶",
+          "name": "4 °C",
+          "farbe": "rot",
+          "wert": 103.25,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🌡️",
+          "name": "7 °C",
+          "farbe": "gruen",
+          "wert": 87.5,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind 15 Euro 75 Unterschied. Jedes Jahr. Nur durch einen Dreh am Regler.",
+        "oben": "Mehr Kosten pro Jahr",
+        "wert": 15.75,
+        "unten": [
+          "In 10 Jahren: *157,50 €* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8,
+        "dezimalen": 2
+      },
+      {
+        "typ": "liste",
+        "sprich": "Jedes Grad kälter bedeutet etwa sechs Prozent mehr Strom. Sieben Grad reichen laut Verbraucherzentrale.",
+        "zeilen": [
+          "Jedes Grad kälter: *+6 % Strom*",
+          "3 Grad kälter: *+18 %*",
+          "Fleisch & Fisch: *kältestes Fach*"
+        ],
+        "abstand": 1.0,
+        "kopf": "Warum?"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Sieben Grad.",
+        "links": {
+          "emoji": "🥶",
+          "name": "4 °C"
+        },
+        "rechts": {
+          "emoji": "🌡️",
+          "name": "7 °C"
+        },
+        "gewinner": "rechts",
+        "spruch": "Wärmer ist hier *günstiger* 😏",
+        "stempel": "GÜNSTIGER"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Auf wie viel Grad steht dein Kühlschrank? Schreib's in die Kommentare und markier jemanden, der immer auf Anschlag dreht!",
+        "zeilen": [
+          "Auf wie viel Grad steht *deiner*? 🧊",
+          "Markier jemanden, der *auf Anschlag* dreht 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "titel": "GTA 6: 212 GB – so lange lädt dein Internet",
+    "thema": "technik",
+    "konzept": "gta6-download-groesse-ladezeit",
+    "caption": "GTA 6 braucht bis zu 212 GB 🎮 Mit 16 Mbit/s lädst du über 29 Stunden – mit Glasfaser 28 Minuten. Wie schnell ist deins? 👇",
+    "hashtags": [
+      "#gta6",
+      "#gaming"
+    ],
+    "fuss": "Bis zu 212 GB (Rockstar, ohne Day-One-Patch) · Release 19.11.2026 · volle Leitung, 1 GB = 8.000 Mbit",
+    "quellen": [
+      "https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/Preload-Termin-212-GB-Speicherplatz-PS5-Xbox-1558835/",
+      "https://mixed-news.com/de/gta-6-preload-ist-live-es-werden-bis-zu-212-gb-benotigt-und-rockstar-bestatigt-ein-30-fps-ziel/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "GTA 6 kommt übermorgen. Aber schafft dein Internet den Download rechtzeitig?",
+        "zeilen": [
+          [
+            "GTA 6 laden:",
+            96
+          ],
+          [
+            "*29 Stunden*? 🎮",
+            110
+          ]
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "GTA 6 braucht bis zu 212 Gigabyte. Fast ein Drittel deiner PS5.",
+        "oben": "Download-Größe GTA 6",
+        "wert": 212,
+        "einheit": "GB",
+        "unten": [
+          "fast *ein Drittel* der PS5 💾"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "vs",
+        "sprich": "Mit 16 Megabit lädst du über 29 Stunden. Mit Glasfaser und tausend Megabit: 28 Minuten.",
+        "kopf": "Ladezeit bei voller Leitung",
+        "links": {
+          "emoji": "🐢",
+          "name": "16 Mbit/s",
+          "farbe": "rot",
+          "wert": 29.4,
+          "einheit": "Std.",
+          "dezimalen": 1
+        },
+        "rechts": {
+          "emoji": "🚀",
+          "name": "1.000 Mbit/s",
+          "farbe": "gruen",
+          "wert": 0.47,
+          "einheit": "Std.",
+          "dezimalen": 2,
+          "unter": "28 Min."
+        },
+        "balken": true
+      },
+      {
+        "typ": "liste",
+        "sprich": "Mit 50 Megabit sind es neun Komma vier Stunden. Mit hundert fast fünf.",
+        "kopf": "Und dazwischen?",
+        "zeilen": [
+          "50 Mbit/s: *9,4 Std.*",
+          "100 Mbit/s: *4,7 Std.*",
+          "Vorladen läuft *seit 10.11.* ⏳"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Wer jetzt noch nicht lädt, wartet am Release-Tag.",
+        "links": {
+          "emoji": "🐢",
+          "name": "Langsam"
+        },
+        "rechts": {
+          "emoji": "🚀",
+          "name": "Glasfaser"
+        },
+        "gewinner": "rechts",
+        "stempel": "SCHNELLER",
+        "spruch": "Langsam? Dann *heute Nacht* laden 🌙"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie schnell ist dein Internet? A: unter hundert Megabit. B: über hundert. Schreib A oder B und markier deinen Zock-Kumpel!",
+        "zeilen": [
+          "🅰️ unter 100 oder 🅱️ über 100 Mbit/s?",
+          "Markier deinen *Zock-Kumpel* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "titel": "Ausbildung vs. Studium Teil 3/3: Meister gegen Studium",
+    "thema": "geld",
+    "konzept": "story-ausbildung-vs-studium-teil-3-meister",
+    "caption": "Teil 3/3 – Mit Meister kommt Lena im Schnitt auf 2,4 Mio. € – in Technik-Berufen auf über 2,7 Mio. € 🔧 Team Ausbildung oder Team Studium? 👇",
+    "hashtags": [
+      "#meister",
+      "#gehalt"
+    ],
+    "fuss": "IAB 18/2022: Ø Brutto-Lebensentgelt Meister/Techniker 2,4 Mio. €, in MINT-Berufen über 2,7 Mio. €",
+    "quellen": [
+      "https://iab.de/presseinfo/ein-studium-garantiert-nicht-immer-das-hoechste-lebensentgelt/",
+      "https://doku.iab.de/kurzber/2022/kb2022-18.pdf"
+    ],
+    "figuren": {
+      "lena": {
+        "haut": "#F2C9A0",
+        "haare": "#8B4513",
+        "frisur": "zopf",
+        "shirt": "#4DA3FF",
+        "hose": "#3B4252"
+      },
+      "ben": {
+        "haut": "#C99A6E",
+        "haare": "#2B2B2B",
+        "frisur": "kurz",
+        "shirt": "#FFB020",
+        "hose": "#2E3440",
+        "brille": true
+      }
+    },
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Letzter Teil. Kann ein Meister mit einem Studium mithalten?",
+        "zeilen": [
+          [
+            "*TEIL 3/3*",
+            60
+          ],
+          [
+            "Meister",
+            104
+          ],
+          [
+            "vs. *Studium* 🔧🎓",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "bild",
+        "sprich": "Lena macht neben dem Job ihren Meister. In einem Technik-Beruf.",
+        "ort": "buero",
+        "text": "Lena macht den *Meister* 🔧",
+        "figuren": [
+          {
+            "wer": "lena",
+            "x": 0.5,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "🔧"
+          }
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Mit Meister verdient man im Leben im Schnitt zwei Komma vier Millionen. Mit Studium zwei Komma sieben.",
+        "kopf": "Lebensverdienst brutto (Ø)",
+        "links": {
+          "emoji": "🔧",
+          "name": "Lena",
+          "farbe": "orange",
+          "wert": 2.4,
+          "einheit": "Mio. €",
+          "dezimalen": 1,
+          "unter": "Meister"
+        },
+        "rechts": {
+          "emoji": "🎓",
+          "name": "Ben",
+          "farbe": "gruen",
+          "wert": 2.7,
+          "einheit": "Mio. €",
+          "dezimalen": 1,
+          "unter": "Studium"
+        },
+        "balken": true
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und jetzt kommt's: Meister in Technik-Berufen verdienen im Schnitt über zwei Komma sieben Millionen. Mehr als der Schnitt mit Studium.",
+        "kopf": "Der Plot-Twist 🤯",
+        "zeilen": [
+          "Meister in *MINT-Berufen*:",
+          "über *2,7 Mio. €*",
+          "= mehr als *Ø Studium*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "bild",
+        "sprich": "Lena hat aufgeholt. Ohne Jahre ohne Gehalt.",
+        "ort": "strasse",
+        "text": "Lena hat *aufgeholt* 🏁",
+        "figuren": [
+          {
+            "wer": "lena",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "jubelt"
+          },
+          {
+            "wer": "ben",
+            "x": 0.72,
+            "stimmung": "staunt",
+            "spiegeln": true,
+            "blase": "😮"
+          }
+        ]
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Mit Meister in Technik zieht Lena gleich. Oder sogar vorbei.",
+        "links": {
+          "emoji": "🔧",
+          "name": "Lena"
+        },
+        "rechts": {
+          "emoji": "🎓",
+          "name": "Ben"
+        },
+        "gewinner": "links",
+        "stempel": "AUFGEHOLT",
+        "spruch": "Weiterbildung zählt *mehr* als der Titel 💪"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Serie fertig! Und du? A: Team Ausbildung. B: Team Studium. Schreib A oder B!",
+        "zeilen": [
+          "🅰️ Team *Ausbildung* 🔧",
+          "🅱️ Team *Studium* 🎓",
+          "Schreib *A oder B* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "titel": "Tiefkühl-Spinat vs. frischer Spinat: Wo steckt mehr Vitamin C?",
+    "thema": "essen",
+    "konzept": "tiefkuehl-vs-frisch-vitamin-c-verlust",
+    "caption": "Frischer Spinat verliert bei Zimmertemperatur in 4 Tagen sein ganzes Vitamin C 🥬 Tiefgekühlt nach 4 Monaten nur rund 15 %. Frisch oder TK? 👇",
+    "hashtags": [
+      "#tiefkuehl",
+      "#wusstestdu"
+    ],
+    "fuss": "VZ Bayern/BZfE: Spinat, Zimmertemp., 4 Tage → kein Vitamin C · TK: −15 % (4 Mon.), −55 % (12 Mon.)",
+    "quellen": [
+      "https://www.heidelberg24.de/ratgeber/vitamine-vitaminverlust-schockfrosten-tiefgekuehlt-tk-frisch-obst-gemuese-zr-92463119.html",
+      "https://www.aok.de/pk/magazin/ernaehrung/lebensmittel/tk-gemuese-und-tk-obst-so-gesund-ist-tiefkuehlkost/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Frisch ist immer gesünder als tiefgekühlt? Nicht so schnell.",
+        "zeilen": [
+          [
+            "Frisch *schlägt*",
+            96
+          ],
+          [
+            "Tiefkühl? 🥬❄️",
+            100
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Frischer Spinat bei Zimmertemperatur hat nach vier Tagen kein Vitamin C mehr. Tiefgekühlter nach vier Monaten noch 85 Prozent.",
+        "kopf": "Vitamin C, das noch übrig ist",
+        "links": {
+          "emoji": "🥬",
+          "name": "Frisch",
+          "farbe": "rot",
+          "wert": 0,
+          "einheit": "%",
+          "unter": "4 Tage, Zimmer"
+        },
+        "rechts": {
+          "emoji": "❄️",
+          "name": "Tiefkühl",
+          "farbe": "gruen",
+          "wert": 85,
+          "einheit": "%",
+          "unter": "4 Monate"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Selbst nach einem Jahr im Gefrierfach sind noch 45 Prozent da.",
+        "oben": "TK-Spinat nach 12 Monaten",
+        "wert": 45,
+        "einheit": "%",
+        "unten": [
+          "Vitamin C noch drin ❄️"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "liste",
+        "sprich": "Der Trick: Tiefkühlgemüse wird direkt nach der Ernte schockgefrostet. Frisches liegt oft schon Tage im Transport und im Laden.",
+        "kopf": "Warum?",
+        "zeilen": [
+          "TK: direkt nach der Ernte *gefrostet*",
+          "Frisch: oft schon *Tage unterwegs*",
+          "Kühlschrank bremst – stoppt aber nicht"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Wenn du nicht sofort kochst: Tiefkühl.",
+        "links": {
+          "emoji": "🥬",
+          "name": "Frisch"
+        },
+        "rechts": {
+          "emoji": "❄️",
+          "name": "Tiefkühl"
+        },
+        "gewinner": "rechts",
+        "stempel": "BESSERE WAHL",
+        "spruch": "Frisch vom Feld? Dann *frisch* 😏"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was kaufst du öfter? A: frisch. B: tiefgekühlt. Schreib A oder B!",
+        "zeilen": [
+          "🅰️ frisch 🥬 oder 🅱️ tiefgekühlt ❄️?",
+          "Schreib *A oder B* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "titel": "Bestbezahlte Ausbildung 2025: Platz 1 hat mit Milch zu tun",
+    "thema": "geld",
+    "konzept": "azubi-gehalt-top-vs-flop-2025",
+    "caption": "Platz 1 der Azubi-Gehälter: Milchtechnologe/-in mit 1.463 € 🥛 Schlusslicht: Friseur/-in mit 727 €. Was verdienst du in der Ausbildung? 👇",
+    "hashtags": [
+      "#ausbildung",
+      "#azubi"
+    ],
+    "fuss": "Tarifliche Ausbildungsvergütung 2025, Ø über alle Ausbildungsjahre, brutto/Monat · Quelle: BIBB",
+    "quellen": [
+      "https://www.bibb.de/dienst/nlt/de/newsletter/newsletter_bibbaktuell_2026_02.php",
+      "https://www.bibb.de/dokumente/pdf/2025_Dav-Gesamt%C3%BCbersicht_Ausbildungsverg%C3%BCtungen_Bundesgebiet.pdf",
+      "https://www.haufe.de/personal/hr-management/tarifliche-ausbildungsverguetung_80_481700.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Welche Ausbildung zahlt am meisten? Tipp: Es ist nicht die Bank.",
+        "zeilen": [
+          [
+            "Bestbezahlte",
+            96
+          ],
+          [
+            "Ausbildung?",
+            96
+          ],
+          [
+            "Nicht die *Bank* 🥛",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Platz eins: Milchtechnologe mit 1463 Euro. Platz zwei: Kaufleute für Versicherungen und Finanzanlagen mit 1404. Der Schnitt: 1209 Euro.",
+        "kopf": "Top-Azubi-Gehälter 2025",
+        "zeilen": [
+          "🥇 Milchtechnologe/-in: *1.463 €*",
+          "🥈 Versicherungen & Finanzen: *1.404 €*",
+          "Schnitt aller Berufe: *1.209 €*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "vs",
+        "sprich": "Und ganz unten: Friseur und Friseurin mit 727 Euro. Nur halb so viel wie Platz eins.",
+        "kopf": "Platz 1 vs. Schlusslicht",
+        "links": {
+          "emoji": "🥛",
+          "name": "Milchtechn.",
+          "farbe": "gruen",
+          "wert": 1463
+        },
+        "rechts": {
+          "emoji": "✂️",
+          "name": "Friseur/-in",
+          "farbe": "rot",
+          "wert": 727
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In drei Jahren Ausbildung sind das 26496 Euro Unterschied.",
+        "oben": "Unterschied in 3 Jahren",
+        "wert": 26496,
+        "unten": [
+          "736 € × 36 Monate 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Azubi-Gehalt gewinnt die Molkerei.",
+        "kopf": "Wer verdient mehr? 🤔",
+        "links": {
+          "emoji": "🥛",
+          "name": "Milchtechn."
+        },
+        "rechts": {
+          "emoji": "✂️",
+          "name": "Friseur/-in"
+        },
+        "gewinner": "links",
+        "stempel": "VERDIENT MEHR",
+        "spruch": "Wer hätte das *gedacht*? 🤯"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hättest du Milchtechnologe auf Platz eins getippt? A: ja. B: nie im Leben. Schreib A oder B und markier deinen Azubi-Kumpel!",
+        "zeilen": [
+          "Hättest du's gewusst? 🅰️ Ja 🅱️ Nie",
+          "Markier deinen *Azubi-Kumpel* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "titel": "Buß- und Bettag: Dieser Feiertag kostet Sachsen 253 € im Jahr",
+    "thema": "geld",
+    "konzept": "buss-und-bettag-sachsen-pflegebeitrag",
+    "caption": "Nur Sachsen hat den Buß- und Bettag noch frei – und zahlt dafür 0,5 Prozentpunkte mehr Pflegebeitrag 🗓️ Bei 4.217 € brutto: 253 € im Jahr. Fairer Deal? 👇",
+    "hashtags": [
+      "#feiertag",
+      "#sachsen"
+    ],
+    "fuss": "AN-Pflegebeitrag 2026: Sachsen 2,3 %, sonst 1,8 % (Kinderlose mehr) · Median 4.217 € (BA 2025)",
+    "quellen": [
+      "https://sozialversicherung-kompetent.de/pflegeversicherung/versicherungsrecht/1636-beitragssatz-pflegeversicherung-2026.html",
+      "https://www.freiepresse.de/nachrichten/sachsen/buss-und-bettag-wieviel-der-feiertag-die-beschaeftigten-in-sachsen-zusaetzlich-kostet-artikel13602074",
+      "https://www.arbeitsagentur.de/presse/2026-27-entgelte-der-vollzeitbeschaeftigten-sind-im-jahr-2025-deutlich-gestiegen"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Heute haben nur die Sachsen frei. Wusstest du, dass sie dafür zahlen?",
+        "zeilen": [
+          [
+            "Dieser Feiertag",
+            90
+          ],
+          [
+            "kostet *253 €* 🗓️",
+            104
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "1995 wurde der Feiertag für die Pflegeversicherung gestrichen. Nur Sachsen hat ihn behalten.",
+        "kopf": "Die Geschichte",
+        "zeilen": [
+          "1995: Feiertag *gestrichen*",
+          "für die *Pflegeversicherung*",
+          "nur *Sachsen* hat ihn behalten"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "vs",
+        "sprich": "Darum zahlen Beschäftigte dort zwei Komma drei Prozent Pflegebeitrag. Sonst eins Komma acht.",
+        "kopf": "Pflegebeitrag Arbeitnehmer 2026",
+        "links": {
+          "emoji": "🗓️",
+          "name": "Sachsen",
+          "farbe": "rot",
+          "wert": 2.3,
+          "einheit": "%",
+          "dezimalen": 1
+        },
+        "rechts": {
+          "emoji": "🗺️",
+          "name": "sonst",
+          "farbe": "gruen",
+          "wert": 1.8,
+          "einheit": "%",
+          "dezimalen": 1
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Beim mittleren Gehalt von 4217 Euro sind das 253 Euro mehr im Jahr.",
+        "oben": "Mehr pro Jahr (bei 4.217 €)",
+        "wert": 253,
+        "unten": [
+          "für *einen* freien Tag 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "liste",
+        "sprich": "Ein Arbeitstag bringt beim mittleren Gehalt rund 195 Euro. Der Feiertag kostet also mehr als ein Tag Lohn.",
+        "kopf": "Zum Vergleich",
+        "zeilen": [
+          "1 Arbeitstag: *~195 €* brutto",
+          "Feiertag kostet: *253 €*",
+          "= *58 € teurer* als ein Tag Lohn"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Rein rechnerisch ist der freie Tag teurer als ein Tag Gehalt.",
+        "links": {
+          "emoji": "🛋️",
+          "name": "Feiertag"
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "1 Tag Lohn"
+        },
+        "gewinner": "links",
+        "stempel": "TEURER",
+        "spruch": "Aber *frei* ist frei 😏"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Würdest du 253 Euro für einen Feiertag zahlen? A: sofort. B: nö. Markier jemanden aus Sachsen!",
+        "zeilen": [
+          "253 € für einen Feiertag?",
+          "🅰️ Sofort 🅱️ Nö",
+          "Markier jemanden aus *Sachsen* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "titel": "Klo vs. Trinken: Wofür du mehr Wasser brauchst",
+    "thema": "alltag",
+    "konzept": "toilettenspuelung-anteil-wasserverbrauch",
+    "caption": "Heute ist Welttoilettentag 🚽 27 % deines Wassers spülst du runter – fast 7-mal so viel, wie du für Essen und Trinken brauchst. Spartaste oder nicht? 👇",
+    "hashtags": [
+      "#wasser",
+      "#wusstestdu"
+    ],
+    "fuss": "Umweltbundesamt: 126 l pro Kopf und Tag (2022) · Toilette 27 %, Essen & Trinken 4 %",
+    "quellen": [
+      "https://www.umweltbundesamt.de/daten/private-haushalte-konsum/wohnen/wassernutzung-privater-haushalte",
+      "https://de.statista.com/infografik/amp/35995/verwendung-von-trinkwasser-in-deutschen-haushalten-und-im-kleingewerbe-nach-zweck"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Was glaubst du: Wofür brauchst du mehr Wasser? Zum Trinken oder fürs Klo?",
+        "zeilen": [
+          [
+            "Klo 🚽 oder",
+            96
+          ],
+          [
+            "*Trinken* 💧?",
+            110
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Jeder in Deutschland braucht 126 Liter am Tag. 34 davon spülen wir das Klo runter. Für Essen und Trinken: fünf.",
+        "kopf": "Liter pro Kopf und Tag",
+        "links": {
+          "emoji": "🚽",
+          "name": "Klospülung",
+          "farbe": "rot",
+          "wert": 34,
+          "einheit": "Liter"
+        },
+        "rechts": {
+          "emoji": "💧",
+          "name": "Essen & Trinken",
+          "farbe": "gruen",
+          "wert": 5,
+          "einheit": "Liter"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Im Jahr sind das über 12000 Liter nur fürs Klo. 83 volle Badewannen.",
+        "oben": "Klospülung pro Jahr",
+        "wert": 12417,
+        "einheit": "Liter",
+        "unten": [
+          "= *83 Badewannen* 🛁"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "liste",
+        "sprich": "Heute ist übrigens Welttoilettentag. Der einfachste Spartipp: die kleine Spartaste.",
+        "kopf": "Spartipp zum Welttoilettentag",
+        "zeilen": [
+          "Klo = *27 %* deines Wassers",
+          "Essen & Trinken = *4 %*",
+          "kleine Taste: *weniger Liter* pro Spülung"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Das Klo braucht fast siebenmal so viel Wasser.",
+        "kopf": "Was braucht mehr? 🤔",
+        "links": {
+          "emoji": "🚽",
+          "name": "Klo"
+        },
+        "rechts": {
+          "emoji": "💧",
+          "name": "Trinken"
+        },
+        "gewinner": "links",
+        "stempel": "MEHR WASSER",
+        "spruch": "Die *Spartaste* ist kein Deko-Knopf 😏"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und du? A: Spartaste. B: immer volle Spülung. Schreib A oder B!",
+        "zeilen": [
+          "🅰️ Spartaste oder 🅱️ volle Spülung?",
+          "Schreib *A oder B* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "titel": "Dein Ticket bezahlt den Film, dein Popcorn das Kino",
+    "thema": "geld",
+    "konzept": "kino-popcorn-marge-ticket-verleih",
+    "caption": "Rund die Hälfte vom Ticket geht an den Filmverleih – beim Popcorn bleiben dem Kino über 80 % 🍿 Heute startet Panem: Popcorn ja oder nein? 👇",
+    "hashtags": [
+      "#kino",
+      "#popcorn"
+    ],
+    "fuss": "Ticket Ø 10,05 € (FFA 2025), ~50 % an Verleih (HDF) · Snack-Marge ~84 % (Cinemark 2018) · Popcorn 6 € (Bsp.)",
+    "quellen": [
+      "https://www.ffa.de/files/dokumentenverwaltung/studien%20mafo/2026/FFA_Kinobesucher_innen_2025.pdf",
+      "https://www.hdf-kino.de/wp-content/uploads/HDF-Kinoprofil-A4-web-doppel.pdf",
+      "https://www.sec.gov/Archives/edgar/data/1385280/000156459019005358/cnk-10k_20181231.htm",
+      "https://thehustle.co/the-economics-of-movie-theater-popcorn"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Heute startet Panem im Kino. Aber wovon lebt das Kino eigentlich?",
+        "zeilen": [
+          [
+            "Dein *Popcorn*",
+            100
+          ],
+          [
+            "bezahlt das Kino 🍿",
+            90
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Ein Ticket kostet im Schnitt zehn Euro fünf. Rund die Hälfte geht an den Filmverleih. Dem Kino bleiben etwa fünf Euro.",
+        "kopf": "Vom Ticket bekommt …",
+        "links": {
+          "emoji": "🎬",
+          "name": "Filmverleih",
+          "farbe": "blau",
+          "wert": 5.02,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🎟️",
+          "name": "Kino",
+          "farbe": "gold",
+          "wert": 5.03,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Beim Popcorn ist das anders. Eine große Kinokette behielt von Snacks rund 84 Prozent.",
+        "oben": "Snack-Marge im Kino",
+        "wert": 84,
+        "einheit": "%",
+        "unten": [
+          "1,1 Mrd. $ Umsatz, 181 Mio. $ Kosten 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.6
+      },
+      {
+        "typ": "liste",
+        "sprich": "Bei einem Popcorn für sechs Euro bleiben dem Kino also rund fünf Euro. Fast so viel wie vom ganzen Ticket.",
+        "kopf": "Beispiel: Popcorn für 6 €",
+        "zeilen": [
+          "6 € × 84 % = *~5 €* fürs Kino",
+          "Ticket: *~5 €* fürs Kino",
+          "= Popcorn bringt *genauso viel* 🍿"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Fürs Kino ist dein Popcorn mindestens so wichtig wie dein Ticket.",
+        "kopf": "Was zahlt das Kino? 🤔",
+        "links": {
+          "emoji": "🎟️",
+          "name": "Ticket"
+        },
+        "rechts": {
+          "emoji": "🍿",
+          "name": "Popcorn"
+        },
+        "gewinner": "rechts",
+        "stempel": "RETTET DAS KINO",
+        "spruch": "Gönn dir – das Kino *dankt* 🍿"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Kaufst du im Kino Popcorn? A: immer. B: nie. Schreib A oder B und markier dein Kino-Date!",
+        "zeilen": [
+          "🅰️ immer Popcorn oder 🅱️ nie?",
+          "Markier dein *Kino-Date* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "titel": "GTA 6 vs. Kino: Was kostet eine Stunde Spaß?",
+    "thema": "geld",
+    "konzept": "gta6-preis-pro-spielstunde-vs-kino",
+    "caption": "GTA 6 ist da 🎮 79,99 € bei rund 80 Stunden Story = 1 € pro Stunde. Kino: über 5 € pro Stunde 🍿 Zockst du heute? 👇",
+    "hashtags": [
+      "#gta6",
+      "#gaming"
+    ],
+    "fuss": "GTA 6 79,99 € · ~80 Std. Story (laut Medien) · Kino Ø 10,05 € (FFA 2025), Film 2 Std.",
+    "quellen": [
+      "https://www.nw.de/lifestyle/netzwelt/24444206_GTA-6-Release-Preis-und-Plattformen-alle-Infos-zum-neuen-Rockstar-Spiel.html",
+      "https://www.gamepro.de/artikel/so-lange-ist-gta6-spielzeit,3458725.html",
+      "https://www.ffa.de/files/dokumentenverwaltung/studien%20mafo/2026/FFA_Kinobesucher_innen_2025.pdf"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "GTA 6 ist heute erschienen. Knapp 80 Euro. Ist das teuer?",
+        "zeilen": [
+          [
+            "GTA 6 für 80 €:",
+            96
+          ],
+          [
+            "*teuer*? 🎮",
+            120
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Die Story soll rund 80 Stunden dauern. Das sind ein Euro pro Stunde.",
+        "kopf": "So rechnen wir",
+        "zeilen": [
+          "79,99 € ÷ 80 Std. = *1,00 €/Std.*",
+          "nur 60 Std.? = *1,33 €/Std.*",
+          "Nebenmissionen: *noch billiger*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "vs",
+        "sprich": "Ein Kinoticket kostet im Schnitt zehn Euro fünf. Für einen Zwei-Stunden-Film sind das fünf Euro pro Stunde.",
+        "kopf": "Kosten pro Stunde",
+        "links": {
+          "emoji": "🎮",
+          "name": "GTA 6",
+          "farbe": "gruen",
+          "wert": 1.0,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🍿",
+          "name": "Kino",
+          "farbe": "rot",
+          "wert": 5.03,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Pro Stunde ist Kino also fünfmal so teuer wie GTA.",
+        "oben": "Kino pro Stunde",
+        "wert": 5,
+        "einheit": "× teurer",
+        "unten": [
+          "ohne Popcorn 😏"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.2
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Pro Stunde Spaß gewinnt GTA 6.",
+        "links": {
+          "emoji": "🎮",
+          "name": "GTA 6"
+        },
+        "rechts": {
+          "emoji": "🍿",
+          "name": "Kino"
+        },
+        "gewinner": "links",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Teuer kaufen, *billig* spielen 🎮"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und du heute Abend? A: GTA zocken. B: Panem im Kino. Schreib A oder B und markier deinen Zock-Kumpel!",
+        "zeilen": [
+          "Heute Abend? 🅰️ GTA 🎮 🅱️ Kino 🍿",
+          "Markier deinen *Zock-Kumpel* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "titel": "Alte Lichterkette vs. LED: 8-mal so viel Strom",
+    "thema": "strom",
+    "konzept": "lichterkette-gluehbirne-vs-led-strom",
+    "caption": "Die alte Lichterkette vom Dachboden braucht 8-mal so viel Strom wie LED 🎄 Hängt bei dir noch eine? 👇",
+    "hashtags": [
+      "#weihnachtsdeko",
+      "#strom"
+    ],
+    "fuss": "Beispielrechnung · 100 Lichter: Glühbirnchen 40 W, LED 5 W · 8 Std./Tag · 40 Tage · 0,35 €/kWh",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Die alte Lichterkette vom Dachboden. Was kostet die eigentlich?",
+        "zeilen": [
+          [
+            "Alte Lichterkette",
+            90
+          ],
+          [
+            "frisst *8× mehr* 🎄",
+            96
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Eine alte Kette mit hundert Glühbirnchen braucht etwa 40 Watt. Mit LED nur fünf.",
+        "kopf": "100 Lichter (Beispiel)",
+        "links": {
+          "emoji": "💡",
+          "name": "Glühbirnchen",
+          "farbe": "rot",
+          "wert": 40,
+          "einheit": "Watt"
+        },
+        "rechts": {
+          "emoji": "✨",
+          "name": "LED",
+          "farbe": "gruen",
+          "wert": 5,
+          "einheit": "Watt"
+        },
+        "balken": true
+      },
+      {
+        "typ": "liste",
+        "sprich": "Acht Stunden am Tag, von Advent bis Anfang Januar. Das sind vier Euro 48 gegen 56 Cent.",
+        "kopf": "40 Tage, 8 Std. am Tag",
+        "zeilen": [
+          "Alt: 12,8 kWh = *4,48 €*",
+          "LED: 1,6 kWh = *0,56 €*",
+          "pro Kette und Saison"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Bei fünf Ketten im Haus sparst du mit LED fast 20 Euro pro Saison.",
+        "oben": "Ersparnis bei 5 Ketten",
+        "wert": 19.6,
+        "dezimalen": 2,
+        "unten": [
+          "und LED wird *nicht heiß* 🔥"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? LED. Und die alte Kette darf in Rente.",
+        "links": {
+          "emoji": "💡",
+          "name": "Glühbirnchen"
+        },
+        "rechts": {
+          "emoji": "✨",
+          "name": "LED"
+        },
+        "gewinner": "rechts",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Gleiches Funkeln, *weniger* Strom ✨"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wann hängt bei dir die Deko? A: schon jetzt. B: erst ab dem ersten Advent. Schreib A oder B!",
+        "zeilen": [
+          "Deko-Start? 🅰️ schon jetzt 🅱️ ab Advent",
+          "Markier den *Deko-Fan* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "titel": "Dein Gutschein läuft ab – und das ist das Datum",
+    "thema": "geld",
+    "konzept": "gutschein-verjaehrung-3-jahre",
+    "caption": "Ein Gutschein ohne Datum gilt 3 Jahre – gezählt ab Jahresende 🎁 Der von Weihnachten 2026 also bis 31.12.2029. Schenkst du Gutscheine oder Bargeld? 👇",
+    "hashtags": [
+      "#gutschein",
+      "#weihnachten"
+    ],
+    "fuss": "Ohne Datum: Verjährung 3 Jahre ab Jahresende (§§ 195, 199 BGB) · Budget 262 € (HDE-Umfrage 2026)",
+    "quellen": [
+      "https://www.gesetze-im-internet.de/bgb/__195.html",
+      "https://www.gesetze-im-internet.de/bgb/__199.html",
+      "https://ms-aktuell.de/?p=174588"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Gutscheine sind das beliebteste Last-Minute-Geschenk. Aber wie lange gelten die eigentlich?",
+        "zeilen": [
+          [
+            "Dein Gutschein",
+            96
+          ],
+          [
+            "läuft *ab* 🎁",
+            110
+          ]
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Dieses Jahr wollen die Deutschen im Schnitt 262 Euro für Geschenke ausgeben.",
+        "oben": "Geschenke-Budget 2026",
+        "wert": 262,
+        "unten": [
+          "pro Person (Umfrage HDE) 🎄"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "liste",
+        "sprich": "Steht kein Datum drauf, gilt ein Gutschein drei Jahre. Gezählt ab Ende des Jahres, in dem du ihn bekommst.",
+        "kopf": "So lange gilt er",
+        "zeilen": [
+          "ohne Datum: *3 Jahre*",
+          "gezählt ab *Jahresende*",
+          "Weihnachten 2026 → bis *31.12.2029*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Bargeld verfällt nie. Und wer einen Gutschein kriegt: zügig einlösen.",
+        "links": {
+          "emoji": "🎁",
+          "name": "Gutschein"
+        },
+        "rechts": {
+          "emoji": "💶",
+          "name": "Bargeld"
+        },
+        "gewinner": "rechts",
+        "stempel": "SICHERER",
+        "spruch": "Gutschein? *Schnell* einlösen ⏳"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was schenkst du lieber? A: Gutschein. B: Bargeld. Schreib A oder B und markier jemanden mit alten Gutscheinen in der Schublade!",
+        "zeilen": [
+          "🅰️ Gutschein oder 🅱️ Bargeld?",
+          "Markier jemanden mit *alten Gutscheinen* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "titel": "Weihnachtsgeld 2026: Nur jeder Zweite bekommt es",
+    "thema": "geld",
+    "konzept": "weihnachtsgeld-anteil-tarif-vs-ohne-2026",
+    "caption": "Nur 52 % bekommen Weihnachtsgeld 🎄💶 Mit Tarifvertrag 78 %, ohne nur 42 % (WSI, Nov. 2026). Bekommst du welches? 👇",
+    "hashtags": [
+      "#weihnachtsgeld",
+      "#gehalt"
+    ],
+    "fuss": "WSI-Auswertung (Lohnspiegel, 36.026 Befragte, 11/2025–10/2026), veröffentlicht 13.11.2026",
+    "quellen": [
+      "https://oeffentlicher-dienst-news.de/weihnachtsgeld-2026-so-viel-gibt-es-im-oeffentlichen-dienst-und-industrie/",
+      "https://www.onvista.de/news/2026/11-13-umfrage-nur-gut-die-haelfte-der-beschaeftigten-erhaelt-weihnachtsgeld-0-20-26576090",
+      "https://www.boeckler.de/de/pressemitteilungen-2675-51-prozent-aller-beschaeftigten-bekommen-weihnachtsgeld-mit-tarifvertrag-77-prozent-72531.htm"
+    ],
+    "figuren": {
+      "mia": {
+        "haut": "#E8B88A",
+        "haare": "#2B2B2B",
+        "frisur": "locken",
+        "shirt": "#2EC27E",
+        "hose": "#3B4252"
+      },
+      "tom": {
+        "haut": "#F2C9A0",
+        "haare": "#E6C068",
+        "frisur": "seite",
+        "shirt": "#FF6B6B",
+        "hose": "#2E3440"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Mia und Tom machen den gleichen Job. Mia bekommt Weihnachtsgeld. Tom nicht. Wie kann das sein?",
+        "ort": "buero",
+        "text": "Gleicher Job – nur *einer* kriegt Weihnachtsgeld? 🎄",
+        "figuren": [
+          {
+            "wer": "mia",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "jubelt",
+            "blase": "💶"
+          },
+          {
+            "wer": "tom",
+            "x": 0.72,
+            "stimmung": "traurig",
+            "spiegeln": true
+          }
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Laut einer neuen Auswertung bekommen nur 52 Prozent der Beschäftigten Weihnachtsgeld.",
+        "oben": "Bekommen Weihnachtsgeld",
+        "wert": 52,
+        "einheit": "%",
+        "unten": [
+          "fast jeder Zweite *nicht* 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "vs",
+        "sprich": "Der Unterschied: der Tarifvertrag. Mit Tarif bekommen es 78 Prozent. Ohne nur 42.",
+        "kopf": "Bekommen Weihnachtsgeld",
+        "links": {
+          "emoji": "📜",
+          "name": "mit Tarif",
+          "farbe": "gruen",
+          "wert": 78,
+          "einheit": "%"
+        },
+        "rechts": {
+          "emoji": "🤷",
+          "name": "ohne Tarif",
+          "farbe": "rot",
+          "wert": 42,
+          "einheit": "%"
+        },
+        "balken": true
+      },
+      {
+        "typ": "liste",
+        "sprich": "Im Westen bekommen es 54 Prozent, im Osten 41. Und die Höhe reichte zuletzt je nach Branche von 250 bis über 4200 Euro.",
+        "kopf": "Noch krasser",
+        "zeilen": [
+          "West: *54 %* · Ost: *41 %*",
+          "Höhe je Branche (Tarif 2025):",
+          "*250 €* bis über *4.200 €*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Mit Tarifvertrag sind deine Chancen fast doppelt so gut.",
+        "kopf": "Wer kriegt's öfter? 🤔",
+        "links": {
+          "emoji": "📜",
+          "name": "mit Tarif"
+        },
+        "rechts": {
+          "emoji": "🤷",
+          "name": "ohne Tarif"
+        },
+        "gewinner": "links",
+        "stempel": "KRIEGT'S ÖFTER",
+        "spruch": "Frag mal im *Vertrag* nach 📜"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und du? A: Ich bekomme Weihnachtsgeld. B: Leider nicht. Schreib A oder B und markier deinen Kollegen!",
+        "zeilen": [
+          "Weihnachtsgeld? 🅰️ Ja 🅱️ Nein",
+          "Markier deinen *Kollegen* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "titel": "Glühwein auf dem Markt: 22,50 € pro Liter",
+    "thema": "geld",
+    "konzept": "gluehwein-literpreis-markt-vs-supermarkt",
+    "caption": "4,50 € für 0,2 Liter = 22,50 € pro Liter 🍷🎄 Im Supermarkt ab 1,45 € pro Liter. Markt oder Zuhause – was ist es dir wert? 👇",
+    "hashtags": [
+      "#weihnachtsmarkt",
+      "#gluehwein"
+    ],
+    "fuss": "Markt oft 4,50 € je 0,2 l (z. B. Stuttgart, 11/2026) · Supermarkt ab 0,29 € je 0,2 l · ohne Pfand",
+    "quellen": [
+      "https://www.monsterdealz.de/magazin/gluehwein-preis",
+      "https://www.stuttgarter-zeitung.de/lokales/baden-wuerttemberg/preise-pfand-und-barzahlungen-gluehweinpreise-im-suedwesten-bleiben-meist-stabil-79676703.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Die Weihnachtsmärkte öffnen. Aber hast du deinen Glühwein mal pro Liter gerechnet?",
+        "zeilen": [
+          [
+            "Glühwein:",
+            96
+          ],
+          [
+            "*22,50 €* pro Liter 🍷",
+            92
+          ]
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Eine Tasse hat 0,2 Liter und kostet oft vier Euro fünfzig. Mal fünf: 22 Euro fünfzig pro Liter.",
+        "kopf": "So rechnen wir",
+        "zeilen": [
+          "1 Tasse = *0,2 Liter*",
+          "4,50 € × 5 = *22,50 € pro Liter*",
+          "plus meist *3 € Pfand*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "vs",
+        "sprich": "Im Supermarkt gibt es Glühwein ab einem Euro 45 pro Liter.",
+        "kopf": "Glühwein pro Liter",
+        "links": {
+          "emoji": "🎄",
+          "name": "Markt",
+          "farbe": "rot",
+          "wert": 22.5,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🛒",
+          "name": "Supermarkt",
+          "farbe": "gruen",
+          "wert": 1.45,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Auf dem Markt zahlst du also über 15-mal so viel.",
+        "oben": "Markt kostet",
+        "wert": 15.5,
+        "einheit": "× so viel",
+        "dezimalen": 1,
+        "unten": [
+          "für dasselbe Getränk 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Beim Preis gewinnt der Supermarkt. Bei der Stimmung der Markt.",
+        "links": {
+          "emoji": "🎄",
+          "name": "Markt"
+        },
+        "rechts": {
+          "emoji": "🛒",
+          "name": "Supermarkt"
+        },
+        "gewinner": "rechts",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Die *Stimmung* kostet extra 🎄"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was ist dein Plan? A: Weihnachtsmarkt. B: Glühwein zu Hause. Schreib A oder B und markier deine Glühwein-Crew!",
+        "zeilen": [
+          "🅰️ Markt 🎄 oder 🅱️ zu Hause 🛋️?",
+          "Markier deine *Glühwein-Crew* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "titel": "Gehalt Schweiz vs. Deutschland: 1,9-mal so viel?",
+    "thema": "geld",
+    "konzept": "gehalt-median-schweiz-vs-deutschland-preisniveau",
+    "caption": "Mittleres Gehalt: Schweiz ~7.543 €, Deutschland 4.013 € 🏔️🥨 Nach Preisen bleibt der Schweiz immer noch ein Drittel mehr. Würdest du rübergehen? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#schweiz"
+    ],
+    "fuss": "Median brutto Vollzeit 2024: CH 7.024 Fr. (BFS), DE 4.013 € (BA) · 1 € = 0,9312 Fr. (EZB, 12.10.2026)",
+    "quellen": [
+      "https://www.srf.ch/news/schweiz/bundesamt-fuer-statistik-schweizer-medianlohn-liegt-bei-7024-franken-brutto",
+      "https://www.arbeitsagentur.de/presse/2025-32-entgelte-der-vollzeitbeschaeftigten-sind-im-jahr-2024-deutlich-gestiegen",
+      "https://www.cash.ch/news/top-news/schweizer-preisniveau-auch-2024-weit-uber-dem-eu-durchschnitt-892317",
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-chf.de.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Gleicher Job, fast doppelt so viel Geld? Lohnt sich die Schweiz wirklich?",
+        "zeilen": [
+          [
+            "Schweiz 🏔️ zahlt",
+            90
+          ],
+          [
+            "*1,9×* so viel?",
+            110
+          ]
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Das mittlere Vollzeitgehalt in der Schweiz: 7024 Franken. Rund 7543 Euro. In Deutschland: 4013 Euro.",
+        "kopf": "Mittleres Gehalt brutto/Monat (2024)",
+        "links": {
+          "emoji": "🥨",
+          "name": "Deutschland",
+          "farbe": "orange",
+          "wert": 4013
+        },
+        "rechts": {
+          "emoji": "🏔️",
+          "name": "Schweiz",
+          "farbe": "gruen",
+          "wert": 7543,
+          "unter": "7.024 Fr."
+        },
+        "balken": true
+      },
+      {
+        "typ": "liste",
+        "sprich": "Aber: Die Schweiz ist auch viel teurer. Das Preisniveau liegt etwa 42 Prozent über Deutschland.",
+        "kopf": "Der Haken 🧀",
+        "zeilen": [
+          "Preisniveau 2024: CH *158,8* · DE *111,7*",
+          "= Schweiz *42 % teurer*",
+          "(EU-Schnitt = 100)"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Rechnet man die Preise raus, bleiben gefühlt rund 5306 Euro. Immer noch ein Drittel mehr als in Deutschland.",
+        "oben": "Schweizer Gehalt nach Preisen",
+        "wert": 5306,
+        "unten": [
+          "= *32 % mehr* als in DE 💪"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Auch nach Preisen verdient man in der Schweiz mehr.",
+        "kopf": "Wo verdient man mehr? 🤔",
+        "links": {
+          "emoji": "🥨",
+          "name": "Deutschland"
+        },
+        "rechts": {
+          "emoji": "🏔️",
+          "name": "Schweiz"
+        },
+        "gewinner": "rechts",
+        "stempel": "VERDIENT MEHR",
+        "spruch": "Aber nicht *doppelt* – nur ein Drittel 😏"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Würdest du für den Job in die Schweiz ziehen? A: sofort. B: nie. Schreib A oder B und markier jemanden, der schon drüber nachdenkt!",
+        "zeilen": [
+          "Für den Job in die Schweiz?",
+          "🅰️ Sofort 🅱️ Nie",
+          "Markier jemanden, der *drüber nachdenkt* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "titel": "Mieten vs. Kaufen: Was zahlst du in 30 Jahren?",
+    "thema": "geld",
+    "konzept": "mieten-vs-kaufen-30-jahre-gesamtkosten",
+    "caption": "30 Jahre Miete: 486.817 € – und dir gehört nichts 🏠 Kaufen: 625.325 € – aber am Ende ist die Wohnung deine. Team Miete oder Team Eigentum? 👇",
+    "hashtags": [
+      "#wohnen",
+      "#mieten"
+    ],
+    "fuss": "Beispiel · 300.000 € + 10 % NK · 60.000 € EK · 4,2 % fest 30 J. · 1 %/J. Instandh. · Miete 1.000 € +2 %/J.",
+    "quellen": [
+      "https://www.drklein.de/aktuelle-bauzinsen.html"
+    ],
+    "figuren": {
+      "sara": {
+        "haut": "#F2C9A0",
+        "haare": "#B5651D",
+        "frisur": "zopf",
+        "shirt": "#9B59B6",
+        "hose": "#3B4252"
+      },
+      "paul": {
+        "haut": "#C99A6E",
+        "haare": "#2B2B2B",
+        "frisur": "locken",
+        "shirt": "#2EC27E",
+        "hose": "#2E3440"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Sara mietet. Paul kauft die gleiche Wohnung nebenan. Wer zahlt in 30 Jahren mehr?",
+        "ort": "strasse",
+        "text": "*487.000 €* Miete – und dir gehört nichts? 🏠",
+        "figuren": [
+          {
+            "wer": "sara",
+            "x": 0.3,
+            "stimmung": "normal",
+            "pose": "haelt",
+            "haelt": "🔑"
+          },
+          {
+            "wer": "paul",
+            "x": 0.72,
+            "stimmung": "freut",
+            "spiegeln": true,
+            "blase": "🏠"
+          }
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Die Wohnung kostet 300000 Euro. Sara zahlt 1000 Euro Miete, jedes Jahr zwei Prozent mehr. Paul nimmt einen Kredit mit vier Komma zwei Prozent.",
+        "kopf": "Gleiche Wohnung (Beispiel)",
+        "zeilen": [
+          "Sara: *1.000 €* Miete, +2 % pro Jahr",
+          "Paul: 60.000 € Eigenkapital",
+          "Kredit *4,2 %* → *1.320 €* im Monat"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "vs",
+        "sprich": "Nach 30 Jahren: Sara 486817 Euro. Paul mit Zinsen und Reparaturen 625325.",
+        "kopf": "Bezahlt in *30 Jahren*",
+        "links": {
+          "emoji": "🔑",
+          "name": "Sara (Miete)",
+          "farbe": "orange",
+          "wert": 486817
+        },
+        "rechts": {
+          "emoji": "🏠",
+          "name": "Paul (Kauf)",
+          "farbe": "blau",
+          "wert": 625325
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Aber Paul gehört danach die Wohnung. Unterm Strich hat er nur 325325 Euro verbraucht.",
+        "oben": "Paul: Kosten minus Wohnung",
+        "wert": 325325,
+        "unten": [
+          "161.492 € weniger als Sara 😳"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.8
+      },
+      {
+        "typ": "liste",
+        "sprich": "Der Haken: Paul zahlt am Anfang rund 570 Euro mehr im Monat als Sara.",
+        "kopf": "Der Haken 👀",
+        "zeilen": [
+          "Paul: *~1.570 €* im Monat",
+          "= *570 € mehr* als Sara am Anfang",
+          "allein Zinsen: *205.325 €*"
+        ],
+        "abstand": 1.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Hier: Kaufen. Wenn du 30 Jahre bleibst und die Rate locker stemmst.",
+        "links": {
+          "emoji": "🔑",
+          "name": "Mieten"
+        },
+        "rechts": {
+          "emoji": "🏠",
+          "name": "Kaufen"
+        },
+        "gewinner": "rechts",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Wenn du *30 Jahre* bleibst 🏠"
+      },
+      {
+        "typ": "liste",
+        "sprich": "A: Team Miete. B: Team Eigentum. Schreib A oder B und markier jemanden, der gerade sucht!",
+        "zeilen": [
+          "🅰️ Team *Miete* 🔑",
+          "🅱️ Team *Eigentum* 🏠",
+          "Markier jemanden, der *gerade sucht* 👇"
         ],
         "abstand": 0.9
       }

@@ -18,15 +18,11 @@ beide Kanäle stehen in `TRENDS.md`.
 
 **🔥 Trend & Wow – zuerst umsetzen (Zeitpunkt beachten):**
 - Black Friday: „beworben 38 %, echt 7 %“ – Idealo: Black Friday 2024 im Schnitt nur 7 % günstiger als im Oktober; Verbraucherzentrale Niedersachsen: Kühlschrank mit „38 %“ war gegenüber dem üblichen Preis nur 7 % billiger; 62 % der Produkte im Dezember wieder teurer (guenstiger.de). Posten 23.–27.11., das stärkste am 27.11. um 20:30
-- Kino-Popcorn: „Dein Ticket bezahlt den Film, dein Popcorn bezahlt das Kino“ – rund die Hälfte der Ticketeinnahmen geht an den Filmverleih (HDF Kino), Snacks behält das Kino komplett; Cinemark 2018: 1,1 Mrd. $ Snack-Umsatz bei 181 Mio. $ Kosten = 84 % Marge. Posten um den 19.11. (Panem) oder 16./17.12. (Avengers, Dune)
 - Deutschlandticket: vom 9-Euro-Ticket (2022) zu 66,80 € ab 1.1.2027 (beschlossen am 30.9.2026) = +642 %; Preisgeschichte 9 → 49 → 58 → 63 → 66,80 €; lohnt es sich noch gegen Einzeltickets? Posten im Dezember
 
 **💼 Gehalt (jede Woche mehrere, siehe REDAKTIONSPLAN):**
-- Azubi-Gehälter: Top 3 vs. Flop 3 (BIBB)
 
 **Weitere:**
-- GTA 6: Preis pro Spielstunde vs. Kino und Streaming (erst in der Woche 15.–21.11. posten, Release 19.11.)
-- Mieten vs. kaufen – was zahlst du in 30 Jahren?
 
 ## Umgesetzt
 
@@ -77,3 +73,9 @@ beide Kanäle stehen in `TRENDS.md`.
 - Karneval-Kostüm (#49), 30 % + 20 % Rabatt (#51), Singles Day 30-Tage-Tiefpreis (#56), Martinsgans (#55)
 - Mindestlohn 2026 vs. 2027 (#52), TV-Zeit (#57), Lebensmittelabfall (#58), PS5-Preis (#59), Inflation (#60)
 - Trockner vs. Leine (#61), GTA 6 + PS5 Arbeitszeit (#62), Streaming-Rotation (#63), Snooze (#64), Nina vs. Jonas (#65)
+- Kino-Popcorn: Ticket bezahlt den Film, Popcorn das Kino (#78), GTA 6 pro Spielstunde vs. Kino (#79)
+- Azubi-Gehälter 2025: Platz 1 vs. Schlusslicht (#75 – BIBB nennt öffentlich nur Platz 1–2 und das Schlusslicht), Mieten vs. kaufen in 30 Jahren (#85)
+- Ausbildung vs. Studium – Serie Teil 1–3, Lena vs. Ben (#68, #71, #73), Weihnachtsgeld 2026: nur 52 % (#82), Gehalt Schweiz vs. Deutschland nach Preisen (#84)
+- 1 Cent kostet 1,65 Cent (#66), Tageslicht Hamburg vs. München (#67), Spülmaschine vs. Hand (#69), Tanken vor/nach 12 Uhr (#70)
+- GTA-6-Download 212 GB (#72), TK- vs. frischer Spinat (#74), Buß- und Bettag Sachsen (#76), Klo vs. Trinken – Welttoilettentag (#77)
+- Lichterkette alt vs. LED (#80), Gutschein-Verjährung (#81), Glühwein pro Liter (#83)
