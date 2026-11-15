@@ -66,6 +66,7 @@ python3 generate.py --plan 7        # Posting-Plan + Metricool-CSV (lokal; 12:30
 python3 generate.py --plan 7 --nur-drive   # dasselbe in der Cloud: fertig ist, was in drive_links.json steht
 python3 generate.py --check         # Installation prüfen
 python3 generate.py --datei test_geschichte.json --id 900   # Test-Geschichte „Max vs. Tim“ rendern (nicht im Plan)
+python3 karussell.py 22 26         # Foto-Karussell (TikTok/Instagram) aus den Szenen eines Vergleichs → output/karussell/
 python3 tools/logo.py               # Marke, Profilbilder (profilbild.png, profilbild_tiktok.png) und YouTube-Banner neu zeichnen
 ```
 
