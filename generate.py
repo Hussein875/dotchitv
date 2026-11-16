@@ -148,7 +148,8 @@ def erzeuge(v, cfg, mit_stimme=True):
     name = dateiname(v)
     video = Video(v, cfg)
     stimmen = [elevenlabs(s.daten["sprich"], cfg, CACHE) if mit_stimme else None for s in video.szenen]
-    video.zeitplan([len(st) / SR if st is not None else geschaetzte_dauer(s.daten["sprich"])
+    tempo = cfg["stimme"]["einstellungen"].get("speed", 1.0)
+    video.zeitplan([len(st) / SR if st is not None else geschaetzte_dauer(s.daten["sprich"], tempo)
                     for s, st in zip(video.szenen, stimmen)], cfg["video"]["loop"])
     fps = cfg["video"]["fps"]
     erster = video.frame(0).convert("RGB")
@@ -184,6 +185,7 @@ def erzeuge(v, cfg, mit_stimme=True):
         nach_drive(ziel, drive)
     print(f"  ✓ {os.path.relpath(ziel, BASIS)}  ({video.dauer:.1f} s, {'mit' if mit_stimme else 'ohne'} Stimme, "
           f"{time.time() - start:.0f} s Renderzeit{', in Google Drive kopiert' if drive else ''})")
+    zu_lang(v, video.dauer, cfg)
 
 
 def vorschau(v, cfg):
@@ -192,10 +194,28 @@ def vorschau(v, cfg):
     ausgabe = os.path.join(BASIS, cfg["ausgabe"]["ordner"])
     os.makedirs(ausgabe, exist_ok=True)
     video = Video(v, cfg)
-    video.zeitplan([geschaetzte_dauer(s.daten["sprich"]) for s in video.szenen], cfg["video"]["loop"])
+    tempo = cfg["stimme"]["einstellungen"].get("speed", 1.0)
+    video.zeitplan([geschaetzte_dauer(s.daten["sprich"], tempo) for s in video.szenen], cfg["video"]["loop"])
     pfad = os.path.join(ausgabe, f"{dateiname(v)}_vorschau.png")
     video.vorschau().save(pfad)
     print(f"  ✓ {os.path.relpath(pfad, BASIS)}  (~{video.dauer:.0f} s)")
+    zu_lang(v, video.dauer, cfg)
+
+
+def zu_lang(v, dauer, cfg):
+    """Warnt, wenn ein Video länger wird als gewollt – kurze Videos werden öfter zu Ende geschaut.
+    Die Sprechzeit hängt an den gesprochenen Buchstaben: lange Zahlen im Sprechtext sind der häufigste Grund."""
+    from audio import ausgeschrieben, geschaetzte_dauer
+    grenze = cfg["video"].get("max_sekunden")
+    if not grenze or dauer <= grenze:
+        return
+    tempo = cfg["stimme"]["einstellungen"].get("speed", 1.0)
+    szenen = sorted(v["szenen"], key=lambda s: -geschaetzte_dauer(s["sprich"], tempo))[:2]
+    print(f"  ⚠ {dauer:.0f} s – Ziel sind höchstens {grenze} s. Sprechtext kürzen und Zahlen runden "
+          f"(die genaue Zahl steht im Bild). Längste Sätze:")
+    for s in szenen:
+        print(f"      ~{geschaetzte_dauer(s['sprich'], tempo):.0f} s, {len(ausgeschrieben(s['sprich']))} gesprochene "
+              f"Buchstaben: {s['sprich'][:90]}")
 
 
 # ---------------------------------------------------------------- Texte

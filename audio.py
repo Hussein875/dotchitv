@@ -7,6 +7,7 @@ eine eigene Variante (Tonart, Akkordfolge, Tempo), damit die Videos nicht gleich
 import hashlib
 import json
 import os
+import re
 import ssl
 import subprocess
 import sys
@@ -177,9 +178,65 @@ def elevenlabs(satz, cfg, cache):
     return np.frombuffer(roh, dtype=np.int16).astype(np.float32) / 32768
 
 
-def geschaetzte_dauer(satz):
-    """Sprechdauer ohne Stimme schätzen (für Vorschauen): ca. 14 Zeichen pro Sekunde."""
-    return max(1.2, len(satz) / 14)
+EINER = ["null", "ein", "zwei", "drei", "vier", "fünf", "sechs", "sieben", "acht", "neun", "zehn", "elf", "zwölf",
+         "dreizehn", "vierzehn", "fünfzehn", "sechzehn", "siebzehn", "achtzehn", "neunzehn"]
+ZEHNER = ["", "", "zwanzig", "dreißig", "vierzig", "fünfzig", "sechzig", "siebzig", "achtzig", "neunzig"]
+ZAHL = re.compile(r"\d{1,3}(?:\.\d{3})+(?!\d)|\d+(?:,\d+)?")   # 164.808 · 3400 · 815,7
+
+
+def _unter_tausend(n, allein, gross):
+    wort = ""
+    if n >= 100:
+        wort = (("ein" if gross else "") if n // 100 == 1 else EINER[n // 100]) + "hundert"
+        n %= 100
+    if n == 0:
+        return wort
+    if n == 1:
+        return wort + ("eins" if allein else "ein")
+    if n < 20:
+        return wort + EINER[n]
+    return wort + (EINER[n % 10] + "und" if n % 10 else "") + ZEHNER[n // 10]
+
+
+def zahl_in_worten(n):
+    """Ganze Zahl als deutsches Zahlwort: 3400 → „dreitausendvierhundert“."""
+    if n == 0:
+        return "null"
+    if n >= 10 ** 9:
+        return str(n)
+    teile = []
+    millionen, rest = divmod(n, 10 ** 6)
+    if millionen:
+        teile.append("eine Million" if millionen == 1 else zahl_in_worten(millionen) + " Millionen")
+    tausender, rest = divmod(rest, 1000)
+    wort = _unter_tausend(tausender, False, True) + "tausend" if tausender else ""
+    if rest:
+        wort += _unter_tausend(rest, True, bool(tausender or millionen))
+    if wort:
+        teile.append(wort)
+    return " ".join(teile)
+
+
+def ausgeschrieben(satz):
+    """Der Satz so, wie die Stimme ihn spricht: Zahlen und Zeichen als Wörter. Lange Zahlen kosten viel Zeit –
+    „6575 Euro“ sind gesprochen 41 Buchstaben, „gut 6500 Euro“ nur 30."""
+    def wort(m):
+        roh = m.group()
+        if "," in roh:
+            ganz, nach = roh.split(",")
+            return zahl_in_worten(int(ganz)) + " Komma " + " ".join(zahl_in_worten(int(z)) for z in nach)
+        return zahl_in_worten(int(roh.replace(".", "")))
+    satz = satz.replace("%", " Prozent").replace("€", " Euro").replace("$", " Dollar")
+    return re.sub(r"\s+", " ", ZAHL.sub(wort, satz)).strip()
+
+
+def geschaetzte_dauer(satz, tempo=1.0):
+    """Sprechdauer ohne Stimme schätzen (für Vorschauen). Gemessen an der Stimme vom 16.11.2026 (31 Sätze):
+    rund 13 gesprochene Buchstaben pro Sekunde plus 0,6 s Pause je Satzteil; `tempo` ist die Einstellung
+    `speed` der Stimme (1,15 macht die Sätze etwa 9 % kürzer)."""
+    satzteile = max(1, len(re.findall(r"[.!?:]+(?:\s|$)", satz)))
+    dauer = 0.0762 * len(ausgeschrieben(satz)) + 0.615 * satzteile
+    return max(1.2, dauer * (1 - 0.6 * (tempo - 1)))
 
 
 # ---------------------------------------------------------------- Mischen

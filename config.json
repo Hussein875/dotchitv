@@ -20,7 +20,8 @@
   },
   "video": {
     "fps": 30,
-    "loop": 0.3
+    "loop": 0.3,
+    "max_sekunden": 40
   },
   "themen": {
     "geld": {

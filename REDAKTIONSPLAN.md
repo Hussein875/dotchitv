@@ -53,6 +53,20 @@ reine Aufzählungen ohne Urteil, Themen, die wir schon hatten – auch nicht mit
 Jeder Vergleich hat ein `konzept` (Thema + Blickwinkel, z. B. `doener-jahreskosten` vs. `doener-preis-damals-heute`);
 `python3 generate.py --doppelte` meldet gleiche Konzepte und fast gleiche Titel.
 
+## ⏱ Tempo: höchstens 40 Sekunden (seit 16.11.2026)
+
+Kurze Videos werden öfter zu Ende geschaut. Mit der alten Stimme dauerte ein Video rund 30 Sekunden, mit der neuen
+(ruhigeren) Stimme dieselben Texte 42 bis 53 Sekunden. Gemessen an 31 Sätzen: Die Stimme schafft etwa
+13 **gesprochene** Buchstaben pro Sekunde plus 0,6 s Pause je Satzteil – und ausgesprochene Zahlen sind lang:
+„6575 Euro“ sind 41 Buchstaben, „gut 6500 Euro“ nur 30.
+
+- **Ziel: 25 bis 38 Sekunden, nie über 40** (`video.max_sekunden` in `config.json`).
+- 5 bis 7 Szenen, pro Szene **ein** kurzer Satz (höchstens ~60 Zeichen).
+- Im Sprechtext Zahlen **runden** und sparsam einsetzen (höchstens zwei pro Szene) – die genaue Zahl steht im Bild.
+- Quellen und Nebensätze gehören in den Fuß oder ins Bild, nicht in die Stimme.
+- `python3 generate.py --vorschau` zeigt die geschätzte Länge mit der echten Sprechgeschwindigkeit und warnt mit ⚠,
+  samt den längsten Sätzen. Die Stimme läuft außerdem 15 % schneller (`stimme.einstellungen.speed` = 1,15).
+
 ## 🎯 Hook-Regeln: die ersten 2 Sekunden entscheiden
 
 Die meisten wischen in der ersten Sekunde weiter. Die erste Szene ist außerdem das Vorschaubild im Profil.
