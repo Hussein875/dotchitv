@@ -113,8 +113,16 @@ Im Bildtext markiert `*so*` die Akzentfarbe. Szenentypen:
 | `vs` | `kopf`, `links`/`rechts`: `emoji`, `name`, `farbe`, `wert`, optional `einheit` (Standard €), `dezimalen`, `unter`; optional `balken: true` | zwei Karten; mit `balken` zählen Balken und Zahlen hoch |
 | `zahl` | `oben`, `wert`, optional `einheit`, `dezimalen`, `farbe`, `unten` (Zeilen), `unten_ab` | große hochzählende Zahl mit „Ching“ |
 | `liste` | `zeilen`, optional `kopf`, `abstand`, `letzte_gross` | Rechenweg, Perspektiven, Kommentar-Frage |
-| `urteil` | `links`/`rechts` (`emoji`, `name`), `gewinner`: `links`/`rechts`, optional `spruch`, `kopf`, `stempel` | „Dotchi? 🤔“ – Gewinner bekommt den Stempel **BESSERE WAHL**, Verlierer ❌ |
-| `bild` | `ort` (`strasse`, `cafe`, `zimmer`, `abend`, `kueche`), `text`, `figuren`: Liste aus `wer`, `x` (0–1), `stimmung` (`normal`, `freut`, `traurig`, `staunt`), `pose` (`steht`, `haelt`, `winkt`, `jubelt`), optional `haelt` (Emoji), `blase` (Emoji), `spiegeln` | gezeichnete Geschichten-Szene (`figuren.py`); das Aussehen der Figuren steht einmal im Eintrag unter `figuren` |
+| `urteil` | `links`/`rechts` (`emoji`, `name`), `gewinner`: `links`/`rechts`, optional `spruch`, `kopf`, `stempel`, `dotchi: false` | „Dotchi?“ – das Maskottchen fliegt als Münzwurf herein und zeigt auf den Gewinner; der bekommt den Stempel **BESSERE WAHL**, der Verlierer ❌ |
+| `bild` | `ort` (`strasse`, `cafe`, `zimmer`, `abend`, `kueche`, `buero`, `eiszeit`, `hoehle`, `strand`, `neutral`), `text`, `figuren`: Liste aus `wer`, `x` (0–1), `stimmung` (`normal`, `freut`, `traurig`, `staunt`), `pose` (`steht`, `haelt`, `winkt`, `jubelt`), optional `haelt` (Emoji), `blase` (Emoji), `sagt` (Sprechblase mit Text, höchstens ~35 Zeichen; `sagt_ab` = Sekunde), `spiegeln` | gezeichnete Geschichten-Szene (`figuren.py`); das Aussehen der Figuren steht einmal im Eintrag unter `figuren`. Mit `"wer": "dotchi"` spielt das Maskottchen mit (Stimmungen siehe unten) |
+| `raten` | `frage`, `optionen` (2–3 Antworten), `richtig` (`"A"`, `"B"`, `"C"`), optional `emoji`, `sekunden` (Standard 5), `stempel`, `dotchi` (Stimmung nach der Auflösung) | Preis-Raten: Frage und Antworten, dann Countdown mit Ticken, dann wird die richtige Antwort grün und bekommt den Stempel. Die Szene läuft so lange wie der gesprochene Satz + Countdown – `sprich` endet mit „Du hast fünf Sekunden.“ |
+| `reihen` | `reihen`: 2–6 Zeilen aus `name`, `wert` (optional `einheit`, `dezimalen`, `farbe`), optional `kopf`, `einheit`, `farbe`, `hervor` (Nummer der goldenen Zeile), `unten`, `umgekehrt` (letzte Zeile zuerst, für Ranglisten), `balken: false` | Zeilen mit Balken, die nacheinander hochzählen – z. B. nach Alter („mit 18 / mit 30 / mit 50“), nach Jahren oder als Rangliste |
+
+**Maskottchen Dotchi** (`maskottchen.py`): die goldene Münze mit Gesicht. Sie fällt in jeder `urteil`-Szene das Urteil
+und winkt von selbst unter der Kommentar-Frage am Ende. Zusätzlich reagiert sie in `titel`-, `zahl`- und `liste`-Szenen,
+wenn dort `"dotchi": "<stimmung>"` steht (`normal`, `denkt`, `freut`, `staunt`, `genervt`, `zwinkert`, `traurig`) –
+z. B. `"dotchi": "staunt"` bei der größten Zahl des Videos oder `"dotchi": "denkt"` im Hook. In `zahl`-Szenen schaut
+Dotchi erst zu und wechselt die Miene, wenn die Zahl fertig hochgezählt ist.
 
 Für alle: `min` (Mindestdauer in s), `ching` (Zeitpunkt des Kassen-Sounds in s). Farben: `rot`, `gruen`, `gold`,
 `blau`, `lila`, `orange`, `grau` oder Hex. Bewährter Ablauf: **Hook → Preis pro Stück (vs) → pro Jahr (vs mit

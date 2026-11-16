@@ -120,6 +120,33 @@ die Reihenfolge dort ist die Posting-Reihenfolge).
 | 📆 **Damals vs. heute** | Döner ✅, Kino ✅, dann Benzin, Pizza, Miete – mit Jahr und Quelle |
 | 🎯 **30-Tage-Spar-Challenge** | Woche 1–4: was ein kleiner Verzicht pro Woche bringt |
 
+## 🪙 Dotchi-Formate: mitraten, mitlachen, wiedererkennen (mindestens 6 von 21 pro Woche)
+
+Seit dem 16.11.2026 hat der Kanal ein Gesicht: **Dotchi, die Münze**. Sie macht die Videos wiedererkennbar und
+gibt ihnen Humor. Dazu kommen drei Formate, bei denen die Zuschauer **mitmachen** statt nur zuschauen
+(Wunsch des Nutzers: „kreativer werden“). Die Formate dürfen sich mit Gehalt, Wow und Trends überschneiden.
+
+**Dotchi in jedem Video:** Das Urteil (`urteil`) und die Kommentar-Frage am Ende zeigen das Maskottchen von selbst.
+Zusätzlich in **1–2 Szenen pro Video** reagieren lassen: `"dotchi": "denkt"` im Hook, `"dotchi": "staunt"` bei der
+größten Zahl, `"dotchi": "genervt"` bei Abzocke. Nicht in jeder Szene – sonst nutzt es sich ab.
+
+| Format | pro Woche | Aufbau | Beispiele |
+|---|---|---|---|
+| 🎯 **Preis-Raten** | 2–3 | 1. `raten` als erste Szene (Frage, Emoji, A/B/C, 5 Sekunden) → 2. `zahl` mit der Auflösung und `"dotchi": "staunt"` → 3. Einordnung (`vs`, `reihen` oder `zahl`: „so lange arbeitest du dafür“, „pro Tag“) → 4. Kommentar-Frage: „Was hattest du? A, B oder C?“ bzw. eine eigene Erfahrung („Was hat deiner gekostet?“) | Führerschein ✅ (#86), Kind bis 18 ✅ (#87), GTA-5-Umsatz ✅ (#88), dann: ein ICE, eine Minute Fernsehwerbung, ein Weihnachtsbaum, ein Kilo Safran, ein Ticket für die ISS |
+| ⏳ **Seit deiner Geburt / nach Alter** | 1 | Hook (`titel`) → `reihen` mit Altersstufen (mit 18 / 25 / 30 / 40 / 50), `unten`: „Wie alt bist *du*?“ → eine absurde Hochrechnung (`zahl`) → Kommentar-Frage: „Wie alt bist du – und wie viel wäre es?“ | 1 € pro Tag ✅ (#89), dann: so viele Tage hast du gelebt, so lange hast du geschlafen, so viel hast du schon verdient (Median), so viele Stunden am Handy |
+| 🎭 **Sketch mit Dotchi** | 2 | 1–2 `bild`-Szenen mit Sprechblasen (`sagt`) – eine Alltagssituation, die jeder kennt; Dotchi tritt als Figur auf (`"wer": "dotchi"`) und sagt den trockenen Spruch → 2–3 Szenen mit der echten Rechnung → `urteil` → Kommentar-Frage als A/B oder JA/NEIN | Meeting statt Mail ✅ (#90), „Wir sind doch eine Familie“ ✅ (#91), dann: „Ich zahl später“ (Ratenkauf), der Kollege mit dem Lieferdienst, „Nur kurz zu IKEA“, Abo-Falle im Fitnessstudio im Januar |
+| 🏆 **Rangliste** | 0–1 | `reihen` mit `"umgekehrt": true` (Platz 5 zuerst, Platz 1 zuletzt) und `hervor` für Platz 1 | die 5 teuersten Städte für Miete, die 5 bestbezahlten Ausbildungen – nur mit Quelle |
+
+Regeln:
+- **Preis-Raten:** Die drei Antworten müssen alle plausibel sein (Faktor 2–3 Abstand), die richtige steht **nicht immer
+  an derselben Stelle** (A, B und C abwechseln). Echte Preise nur mit Quelle und Stand im `fuss`. Der gesprochene Satz
+  der `raten`-Szene endet mit „Du hast fünf Sekunden.“ Kein `urteil` nötig – der Stempel auf der richtigen Antwort ist das Urteil.
+- **Sketche:** erfundene Personen (im `fuss` vermerken), niemand wird vorgeführt – der Witz liegt in der Situation,
+  die Pointe ist immer eine **echte Rechnung**. Sprechblasen kurz halten (höchstens ~35 Zeichen, eine Blase pro Figur
+  und Szene). Die Stimme erzählt: „Dein Chef sagt: …“.
+- **Altersstufen:** runde, nachvollziehbare Rechnung; die Annahme (z. B. 365,25 Tage pro Jahr) steht im `fuss`.
+- Die Kommentar-Frage muss mit **einem Wort** zu beantworten sein: A/B/C, JA/NEIN, das eigene Alter, ein Preis.
+
 ## Viral-Formate (bevorzugen – mindestens 7 von 21 pro Woche)
 
 Ziel: Themen, die **jeder auf sich bezieht** und zu denen **jeder eine Meinung hat**.
