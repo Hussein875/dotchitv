@@ -9072,5 +9072,597 @@
         "abstand": 0.9
       }
     ]
+  },
+  {
+    "id": 86,
+    "titel": "Was kostet der Führerschein heute? Rate mit!",
+    "thema": "geld",
+    "konzept": "preis-raten-fuehrerschein-kosten",
+    "caption": "Was kostet der Führerschein heute? 🚗 A, B oder C – hättest du's gewusst? Was hat deiner gekostet? Schreib Jahr und Preis 👇",
+    "hashtags": [
+      "#führerschein",
+      "#preisraten"
+    ],
+    "fuss": "Ø rund 3.400 € laut Bundesverkehrsministerium · Spanne 2.500–4.500 € (ADAC, Stand 04/2025) · Mindestlohn 13,90 €",
+    "quellen": [
+      "https://www.kfz-auskunft.de/news/32379.html",
+      "https://www.ace.de/ratgeber/verkehrsrecht/fuehrerschein/fuehrerscheinkosten/",
+      "https://www.lohnsteuer-kompakt.de/steuerwissen/gesetzlicher-mindestlohn-2026-erhoehung-auf-1390-euro-beschlossen"
+    ],
+    "szenen": [
+      {
+        "typ": "raten",
+        "sprich": "Was kostet der Führerschein heute? Du hast fünf Sekunden.",
+        "frage": "Was kostet der *Führerschein* heute?",
+        "emoji": "🚗",
+        "optionen": [
+          "1.800 €",
+          "3.400 €",
+          "5.000 €"
+        ],
+        "richtig": "B"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Im Schnitt rund 3400 Euro. In Großstädten oft noch mehr.",
+        "oben": "Im Schnitt rund",
+        "wert": 3400,
+        "unten": [
+          "Klasse B · laut Verkehrsministerium"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "vs",
+        "sprich": "Der ADAC rechnet mit 2500 Euro im günstigen Fall und 4500 im teuren.",
+        "kopf": "Die Spanne laut ADAC",
+        "links": {
+          "emoji": "🙂",
+          "name": "günstig",
+          "farbe": "gruen",
+          "wert": 2500
+        },
+        "rechts": {
+          "emoji": "😵",
+          "name": "teuer",
+          "farbe": "rot",
+          "wert": 4500
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Mit Mindestlohn arbeitest du dafür 245 Stunden. Über sechs Wochen Vollzeit.",
+        "oben": "Mit Mindestlohn",
+        "wert": 245,
+        "einheit": "Std.",
+        "farbe": "lila",
+        "unten_ab": 1.7,
+        "min": 3.4,
+        "unten": [
+          "über *6 Wochen* Vollzeit 😳"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was hat dein Führerschein gekostet? Schreib Jahr und Preis in die Kommentare!",
+        "zeilen": [
+          "Was hat *deiner* gekostet? 🚗",
+          "Schreib *Jahr und Preis* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "titel": "Was kostet ein Kind bis 18? Rate mit!",
+    "thema": "geld",
+    "konzept": "preis-raten-kind-kosten-bis-18",
+    "caption": "Was kostet ein Kind, bis es 18 ist? 👶 A, B oder C? Markier deine Eltern und sag Danke ❤️👇",
+    "hashtags": [
+      "#familie",
+      "#preisraten"
+    ],
+    "fuss": "Statistisches Bundesamt (Daten 2018): Paare geben 763 € im Monat für ein Kind aus · × 216 Monate · heute eher mehr",
+    "quellen": [
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2021/PD21_26_p002.html"
+    ],
+    "szenen": [
+      {
+        "typ": "raten",
+        "sprich": "Was kostet ein Kind, bis es 18 ist? Du hast fünf Sekunden.",
+        "frage": "Was kostet ein *Kind* bis 18?",
+        "emoji": "👶",
+        "optionen": [
+          "80.000 €",
+          "165.000 €",
+          "300.000 €"
+        ],
+        "richtig": "B"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Rund 165000 Euro. So viel geben Paare laut Statistischem Bundesamt für ein Kind aus.",
+        "oben": "Bis zum 18. Geburtstag",
+        "wert": 164808,
+        "unten": [
+          "laut Statistischem Bundesamt"
+        ],
+        "dotchi": "staunt",
+        "min": 3.4
+      },
+      {
+        "typ": "reihen",
+        "sprich": "Das sind 25 Euro am Tag. 763 Euro im Monat. Über 9000 Euro im Jahr.",
+        "kopf": "Ein Kind kostet …",
+        "reihen": [
+          {
+            "name": "pro Tag",
+            "wert": 25
+          },
+          {
+            "name": "pro Monat",
+            "wert": 763
+          },
+          {
+            "name": "pro Jahr",
+            "wert": 9156
+          },
+          {
+            "name": "bis 18",
+            "wert": 164808
+          }
+        ],
+        "hervor": 4,
+        "farbe": "blau",
+        "balken": false
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und Zeit, Nerven und Schlaf sind da noch gar nicht eingerechnet.",
+        "kopf": "Noch nicht eingerechnet",
+        "zeilen": [
+          "Zeit ⏳",
+          "Nerven 😅",
+          "Schlaf 😴"
+        ],
+        "abstand": 0.6
+      },
+      {
+        "typ": "liste",
+        "sprich": "Markier deine Eltern und sag Danke. Oder schick ihnen einfach dieses Video!",
+        "zeilen": [
+          "Markier deine *Eltern* ❤️",
+          "…und sag *Danke* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "titel": "GTA 5: So viel Geld in nur 24 Stunden – rate mit!",
+    "thema": "technik",
+    "konzept": "preis-raten-gta5-umsatz-erster-tag",
+    "caption": "GTA 6 ist da 🎮 Aber wie viel hat GTA 5 am ersten Tag eingespielt? A, B oder C? Kaufst du sofort oder wartest du? 👇",
+    "hashtags": [
+      "#gta6",
+      "#gaming"
+    ],
+    "fuss": "Guinness World Records (2013): 815,7 Mio. $ Umsatz in 24 Std. · 1 Mrd. $ nach 3 Tagen · davor: 15 Tage",
+    "quellen": [
+      "https://www.guinnessworldrecords.com/news/2013/10/confirmed-grand-theft--auto-breaks-six-sales-world-records-51900",
+      "https://www.guinnessworldrecords.com/world-records/105330-fastest-entertainment-property-to-gross-1-billion"
+    ],
+    "szenen": [
+      {
+        "typ": "raten",
+        "sprich": "GTA 6 ist da. Aber wie viel Geld hat GTA 5 am ersten Tag verdient? Du hast fünf Sekunden.",
+        "frage": "GTA 5: Wie viel Geld am *1. Tag*?",
+        "emoji": "🎮",
+        "optionen": [
+          "80 Mio. $",
+          "400 Mio. $",
+          "800 Mio. $"
+        ],
+        "richtig": "C"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Über 800 Millionen Dollar. An einem einzigen Tag.",
+        "oben": "Am ersten Tag",
+        "wert": 815.7,
+        "einheit": "Mio. $",
+        "dezimalen": 1,
+        "unten": [
+          "Weltrekord 2013 🏆"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "reihen",
+        "sprich": "Nach drei Tagen war die Milliarde voll. Der Rekord davor lag bei fünfzehn Tagen.",
+        "kopf": "So schnell bei 1 Milliarde $",
+        "reihen": [
+          {
+            "name": "GTA 5",
+            "wert": 3
+          },
+          {
+            "name": "Rekord davor",
+            "wert": 15
+          }
+        ],
+        "einheit": "Tage",
+        "hervor": 1,
+        "farbe": "grau",
+        "unten": "*5-mal* so schnell 🚀"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Und du? Kaufst du GTA 6 sofort, oder wartest du auf ein Angebot? Schreib A oder B!",
+        "zeilen": [
+          "GTA 6: *A* sofort kaufen",
+          "oder *B* aufs Angebot warten?",
+          "Schreib *A oder B* 👇"
+        ],
+        "abstand": 0.7
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "titel": "Seit deiner Geburt jeden Tag 1 € – wie reich wärst du?",
+    "thema": "geld",
+    "konzept": "seit-geburt-1-euro-pro-tag",
+    "caption": "Seit deiner Geburt jeden Tag 1 € 🤑 Mit 30 hättest du knapp 11.000 € – für die Million bräuchtest du 2.738 Jahre 😳 Wie alt bist du? 👇",
+    "hashtags": [
+      "#seitgeburt",
+      "#million"
+    ],
+    "fuss": "Rechnung mit 365,25 Tagen pro Jahr (Schaltjahre), gerundet · ohne Zinsen",
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Stell dir vor, du hättest seit deiner Geburt jeden Tag einen Euro bekommen. Wie reich wärst du heute?",
+        "zeilen": [
+          [
+            "Seit deiner *Geburt*",
+            84
+          ],
+          [
+            "jeden Tag *1 €*",
+            116
+          ],
+          [
+            "Wie reich wärst du?",
+            72
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "reihen",
+        "sprich": "Mit 18 hättest du 6575 Euro. Mit 30 knapp 11000. Und mit 50 gut 18000.",
+        "kopf": "Jeden Tag 1 € – seit der Geburt",
+        "reihen": [
+          {
+            "name": "mit 18",
+            "wert": 6575
+          },
+          {
+            "name": "mit 25",
+            "wert": 9131
+          },
+          {
+            "name": "mit 30",
+            "wert": 10958
+          },
+          {
+            "name": "mit 40",
+            "wert": 14610
+          },
+          {
+            "name": "mit 50",
+            "wert": 18263
+          }
+        ],
+        "farbe": "gruen",
+        "unten": "Wie alt bist *du*? 👀"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Für eine Million bräuchtest du 2738 Jahre. Du hättest im alten Griechenland anfangen müssen.",
+        "oben": "Für 1 Million € bräuchtest du",
+        "wert": 2738,
+        "einheit": "Jahre",
+        "farbe": "rot",
+        "unten_ab": 1.7,
+        "min": 3.6,
+        "unten": [
+          "Start: im *alten Griechenland* 🏛️"
+        ],
+        "dotchi": "staunt"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Selbst mit 100 Euro am Tag dauert die Million über 27 Jahre.",
+        "oben": "Mit 100 € pro Tag",
+        "wert": 27,
+        "einheit": "Jahre",
+        "farbe": "gold",
+        "unten_ab": 1.6,
+        "min": 3.2,
+        "unten": [
+          "bis zur *Million* 😳"
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie alt bist du, und wie viel wäre es bei dir? Schreib's in die Kommentare und markier jemanden, der älter ist als du!",
+        "zeilen": [
+          "Wie alt bist *du*? 🎂",
+          "Markier jemanden, der *älter* ist 😏👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "titel": "Dieses Meeting kostet 312 € – und hätte eine Mail sein können",
+    "thema": "zeit",
+    "konzept": "sketch-meeting-kosten-vs-mail",
+    "caption": "„Nur 5 Minuten“ – 90 Minuten später 😴 8 Leute im Meeting kosten 312 €. Jede Woche: über 14.000 € im Jahr 💸 Team Meeting oder Team Mail? 👇",
+    "hashtags": [
+      "#büro",
+      "#meeting"
+    ],
+    "fuss": "Beispielrechnung · 8 Personen · 25,99 €/Std. brutto (Median: 54.066 € ÷ 2.080 Std.) · 46 Arbeitswochen · erfundene Personen",
+    "quellen": [
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html"
+    ],
+    "figuren": {
+      "chef": {
+        "haut": "#F2C9A0",
+        "haare": "#8A8D93",
+        "frisur": "seite",
+        "brille": true,
+        "shirt": "#3D5A80",
+        "hose": "#2E3440"
+      },
+      "du": {
+        "haut": "#E8B88A",
+        "haare": "#3B2A1E",
+        "frisur": "kurz",
+        "shirt": "#4FC3F7",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Montag, neun Uhr. Dein Chef sagt: Kurzes Meeting, nur fünf Minuten.",
+        "ort": "buero",
+        "text": "Montag, *9 Uhr* ☕",
+        "figuren": [
+          {
+            "wer": "chef",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "winkt",
+            "sagt": "Kurzes Meeting – nur *5 Minuten*!"
+          },
+          {
+            "wer": "du",
+            "x": 0.74,
+            "stimmung": "traurig",
+            "spiegeln": true
+          }
+        ]
+      },
+      {
+        "typ": "bild",
+        "sprich": "Neunzig Minuten später: Und noch ein Punkt. Dotchi rechnet schon mit.",
+        "ort": "buero",
+        "text": "*90 Minuten* später …",
+        "figuren": [
+          {
+            "wer": "chef",
+            "x": 0.27,
+            "stimmung": "freut",
+            "pose": "jubelt",
+            "sagt": "…und noch ein Punkt!"
+          },
+          {
+            "wer": "dotchi",
+            "x": 0.72,
+            "stimmung": "genervt",
+            "sagt": "Der Zähler läuft 💸",
+            "sagt_ab": 1.6
+          }
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Acht Leute, neunzig Minuten: Bei mittlerem Stundenlohn kostet dieses Meeting 312 Euro.",
+        "oben": "8 Leute · 90 Minuten",
+        "wert": 312,
+        "unten": [
+          "bei 25,99 € pro Stunde"
+        ],
+        "dotchi": "staunt",
+        "min": 3.4
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Jede Woche so ein Meeting, das sind über 14000 Euro im Jahr.",
+        "oben": "Jede Woche so ein Meeting",
+        "wert": 14346,
+        "unten": [
+          "pro Jahr 😴"
+        ],
+        "min": 3.2
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Das hätte eine E-Mail sein können.",
+        "links": {
+          "emoji": "📅",
+          "name": "Meeting"
+        },
+        "rechts": {
+          "emoji": "📧",
+          "name": "E-Mail"
+        },
+        "gewinner": "rechts",
+        "spruch": "Das hätte eine *E-Mail* sein können"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Team Meeting oder Team Mail? Schreib A oder B. Und markier den Kollegen, der immer Meetings ansetzt!",
+        "zeilen": [
+          "*A* Meeting oder *B* Mail?",
+          "Markier den *Meeting-Chef* 😏👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "titel": "„Wir sind doch eine Familie“ – was 5 % mehr Gehalt wirklich bringen",
+    "thema": "geld",
+    "konzept": "sketch-gehaltserhoehung-fragen-vs-schweigen",
+    "caption": "Du fragst nach mehr Gehalt. Chef: „Wir sind doch eine Familie!“ 🙄 5 % mehr = 200 € im Monat = 72.000 € in 30 Jahren. Schon mal gefragt? JA oder NEIN 👇",
+    "hashtags": [
+      "#gehalt",
+      "#gehaltsverhandlung"
+    ],
+    "fuss": "Beispielrechnung · 5 % von 4.000 € brutto = 200 € im Monat · ohne weitere Erhöhungen · erfundene Personen",
+    "figuren": {
+      "chef": {
+        "haut": "#F2C9A0",
+        "haare": "#8A8D93",
+        "frisur": "seite",
+        "brille": true,
+        "shirt": "#3D5A80",
+        "hose": "#2E3440"
+      },
+      "du": {
+        "haut": "#E8B88A",
+        "haare": "#3B2A1E",
+        "frisur": "kurz",
+        "shirt": "#4FC3F7",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Du fragst nach mehr Gehalt. Dein Chef sagt: Wir sind doch eine Familie.",
+        "ort": "buero",
+        "text": "Du willst *mehr Gehalt* 💶",
+        "figuren": [
+          {
+            "wer": "du",
+            "x": 0.27,
+            "stimmung": "normal",
+            "sagt": "Ich hätte gern mehr Gehalt."
+          },
+          {
+            "wer": "chef",
+            "x": 0.73,
+            "stimmung": "freut",
+            "spiegeln": true,
+            "sagt": "Wir sind doch eine *Familie*!",
+            "sagt_ab": 1.9
+          }
+        ]
+      },
+      {
+        "typ": "bild",
+        "sprich": "Dotchi sagt: Familie zahlt keine Miete.",
+        "ort": "buero",
+        "text": "Dotchi mischt sich ein",
+        "figuren": [
+          {
+            "wer": "dotchi",
+            "x": 0.5,
+            "stimmung": "genervt",
+            "sagt": "Familie zahlt keine *Miete*."
+          },
+          {
+            "wer": "chef",
+            "x": 0.83,
+            "stimmung": "staunt",
+            "spiegeln": true
+          }
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Rechnen wir: Fünf Prozent mehr bei 4000 Euro brutto sind 200 Euro. Jeden Monat.",
+        "oben": "5 % mehr bei 4.000 € brutto",
+        "wert": 200,
+        "farbe": "gruen",
+        "unten": [
+          "mehr – *jeden Monat*"
+        ],
+        "min": 3.2
+      },
+      {
+        "typ": "reihen",
+        "sprich": "Nach einem Jahr sind das 2400 Euro. Nach zehn Jahren 24000. Nach dreißig Jahren 72000. Fürs einmal Fragen.",
+        "kopf": "200 € mehr im Monat sind …",
+        "reihen": [
+          {
+            "name": "nach 1 Jahr",
+            "wert": 2400
+          },
+          {
+            "name": "nach 5 Jahren",
+            "wert": 12000
+          },
+          {
+            "name": "nach 10 Jahren",
+            "wert": 24000
+          },
+          {
+            "name": "nach 30 Jahren",
+            "wert": 72000
+          }
+        ],
+        "hervor": 4,
+        "farbe": "gruen",
+        "unten": "…fürs *einmal Fragen* 😳"
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Wer nicht fragt, bekommt null Prozent.",
+        "links": {
+          "emoji": "🤐",
+          "name": "Schweigen"
+        },
+        "rechts": {
+          "emoji": "🙋",
+          "name": "Fragen"
+        },
+        "gewinner": "rechts",
+        "spruch": "Wer nicht fragt, bekommt *0 %*"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Hast du schon mal nach mehr Gehalt gefragt? Schreib Ja oder Nein in die Kommentare!",
+        "zeilen": [
+          "Schon mal nach mehr *Gehalt* gefragt?",
+          "Schreib *JA* oder *NEIN* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
   }
 ]

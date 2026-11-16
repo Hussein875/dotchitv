@@ -108,6 +108,12 @@ def ching(dauer=0.6):
     return ton * np.exp(-x * 7) * 0.45
 
 
+def tick(dauer=0.07):
+    """Kurzer Uhr-Tick für den Countdown beim Preis-Raten."""
+    x = zeitachse(dauer)
+    return (np.sin(2 * np.pi * 1200 * x) + 0.25 * np.sin(2 * np.pi * 2400 * x)) * np.exp(-x * 70) * 0.5
+
+
 def stempel(rng, dauer=0.45):
     """Dumpfer Stempel-Schlag mit kurzem Glanz für das Urteil."""
     x = zeitachse(dauer)
@@ -187,6 +193,8 @@ def mischen(video, stimmen, cfg, ziel, saat):
             einmischen(effekte, s.start + s.ching, ching())
         if s.stempel is not None:
             einmischen(effekte, s.start + s.stempel, stempel(rng))
+        for zeitpunkt in getattr(s, "ticks", []):
+            einmischen(effekte, s.start + zeitpunkt, tick())
     m = musik(video.dauer + 1, saat)[:n]
     if any(st is not None for st in stimmen):
         huelle = np.convolve(np.abs(sprache), np.ones(SR // 10) / (SR // 10), mode="same")

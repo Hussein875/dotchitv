@@ -282,8 +282,31 @@ def zeichne_figur(f, stimmung="normal", pose="steht", t=0.0, blinzeln=False):
 
 # ---------------------------------------------------------------- Szene
 
-def zeichne_bild(ebene, t, sz, emoji_bild, untertitel):
-    """Ort + Figuren (+ Gegenstände) + Untertitel. `t` = Sekunden seit Szenenbeginn."""
+def sprechblase(satz, setzer, zipfel_x):
+    """Weiße Sprechblase mit Zipfel nach unten. `zipfel_x` = Abstand der Zipfelspitze vom linken Rand."""
+    groesse, breite = 46, 430
+    inhalt = setzer(satz, groesse, breite)
+    while inhalt.height > groesse * 2.7 and (breite < 560 or groesse > 34):   # höchstens zwei Zeilen
+        if breite < 560:
+            breite += 65
+        else:
+            groesse -= 4
+        inhalt = setzer(satz, groesse, breite)
+    rand_x, rand_y, zipfel = 30, 20, 30
+    w, h = inhalt.width + 2 * rand_x, inhalt.height + 2 * rand_y
+    form = Image.new("RGBA", (w * S, (h + zipfel) * S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(form)
+    d.rounded_rectangle((0, 0, w * S - 1, h * S - 1), 34 * S, fill=(255, 255, 255, 246))
+    zx = min(max(zipfel_x, 54), w - 54)
+    d.polygon([((zx - 20) * S, h * S - 2), ((zx + 20) * S, h * S - 2), (zx * S, (h + zipfel) * S - 1)],
+              fill=(255, 255, 255, 246))
+    blase = form.resize((w, h + zipfel), Image.LANCZOS)
+    blase.alpha_composite(inhalt, (rand_x, rand_y))
+    return blase, zx
+
+
+def zeichne_bild(ebene, t, sz, emoji_bild, untertitel, blasentext=None):
+    """Ort + Figuren (+ Gegenstände, Sprechblasen) + Untertitel. `t` = Sekunden seit Szenenbeginn."""
     ort = ort_ebene(sz.get("ort", "neutral"))
     zoom = 1 + 0.012 * t                                   # langsame Kamerafahrt
     if zoom != 1:
@@ -293,15 +316,25 @@ def zeichne_bild(ebene, t, sz, emoji_bild, untertitel):
         ort = ort.crop((links, oben, links + ow, oben + oh))
     ebene.alpha_composite(ort, (0, OBEN))
     figuren = sz.get("_figuren", {})
+    blasen = []  # Sprechblasen kommen ganz nach vorn – auch vor die andere Figur
     for i, fz in enumerate(sz.get("figuren", [])):
-        f = dict(figuren.get(fz["wer"], {}), **fz.get("aussehen", {}))
         p = ease_out(clamp((t - 0.1 * i) / 0.45))
-        blinzeln = (t + i * 1.3) % 3.4 < 0.12
-        figur, hand = zeichne_figur(f, fz.get("stimmung", "normal"), fz.get("pose", "steht"), t, blinzeln)
         groesse = fz.get("groesse", 1.0)
-        if groesse != 1.0:
-            figur = figur.resize((round(figur.width * groesse), round(figur.height * groesse)), Image.LANCZOS)
-            hand = (hand[0] * groesse, hand[1] * groesse)
+        if fz["wer"] == "dotchi":  # das Maskottchen spielt mit: {"wer": "dotchi", "stimmung": "genervt", …}
+            import maskottchen
+            g = 0.82 * groesse
+            figur = maskottchen.zeichne(fz.get("stimmung", "normal"), t + i, g, zeigt=fz.get("zeigt"),
+                                        winkt=fz.get("pose") == "winkt")
+            figur = figur.crop((0, 0, figur.width, round(468 * g)))      # Unterkante = Schuhsohlen
+            hand, kopf_oben = (figur.width * 0.84, 371 * g), 132 * g
+        else:
+            f = dict(figuren.get(fz["wer"], {}), **fz.get("aussehen", {}))
+            blinzeln = (t + i * 1.3) % 3.4 < 0.12
+            figur, hand = zeichne_figur(f, fz.get("stimmung", "normal"), fz.get("pose", "steht"), t, blinzeln)
+            kopf_oben = 38 * groesse
+            if groesse != 1.0:
+                figur = figur.resize((round(figur.width * groesse), round(figur.height * groesse)), Image.LANCZOS)
+                hand = (hand[0] * groesse, hand[1] * groesse)
         if fz.get("spiegeln"):
             figur = figur.transpose(Image.FLIP_LEFT_RIGHT)
             hand = (figur.width - hand[0], hand[1])
@@ -313,6 +346,10 @@ def zeichne_bild(ebene, t, sz, emoji_bild, untertitel):
             gegenstand = emoji_bild(fz["haelt"], 110)
             if gegenstand is not None:
                 einfuegen(ebene, gegenstand, (links_oben[0] + hand[0], links_oben[1] + hand[1] - 10), p)
+        if fz.get("sagt") and blasentext:  # Sprechblase mit Text: erscheint ab `sagt_ab` (Sekunden)
+            q = clamp((t - fz.get("sagt_ab", 0.35 + 0.9 * len(blasen))) / 0.3)
+            kopf = (x, links_oben[1] + kopf_oben - 14)
+            blasen.append((fz["sagt"], kopf, q))
         if fz.get("blase"):  # Gedanken-/Sprechblase mit Emoji über dem Kopf
             blase = emoji_bild(fz["blase"], 120)
             q = ease_out(clamp((t - 0.5) / 0.35))
@@ -322,6 +359,17 @@ def zeichne_bild(ebene, t, sz, emoji_bild, untertitel):
             einfuegen(ebene, kreis, mitte, q, 0.6 + 0.4 * q)
             if blase is not None:
                 einfuegen(ebene, blase, mitte, q, 0.6 + 0.4 * q)
+    for satz, (kx, ky), q in blasen:
+        if q <= 0:
+            continue
+        probe, _ = sprechblase(satz, blasentext, 0)
+        links = min(max(kx - probe.width / 2, 40), B - 40 - probe.width)
+        blase, zx = sprechblase(satz, blasentext, kx - links)
+        # Zipfelspitze sitzt über dem Kopf, die Blase wächst von dort aus
+        mitte = (links + blase.width / 2, ky - blase.height / 2)
+        skal = 0.6 + 0.4 * ease_out(q)
+        einfuegen(ebene, blase, (mitte[0] + (zx - blase.width / 2) * (1 - skal), mitte[1] + blase.height / 2 * (1 - skal)),
+                  q, skal)
     if sz.get("schnee", sz.get("ort") == "eiszeit"):
         _schnee(ebene, t)
     for gz in sz.get("gegenstaende", []):  # frei stehende Emojis, z. B. Geldscheine, die herunterfallen

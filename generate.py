@@ -31,7 +31,8 @@ GEPLANT_DATEI = os.path.join(BASIS, "geplant.json")
 LINKS_DATEI = os.path.join(BASIS, "drive_links.json")
 CACHE = os.path.join(BASIS, ".stimmen-cache")
 SZENEN_TYPEN = {"titel": ["zeilen"], "vs": ["links", "rechts"], "zahl": ["oben", "wert"], "liste": ["zeilen"],
-                "urteil": ["links", "rechts", "gewinner"], "bild": ["ort"]}
+                "urteil": ["links", "rechts", "gewinner"], "bild": ["ort"],
+                "raten": ["frage", "optionen", "richtig"], "reihen": ["reihen"]}
 WOCHENTAGE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
 
 
@@ -97,6 +98,17 @@ def pruefe(vergleiche, cfg):
                 for seite in ("links", "rechts"):
                     if not isinstance(sz.get(seite, {}).get("wert"), (int, float)):
                         fehler.append(f"{name}, Szene {j}: {seite}.wert muss eine Zahl sein")
+            if typ == "raten":
+                optionen = sz.get("optionen")
+                if not isinstance(optionen, list) or not 2 <= len(optionen) <= 3:
+                    fehler.append(f"{name}, Szene {j}: „optionen“ braucht 2 oder 3 Antworten")
+                elif str(sz.get("richtig", "")).upper() not in list("ABC"[:len(optionen)]):
+                    fehler.append(f"{name}, Szene {j}: „richtig“ muss der Buchstabe der richtigen Antwort sein (A, B, C)")
+            if typ == "reihen":
+                reihen = sz.get("reihen")
+                if not isinstance(reihen, list) or not 2 <= len(reihen) <= 6 or not all(
+                        isinstance(r, dict) and "name" in r and isinstance(r.get("wert"), (int, float)) for r in reihen):
+                    fehler.append(f"{name}, Szene {j}: „reihen“ braucht 2 bis 6 Zeilen mit „name“ und „wert“ (Zahl)")
             if "*" in sz.get("sprich", ""):
                 fehler.append(f"{name}, Szene {j}: im gesprochenen Text („sprich“) keine *Sternchen*")
         if v.get("szenen") and v["szenen"][-1].get("typ") != "liste":
