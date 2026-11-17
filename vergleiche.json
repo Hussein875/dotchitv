@@ -9104,7 +9104,7 @@
       },
       {
         "typ": "zahl",
-        "sprich": "Im Schnitt rund 3400 Euro. In Großstädten oft noch mehr.",
+        "sprich": "Im Schnitt rund 3400 Euro.",
         "oben": "Im Schnitt rund",
         "wert": 3400,
         "unten": [
@@ -9115,7 +9115,7 @@
       },
       {
         "typ": "vs",
-        "sprich": "Der ADAC rechnet mit 2500 Euro im günstigen Fall und 4500 im teuren.",
+        "sprich": "Je nach Ort sind es zweieinhalb bis viereinhalbtausend Euro.",
         "kopf": "Die Spanne laut ADAC",
         "links": {
           "emoji": "🙂",
@@ -9133,7 +9133,7 @@
       },
       {
         "typ": "zahl",
-        "sprich": "Mit Mindestlohn arbeitest du dafür 245 Stunden. Über sechs Wochen Vollzeit.",
+        "sprich": "Mit Mindestlohn arbeitest du dafür über sechs Wochen.",
         "oben": "Mit Mindestlohn",
         "wert": 245,
         "einheit": "Std.",
@@ -9146,7 +9146,7 @@
       },
       {
         "typ": "liste",
-        "sprich": "Was hat dein Führerschein gekostet? Schreib Jahr und Preis in die Kommentare!",
+        "sprich": "Was hat deiner gekostet? Schreib Jahr und Preis!",
         "zeilen": [
           "Was hat *deiner* gekostet? 🚗",
           "Schreib *Jahr und Preis* 👇"
@@ -9184,7 +9184,7 @@
       },
       {
         "typ": "zahl",
-        "sprich": "Rund 165000 Euro. So viel geben Paare laut Statistischem Bundesamt für ein Kind aus.",
+        "sprich": "Rund 165000 Euro, sagt das Statistische Bundesamt.",
         "oben": "Bis zum 18. Geburtstag",
         "wert": 164808,
         "unten": [
@@ -9195,7 +9195,7 @@
       },
       {
         "typ": "reihen",
-        "sprich": "Das sind 25 Euro am Tag. 763 Euro im Monat. Über 9000 Euro im Jahr.",
+        "sprich": "Das sind 25 Euro am Tag und gut 9000 im Jahr.",
         "kopf": "Ein Kind kostet …",
         "reihen": [
           {
@@ -9221,7 +9221,7 @@
       },
       {
         "typ": "liste",
-        "sprich": "Und Zeit, Nerven und Schlaf sind da noch gar nicht eingerechnet.",
+        "sprich": "Zeit, Nerven und Schlaf kommen noch dazu.",
         "kopf": "Noch nicht eingerechnet",
         "zeilen": [
           "Zeit ⏳",
@@ -9232,7 +9232,7 @@
       },
       {
         "typ": "liste",
-        "sprich": "Markier deine Eltern und sag Danke. Oder schick ihnen einfach dieses Video!",
+        "sprich": "Markier deine Eltern und sag Danke!",
         "zeilen": [
           "Markier deine *Eltern* ❤️",
           "…und sag *Danke* 👇"
@@ -9259,7 +9259,7 @@
     "szenen": [
       {
         "typ": "raten",
-        "sprich": "GTA 6 ist da. Aber wie viel Geld hat GTA 5 am ersten Tag verdient? Du hast fünf Sekunden.",
+        "sprich": "GTA 6 ist da. Wie viel hat GTA 5 am ersten Tag verdient? Du hast fünf Sekunden.",
         "frage": "GTA 5: Wie viel Geld am *1. Tag*?",
         "emoji": "🎮",
         "optionen": [
@@ -9284,7 +9284,7 @@
       },
       {
         "typ": "reihen",
-        "sprich": "Nach drei Tagen war die Milliarde voll. Der Rekord davor lag bei fünfzehn Tagen.",
+        "sprich": "Nach drei Tagen war die Milliarde voll. Der Rekord davor: fünfzehn Tage.",
         "kopf": "So schnell bei 1 Milliarde $",
         "reihen": [
           {
@@ -9303,7 +9303,7 @@
       },
       {
         "typ": "liste",
-        "sprich": "Und du? Kaufst du GTA 6 sofort, oder wartest du auf ein Angebot? Schreib A oder B!",
+        "sprich": "Kaufst du GTA 6 sofort oder wartest du? Schreib A oder B!",
         "zeilen": [
           "GTA 6: *A* sofort kaufen",
           "oder *B* aufs Angebot warten?",
@@ -9327,7 +9327,7 @@
     "szenen": [
       {
         "typ": "titel",
-        "sprich": "Stell dir vor, du hättest seit deiner Geburt jeden Tag einen Euro bekommen. Wie reich wärst du heute?",
+        "sprich": "Seit deiner Geburt jeden Tag ein Euro. Wie reich wärst du heute?",
         "zeilen": [
           [
             "Seit deiner *Geburt*",
@@ -9346,7 +9346,7 @@
       },
       {
         "typ": "reihen",
-        "sprich": "Mit 18 hättest du 6575 Euro. Mit 30 knapp 11000. Und mit 50 gut 18000.",
+        "sprich": "Mit 18 gut 6500 Euro. Mit 30 knapp 11000. Mit 50 gut 18000.",
         "kopf": "Jeden Tag 1 € – seit der Geburt",
         "reihen": [
           {
@@ -9375,7 +9375,7 @@
       },
       {
         "typ": "zahl",
-        "sprich": "Für eine Million bräuchtest du 2738 Jahre. Du hättest im alten Griechenland anfangen müssen.",
+        "sprich": "Für die Million bräuchtest du über 2700 Jahre. Start: im alten Griechenland.",
         "oben": "Für 1 Million € bräuchtest du",
         "wert": 2738,
         "einheit": "Jahre",
@@ -9389,7 +9389,7 @@
       },
       {
         "typ": "zahl",
-        "sprich": "Selbst mit 100 Euro am Tag dauert die Million über 27 Jahre.",
+        "sprich": "Selbst mit 100 Euro am Tag dauert es über 27 Jahre.",
         "oben": "Mit 100 € pro Tag",
         "wert": 27,
         "einheit": "Jahre",
@@ -9402,7 +9402,7 @@
       },
       {
         "typ": "liste",
-        "sprich": "Wie alt bist du, und wie viel wäre es bei dir? Schreib's in die Kommentare und markier jemanden, der älter ist als du!",
+        "sprich": "Wie alt bist du? Markier jemanden, der älter ist!",
         "zeilen": [
           "Wie alt bist *du*? 🎂",
           "Markier jemanden, der *älter* ist 😏👇"
@@ -9445,7 +9445,7 @@
     "szenen": [
       {
         "typ": "bild",
-        "sprich": "Montag, neun Uhr. Dein Chef sagt: Kurzes Meeting, nur fünf Minuten.",
+        "sprich": "Montag, neun Uhr. Dein Chef: Kurzes Meeting, nur fünf Minuten.",
         "ort": "buero",
         "text": "Montag, *9 Uhr* ☕",
         "figuren": [
@@ -9466,7 +9466,7 @@
       },
       {
         "typ": "bild",
-        "sprich": "Neunzig Minuten später: Und noch ein Punkt. Dotchi rechnet schon mit.",
+        "sprich": "Neunzig Minuten später: Und noch ein Punkt.",
         "ort": "buero",
         "text": "*90 Minuten* später …",
         "figuren": [
@@ -9488,7 +9488,7 @@
       },
       {
         "typ": "zahl",
-        "sprich": "Acht Leute, neunzig Minuten: Bei mittlerem Stundenlohn kostet dieses Meeting 312 Euro.",
+        "sprich": "Acht Leute, neunzig Minuten: Das kostet 312 Euro.",
         "oben": "8 Leute · 90 Minuten",
         "wert": 312,
         "unten": [
@@ -9499,7 +9499,7 @@
       },
       {
         "typ": "zahl",
-        "sprich": "Jede Woche so ein Meeting, das sind über 14000 Euro im Jahr.",
+        "sprich": "Jede Woche so eins: über 14000 Euro im Jahr.",
         "oben": "Jede Woche so ein Meeting",
         "wert": 14346,
         "unten": [
@@ -9523,7 +9523,7 @@
       },
       {
         "typ": "liste",
-        "sprich": "Team Meeting oder Team Mail? Schreib A oder B. Und markier den Kollegen, der immer Meetings ansetzt!",
+        "sprich": "Team Meeting oder Team Mail? Schreib A oder B!",
         "zeilen": [
           "*A* Meeting oder *B* Mail?",
           "Markier den *Meeting-Chef* 😏👇"
@@ -9605,7 +9605,7 @@
       },
       {
         "typ": "zahl",
-        "sprich": "Rechnen wir: Fünf Prozent mehr bei 4000 Euro brutto sind 200 Euro. Jeden Monat.",
+        "sprich": "Fünf Prozent mehr bei 4000 Euro: 200 Euro. Jeden Monat.",
         "oben": "5 % mehr bei 4.000 € brutto",
         "wert": 200,
         "farbe": "gruen",
@@ -9616,7 +9616,7 @@
       },
       {
         "typ": "reihen",
-        "sprich": "Nach einem Jahr sind das 2400 Euro. Nach zehn Jahren 24000. Nach dreißig Jahren 72000. Fürs einmal Fragen.",
+        "sprich": "Nach zehn Jahren sind das 24000 Euro. Nach dreißig: 72000.",
         "kopf": "200 € mehr im Monat sind …",
         "reihen": [
           {
@@ -9656,7 +9656,7 @@
       },
       {
         "typ": "liste",
-        "sprich": "Hast du schon mal nach mehr Gehalt gefragt? Schreib Ja oder Nein in die Kommentare!",
+        "sprich": "Schon mal nach mehr Gehalt gefragt? Schreib Ja oder Nein!",
         "zeilen": [
           "Schon mal nach mehr *Gehalt* gefragt?",
           "Schreib *JA* oder *NEIN* 👇"
