@@ -9156,92 +9156,6 @@
     ]
   },
   {
-    "id": 87,
-    "titel": "Was kostet ein Kind bis 18? Rate mit!",
-    "thema": "geld",
-    "konzept": "preis-raten-kind-kosten-bis-18",
-    "caption": "Was kostet ein Kind, bis es 18 ist? 👶 A, B oder C? Markier deine Eltern und sag Danke ❤️👇",
-    "hashtags": [
-      "#familie",
-      "#preisraten"
-    ],
-    "fuss": "Statistisches Bundesamt (Daten 2018): Paare geben 763 € im Monat für ein Kind aus · × 216 Monate · heute eher mehr",
-    "quellen": [
-      "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2021/PD21_26_p002.html"
-    ],
-    "szenen": [
-      {
-        "typ": "raten",
-        "sprich": "Was kostet ein Kind, bis es 18 ist? Du hast fünf Sekunden.",
-        "frage": "Was kostet ein *Kind* bis 18?",
-        "emoji": "👶",
-        "optionen": [
-          "80.000 €",
-          "165.000 €",
-          "300.000 €"
-        ],
-        "richtig": "B"
-      },
-      {
-        "typ": "zahl",
-        "sprich": "Rund 165000 Euro, sagt das Statistische Bundesamt.",
-        "oben": "Bis zum 18. Geburtstag",
-        "wert": 164808,
-        "unten": [
-          "laut Statistischem Bundesamt"
-        ],
-        "dotchi": "staunt",
-        "min": 3.4
-      },
-      {
-        "typ": "reihen",
-        "sprich": "Das sind 25 Euro am Tag und gut 9000 im Jahr.",
-        "kopf": "Ein Kind kostet …",
-        "reihen": [
-          {
-            "name": "pro Tag",
-            "wert": 25
-          },
-          {
-            "name": "pro Monat",
-            "wert": 763
-          },
-          {
-            "name": "pro Jahr",
-            "wert": 9156
-          },
-          {
-            "name": "bis 18",
-            "wert": 164808
-          }
-        ],
-        "hervor": 4,
-        "farbe": "blau",
-        "balken": false
-      },
-      {
-        "typ": "liste",
-        "sprich": "Zeit, Nerven und Schlaf kommen noch dazu.",
-        "kopf": "Noch nicht eingerechnet",
-        "zeilen": [
-          "Zeit ⏳",
-          "Nerven 😅",
-          "Schlaf 😴"
-        ],
-        "abstand": 0.6
-      },
-      {
-        "typ": "liste",
-        "sprich": "Markier deine Eltern und sag Danke!",
-        "zeilen": [
-          "Markier deine *Eltern* ❤️",
-          "…und sag *Danke* 👇"
-        ],
-        "abstand": 0.8
-      }
-    ]
-  },
-  {
     "id": 88,
     "titel": "GTA 5: So viel Geld in nur 24 Stunden – rate mit!",
     "thema": "technik",
@@ -9412,6 +9326,718 @@
     ]
   },
   {
+    "id": 92,
+    "titel": "Heizdecke vs. Heizlüfter: 3,5 Cent gegen 70 Cent pro Stunde",
+    "thema": "strom",
+    "konzept": "heizdecke-vs-heizluefter-kosten-pro-stunde",
+    "caption": "Eine Stunde warm: Heizdecke 3,5 Cent, Heizlüfter 70 Cent 🔌 Über den Winter 12,60 € gegen 252 € 😳 Team Heizdecke oder Team Heizlüfter? 👇",
+    "hashtags": [
+      "#heizdecke",
+      "#heizkosten"
+    ],
+    "fuss": "Beispielrechnung · 100 W vs. 2.000 W · 35 ct/kWh · 3 Std. an 120 Abenden · Stiftung Warentest: Heizdecke günstigste E-Heizung",
+    "quellen": [
+      "https://www.test.de/presse/pressemitteilungen/Elektrisch-heizen-Was-es-bringt-und-was-es-kostet-5928885-0/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Eine Stunde warm: Heizdecke oder Heizlüfter?",
+        "zeilen": [
+          [
+            "Eine Stunde *warm*:",
+            84
+          ],
+          [
+            "Heizdecke oder",
+            84
+          ],
+          [
+            "*Heizlüfter*?",
+            100
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Heizdecke: dreieinhalb Cent. Heizlüfter: 70 Cent.",
+        "kopf": "Eine Stunde kostet",
+        "links": {
+          "emoji": "🛋️",
+          "name": "Heizdecke",
+          "farbe": "gruen",
+          "wert": 3.5,
+          "einheit": "ct",
+          "dezimalen": 1,
+          "unter": "100 Watt"
+        },
+        "rechts": {
+          "emoji": "🌬️",
+          "name": "Heizlüfter",
+          "farbe": "rot",
+          "wert": 70,
+          "einheit": "ct",
+          "unter": "2.000 Watt"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Der Heizlüfter kostet zwanzigmal so viel.",
+        "oben": "Der Heizlüfter kostet",
+        "wert": 20,
+        "einheit": "×",
+        "farbe": "rot",
+        "unten": [
+          "so viel pro Stunde 😳"
+        ],
+        "dotchi": "staunt",
+        "min": 3.0
+      },
+      {
+        "typ": "vs",
+        "sprich": "Jeden Winterabend drei Stunden: 12 Euro gegen 252.",
+        "kopf": "3 Std. an 120 Winterabenden",
+        "links": {
+          "emoji": "🛋️",
+          "name": "Heizdecke",
+          "farbe": "gruen",
+          "wert": 12.6,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🌬️",
+          "name": "Heizlüfter",
+          "farbe": "rot",
+          "wert": 252
+        },
+        "balken": true
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Wärm dich, nicht den ganzen Raum.",
+        "links": {
+          "emoji": "🛋️",
+          "name": "Heizdecke"
+        },
+        "rechts": {
+          "emoji": "🌬️",
+          "name": "Heizlüfter"
+        },
+        "gewinner": "links",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Wärm *dich*, nicht den Raum"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Team Heizdecke oder Team Heizlüfter? Schreib A oder B!",
+        "zeilen": [
+          "*A* Heizdecke oder *B* Heizlüfter?",
+          "Schreib *A* oder *B* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "titel": "Friseur, Koch, Mechatroniker, Bank: Welche Ausbildung zahlt am meisten?",
+    "thema": "geld",
+    "konzept": "gehalt-rangliste-ausbildungsberufe-median",
+    "caption": "Vier Ausbildungsberufe, Median brutto Vollzeit (Entgeltatlas): von 2.236 € bis 5.980 € 💶 Welchen Beruf sollen wir als Nächstes checken? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#ausbildung"
+    ],
+    "fuss": "Entgeltatlas der BA: Median brutto, Vollzeit, Fachkräfte · alle Berufe 4.217 € (2025) · Stand 11/2026",
+    "quellen": [
+      "https://web.arbeitsagentur.de/entgeltatlas/beruf/9907",
+      "https://web.arbeitsagentur.de/entgeltatlas/beruf/6752",
+      "https://web.arbeitsagentur.de/entgeltatlas/beruf/2862",
+      "https://www.elevel.io/arbeitswelt/koch-gehalt",
+      "https://www.ihre-vorsorge.de/soziales/nachrichten/vollzeit-einkommen-im-mittel-bei-4-217-euro-brutto"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Vier Ausbildungen. Welche zahlt am meisten?",
+        "zeilen": [
+          [
+            "4 Ausbildungen –",
+            84
+          ],
+          [
+            "welche zahlt",
+            84
+          ],
+          [
+            "am *meisten*? 💶",
+            100
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "reihen",
+        "sprich": "Platz vier bis eins, Median brutto in Vollzeit.",
+        "kopf": "Median brutto, Vollzeit",
+        "reihen": [
+          {
+            "name": "🏦 Bank",
+            "wert": 5980
+          },
+          {
+            "name": "🔧 Mechatronik",
+            "wert": 4105
+          },
+          {
+            "name": "🍳 Koch/Köchin",
+            "wert": 3018
+          },
+          {
+            "name": "💇 Friseur/in",
+            "wert": 2236
+          }
+        ],
+        "umgekehrt": true,
+        "hervor": 1,
+        "farbe": "blau",
+        "unten": "Wo liegt *dein* Job? 👀"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Platz eins: Bankkaufleute mit knapp 6000 Euro.",
+        "oben": "Platz 1: Bankkaufleute",
+        "wert": 5980,
+        "farbe": "gold",
+        "unten": [
+          "brutto im Monat"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Die Mitte aller Vollzeitjobs: gut 4200. Nur einer liegt drüber.",
+        "oben": "Mitte aller Vollzeitjobs",
+        "wert": 4217,
+        "farbe": "blau",
+        "unten": [
+          "nur *einer* der vier liegt drüber"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Die Bank verdient fast dreimal so viel wie der Salon.",
+        "links": {
+          "emoji": "💇",
+          "name": "Friseur/in"
+        },
+        "rechts": {
+          "emoji": "🏦",
+          "name": "Bank"
+        },
+        "gewinner": "rechts",
+        "stempel": "VERDIENT MEHR",
+        "spruch": "Fast *2,7-mal* so viel"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Welchen Beruf sollen wir als Nächstes checken? Schreib ihn!",
+        "zeilen": [
+          "Welchen *Beruf* checken wir als Nächstes?",
+          "Schreib ihn in die Kommentare 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "titel": "Was kostet ein Kind bis 18? Rate mit!",
+    "thema": "geld",
+    "konzept": "preis-raten-kind-kosten-bis-18",
+    "caption": "Was kostet ein Kind, bis es 18 ist? 👶 A, B oder C? Markier deine Eltern und sag Danke ❤️👇",
+    "hashtags": [
+      "#familie",
+      "#preisraten"
+    ],
+    "fuss": "Statistisches Bundesamt (Daten 2018): Paare geben 763 € im Monat für ein Kind aus · × 216 Monate · heute eher mehr",
+    "quellen": [
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2021/PD21_26_p002.html"
+    ],
+    "szenen": [
+      {
+        "typ": "raten",
+        "sprich": "Was kostet ein Kind, bis es 18 ist? Du hast fünf Sekunden.",
+        "frage": "Was kostet ein *Kind* bis 18?",
+        "emoji": "👶",
+        "optionen": [
+          "80.000 €",
+          "165.000 €",
+          "300.000 €"
+        ],
+        "richtig": "B"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Rund 165000 Euro, sagt das Statistische Bundesamt.",
+        "oben": "Bis zum 18. Geburtstag",
+        "wert": 164808,
+        "unten": [
+          "laut Statistischem Bundesamt"
+        ],
+        "dotchi": "staunt",
+        "min": 3.4
+      },
+      {
+        "typ": "reihen",
+        "sprich": "Das sind 25 Euro am Tag und gut 9000 im Jahr.",
+        "kopf": "Ein Kind kostet …",
+        "reihen": [
+          {
+            "name": "pro Tag",
+            "wert": 25
+          },
+          {
+            "name": "pro Monat",
+            "wert": 763
+          },
+          {
+            "name": "pro Jahr",
+            "wert": 9156
+          },
+          {
+            "name": "bis 18",
+            "wert": 164808
+          }
+        ],
+        "hervor": 4,
+        "farbe": "blau",
+        "balken": false
+      },
+      {
+        "typ": "liste",
+        "sprich": "Zeit, Nerven und Schlaf kommen noch dazu.",
+        "kopf": "Noch nicht eingerechnet",
+        "zeilen": [
+          "Zeit ⏳",
+          "Nerven 😅",
+          "Schlaf 😴"
+        ],
+        "abstand": 0.6
+      },
+      {
+        "typ": "liste",
+        "sprich": "Markier deine Eltern und sag Danke!",
+        "zeilen": [
+          "Markier deine *Eltern* ❤️",
+          "…und sag *Danke* 👇"
+        ],
+        "abstand": 0.8
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "titel": "Ein Abend Weihnachtsmarkt zu zweit: 44 €",
+    "thema": "essen",
+    "konzept": "weihnachtsmarkt-abend-zu-zweit-kosten",
+    "caption": "Weihnachtsmarkt zu zweit: 4 Glühwein, 2 Würste, 2 Crêpes, Mandeln = 44 € 🎄 Jedes Adventswochenende: 176 € 😳 Was gibst du an einem Abend aus? 👇",
+    "hashtags": [
+      "#weihnachtsmarkt",
+      "#glühwein"
+    ],
+    "fuss": "Beispielrechnung · Glühwein 5 € (z. B. Köln 2026) · Bratwurst 5 € · Crêpe 5 € · Mandeln 4 € · ohne Tassenpfand",
+    "quellen": [
+      "https://www.monsterdealz.de/magazin/gluehwein-preis",
+      "https://www.festivalsindeutschland.de/festival/wuerzburger-weihnachtsmarkt"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Ein Abend Weihnachtsmarkt zu zweit. Was kostet das?",
+        "zeilen": [
+          [
+            "Weihnachtsmarkt",
+            90
+          ],
+          [
+            "zu *zweit* 🎄",
+            100
+          ],
+          [
+            "Was kostet ein Abend?",
+            70
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Vier Glühwein, zwei Würste, zwei Crêpes, eine Tüte Mandeln.",
+        "kopf": "Der Abend",
+        "zeilen": [
+          "🍷 4 Glühwein · *20 €*",
+          "🌭 2 Bratwurst · *10 €*",
+          "🥞 2 Crêpes · *10 €*",
+          "🥜 Mandeln · *4 €*"
+        ],
+        "abstand": 0.7
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Macht 44 Euro. Ohne Pfand.",
+        "oben": "Ein Abend zu zweit",
+        "wert": 44,
+        "farbe": "rot",
+        "unten": [
+          "ohne Tassenpfand"
+        ],
+        "dotchi": "staunt",
+        "min": 3.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Jedes Adventswochenende? 176 Euro.",
+        "oben": "Alle 4 Adventswochenenden",
+        "wert": 176,
+        "farbe": "rot",
+        "unten": [
+          "für Glühwein & Co. 😅"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Lieber einmal richtig als viermal nebenbei.",
+        "links": {
+          "emoji": "🔁",
+          "name": "jedes Wochenende"
+        },
+        "rechts": {
+          "emoji": "✨",
+          "name": "einmal richtig"
+        },
+        "gewinner": "rechts",
+        "spruch": "Lieber *einmal* richtig feiern"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was gibst du an einem Abend aus? Schreib den Betrag!",
+        "zeilen": [
+          "Was gibst *du* an einem Abend aus?",
+          "Schreib den *Betrag* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "titel": "In deiner Schublade liegt Gold: 167 Millionen alte Handys",
+    "thema": "technik",
+    "konzept": "althandys-gold-pro-tonne-vs-golderz",
+    "caption": "Eine Tonne alte Handys: 250 g Gold. Eine Tonne Golderz: rund 4 g 🤯 In Deutschlands Schubladen: 167 Mio. Alt-Handys. Wie viele hast du? 👇",
+    "hashtags": [
+      "#handy",
+      "#recycling"
+    ],
+    "fuss": "Bitkom 04/2026: 167 Mio. Alt-Handys · Verbraucherzentrale NRW: 250 g Gold je Tonne Handys, ~4 g je Tonne Erz · ~30 mg je Smartphone",
+    "quellen": [
+      "https://www.bitkom.org/Presse/Presseinformation/Deutsche-horten-167-Millionen-Alt-Handys",
+      "https://www.verbraucherzentrale.nrw/wissen/digitale-welt/mobilfunk-und-festnetz/smartphones-als-goldgruben-11540",
+      "https://www.gold.de/artikel/wie-viel-gold-im-handy/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "In deiner Schublade liegt Gold. Wirklich.",
+        "zeilen": [
+          [
+            "In deiner Schublade",
+            84
+          ],
+          [
+            "liegt *Gold* 🪙",
+            110
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In Deutschland liegen 167 Millionen alte Handys herum.",
+        "oben": "Alte Handys in Deutschland",
+        "wert": 167,
+        "einheit": "Mio.",
+        "farbe": "blau",
+        "unten": [
+          "in Schubladen & Kellern 📱"
+        ],
+        "min": 3.2
+      },
+      {
+        "typ": "vs",
+        "sprich": "Eine Tonne Golderz: rund vier Gramm Gold. Eine Tonne Handys: 250.",
+        "kopf": "Gold pro Tonne",
+        "links": {
+          "emoji": "⛰️",
+          "name": "Golderz",
+          "farbe": "grau",
+          "wert": 4,
+          "einheit": "g"
+        },
+        "rechts": {
+          "emoji": "📱",
+          "name": "alte Handys",
+          "farbe": "gold",
+          "wert": 250,
+          "einheit": "g"
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Über sechzigmal so viel Gold.",
+        "oben": "Handys statt Erz",
+        "wert": 60,
+        "einheit": "×",
+        "farbe": "gold",
+        "unten": [
+          "*über* 60-mal so viel Gold 😳"
+        ],
+        "dotchi": "staunt",
+        "min": 3.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In allen alten Handys zusammen: rund fünf Tonnen.",
+        "oben": "Gold in allen Alt-Handys",
+        "wert": 5,
+        "einheit": "Tonnen",
+        "farbe": "gold",
+        "unten": [
+          "bei ~30 mg pro Smartphone"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Raus aus der Schublade, ab ins Recycling.",
+        "links": {
+          "emoji": "🗄️",
+          "name": "Schublade"
+        },
+        "rechts": {
+          "emoji": "📮",
+          "name": "zurückgeben"
+        },
+        "gewinner": "rechts",
+        "spruch": "Altes Handy *zurückgeben*"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viele alte Handys hast du? Schreib die Zahl!",
+        "zeilen": [
+          "Wie viele *alte Handys* hast du?",
+          "Schreib die *Zahl* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "titel": "Ab welchem Gehalt gehörst du zu den Top 1 %? Rate mit!",
+    "thema": "geld",
+    "konzept": "preis-raten-gehalt-top-1-prozent",
+    "caption": "Ab welchem Gehalt gehörst du zu den obersten 1 %? 💶 A, B oder C? Auflösung: 219.110 € brutto im Jahr – 4-mal der Median (Destatis) 😳 Was hattest du? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#preisraten"
+    ],
+    "fuss": "Destatis, Verdiensterhebung 2025: Vollzeit, brutto inkl. Sonderzahlungen · Median 54.066 € · Stand 04/2026",
+    "quellen": [
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html",
+      "https://www.ingenieur.de/karriere/gehalt/54-066-euro-im-jahr-verdient-deutschland-wirklich-so-viel/"
+    ],
+    "szenen": [
+      {
+        "typ": "raten",
+        "sprich": "Ab welchem Gehalt gehörst du zu den obersten ein Prozent? Du hast fünf Sekunden.",
+        "frage": "Ab wann bist du *Top 1 %*?",
+        "emoji": "💶",
+        "optionen": [
+          "90.000 €",
+          "140.000 €",
+          "219.000 €"
+        ],
+        "richtig": "C"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Ab gut 219000 Euro brutto im Jahr.",
+        "oben": "Top 1 % ab",
+        "wert": 219110,
+        "farbe": "gold",
+        "unten": [
+          "brutto im Jahr · Vollzeit"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "vs",
+        "sprich": "Die Mitte verdient rund 54000. Also das Vierfache.",
+        "kopf": "Brutto im Jahr",
+        "links": {
+          "emoji": "🙂",
+          "name": "Mitte (Median)",
+          "farbe": "blau",
+          "wert": 54066
+        },
+        "rechts": {
+          "emoji": "🤑",
+          "name": "Top 1 %",
+          "farbe": "gold",
+          "wert": 219110
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind über 18000 Euro brutto im Monat.",
+        "oben": "Top 1 % pro Monat",
+        "wert": 18259,
+        "farbe": "gold",
+        "unten": [
+          "brutto 😳"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was hattest du? Schreib A, B oder C!",
+        "zeilen": [
+          "Was hattest *du*? 🤔",
+          "Schreib *A*, *B* oder *C* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "titel": "262 € für Weihnachtsgeschenke – so lange arbeitest du dafür",
+    "thema": "geld",
+    "konzept": "weihnachtsgeschenke-budget-arbeitszeit",
+    "caption": "Im Schnitt 262 € für Weihnachtsgeschenke (HDE 2026) 🎁 Mit Mindestlohn knapp 19 Stunden Arbeit, mit mittlerem Gehalt gut 10. Wie viel gibst du aus? 👇",
+    "hashtags": [
+      "#weihnachten",
+      "#geschenke"
+    ],
+    "fuss": "HDE/YouGov-Umfrage 10/2026: Ø 262 € geplant · Mindestlohn 13,90 € · Median 25,99 €/Std. (54.066 € ÷ 2.080 Std.) · brutto",
+    "quellen": [
+      "https://fashionunited.de/nachrichten/einzelhandel/verbraucher-innen-schauen-bei-weihnachtsgeschenken-auf-den-preis/2026110369207",
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "262 Euro für Geschenke. Wie lange arbeitest du dafür?",
+        "zeilen": [
+          [
+            "*262 €* für",
+            110
+          ],
+          [
+            "Geschenke 🎁",
+            96
+          ],
+          [
+            "Wie lange arbeitest du?",
+            68
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Mit Mindestlohn knapp 19 Stunden. Mit mittlerem Gehalt gut zehn.",
+        "kopf": "Arbeitszeit für 262 € (brutto)",
+        "links": {
+          "emoji": "🧹",
+          "name": "Mindestlohn",
+          "farbe": "rot",
+          "wert": 18.8,
+          "einheit": "Std.",
+          "dezimalen": 1
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "Median-Gehalt",
+          "farbe": "blau",
+          "wert": 10.1,
+          "einheit": "Std.",
+          "dezimalen": 1
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Mit Mindestlohn sind das mehr als zwei Arbeitstage.",
+        "oben": "Mit Mindestlohn",
+        "wert": 2,
+        "einheit": "Tage",
+        "farbe": "rot",
+        "unten": [
+          "*mehr als* zwei volle Arbeitstage 😳"
+        ],
+        "dotchi": "staunt",
+        "min": 3.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Mehr als jeder Vierte will unter 100 Euro bleiben.",
+        "oben": "Wollen unter 100 € bleiben",
+        "wert": 28,
+        "einheit": "%",
+        "farbe": "gruen",
+        "unten": [
+          "mehr als jeder *Vierte*"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Erst Budget, dann Geschenke.",
+        "links": {
+          "emoji": "⏰",
+          "name": "Last Minute"
+        },
+        "rechts": {
+          "emoji": "📒",
+          "name": "mit Budget"
+        },
+        "gewinner": "rechts",
+        "spruch": "Erst *Budget*, dann Geschenke"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viel gibst du dieses Jahr aus? Schreib den Betrag!",
+        "zeilen": [
+          "Wie viel gibst *du* dieses Jahr aus?",
+          "Schreib den *Betrag* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
     "id": 90,
     "titel": "Dieses Meeting kostet 312 € – und hätte eine Mail sein können",
     "thema": "zeit",
@@ -9527,6 +10153,840 @@
         "zeilen": [
           "*A* Meeting oder *B* Mail?",
           "Markier den *Meeting-Chef* 😏👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "titel": "Arzt vs. Zahnarzt: Wer verdient mehr?",
+    "thema": "geld",
+    "konzept": "gehalt-arzt-vs-zahnarzt-angestellt",
+    "caption": "Angestellte Ärzte: 7.450 € brutto, angestellte Zahnärzte: 6.152 € (Median, Entgeltatlas) 🩺🦷 Hättest du das gedacht? A oder B 👇",
+    "hashtags": [
+      "#gehalt",
+      "#arzt"
+    ],
+    "fuss": "Entgeltatlas der BA: Median brutto, Vollzeit, sozialversicherungspflichtig Beschäftigte (ohne Praxisinhaber) · Stand 11/2026",
+    "quellen": [
+      "https://web.arbeitsagentur.de/entgeltatlas/beruf/58709",
+      "https://web.arbeitsagentur.de/entgeltatlas/beruf/58788"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Arzt oder Zahnarzt: Wer verdient mehr? Tipp mal.",
+        "zeilen": [
+          [
+            "*Arzt* oder",
+            100
+          ],
+          [
+            "*Zahnarzt*?",
+            100
+          ],
+          [
+            "Wer verdient mehr? 🤔",
+            70
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "vs",
+        "sprich": "Angestellte Ärzte: knapp 7500 Euro. Zahnärzte: gut 6100.",
+        "kopf": "Median brutto, Vollzeit",
+        "links": {
+          "emoji": "🩺",
+          "name": "Arzt/Ärztin",
+          "farbe": "gruen",
+          "wert": 7450
+        },
+        "rechts": {
+          "emoji": "🦷",
+          "name": "Zahnarzt/-ärztin",
+          "farbe": "blau",
+          "wert": 6152
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Fast 1300 Euro Unterschied. Jeden Monat.",
+        "oben": "Unterschied pro Monat",
+        "wert": 1298,
+        "farbe": "gold",
+        "unten": [
+          "= *15.576 €* im Jahr"
+        ],
+        "unten_ab": 1.7,
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "liste",
+        "sprich": "Der Haken: Wer eine eigene Praxis hat, fehlt in der Statistik.",
+        "kopf": "Der Haken",
+        "zeilen": [
+          "Nur *Angestellte* gezählt",
+          "Praxis-Inhaber fehlen 🦷"
+        ],
+        "abstand": 0.9
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Als Angestellter liegt der Arzt vorn.",
+        "links": {
+          "emoji": "🩺",
+          "name": "Arzt"
+        },
+        "rechts": {
+          "emoji": "🦷",
+          "name": "Zahnarzt"
+        },
+        "gewinner": "links",
+        "stempel": "VERDIENT MEHR",
+        "spruch": "Als *Angestellter* vorn"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wen hattest du vorn? Schreib A oder B!",
+        "zeilen": [
+          "Wen hattest du vorn? *A* Arzt *B* Zahnarzt",
+          "Schreib *A* oder *B* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "titel": "Schoko-Weihnachtsmann: bis zu 44 € pro Kilo",
+    "thema": "essen",
+    "konzept": "schoko-weihnachtsmann-kilopreis-vs-tafel",
+    "caption": "146 Mio. Schoko-Weihnachtsmänner – und manche kosten 43,90 € pro Kilo 🎅 Eine günstige Tafel: 9,90 € 🍫 Team Weihnachtsmann oder Team Tafel? 👇",
+    "hashtags": [
+      "#schokolade",
+      "#weihnachten"
+    ],
+    "fuss": "BDSI: 146 Mio. Stück 2025 · Verbraucherzentrale Hamburg: Marken-Weihnachtsmann 4,39 €/100 g (2026), Eigenmarken-Tafel ~9,90 €/kg (12/2025)",
+    "quellen": [
+      "https://lebensmittelpraxis.de/industrie-aktuell/47035-suesswarenindustrie-hersteller-produzieren-11-prozent-weniger-schoko-weihnachtsmaenner.html",
+      "https://www.vzhh.de/themen/lebensmittel-ernaehrung/einkaufsfalle-supermarkt/schoko-weihnachtsmaenner-meist-guenstiger-aber-immer-noch-teuer",
+      "https://www.vzhh.de/presse/vollmilchschokolade-fairtrade-bio-siegel-schlagen-markennamen"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Was kostet Schokolade, wenn sie einen Bart hat?",
+        "zeilen": [
+          [
+            "Schokolade mit *Bart* 🎅",
+            84
+          ],
+          [
+            "Was kostet",
+            84
+          ],
+          [
+            "das *Kilo*?",
+            100
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Letztes Jahr: 146 Millionen Schoko-Weihnachtsmänner.",
+        "oben": "Schoko-Weihnachtsmänner 2025",
+        "wert": 146,
+        "einheit": "Mio.",
+        "farbe": "rot",
+        "unten": [
+          "*82 Mio.* davon für Deutschland"
+        ],
+        "unten_ab": 1.8,
+        "min": 3.4
+      },
+      {
+        "typ": "vs",
+        "sprich": "Ein Marken-Weihnachtsmann: knapp 44 Euro pro Kilo. Eine günstige Tafel: knapp 10.",
+        "kopf": "Preis pro Kilo",
+        "links": {
+          "emoji": "🎅",
+          "name": "Marken-Figur",
+          "farbe": "rot",
+          "wert": 43.9,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🍫",
+          "name": "Eigenmarken-Tafel",
+          "farbe": "gruen",
+          "wert": 9.9,
+          "dezimalen": 2
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Gute Nachricht: Beim Discounter rund 40 Prozent billiger als letztes Jahr.",
+        "oben": "Discounter-Weihnachtsmänner",
+        "wert": 41,
+        "einheit": "%",
+        "farbe": "gruen",
+        "unten": [
+          "günstiger als 2025 🎉"
+        ],
+        "dotchi": "staunt",
+        "min": 3.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Immer erst auf den Kilopreis schauen.",
+        "links": {
+          "emoji": "🎅",
+          "name": "Figur"
+        },
+        "rechts": {
+          "emoji": "🍫",
+          "name": "Tafel"
+        },
+        "gewinner": "rechts",
+        "stempel": "GÜNSTIGER",
+        "spruch": "Immer den *Kilopreis* checken"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Team Weihnachtsmann oder Team Tafel? Schreib A oder B!",
+        "zeilen": [
+          "*A* Weihnachtsmann oder *B* Tafel?",
+          "Schreib *A* oder *B* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "titel": "Wie viele Arbeitstage hast du noch bis zur Rente?",
+    "thema": "zeit",
+    "konzept": "nach-alter-arbeitstage-bis-rente",
+    "caption": "Mit 20 noch über 10.000 Arbeitstage, mit 40 knapp 6.000 ⏳ Und mit 30 verdienst du bis zur Rente rund 2 Mio. € brutto (Median). Wie alt bist du? 👇",
+    "hashtags": [
+      "#rente",
+      "#arbeit"
+    ],
+    "fuss": "Beispielrechnung · Rente mit 67 · 220 Arbeitstage/Jahr · Median 54.066 € brutto/Jahr (Destatis 2025), ohne Erhöhungen",
+    "quellen": [
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_113_621.html"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Wie viele Arbeitstage hast du noch bis zur Rente?",
+        "zeilen": [
+          [
+            "Wie viele",
+            84
+          ],
+          [
+            "*Arbeitstage*",
+            110
+          ],
+          [
+            "hast du noch? ⏳",
+            84
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "reihen",
+        "sprich": "Mit 20 gut 10000. Mit 40 knapp 6000.",
+        "kopf": "Arbeitstage bis zur Rente",
+        "reihen": [
+          {
+            "name": "mit 20",
+            "wert": 10340
+          },
+          {
+            "name": "mit 25",
+            "wert": 9240
+          },
+          {
+            "name": "mit 30",
+            "wert": 8140
+          },
+          {
+            "name": "mit 40",
+            "wert": 5940
+          },
+          {
+            "name": "mit 50",
+            "wert": 3740
+          }
+        ],
+        "einheit": "Tage",
+        "farbe": "blau",
+        "unten": "Wie alt bist *du*? 👀"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Jeder davon ist im Mittel knapp 250 Euro wert.",
+        "oben": "Ein Arbeitstag bringt",
+        "wert": 246,
+        "farbe": "gruen",
+        "unten": [
+          "brutto · mittleres Gehalt"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Mit 30 verdienst du bis zur Rente rund zwei Millionen.",
+        "oben": "Mit 30 bis zur Rente",
+        "wert": 2000442,
+        "farbe": "gold",
+        "unten": [
+          "brutto · ohne Erhöhungen"
+        ],
+        "dotchi": "staunt",
+        "min": 3.4
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie alt bist du? Schreib dein Alter!",
+        "zeilen": [
+          "Wie alt bist *du*? 🎂",
+          "Schreib dein *Alter* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "titel": "Black Week: Was verdient eigentlich dein Paketbote?",
+    "thema": "geld",
+    "konzept": "gehalt-paketzusteller-vs-median",
+    "caption": "Black Week = Paket-Rekord 📦 Die Hälfte der Zusteller verdient weniger als 2.987 € brutto – die Mitte aller Vollzeitjobs 3.978 € (Entgeltatlas 2024). Gibst du Trinkgeld? 👇",
+    "hashtags": [
+      "#gehalt",
+      "#paket"
+    ],
+    "fuss": "Entgeltatlas der BA via ZDFheute: Median brutto Vollzeit 2024, Fachkräfte Post & Zustellung · Verdi-Studie 2025 · erfundene Personen",
+    "quellen": [
+      "https://www.zdfheute.de/wirtschaft/berufe-gehalt-weihnachtsgeschaeft-weihnachten-100.html"
+    ],
+    "figuren": {
+      "bote": {
+        "haut": "#C68B59",
+        "haare": "#2B2B2B",
+        "frisur": "kurz",
+        "shirt": "#4C8C4A",
+        "hose": "#2E3440"
+      },
+      "du": {
+        "haut": "#E8B88A",
+        "haare": "#3B2A1E",
+        "frisur": "kurz",
+        "shirt": "#4FC3F7",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Black Week. Dein Paketbote bringt schon das fünfte Paket.",
+        "ort": "strasse",
+        "text": "Was verdient *er*? 📦",
+        "figuren": [
+          {
+            "wer": "bote",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "haelt",
+            "haelt": "📦",
+            "sagt": "Paket Nummer *5*!"
+          },
+          {
+            "wer": "du",
+            "x": 0.74,
+            "stimmung": "staunt",
+            "spiegeln": true
+          }
+        ]
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Die Hälfte der Zusteller verdient weniger als knapp 3000 Euro.",
+        "oben": "Zusteller (Median)",
+        "wert": 2987,
+        "farbe": "blau",
+        "unten": [
+          "brutto im Monat · Vollzeit"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "vs",
+        "sprich": "Die Mitte aller Vollzeitjobs: knapp 4000.",
+        "kopf": "Median brutto, Vollzeit (2024)",
+        "links": {
+          "emoji": "📦",
+          "name": "Zusteller",
+          "farbe": "blau",
+          "wert": 2987
+        },
+        "rechts": {
+          "emoji": "💼",
+          "name": "alle Jobs",
+          "farbe": "gruen",
+          "wert": 3978
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Mit Tarifvertrag gibt es im Schnitt 500 Euro mehr.",
+        "oben": "Mit Tarifvertrag",
+        "wert": 500,
+        "farbe": "gruen",
+        "unten": [
+          "mehr pro Monat · Verdi 2025"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Mit Tarif verdient der Bote deutlich mehr.",
+        "links": {
+          "emoji": "🤷",
+          "name": "ohne Tarif"
+        },
+        "rechts": {
+          "emoji": "📜",
+          "name": "mit Tarif"
+        },
+        "gewinner": "rechts",
+        "stempel": "VERDIENT MEHR",
+        "spruch": "Tarif bringt *500 €* mehr"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Gibst du deinem Paketboten Trinkgeld? Schreib Ja oder Nein!",
+        "zeilen": [
+          "Gibst du deinem *Paketboten* Trinkgeld?",
+          "Schreib *JA* oder *NEIN* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "titel": "Neuer 65-Zoll-Fernseher? Rechne den Strom mit",
+    "thema": "strom",
+    "konzept": "fernseher-65-zoll-stromkosten-10-jahre",
+    "caption": "Black-Friday-Fernseher 📺 Ein 65-Zoll-TV braucht im Schnitt 142 kWh im Jahr = rund 50 € – in 10 Jahren fast 500 € 😳 Wie groß ist deiner? 👇",
+    "hashtags": [
+      "#fernseher",
+      "#blackfriday"
+    ],
+    "fuss": "Verivox-Auswertung (~1.400 TVs, 1.000 Std./Jahr): 65 Zoll Ø 142 kWh, HDR +60 % · Beispielrechnung 35 ct/kWh",
+    "quellen": [
+      "https://www.verivox.de/presse/energiefresser-fernseher-strom-kostet-durchschnittlich-ein-drittel-des-kaufpreises-1120999/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Neuer Fernseher am Black Friday? Rechne den Strom mit.",
+        "zeilen": [
+          [
+            "Neuer *65-Zoll*-TV? 📺",
+            84
+          ],
+          [
+            "Rechne den",
+            84
+          ],
+          [
+            "*Strom* mit",
+            100
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Ein 65-Zoll-Gerät braucht im Schnitt 142 Kilowattstunden im Jahr.",
+        "oben": "65 Zoll, 1.000 Std. im Jahr",
+        "wert": 142,
+        "einheit": "kWh",
+        "farbe": "gold",
+        "unten": [
+          "Durchschnitt aus ~1.400 Geräten"
+        ],
+        "min": 3.2
+      },
+      {
+        "typ": "vs",
+        "sprich": "Das sind rund 50 Euro im Jahr. In zehn Jahren fast 500.",
+        "kopf": "Stromkosten bei 35 ct/kWh",
+        "links": {
+          "emoji": "⚡",
+          "name": "1 Jahr",
+          "farbe": "gold",
+          "wert": 49.7,
+          "dezimalen": 2
+        },
+        "rechts": {
+          "emoji": "🔟",
+          "name": "10 Jahre",
+          "farbe": "rot",
+          "wert": 497
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Mit HDR braucht er sogar 60 Prozent mehr.",
+        "oben": "Mit HDR-Bild",
+        "wert": 60,
+        "einheit": "%",
+        "farbe": "rot",
+        "unten": [
+          "*mehr* Strom 😳"
+        ],
+        "dotchi": "staunt",
+        "min": 3.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Erst aufs Energielabel schauen, dann auf den Rabatt.",
+        "links": {
+          "emoji": "🏷️",
+          "name": "nur Preis"
+        },
+        "rechts": {
+          "emoji": "🔌",
+          "name": "Preis + Label"
+        },
+        "gewinner": "rechts",
+        "spruch": "Erst aufs *Label*, dann auf den Rabatt"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie groß ist dein Fernseher? Schreib die Zoll!",
+        "zeilen": [
+          "Wie groß ist *dein* Fernseher?",
+          "Schreib die *Zoll* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "titel": "Black Friday + Cyber Monday: 36.000 € pro Sekunde",
+    "thema": "geld",
+    "konzept": "black-friday-umsatz-pro-sekunde",
+    "caption": "6,2 Mrd. € an Black Friday + Cyber Monday (HDE-Prognose) 🛍️ Das sind fast 36.000 € pro Sekunde – ein Jahresgehalt in 1,5 Sekunden 😳 Wie viel gibst du aus? 👇",
+    "hashtags": [
+      "#blackfriday",
+      "#cybermonday"
+    ],
+    "fuss": "HDE-Prognose 2026: 6,2 Mrd. € für 27.11. + 30.11. · 2 × 24 Std. · 83,6 Mio. Einwohner · Median 54.066 € (Destatis)",
+    "quellen": [
+      "https://retail-news.de/black-friday-cyber-monday-hde-umsatzprognose-2026/",
+      "https://www.esmmagazine.com/retail/german-retail-sector-expects-record-turnover-for-black-friday-and-cyber-monday-hde-326191"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Black Friday und Cyber Monday: Was geben wir pro Sekunde aus?",
+        "zeilen": [
+          [
+            "Black Friday 🛍️",
+            90
+          ],
+          [
+            "Was geben wir",
+            84
+          ],
+          [
+            "pro *Sekunde* aus?",
+            90
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Der Handel erwartet sechs Komma zwei Milliarden Euro.",
+        "oben": "An 2 Tagen erwartet",
+        "wert": 6.2,
+        "einheit": "Mrd. €",
+        "dezimalen": 1,
+        "farbe": "gold",
+        "unten": [
+          "Black Friday + Cyber Monday"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind fast 36000 Euro pro Sekunde.",
+        "oben": "Pro Sekunde",
+        "wert": 35880,
+        "farbe": "rot",
+        "unten": [
+          "rund um die Uhr 😳"
+        ],
+        "dotchi": "staunt",
+        "min": 3.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Ein ganzes mittleres Jahresgehalt: weg in anderthalb Sekunden.",
+        "oben": "Ein Jahresgehalt (Median)",
+        "wert": 1.5,
+        "einheit": "Sek.",
+        "dezimalen": 1,
+        "farbe": "rot",
+        "unten": [
+          "so schnell ist es ausgegeben"
+        ],
+        "min": 3.2
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Pro Kopf rund 74 Euro. Vom Baby bis zur Oma.",
+        "oben": "Pro Kopf",
+        "wert": 74,
+        "farbe": "blau",
+        "unten": [
+          "vom Baby bis zur Oma 👶👵"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Nur kaufen, was schon auf der Liste stand.",
+        "links": {
+          "emoji": "🤑",
+          "name": "Rabatt-Rausch"
+        },
+        "rechts": {
+          "emoji": "📝",
+          "name": "Wunschliste"
+        },
+        "gewinner": "rechts",
+        "spruch": "Nur kaufen, was auf der *Liste* stand"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Wie viel gibst du aus? Schreib den Betrag!",
+        "zeilen": [
+          "Wie viel gibst *du* aus? 🛍️",
+          "Schreib den *Betrag* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "titel": "Black-Friday-Check Teil 1/3: Ist Freitag der beste Tag?",
+    "thema": "geld",
+    "konzept": "black-friday-bester-tag-november-idealo",
+    "caption": "Teil 1/3 – Black Friday 2025: 79 % der Produkte günstiger als im Oktober, aber im Schnitt nur 8 % – und gut die Hälfte war an einem anderen Novembertag noch billiger (idealo) 📆 Kaufst du am Freitag? 👇",
+    "hashtags": [
+      "#blackfriday",
+      "#sparen"
+    ],
+    "fuss": "idealo-Preisstudie Black Friday 2025 (~10.000 Produkte, Oktober–Dezember 2025) · Stand 11/2026",
+    "quellen": [
+      "https://www.heidelberg24.de/verbraucher/einkauf-test/experten-vergleichen-black-friday-angebote-lohnen-94594835.html",
+      "https://retail-news.de/black-friday-2026-idealo-preisstudie-rabatte/"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Black-Friday-Check, Teil eins: Ist Freitag wirklich der beste Tag?",
+        "zeilen": [
+          [
+            "*TEIL 1/3*",
+            60
+          ],
+          [
+            "Ist *Freitag*",
+            100
+          ],
+          [
+            "der beste Tag? 🛍️",
+            84
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Gute Nachricht: 79 Prozent waren günstiger als im Oktober.",
+        "oben": "Günstiger als im Oktober",
+        "wert": 79,
+        "einheit": "%",
+        "farbe": "gruen",
+        "unten": [
+          "der Produkte · Black Friday 2025"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Aber im Schnitt nur acht Prozent.",
+        "oben": "Ersparnis im Schnitt",
+        "wert": 8,
+        "einheit": "%",
+        "farbe": "gold",
+        "unten": [
+          "*nur* 😐"
+        ],
+        "min": 2.8
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und gut die Hälfte war an einem anderen Novembertag noch billiger.",
+        "oben": "An einem anderen Novembertag billiger",
+        "wert": 52,
+        "einheit": "%",
+        "farbe": "rot",
+        "unten": [
+          "als am Black Friday 😳"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Preisalarm stellen statt auf Freitag warten.",
+        "links": {
+          "emoji": "🛍️",
+          "name": "nur Freitag"
+        },
+        "rechts": {
+          "emoji": "🔔",
+          "name": "Preisalarm"
+        },
+        "gewinner": "rechts",
+        "spruch": "*Preisalarm* statt Stichtag"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Teil zwei morgen: der 38-Prozent-Trick. Kaufst du am Freitag? Ja oder Nein?",
+        "zeilen": [
+          "Teil 2 morgen: der *38-%-Trick* 👀",
+          "Kaufst du am Freitag? *JA* oder *NEIN*"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "titel": "244 Stunden im Jahr: So lange müsstest du Datenschutzerklärungen lesen",
+    "thema": "zeit",
+    "konzept": "datenschutzerklaerungen-lesezeit-pro-jahr",
+    "caption": "Alle Datenschutzerklärungen lesen, die du wegklickst? 244 Stunden im Jahr = über 30 Arbeitstage 😅 (Carnegie Mellon) Liest du sie? JA oder NEIN 👇",
+    "hashtags": [
+      "#datenschutz",
+      "#internet"
+    ],
+    "fuss": "Studie Carnegie Mellon (McDonald & Cranor, 2008, USA): Ø 10 Min. je Erklärung, 244 Std./Jahr · 8-Std.-Arbeitstag",
+    "quellen": [
+      "https://www.cmu.edu/epp/news/2017/cranor-stresses-the-need-to-test-privacy-policies.html",
+      "https://www.abajournal.com/news/article/want_to_actually_read_online_privacy_policies_prepare_to_give_up_40_minutes"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Ehrlich: Hast du je eine Datenschutzerklärung gelesen?",
+        "zeilen": [
+          [
+            "Ehrlich: Hast du je",
+            84
+          ],
+          [
+            "eine *Datenschutz-*",
+            90
+          ],
+          [
+            "*erklärung* gelesen? 😅",
+            84
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Eine dauert im Schnitt zehn Minuten.",
+        "oben": "Eine Erklärung lesen",
+        "wert": 10,
+        "einheit": "Min.",
+        "farbe": "blau",
+        "unten": [
+          "rund 2.500 Wörter"
+        ],
+        "min": 2.8
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Alle, die du im Jahr wegklickst: 244 Stunden.",
+        "oben": "Alle im Jahr lesen",
+        "wert": 244,
+        "einheit": "Std.",
+        "farbe": "rot",
+        "unten": [
+          "laut Carnegie-Mellon-Studie"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind über 30 Arbeitstage.",
+        "oben": "Das sind",
+        "wert": 30,
+        "einheit": "Arbeitstage",
+        "farbe": "rot",
+        "unten": [
+          "*mehr* als ein ganzer Jahresurlaub 🏖️"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Wenigstens kurz checken: Welche Daten, an wen?",
+        "links": {
+          "emoji": "🙈",
+          "name": "wegklicken"
+        },
+        "rechts": {
+          "emoji": "🔍",
+          "name": "kurz checken"
+        },
+        "gewinner": "rechts",
+        "spruch": "Welche Daten – und *an wen*?"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Liest du sie? Schreib Ja oder Nein!",
+        "zeilen": [
+          "Liest du sie *wirklich*? 📜",
+          "Schreib *JA* oder *NEIN* 👇"
         ],
         "abstand": 0.9
       }
@@ -9659,6 +11119,456 @@
         "sprich": "Schon mal nach mehr Gehalt gefragt? Schreib Ja oder Nein!",
         "zeilen": [
           "Schon mal nach mehr *Gehalt* gefragt?",
+          "Schreib *JA* oder *NEIN* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "titel": "Black-Friday-Check Teil 2/3: Beworben 38 %, echt 7 %",
+    "thema": "geld",
+    "konzept": "black-friday-uvp-rabatt-vs-echter-preis",
+    "caption": "Teil 2/3 – „38 % Rabatt!“ – aber nur gegenüber der UVP. Gegen den üblichen Preis waren es knapp 7 % 🏷️ (Beispiel der Verbraucherzentrale) Fällst du auf UVP-Rabatte rein? 👇",
+    "hashtags": [
+      "#blackfriday",
+      "#rabatt"
+    ],
+    "fuss": "Beispiel der Verbraucherzentrale Niedersachsen: UVP 450 €, Angebot 279 €, üblicher Preis 299 € · guenstiger.de 2024 · erfundene Person",
+    "quellen": [
+      "https://www.verbraucherzentrale-niedersachsen.de/wissen/vertraege-reklamation/kundenrechte/black-friday-cyber-monday-so-erkennen-sie-echte-schnaeppchen-und-fakeshops-120002",
+      "https://utopia.de/ratgeber/black-friday-echte-schnaeppchen-von-scheinrabatten-unterscheiden-so-gehts_878062/",
+      "https://www.presseportal.de/pm/51595/6142578"
+    ],
+    "figuren": {
+      "lea": {
+        "haut": "#F2C9A0",
+        "haare": "#7A4A2A",
+        "frisur": "zopf",
+        "shirt": "#B48EF7",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Teil zwei. Deine Freundin jubelt: 38 Prozent gespart!",
+        "ort": "zimmer",
+        "text": "*TEIL 2/3* · 38 % Rabatt? 🏷️",
+        "figuren": [
+          {
+            "wer": "lea",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "jubelt",
+            "sagt": "Kühlschrank: *38 %* gespart!"
+          },
+          {
+            "wer": "dotchi",
+            "x": 0.74,
+            "stimmung": "denkt",
+            "sagt": "Gespart – gegen *was*?",
+            "sagt_ab": 1.8
+          }
+        ]
+      },
+      {
+        "typ": "vs",
+        "sprich": "Der Trick: Verglichen wird mit der UVP.",
+        "kopf": "Der Rabatt-Trick",
+        "links": {
+          "emoji": "🏷️",
+          "name": "UVP",
+          "farbe": "grau",
+          "wert": 450
+        },
+        "rechts": {
+          "emoji": "🛒",
+          "name": "Angebot",
+          "farbe": "gruen",
+          "wert": 279,
+          "unter": "„−38 %“"
+        },
+        "balken": true
+      },
+      {
+        "typ": "vs",
+        "sprich": "Üblich sind aber 299 Euro.",
+        "kopf": "Der echte Vergleich",
+        "links": {
+          "emoji": "💶",
+          "name": "üblicher Preis",
+          "farbe": "blau",
+          "wert": 299
+        },
+        "rechts": {
+          "emoji": "🛒",
+          "name": "Angebot",
+          "farbe": "gruen",
+          "wert": 279
+        },
+        "balken": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Echte Ersparnis: knapp sieben Prozent.",
+        "oben": "Echte Ersparnis",
+        "wert": 7,
+        "einheit": "%",
+        "farbe": "rot",
+        "unten": [
+          "nur *20 €* statt 171 €"
+        ],
+        "dotchi": "genervt",
+        "min": 3.0
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und im Dezember wurden 62 Prozent wieder teurer.",
+        "oben": "Im Dezember wieder teurer",
+        "wert": 62,
+        "einheit": "%",
+        "farbe": "gold",
+        "unten": [
+          "der Produkte · guenstiger.de 2024"
+        ],
+        "min": 3.2
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Es zählt nur der echte Preis.",
+        "links": {
+          "emoji": "🏷️",
+          "name": "UVP-Rabatt"
+        },
+        "rechts": {
+          "emoji": "🔍",
+          "name": "Preisvergleich"
+        },
+        "gewinner": "rechts",
+        "spruch": "Zählt nur der *echte* Preis"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Teil drei morgen: Retouren. Schon mal reingefallen? Ja oder Nein?",
+        "zeilen": [
+          "Teil 3 morgen: die *Retouren* 📦",
+          "Schon mal reingefallen? *JA* oder *NEIN*"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "titel": "Weihnachtsfeier: Bis 110 € pro Kopf bleibt sie steuerfrei",
+    "thema": "geld",
+    "konzept": "sketch-weihnachtsfeier-110-euro-freibetrag",
+    "caption": "Chef: „Weihnachtsfeier, alles inklusive!“ 🎄 Dotchi: Bis 110 € pro Kopf und Feier steuerfrei – alles darüber ist geldwerter Vorteil. Gehst du hin? JA oder NEIN 👇",
+    "hashtags": [
+      "#weihnachtsfeier",
+      "#büro"
+    ],
+    "fuss": "§ 19 Abs. 1 Nr. 1a EStG: 110 € je Teilnehmer und Feier, höchstens 2 Feiern im Jahr, inkl. MwSt. · erfundene Personen",
+    "quellen": [
+      "https://www.ihk-muenchen.de/ratgeber/steuern/steuerarten/lohnsteuer/betriebsveranstaltungen/",
+      "https://www.datev.de/web/de/unternehmen/loesungen/themen-im-fokus/aktuelle-themen-fuer-unternehmen/steuerregeln-arbeitgeber-zu-weihnachten",
+      "https://www.lexware.de/wissen/buchhaltung-finanzen/110-eur-grenze-bei-betriebsfeiern-neue-steuerspielregeln-erleichtern-vorsteuerabzug/"
+    ],
+    "figuren": {
+      "chef": {
+        "haut": "#F2C9A0",
+        "haare": "#8A8D93",
+        "frisur": "seite",
+        "brille": true,
+        "shirt": "#3D5A80",
+        "hose": "#2E3440"
+      },
+      "du": {
+        "haut": "#E8B88A",
+        "haare": "#3B2A1E",
+        "frisur": "kurz",
+        "shirt": "#4FC3F7",
+        "hose": "#3B4252"
+      }
+    },
+    "szenen": [
+      {
+        "typ": "bild",
+        "sprich": "Dein Chef: Weihnachtsfeier, alles inklusive!",
+        "ort": "buero",
+        "text": "Weihnachtsfeier 🎄",
+        "figuren": [
+          {
+            "wer": "chef",
+            "x": 0.3,
+            "stimmung": "freut",
+            "pose": "jubelt",
+            "sagt": "Alles *inklusive*!"
+          },
+          {
+            "wer": "du",
+            "x": 0.74,
+            "stimmung": "freut",
+            "spiegeln": true
+          }
+        ]
+      },
+      {
+        "typ": "bild",
+        "sprich": "Dotchi rechnet: Bis 110 Euro pro Kopf bleibt das steuerfrei.",
+        "ort": "buero",
+        "text": "Dotchi rechnet mit",
+        "figuren": [
+          {
+            "wer": "dotchi",
+            "x": 0.5,
+            "stimmung": "zwinkert",
+            "sagt": "Bis *110 €* steuerfrei."
+          },
+          {
+            "wer": "chef",
+            "x": 0.83,
+            "stimmung": "staunt",
+            "spiegeln": true
+          }
+        ]
+      },
+      {
+        "typ": "liste",
+        "sprich": "Dazu zählt alles: Essen, Getränke, Raum, sogar die Deko.",
+        "kopf": "Zählt alles mit",
+        "zeilen": [
+          "🍽️ Essen & Getränke",
+          "🎶 Musik & Raum",
+          "🎄 sogar die Deko"
+        ],
+        "abstand": 0.6
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Kostet die Feier 200 Euro pro Kopf, sind 90 Euro steuerpflichtig.",
+        "oben": "Feier für 200 € pro Kopf",
+        "wert": 90,
+        "farbe": "rot",
+        "unten": [
+          "steuerpflichtig – pro Person"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und das nur für zwei Feiern im Jahr.",
+        "oben": "Steuerfrei nur",
+        "wert": 2,
+        "einheit": "Feiern",
+        "farbe": "gold",
+        "unten": [
+          "pro Jahr · ab der dritten zahlt man"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Bis 110 Euro feiert es sich am entspanntesten.",
+        "links": {
+          "emoji": "🥂",
+          "name": "Luxusfeier"
+        },
+        "rechts": {
+          "emoji": "🎄",
+          "name": "bis 110 €"
+        },
+        "gewinner": "rechts",
+        "spruch": "Feiern bis *110 €* – ohne Steuer"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Gehst du zur Weihnachtsfeier? Schreib Ja oder Nein!",
+        "zeilen": [
+          "Gehst du zur *Weihnachtsfeier*?",
+          "Schreib *JA* oder *NEIN* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "titel": "Was kostet ein Weihnachtsbaum 2026? Rate mit!",
+    "thema": "geld",
+    "konzept": "preis-raten-weihnachtsbaum-2026",
+    "caption": "Was kostet eine 2 m Nordmanntanne 2026? 🎄 A, B oder C? Auflösung: 50–66 € (25–33 € pro Meter) – dafür wächst sie rund 10 Jahre. Was hat dein Baum gekostet? 👇",
+    "hashtags": [
+      "#weihnachtsbaum",
+      "#preisraten"
+    ],
+    "fuss": "Verband natürlicher Weihnachtsbaum / Bundesverband der Weihnachtsbaumerzeuger, Prognose 2026 · Rotfichte 14–19 €/m · Stand 11/2026",
+    "quellen": [
+      "https://ms-aktuell.de/finanzen/weihnachtsbaum-preise-11-10-2026/",
+      "https://www.zdfheute.de/wirtschaft/weihnachtsbaum-tannenbaum-preise-hitze-trockenheit-100.html",
+      "https://www.hornbach.de/projekte/der-richtige-weihnachtsbaum/"
+    ],
+    "szenen": [
+      {
+        "typ": "raten",
+        "sprich": "Was kostet eine zwei Meter große Nordmanntanne? Du hast fünf Sekunden.",
+        "frage": "Was kostet eine *2-m-Nordmanntanne*?",
+        "emoji": "🎄",
+        "optionen": [
+          "50–66 €",
+          "95–120 €",
+          "150–190 €"
+        ],
+        "richtig": "A"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Bis zu 66 Euro. 25 bis 33 Euro pro Meter.",
+        "oben": "2-m-Tanne bis zu",
+        "wert": 66,
+        "farbe": "gruen",
+        "unten": [
+          "25–33 € pro Meter"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Dafür wächst sie rund zehn Jahre.",
+        "oben": "So lange wächst sie",
+        "wert": 10,
+        "einheit": "Jahre",
+        "farbe": "gruen",
+        "unten": [
+          "für *drei Wochen* im Wohnzimmer 😅"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "vs",
+        "sprich": "Eine Rotfichte kostet höchstens 38 Euro, nadelt aber schneller.",
+        "kopf": "2 Meter, höchstens",
+        "links": {
+          "emoji": "🎄",
+          "name": "Nordmanntanne",
+          "farbe": "gruen",
+          "wert": 66
+        },
+        "rechts": {
+          "emoji": "🌲",
+          "name": "Rotfichte",
+          "farbe": "gold",
+          "wert": 38,
+          "unter": "nadelt schneller"
+        },
+        "balken": true
+      },
+      {
+        "typ": "liste",
+        "sprich": "Was hat dein Baum gekostet? Schreib den Preis!",
+        "zeilen": [
+          "Was hat *dein* Baum gekostet? 🎄",
+          "Schreib den *Preis* 👇"
+        ],
+        "abstand": 0.9
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "titel": "Black-Friday-Check Teil 3/3: 550 Millionen Pakete gehen zurück",
+    "thema": "alltag",
+    "konzept": "retouren-pakete-pro-jahr-pro-tag",
+    "caption": "Teil 3/3 – 2025 gingen in Deutschland rund 550 Mio. Pakete zurück – 1,5 Mio. pro Tag 📦 Fast jedes vierte Online-Paket. Schickst du oft zurück? 👇",
+    "hashtags": [
+      "#retoure",
+      "#onlineshopping"
+    ],
+    "fuss": "Forschungsgruppe Retourenmanagement (Uni Bamberg): 2025 ~550 Mio. Retouren, 2026 erwartet 560 Mio. · Stand 09/2026",
+    "quellen": [
+      "https://fashionunited.de/nachrichten/einzelhandel/zahl-der-retouren-steigt-auf-rekordwert/2025112764422/",
+      "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/zahl-der-retouren-steuert-auf-hoechststand-zu-3910739"
+    ],
+    "szenen": [
+      {
+        "typ": "titel",
+        "sprich": "Teil drei: Nach dem Black Friday kommen die Retouren.",
+        "zeilen": [
+          [
+            "*TEIL 3/3*",
+            60
+          ],
+          [
+            "Und dann",
+            84
+          ],
+          [
+            "geht's *zurück* 📦",
+            100
+          ]
+        ],
+        "dotchi": "denkt"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Letztes Jahr gingen rund 550 Millionen Pakete zurück.",
+        "oben": "Retouren 2025 in Deutschland",
+        "wert": 550,
+        "einheit": "Mio.",
+        "farbe": "rot",
+        "unten": [
+          "Pakete"
+        ],
+        "dotchi": "staunt",
+        "min": 3.2
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Das sind anderthalb Millionen am Tag.",
+        "oben": "Pro Tag",
+        "wert": 1.5,
+        "einheit": "Mio.",
+        "dezimalen": 1,
+        "farbe": "rot",
+        "unten": [
+          "Pakete – jeden Tag 😳"
+        ],
+        "min": 3.0
+      },
+      {
+        "typ": "liste",
+        "sprich": "Fast jedes vierte Online-Paket geht ganz oder teilweise zurück.",
+        "kopf": "Online bestellt",
+        "zeilen": [
+          "📦 📦 📦 🔙",
+          "fast *jedes vierte* Paket",
+          "geht (teilweise) zurück"
+        ],
+        "abstand": 0.7
+      },
+      {
+        "typ": "urteil",
+        "sprich": "Dotchi? Erst messen, dann bestellen. Nicht drei Größen.",
+        "links": {
+          "emoji": "👕",
+          "name": "3 Größen bestellen"
+        },
+        "rechts": {
+          "emoji": "📏",
+          "name": "erst messen"
+        },
+        "gewinner": "rechts",
+        "spruch": "Erst *messen*, dann bestellen"
+      },
+      {
+        "typ": "liste",
+        "sprich": "Schickst du oft zurück? Schreib Ja oder Nein!",
+        "zeilen": [
+          "Schickst du oft *zurück*?",
           "Schreib *JA* oder *NEIN* 👇"
         ],
         "abstand": 0.9

@@ -17,7 +17,6 @@ beide Kanäle stehen in `TRENDS.md`.
 ## Offen
 
 **🔥 Trend & Wow – zuerst umsetzen (Zeitpunkt beachten):**
-- Black Friday: „beworben 38 %, echt 7 %“ – Idealo: Black Friday 2024 im Schnitt nur 7 % günstiger als im Oktober; Verbraucherzentrale Niedersachsen: Kühlschrank mit „38 %“ war gegenüber dem üblichen Preis nur 7 % billiger; 62 % der Produkte im Dezember wieder teurer (guenstiger.de). Posten 23.–27.11., das stärkste am 27.11. um 20:30
 - Deutschlandticket: vom 9-Euro-Ticket (2022) zu 66,80 € ab 1.1.2027 (beschlossen am 30.9.2026) = +642 %; Preisgeschichte 9 → 49 → 58 → 63 → 66,80 €; lohnt es sich noch gegen Einzeltickets? Posten im Dezember
 
 **💼 Gehalt (jede Woche mehrere, siehe REDAKTIONSPLAN):**
@@ -85,3 +84,10 @@ beide Kanäle stehen in `TRENDS.md`.
 - ⏳ Seit deiner Geburt jeden Tag 1 € (#89)
 - 🎭 Sketch: Dieses Meeting hätte eine Mail sein können (#90)
 - 🎭 Sketch: „Wir sind doch eine Familie“ – was 5 % mehr Gehalt bringen (#91)
+- 🔥 Black Friday: beworben 38 %, echt 7 % – Black-Friday-Check Teil 2/3 (#106, 27.11. 20:30)
+- Black-Friday-Check Teil 1/3: Ist Freitag der beste Tag? (#104), Teil 3/3: 550 Mio. Retouren (#109)
+- 🎯 Preis-Raten: Ab welchem Gehalt Top 1 %? (#96), 🎯 Preis-Raten: Weihnachtsbaum 2026 (#108)
+- ⏳ Nach Alter: Arbeitstage bis zur Rente (#100), 🎭 Sketch: Weihnachtsfeier – 110 € steuerfrei (#107)
+- 💼 Gehalt: Rangliste Ausbildungsberufe (#93), Arzt vs. Zahnarzt angestellt (#98), Paketbote vs. alle Jobs (#101)
+- Heizdecke vs. Heizlüfter (#92), Weihnachtsmarkt zu zweit (#94), Gold in Alt-Handys (#95), 262 € Geschenke Arbeitszeit (#97)
+- Schoko-Weihnachtsmann Kilopreis (#99), 65-Zoll-TV Stromkosten (#102), Black Friday pro Sekunde (#103), Datenschutzerklärungen 244 Std. (#105)
